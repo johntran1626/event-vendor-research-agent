@@ -1,0 +1,39 @@
+{
+  "brief_id": "holiday-party",
+  "client": "Northline Freight",
+  "event": "Holiday party",
+  "date": "2026-12-11",
+  "guests": 140,
+  "max_miles": 15,
+  "venue": {
+    "max_price": 9000,
+    "price_unit": "event rental fee",
+    "required": [
+      "indoor",
+      "in_house_av",
+      "outside_catering"
+    ]
+  },
+  "caterer": {
+    "max_price": 78,
+    "price_unit": "per person",
+    "required": [
+      "buffet",
+      "onsite_staff",
+      "bar_service"
+    ],
+    "dietary": [
+      "vegetarian",
+      "nut_free"
+    ]
+  },
+  "rental": {
+    "max_price": 24,
+    "price_unit": "per guest (table, chair and linen)",
+    "required": [
+      "linens",
+      "lighting",
+      "dance_floor"
+    ]
+  }
+}

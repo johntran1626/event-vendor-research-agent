@@ -1,0 +1,38 @@
+{
+  "brief_id": "company-picnic",
+  "client": "Kestrel Robotics",
+  "event": "Spring company picnic",
+  "date": "2027-04-17",
+  "guests": 220,
+  "max_miles": 30,
+  "venue": {
+    "max_price": 6000,
+    "price_unit": "event rental fee",
+    "required": [
+      "outdoor",
+      "parking_lot",
+      "outside_catering"
+    ]
+  },
+  "caterer": {
+    "max_price": 42,
+    "price_unit": "per person",
+    "required": [
+      "buffet",
+      "onsite_staff"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten_free"
+    ]
+  },
+  "rental": {
+    "max_price": 30,
+    "price_unit": "per guest (table, chair and linen)",
+    "required": [
+      "tents",
+      "tables",
+      "chairs"
+    ]
+  }
+}

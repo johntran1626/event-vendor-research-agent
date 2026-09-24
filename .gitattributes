@@ -1,0 +1,4 @@
+# Keep data files byte-identical on every OS: no line-ending conversion.
+*.csv -text
+*.jsonl -text
+*.json -text
