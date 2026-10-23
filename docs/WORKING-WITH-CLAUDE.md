@@ -8,7 +8,7 @@ Claude Code will one-shot a lot of things. A form, a table, a script, a page. It
 
 What it won't do well is a whole project in one go. "Build the booking system" gets you something shaped like a booking system. Your job is to break the problem into bite-sized pieces, hand them over one at a time, and stitch the results together.
 
-A good piece is small enough that you can check it in a few minutes. "Add a zip check to `bookings` and a test that inserts 99999 as anon" is a piece. "Do M2" is not.
+A good piece is small enough that you can check it in a few minutes. "Add a zip check to `bookings` and a test that inserts 99999 as anon" is a piece. "Build the app" is not.
 
 ## The loop
 

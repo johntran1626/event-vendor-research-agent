@@ -166,7 +166,7 @@ claude -p "<prompt>" --output-format json --model sonnet --allowedTools "WebFetc
 **The rules:**
 - Personal, local use on your own Pro login is currently allowed. **It counts against your plan limits**, same as chat. 100 businesses is 100 runs or more. Test on 3 before you run 100.
 - **Anything other people use needs an API key.** So `claude -p` never runs behind your deployed app. Your local run writes results to Supabase. The live site only displays them.
-- These terms can change. Hamza re-checks them before M2.
+- These terms can change. Hamza re-checks them before each round.
 
 Sources: https://code.claude.com/docs/en/headless · https://code.claude.com/docs/en/legal-and-compliance · https://support.claude.com/en/articles/15036540-use-the-claude-agent-sdk-with-your-claude-plan
 

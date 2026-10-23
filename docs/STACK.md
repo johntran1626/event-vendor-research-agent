@@ -2,7 +2,7 @@
 
 One default stack for all three projects. Use it unless you have a reason you can write down in an issue.
 
-Every limit and price on this page was checked on Sep 24, 2026 against the linked official page. They change. Hamza re-checks before M2. If you rely on a number, open the link yourself.
+Every limit and price on this page was checked on Sep 24, 2026 against the linked official page. They change. Hamza re-checks before each round. If you rely on a number, open the link yourself.
 
 ## The default
 

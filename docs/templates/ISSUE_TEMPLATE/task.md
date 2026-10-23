@@ -20,9 +20,9 @@ assignees: ''
 
 @
 
-## Milestone
+## Round
 
-<!-- M1, M2 or M3. Also set it in the sidebar. -->
+<!-- The round, for example Round 1. Also set it as the milestone in the sidebar. -->
 
 ## Notes
 

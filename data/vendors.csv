@@ -1,98 +1,100 @@
 vendor_id,vendor_name,category,area_hint
-v001,Porch Light Catering,caterer,"Oak Forest, Houston"
-v002,Cast Iron Catering Co.,caterer,"EaDo, Houston"
-v003,Brightside Event Rentals,rental,"Park Place, Houston"
-v004,Big Pot Cajun Catering,caterer,Baytown
-v005,Linen Lab Rentals,rental,"Montrose, Houston"
-v006,Lanternfield Hall,venue,"The Heights, Houston"
-v007,The Tinsmith Loft,venue,"EaDo, Houston"
-v008,Copper Pot Catering,caterer,League City
-v009,Fieldhouse Nine,venue,"Park Place, Houston"
-v010,Stonebridge Event Barn,venue,Houston area
-v011,Old Mill Event Center,venue,Tomball
-v013,Velvet Rope Event Rentals,rental,"Greenway, Houston"
-v014,Verandah at Linden Park,venue,"Greenway, Houston"
-v015,Sunfield Park Pavilion,venue,Cypress
-v017,Party Palace Rentals,rental,Pasadena
-v018,Juniper House Events,venue,"Montrose, Houston"
-v019,Willowmere Estate,venue,Magnolia
-v020,Clear Lake Party Rentals,rental,Webster
-v021,Citrine Catering,caterer,"Greenway, Houston"
-v022,Glass House at Heron Point,venue,"River Oaks, Houston"
-v023,Tidewater Ballroom,venue,Webster
-v024,Big Sky Tent Rentals,rental,Cypress
-v025,Gulf & Bay Catering,caterer,Houston area
-v026,Sunny Side Picnic Catering,caterer,Sugar Land
-v027,Laurel Hall,venue,"Memorial, Houston"
-v028,Garden Gate Catering,caterer,The Woodlands
-v029,Harbor Light Hall,venue,La Porte
-v030,Kolache Corner Catering,caterer,Spring
-v031,Prairie Rose Barn,venue,Fulshear
-v032,Thyme & Table Catering,caterer,"Montrose, Houston"
-v033,Sweet Bay Kitchen,caterer,Seabrook
-v034,Oak & Ash Smokehouse Catering,caterer,"Oak Forest, Houston"
-v035,Canal Street Warehouse,venue,"Second Ward, Houston"
-v036,The Printworks Gallery,venue,"EaDo, Houston"
-v037,Larkspur Hall,venue,"Rice Military, Houston"
-v038,Saffron Table Catering,caterer,"Sharpstown, Houston"
-v039,Honeycomb Catering,caterer,"The Heights, Houston"
-v040,Lotus Leaf Catering,caterer,"Sharpstown, Houston"
-v041,The Weaver Room,venue,"Upper Kirby, Houston"
-v042,Pecan Hollow Ranch,venue,Tomball
-v043,Candlelight Rentals,rental,"River Oaks, Houston"
-v044,Marble & Mint Catering,caterer,Bellaire
-v045,Greenleaf Catering Co.,caterer,"Spring Branch, Houston"
-v046,Olive Branch Catering,caterer,"Galleria, Houston"
-v047,Marigold Terrace,venue,"River Oaks, Houston"
-v048,EZ Table & Chair,rental,Deer Park
-v049,Hearthstone Hall,venue,"The Heights, Houston"
-v050,Sunday Supper Catering,caterer,Missouri City
-v051,Brickyard Social Hall,venue,"Near Northside, Houston"
-v052,Salt and Ember Catering Kitchen,caterer,"The Heights, Houston"
-v053,Bluebonnet Garden Hall,venue,Bellaire
-v054,The Atrium on Fifth,venue,"Downtown, Houston"
-v055,Magnolia Event Rentals,rental,Magnolia
-v056,Westside Tent Co.,rental,Katy
-v057,Maple & Main Event Space,venue,"Oak Forest, Houston"
-v058,Starlight Dance Floors & Rentals,rental,"The Heights, Houston"
-v059,The Redbud Room,venue,"Meyerland, Houston"
-v060,Harvest Table Catering,caterer,"Rice Military, Houston"
-v061,Fennel & Fig Catering,caterer,"Upper Kirby, Houston"
-v062,The Loft on Leeland,venue,"Downtown, Houston"
-v063,Silverleaf Catering,caterer,"Memorial, Houston"
-v064,Southern Spoon Catering,caterer,Pearland
-v065,Masa & Mole Catering,caterer,"Second Ward, Houston"
-v066,The Wren Room,venue,"Rice Military, Houston"
-v067,Three Palms Party Rentals,rental,Friendswood
-v068,Lone Oak Tent Rentals,rental,Pasadena
-v069,Cobalt Hall,venue,"Galleria, Houston"
-v070,Mesquite & Oak Catering,caterer,Katy
-v071,Tableau Party Rentals,rental,"Second Ward, Houston"
-v072,Pecan Street Kitchen,caterer,"Near Northside, Houston"
-v073,Copperline Ballroom,venue,"Downtown, Houston"
-v074,Kingwood Event Rentals,rental,Kingwood
-v076,Kingfisher Lodge,venue,The Woodlands
-v077,Pinewood Pavilion,venue,Humble
-v078,The Reading Room on Alder,venue,"Third Ward, Houston"
-v079,H-Town Party Rentals,rental,Houston area
-v080,Golden Fork Catering,caterer,"River Oaks, Houston"
-v081,Clove & Cumin Catering,caterer,Stafford
-v082,North Shore Tents,rental,Baytown
-v083,Bright Plate Catering,caterer,"River Oaks, Houston"
-v084,Canopy Tent Rentals,rental,Spring
-v085,Fairground Party Rentals,rental,Pearland
-v086,Riverbend Lodge,venue,Kingwood
-v087,Gulfside Linen & Lighting,rental,"Magnolia Park, Houston"
-v088,Hickory Row BBQ Catering,caterer,Katy
-v089,Seabreeze Pavilion,venue,Kemah
-v090,Prairie Tent & Table,rental,Houston area
-v091,Cypress Grove Pavilion,venue,Cypress
-v092,Two Rivers Catering,caterer,"Sharpstown, Houston"
-v093,Big Top Tent & Party,rental,"Sharpstown, Houston"
-v094,Magnolia Spoon Catering,caterer,"Third Ward, Houston"
-v095,Bayou Bounce & Party,rental,Humble
-v096,Southbelt Tent & Chair,rental,"Park Place, Houston"
-v097,Cedar & Stone Hall,venue,Sugar Land
-v098,Bayou Loft Events,venue,Houston area
-v099,Oak Meadow Pavilion,venue,Katy
-v100,Bayou Bites Catering,caterer,"Magnolia Park, Houston"
+v001,Lemongrass & Lime Catering,caterer,"EaDo, Houston"
+v002,Driftwood Pavilion,venue,Kemah
+v003,Bayside Tent Rentals,rental,Seabrook
+v004,Bay Leaf Catering,caterer,"Rice Military, Houston"
+v005,Silo Hall,venue,Spring
+v006,The Oriel,venue,"River Oaks, Houston"
+v007,Coastal Canvas Tents,rental,Webster
+v009,Red Bean Catering Co.,caterer,Sugar Land
+v011,Sugar Creek BBQ Catering,caterer,Katy
+v012,The Parlor at Eastwood,venue,"EaDo, Houston"
+v013,The Bellwether,venue,"Downtown, Houston"
+v014,Fernhill Pavilion,venue,The Woodlands
+v015,Gulfstar Ballroom,venue,"Galleria, Houston"
+v016,Riverside Pantry Catering,caterer,Cypress
+v017,Evergreen Hall,venue,"Oak Forest, Houston"
+v018,Boudin Brothers Catering,caterer,Baytown
+v019,Starboard Hall,venue,La Porte
+v020,Tall Pines Tent Co.,rental,The Woodlands
+v021,The Atlas Room,venue,"Sharpstown, Houston"
+v022,The Lumen Room,venue,"EaDo, Houston"
+v023,Tamarind Table,caterer,"Upper Kirby, Houston"
+v024,Gulf Coast Tent & Table,rental,Houston area
+v025,Lakeview Pavilion,venue,Seabrook
+v026,Wild Plum Catering,caterer,"River Oaks, Houston"
+v027,Pearl Street Catering,caterer,"The Heights, Houston"
+v028,Butcher & Bloom Catering,caterer,"Rice Military, Houston"
+v029,Rosewood Hall,venue,"Memorial, Houston"
+v030,Hearthside Provisions,caterer,Kingwood
+v031,Two Creeks Pavilion,venue,Spring
+v032,Coastal Comal Catering,caterer,Houston area
+v033,Ironleaf Hall,venue,"Rice Military, Houston"
+v034,Sweet Tea Catering,caterer,Spring
+v035,Gather Round Rentals,rental,"Greenway, Houston"
+v036,Bright Lights Rentals,rental,"EaDo, Houston"
+v037,Stagecraft Event Rentals,rental,"Rice Military, Houston"
+v038,Cornbread Social Catering,caterer,Houston area
+v039,Galaxy Party Rentals,rental,Deer Park
+v040,Masa Fina Catering,caterer,"Second Ward, Houston"
+v041,Pecan Smoke Barbecue Co.,caterer,Katy
+v042,Okra and Honey Catering Kitchen,caterer,"Third Ward, Houston"
+v043,Lumina Lighting & Linen,rental,"Magnolia Park, Houston"
+v044,Mercer Gallery,venue,"Galleria, Houston"
+v045,Nopal Kitchen,caterer,"Near Northside, Houston"
+v046,The Marlowe Ballroom,venue,"Greenway, Houston"
+v047,Meadowlark Pavilion,venue,Katy
+v048,Shindig Rentals,rental,Kingwood
+v050,Foxtail Commons,venue,Humble
+v051,Crescent Moon Catering,caterer,"Sharpstown, Houston"
+v052,Cardinal Point Pavilion,venue,Katy
+v053,Clearwater Commons,venue,Webster
+v054,Daybreak Party Rentals,rental,Stafford
+v055,Pinecrest Hall,venue,"Spring Branch, Houston"
+v056,Marquee Event Rentals,rental,"Galleria, Houston"
+v057,Redwing Ranch,venue,Cypress
+v058,Starling Hall,venue,"The Heights, Houston"
+v059,Crawdad Kitchen,caterer,Seabrook
+v060,Summit Tent & Event,rental,Katy
+v061,Peppervine Catering,caterer,Bellaire
+v062,Saddlehorn Ranch,venue,Tomball
+v063,Thistle Hall,venue,"The Heights, Houston"
+v064,Elm Street Rentals,rental,"Montrose, Houston"
+v065,Grand Affair Rentals,rental,Missouri City
+v066,Bramblewood Farm,venue,Fulshear
+v067,Brass Ring Rentals,rental,"Memorial, Houston"
+v068,Kettle Black Catering,caterer,League City
+v069,Quarry Hall,venue,"Near Northside, Houston"
+v070,Celebrate Rentals,rental,Baytown
+v071,The Assembly at Taft,venue,"Montrose, Houston"
+v072,Bluebird Table Catering,caterer,"The Heights, Houston"
+v073,Clementine Kitchen,caterer,"Third Ward, Houston"
+v074,Wildflower Barn,venue,Tomball
+v075,Lyric Hall,venue,"Third Ward, Houston"
+v076,Tidepool Provisions,caterer,Kemah
+v077,Mesa Verde Kitchen,caterer,"Oak Forest, Houston"
+v078,Two Sisters Catering,caterer,Humble
+v079,Cilantro & Char,caterer,"Memorial, Houston"
+v080,Fiesta Rentals Co.,rental,"Park Place, Houston"
+v081,Hollow Oak Ranch,venue,Houston area
+v082,Allstar Tents & Events,rental,Pearland
+v083,Gulf Coast Gumbo Co.,caterer,Pearland
+v084,Rosemary Lane Catering,caterer,Sugar Land
+v085,The Linen Closet Rentals,rental,"The Heights, Houston"
+v086,Pimento Catering,caterer,"Park Place, Houston"
+v087,Pinnacle Party Rentals,rental,"Meyerland, Houston"
+v088,Spice Route Kitchen,caterer,"Sharpstown, Houston"
+v089,Lantana Kitchen,caterer,"Montrose, Houston"
+v090,Gable & Grove Hall,venue,Houston area
+v091,Green Chile Catering,caterer,Stafford
+v092,Parasol Event Rentals,rental,"River Oaks, Houston"
+v093,Halcyon House,venue,"Upper Kirby, Houston"
+v094,Gilded Pear Catering,caterer,"Upper Kirby, Houston"
+v095,Kilnworks Hall,venue,"Second Ward, Houston"
+v096,Ash Grove at Avondale,venue,"Montrose, Houston"
+v097,Big Tent Brothers,rental,Humble
+v098,Halfmoon Pavilion,venue,Friendswood
+v099,The Grain Exchange,venue,"Downtown, Houston"
+v100,Partyline Rentals,rental,Pasadena
+v101,The Ledger Room,venue,"Downtown, Houston"
+v102,Tia Rosa Tamales,caterer,"Park Place, Houston"

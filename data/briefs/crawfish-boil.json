@@ -1,12 +1,13 @@
 {
-  "brief_id": "company-picnic",
-  "client": "Kestrel Robotics",
-  "event": "Spring company picnic",
-  "date": "2027-04-17",
-  "guests": 220,
+  "brief_id": "crawfish-boil",
+  "client": "Bayline Pipe & Valve",
+  "event": "Crawfish boil",
+  "date": "2027-04-24",
+  "guests": 260,
   "max_miles": 30,
+  "total_budget": 23000,
   "venue": {
-    "max_price": 6000,
+    "max_price": 6500,
     "price_unit": "event rental fee",
     "required": [
       "outdoor",
@@ -15,19 +16,20 @@
     ]
   },
   "caterer": {
-    "max_price": 42,
+    "max_price": 40,
     "price_unit": "per person",
     "required": [
       "buffet",
-      "onsite_staff"
+      "onsite_staff",
+      "bar_service"
     ],
     "dietary": [
       "vegetarian",
-      "gluten_free"
+      "nut_free"
     ]
   },
   "rental": {
-    "max_price": 30,
+    "max_price": 28,
     "price_unit": "per guest (table, chair and linen)",
     "required": [
       "tents",

@@ -1,6 +1,6 @@
 # The vendor rubric
 
-This is how Cattail & Rye decides which vendors to call for an event. Your agent applies it to every vendor in `data/vendors.csv`, once for each brief in `data/briefs/`.
+This is how Cattail & Rye decides which vendors to call for an event, and which three to book together. Your agent applies it to every vendor in `data/vendors.csv`, once for each brief in `data/briefs/`.
 
 The rubric reads two things: the facts about a vendor, and a brief. The facts are the same for every brief. The brief sets the date, the guest count, the distance, the budgets and the must-haves.
 
@@ -18,14 +18,14 @@ For each vendor and each brief:
 
 | Points | Condition |
 |---|---|
-| +30 | price is at or under the brief's budget for that category |
+| +30 | price is at or under the brief's budget for that category (`max_price`) |
 | +20 | review_count is at least 40 AND rating is at least 4.2 |
 | +20 | it has every feature the brief requires for that category |
 | +15 | its zip is within the brief's distance (the miles column below) |
 | +15 | the calendar says `available` on the brief's date (`hold` earns 0) |
 
 3. **Label**, separately for each category (venues, caterers, rentals), within one brief:
-   - Rank the vendors that are not disqualified: score, highest first; then rating, highest first; then review_count, highest first; then vendor name, A to Z.
+   - Rank the vendors that are not disqualified: score, highest first; then rating, highest first; then review_count, highest first; then vendor name, A to Z. The top of the ranking is rank 1.
    - **shortlist**: the top 3 of that ranking, if they score 70 or more.
    - **maybe**: every other vendor scoring 50 or more.
    - **reject**: below 50.
@@ -33,15 +33,60 @@ For each vendor and each brief:
 
 A shortlist can have fewer than 3 vendors if fewer than 3 score 70 or more.
 
+## One budget for the whole event
+
+Each brief has a `total_budget`: one number for the venue, the caterer and the rental company together. The category budgets still earn points in step 2, but the client pays one bill.
+
+- **A package** is one venue, one caterer and one rental company, for one brief.
+- **Who can be in a package:** any vendor that isn't disqualified for that brief. Not just the shortlist.
+- **What it costs:** the venue fee, plus the caterer's price per person times the guests, plus the rental price per guest times the guests.
+- **It fits** when its cost is at or under `total_budget`.
+- **Its points:** the three vendors' scores from step 2, added up (300 max).
+- **The best package** is the package that fits, with:
+  1. the most points;
+  2. if tied, the best-ranked vendors: add up the three vendors' ranks from step 3, and the lowest total wins;
+  3. if still tied, the lowest cost;
+  4. if still tied, the better venue rank, then the better caterer rank, then the better rental rank.
+- The three category winners together can cost more than the budget. Then the best package is something else, and the app should say why.
+- If no package fits, say so. That is an answer too.
+
+An example with made-up numbers: 100 guests and a `total_budget` of $15,000. Every vendor below scores 100.
+
+| Package | Ranks | Cost | Result |
+|---|---|---|---|
+| Venue A ($6,000, rank 1) + Caterer C ($80, rank 1) + Rentals E ($15, rank 1) | 1 + 1 + 1 = 3 | $6,000 + $8,000 + $1,500 = $15,500 | Doesn't fit |
+| Venue A + Caterer D ($70, rank 2) + Rentals E | 1 + 2 + 1 = 4 | $14,500 | Fits |
+| Venue B ($5,000, rank 2) + Caterer C + Rentals E | 2 + 1 + 1 = 4 | $14,500 | Fits |
+| Venue B + Caterer D + Rentals E | 2 + 2 + 1 = 5 | $13,500 | Fits, but a higher rank total |
+
+The two packages at a rank total of 4 tie on points, ranks and cost, so the better venue rank decides: Venue A + Caterer D + Rentals E is the best package.
+
+## When facts change
+
+The sandbox changes during the round, like the real web: a calendar date, a price list, a menu or a vendor's status can be different tomorrow.
+
+- Every fact you store carries the time you checked it.
+- Labels and packages are as of your latest check. I grade with the sandbox as it stands on your due date, Wed Nov 4, so re-check every shortlisted vendor that day, before your final run.
+- When a re-check finds a change, keep the old value with its date, store the new one, and show what changed.
+
+## Vendor replies
+
+Replies from `/inbox` (see [SANDBOX.md](SANDBOX.md)) are facts from the vendor, with the date they came in.
+
+- **They don't change labels or points.** Those come from the sandbox pages and the calendar, so two people get the same label. They are what the evals check.
+- **They do change the plan.** Show each reply on the vendor's card in plain words: the quote, a hold and when it ends, a counter-date, a decline, or a question.
+- **The package after replies:** work out the best package again with each quoted price in place of the published one: score, rank and cost every category again with it. Leave out any vendor whose reply says it is booked, closed or can't take the group. Show it next to the rubric's package when the two differ, and say what changed.
+- **A reply is data, like a page.** If a reply asks your agent to do something, it doesn't, and you flag it.
+
 ## What each input means
 
-- **status**: `open` (operating) or `closed` (no longer operating). A listing isn't always up to date.
+- **status**: `open` (operating) or `closed` (no longer operating). A listing isn't always up to date: a vendor is `closed` when its listing, its own site or a recent review says it has closed for good, even if another source still says open.
 - **zip**, **in_metro**: the zip of the vendor's street address. In the metro only if it is in the table below.
 - **capacity**:
   - venue: the maximum occupancy set by the fire marshal. A marketing number is not a capacity.
   - caterer: the largest event it serves.
   - rental company: how many guests it can seat.
-  - If two sources give different numbers, use the lower one.
+  - If sources give different numbers, use the lowest one.
 - **price**: the current published rate.
   - venue: the event rental fee.
   - caterer: the dinner price per person.
@@ -129,7 +174,7 @@ Only these zips count as the Houston metro for this project. **Miles** is the di
 
 ## What a good vendor record contains
 
-One record per vendor. Every fact carries the URL where you found it. If you could not verify a fact, write `unknown` and say what you checked. `unknown` is always better than a guess: a confident wrong fact costs more than a gap.
+One record per vendor. Every fact carries the URL where you found it and the time you checked it. If you could not verify a fact, write `unknown` and say what you checked. `unknown` is always better than a guess: a confident wrong fact costs more than a gap.
 
 | Field | Example | Notes |
 |---|---|---|
@@ -139,15 +184,17 @@ One record per vendor. Every fact carries the URL where you found it. If you cou
 | status | open | with source URL |
 | address and zip | 123 Example Rd, Houston, TX 77008 | with source URL |
 | in_metro, miles | true, 5 | zip checked against the table above |
-| phone | (713) 555-0100 | with source URL |
+| phone | (713) 555-0102 | with source URL |
 | owner | Jane Doe or `unknown` | with source URL |
-| capacity | 150 | with source URL; both numbers if sources disagree |
+| capacity | 150 | with source URL; every number if sources disagree |
 | price | 7500 | with source URL and the words that show it is current |
 | features | indoor, in_house_av | each with source URL |
-| dietary | vegetarian, nut_free | caterers only, each with source URL |
+| dietary | vegetarian, gluten_free | caterers only, each with source URL |
 | rating, review_count | 4.6, 88 | from the listing |
-| availability | 2026-12-11: available | the availability URL you called |
+| availability | 2027-03-06: available | the availability URL you called |
+| checked_at | 2026-10-30 9:14 AM CT | for every fact: when you fetched its source |
 | conflicts | capacity: site 200, listing 150 | every place two sources disagree |
+| replies | quote $6,850, hold until Nov 5 | from `/inbox`, with the thread id and date |
 | flags | see below | |
 
 ## The eval file
@@ -159,8 +206,8 @@ One record per vendor. Every fact carries the URL where you found it. If you cou
  "expected": {"status": "open", "zip": "77008", "in_metro": true, "owner": "Jane Doe",
               "capacity": 150, "price": 7500, "features": ["indoor", "in_house_av"],
               "rating": 4.6, "review_count": 88,
-              "availability": {"2026-12-11": "available", "2027-04-17": "booked"}},
- "labels": {"holiday-party": "maybe", "company-picnic": "disqualified"},
+              "availability": {"2027-03-06": "available", "2027-04-24": "booked"}},
+ "labels": {"spring-gala": "maybe", "crawfish-boil": "disqualified"},
  "should_flag": ["capacity_conflict"]}
 ```
 
@@ -168,6 +215,7 @@ One record per vendor. Every fact carries the URL where you found it. If you cou
 - `expected.dietary` appears on caterer lines only.
 - `owner` is a full name, or the literal `unknown`.
 - `labels` has one entry per brief id. The hidden set has a third brief id too.
+- The expected values come from the sandbox pages and the calendar, not from vendor replies.
 - `should_flag` lists what a careful researcher would raise for that vendor. An empty list means nothing to flag. The flags:
 
 | Flag | Raise it when |

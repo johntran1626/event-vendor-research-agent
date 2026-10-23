@@ -95,8 +95,8 @@ Leave comments on the lines. "Looks good" on a PR you didn't run isn't a review.
 
 - **Every task is an issue** with an owner (the assignee) and a **done-condition**. Use the Task template ([templates/ISSUE_TEMPLATE/task.md](templates/ISSUE_TEMPLATE/task.md)).
 - **A done-condition is one sentence someone else can check.** "Done when an insert with zip 99999 as anon fails, and the test is in the repo." Not "done when the form works."
-- **Each member owns at least 2 issues per milestone** and authors at least 1 merged PR. `MILESTONES.md` checks this per person.
-- **Group issues by milestone:** Issues → **Milestones** → create `M1`, `M2`, `M3` with their due dates, and put each issue in one.
+- **Each member owns at least 2 issues in the round** and authors at least 1 merged PR. `MILESTONES.md` checks this per person.
+- **Group issues by round:** Issues → **Milestones** → create one milestone for the round (for example `Round 1`) with its due date, and put each issue in it.
 - Close issues through PRs (`Closes #12`), not by hand.
 
 GitHub only uses the templates from `.github/ISSUE_TEMPLATE/` and `.github/PULL_REQUEST_TEMPLATE.md` on the default branch. If your fork doesn't have them there, copy them in from `templates/` in the first PR.
@@ -109,7 +109,7 @@ GitHub only uses the templates from `.github/ISSUE_TEMPLATE/` and `.github/PULL_
 
 ## Hours
 
-- **`logs/hours.md`:** everyone's hours, one section per person. Log the day you work, honestly. Template: [templates/hours.md](templates/hours.md).
+- **`logs/hours.md`:** everyone's hours, one section per person. Log the day you work, honestly. Every day you commit, open or merge a PR, review one, or open an issue needs a row dated that day, on Houston time. Template: [templates/hours.md](templates/hours.md).
 
 ## Secrets
 

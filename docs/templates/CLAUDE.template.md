@@ -6,7 +6,7 @@
 - <Project name>. <One sentence: who the client is and what they need.>
 - Brief: `README.md`. Handbook: `docs/`.
 - The app lives in `web/`: Next.js App Router, TypeScript, Tailwind. Database: Supabase Postgres with RLS. Hosting: Vercel, deployed from `main` by <owner>.
-- Current milestone: <M1 / M2 / M3>, due <date>. Done means: <the checklist items you're working on>.
+- Current round: <round>, due <date>. Done means: <the checklist boxes you're working on>.
 
 ## Data
 - Data files: <list them, e.g. `data/<file>.csv`>. Never edit them.

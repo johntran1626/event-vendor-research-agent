@@ -1,5 +1,7 @@
 # Setup
 
+**For the rotation:** you did this in September, and nothing on this page is due again. Keep it as the reference for your tools, and for a new machine.
+
 **Due Sun Sep 27, 11:59pm CT.** Proof is a live URL, not a screenshot.
 
 You're setting up the same stack your group project runs on: GitHub, Vercel, Supabase, Claude Code, Node and VS Code. Then you build one small app that uses all of it: the calculator from Thursday's live build, on your own accounts. If your calculator works, your machine and your accounts are ready for M1.
