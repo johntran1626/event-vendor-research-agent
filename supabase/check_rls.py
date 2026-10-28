@@ -7,7 +7,8 @@ NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY.
   python3 supabase/check_rls.py
 
 Passes when, for every table, a select returns 200 and an insert, an update and
-a delete are all refused (or touch no rows).
+a delete are all refused (or touch no rows). Run it after a run is stored, so
+the update and delete have rows they could touch.
 """
 
 import json
@@ -17,8 +18,10 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-TABLES = ["runs", "vendors", "facts", "flags", "availability", "scores",
-          "packages", "drafts", "threads", "replies"]
+# A text column per table, so the update test really tries to change something.
+TABLES = {"runs": "notes", "vendors": "area_hint", "facts": "note", "flags": "reason",
+          "availability": "note", "scores": "reason", "packages": "why", "drafts": "subject",
+          "threads": "subject", "replies": "question"}
 
 
 def env():
@@ -46,17 +49,19 @@ def call(method, url, key, body=None):
 def main():
     base, key = env()
     failed = False
-    for t in TABLES:
+    for t, col in TABLES.items():
         url = f"{base}/rest/v1/{t}"
-        s_read, _ = call("GET", url + "?limit=1", key)
-        s_ins, b_ins = call("POST", url, key, {"run_id": "rls-check"} if t == "runs" else {})
-        s_upd, b_upd = call("PATCH", url + "?limit=1", key, {"notes": "x"} if t == "runs" else {})
-        s_del, b_del = call("DELETE", url + "?limit=1", key)
+        s_read, b_read = call("GET", url + "?limit=1", key)
+        rows = len(json.loads(b_read)) if s_read == 200 else 0
+        s_ins, b_ins = call("POST", url, key, {col: "rls-check"})
+        s_upd, b_upd = call("PATCH", url + f"?{col}=not.is.null", key, {col: "rls-check"})
+        s_del, b_del = call("DELETE", url + f"?{col}=not.is.null", key)
         wrote = (s_ins < 300) or (s_upd < 300 and b_upd.strip() not in ("", "[]")) \
             or (s_del < 300 and b_del.strip() not in ("", "[]"))
         ok = s_read == 200 and not wrote
         failed |= not ok
-        print(f"{'PASS' if ok else 'FAIL'} {t:13s} select {s_read}  insert {s_ins}  update {s_upd}  delete {s_del}")
+        print(f"{'PASS' if ok else 'FAIL'} {t:13s} select {s_read} ({'has rows' if rows else 'empty'})  "
+              f"insert {s_ins}  update {s_upd}  delete {s_del}")
     sys.exit(1 if failed else 0)
 
 
