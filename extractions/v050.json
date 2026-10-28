@@ -1,0 +1,520 @@
+{
+  "vendor_id": "v050",
+  "vendor_name": "Foxtail Commons",
+  "category": "venue",
+  "slug": "foxtail-commons",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0565722,
+    "duration_ms": 19169,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7836,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2474,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7836,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2474,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7836,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7836
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "559a9595-3638-41b9-b05d-1df39bf5f281",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:45Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "222 Sandstone Ridge Rd, Humble, TX 77338",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+        "quote": "222 Sandstone Ridge Rd, Humble, TX 77338",
+        "checked_at": "2026-10-28T05:53:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "222 Sandstone Ridge Rd, Humble, TX 77338",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/contact",
+        "quote": "222 Sandstone Ridge Rd\nHumble, TX 77338",
+        "checked_at": "2026-10-28T05:53:48Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77338",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+        "quote": "Humble, TX 77338",
+        "checked_at": "2026-10-28T05:53:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "77338",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/contact",
+        "quote": "Humble, TX 77338",
+        "checked_at": "2026-10-28T05:53:48Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0120",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+        "quote": "(832) 555-0120",
+        "checked_at": "2026-10-28T05:53:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0120",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/contact",
+        "quote": "Phone: (832) 555-0120",
+        "checked_at": "2026-10-28T05:53:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0120",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/",
+        "quote": "Call (832) 555-0120 to schedule a tour.",
+        "checked_at": "2026-10-28T05:53:47Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Avery Zamora",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/about",
+        "quote": "Avery Zamora founded Foxtail Commons in 2007. Avery still runs it day to day",
+        "note": "Founder who still runs the business day to day; no page uses the word 'owner' explicitly.",
+        "checked_at": "2026-10-28T05:53:48Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 130,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+        "quote": "Max occupancy (fire marshal)\n\n130 guests",
+        "kind": "fire_marshal",
+        "checked_at": "2026-10-28T05:53:45Z",
+        "quote_found": true
+      },
+      {
+        "value": 130,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/",
+        "quote": "Hosts up to 130 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:53:47Z",
+        "quote_found": true
+      },
+      {
+        "value": 130,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+        "quote": "Capacity: 130 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:53:47Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 7600,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "note": "Quote line: 'Event rental (up to 6 hours): $7,600'. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:53:47Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+        "quote": "No in-house AV. Bring your own or rent it.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:53:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+        "quote": "Street parking and nearby paid lots only.",
+        "offered": false,
+        "note": "No dedicated lot; street and nearby paid lots only.",
+        "checked_at": "2026-10-28T05:53:47Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.3,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+        "quote": "4.3 \u2605\u2605\u2605\u2605\u2606 80 reviews",
+        "checked_at": "2026-10-28T05:53:45Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 80,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+        "quote": "4.3 \u2605\u2605\u2605\u2605\u2606 80 reviews",
+        "checked_at": "2026-10-28T05:53:45Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday through Friday each listed 10:00 AM - 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:53:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday through Friday each listed 10:00 AM to 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:53:48Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages; none states an area served."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: Foxtail Commons is a venue."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:45Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77338",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77338",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+          "quote": "Humble, TX 77338",
+          "checked_at": "2026-10-28T05:53:45Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 20,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Avery Zamora",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Avery Zamora",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/about",
+          "quote": "Avery Zamora founded Foxtail Commons in 2007. Avery still runs it day to day",
+          "checked_at": "2026-10-28T05:53:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0120",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0120",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+          "quote": "(832) 555-0120",
+          "checked_at": "2026-10-28T05:53:45Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0120",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/contact",
+          "quote": "Phone: (832) 555-0120",
+          "checked_at": "2026-10-28T05:53:48Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0120",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/",
+          "quote": "Call (832) 555-0120 to schedule a tour.",
+          "checked_at": "2026-10-28T05:53:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "222 Sandstone Ridge Rd, Humble, TX 77338",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "222 Sandstone Ridge Rd, Humble, TX 77338",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+          "quote": "222 Sandstone Ridge Rd, Humble, TX 77338",
+          "checked_at": "2026-10-28T05:53:45Z",
+          "quote_found": true
+        },
+        {
+          "value": "222 Sandstone Ridge Rd, Humble, TX 77338",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/contact",
+          "quote": "222 Sandstone Ridge Rd\nHumble, TX 77338",
+          "checked_at": "2026-10-28T05:53:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 130,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 130,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+          "quote": "Max occupancy (fire marshal)\n\n130 guests",
+          "checked_at": "2026-10-28T05:53:45Z",
+          "quote_found": true
+        },
+        {
+          "value": 130,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/",
+          "quote": "Hosts up to 130 guests.",
+          "checked_at": "2026-10-28T05:53:47Z",
+          "quote_found": true
+        },
+        {
+          "value": 130,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+          "quote": "Capacity: 130 guests.",
+          "checked_at": "2026-10-28T05:53:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 7600,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 7600,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:53:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "indoor",
+        "outside_catering"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+              "quote": "No in-house AV. Bring your own or rent it.",
+              "checked_at": "2026-10-28T05:53:47Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:53:47Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:53:47Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:53:47Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:53:47Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/foxtail-commons/packages",
+              "quote": "Street parking and nearby paid lots only.",
+              "checked_at": "2026-10-28T05:53:47Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.3,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.3,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+          "quote": "4.3 \u2605\u2605\u2605\u2605\u2606 80 reviews",
+          "checked_at": "2026-10-28T05:53:45Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 80,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 80,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/foxtail-commons",
+          "quote": "4.3 \u2605\u2605\u2605\u2605\u2606 80 reviews",
+          "checked_at": "2026-10-28T05:53:45Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

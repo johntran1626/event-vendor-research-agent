@@ -1,0 +1,606 @@
+{
+  "vendor_id": "v015",
+  "vendor_name": "Gulfstar Ballroom",
+  "category": "venue",
+  "slug": "gulfstar-ballroom",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.061430200000000004,
+    "duration_ms": 15190,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7608,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3051,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7608,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3051,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7608,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7608
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "5a87de31-cd78-4249-a2dd-8587880768aa",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:51:16Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "5068 Wicklow Park Dr, Houston, TX 77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+        "quote": "5068 Wicklow Park Dr, Houston, TX 77057",
+        "checked_at": "2026-10-28T05:51:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "5068 Wicklow Park Dr, Houston, TX 77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/contact",
+        "quote": "5068 Wicklow Park Dr\nHouston, TX 77057",
+        "checked_at": "2026-10-28T05:51:19Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+        "quote": "Houston, TX 77057",
+        "checked_at": "2026-10-28T05:51:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/contact",
+        "quote": "Houston, TX 77057",
+        "checked_at": "2026-10-28T05:51:19Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0165",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+        "quote": "(832) 555-0165",
+        "checked_at": "2026-10-28T05:51:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "832 555 0165",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+        "quote": "Call 832 555 0165 to schedule a tour.",
+        "checked_at": "2026-10-28T05:51:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "832 555 0165",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/contact",
+        "quote": "Phone: 832 555 0165",
+        "checked_at": "2026-10-28T05:51:19Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Leticia Thibodeaux",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/gulfstarballroom",
+        "quote": "Owner Leticia Thibodeaux.",
+        "checked_at": "2026-10-28T05:51:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "Leticia Thibodeaux",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/about",
+        "quote": "Leticia Thibodeaux founded Gulfstar Ballroom in 2006.",
+        "note": "Founder; the page says Leticia still runs it day to day.",
+        "checked_at": "2026-10-28T05:51:18Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 300,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+        "quote": "Max occupancy (fire marshal)\n\n300 guests",
+        "checked_at": "2026-10-28T05:51:16Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+        "quote": "Hosts up to 300 guests.",
+        "checked_at": "2026-10-28T05:51:17Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+        "quote": "Capacity: 300 guests.",
+        "checked_at": "2026-10-28T05:51:18Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 9400,
+        "current": true,
+        "unit": "event rental, up to 6 hours",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+        "quote": "Event rental (up to 6 hours): $9,400",
+        "note": "Page says \"Current rates for 2026 and 2027 events.\" Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:51:18Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:51:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:51:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:51:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:51:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:51:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:51:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:51:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:51:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:51:18Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 98 reviews",
+        "checked_at": "2026-10-28T05:51:16Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 98,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 98 reviews",
+        "checked_at": "2026-10-28T05:51:16Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Listing shows Monday through Friday 10:00 AM - 6:00 PM, Saturday 10:00 AM - 2:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:51:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday through Friday 10:00 AM to 6:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:51:19Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Galleria, Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+        "quote": "Gulfstar Ballroom hosts parties, dinners and receptions in Galleria, Houston.",
+        "note": "Describes the location; no explicit service area stated.",
+        "checked_at": "2026-10-28T05:51:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "Galleria, Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/gulfstarballroom",
+        "quote": "Event space in Galleria, Houston.",
+        "checked_at": "2026-10-28T05:51:17Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "dietary",
+      "checked": "Venue, not a caterer; dietary not applicable."
+    },
+    {
+      "field": "features: tables, chairs, linens, lighting, bar_service etc.",
+      "checked": "Not in the venue feature list; only listed features are indoor, in_house_av, outside_catering, parking_lot, dance_floor. Outdoor not mentioned on any page."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:51:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77057",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77057",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+          "quote": "Houston, TX 77057",
+          "checked_at": "2026-10-28T05:51:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 9,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Leticia Thibodeaux",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Leticia Thibodeaux",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/gulfstarballroom",
+          "quote": "Owner Leticia Thibodeaux.",
+          "checked_at": "2026-10-28T05:51:17Z",
+          "quote_found": true
+        },
+        {
+          "value": "Leticia Thibodeaux",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/about",
+          "quote": "Leticia Thibodeaux founded Gulfstar Ballroom in 2006.",
+          "checked_at": "2026-10-28T05:51:18Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0165",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0165",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+          "quote": "(832) 555-0165",
+          "checked_at": "2026-10-28T05:51:16Z",
+          "quote_found": true
+        },
+        {
+          "value": "832 555 0165",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+          "quote": "Call 832 555 0165 to schedule a tour.",
+          "checked_at": "2026-10-28T05:51:17Z",
+          "quote_found": true
+        },
+        {
+          "value": "832 555 0165",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/contact",
+          "quote": "Phone: 832 555 0165",
+          "checked_at": "2026-10-28T05:51:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "5068 Wicklow Park Dr, Houston, TX 77057",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "5068 Wicklow Park Dr, Houston, TX 77057",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+          "quote": "5068 Wicklow Park Dr, Houston, TX 77057",
+          "checked_at": "2026-10-28T05:51:16Z",
+          "quote_found": true
+        },
+        {
+          "value": "5068 Wicklow Park Dr, Houston, TX 77057",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/contact",
+          "quote": "5068 Wicklow Park Dr\nHouston, TX 77057",
+          "checked_at": "2026-10-28T05:51:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 300,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+          "quote": "Max occupancy (fire marshal)\n\n300 guests",
+          "checked_at": "2026-10-28T05:51:16Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+          "quote": "Hosts up to 300 guests.",
+          "checked_at": "2026-10-28T05:51:17Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+          "quote": "Capacity: 300 guests.",
+          "checked_at": "2026-10-28T05:51:18Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 9400,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 9400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+          "quote": "Event rental (up to 6 hours): $9,400",
+          "checked_at": "2026-10-28T05:51:18Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "in_house_av",
+        "indoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:51:18Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:51:17Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:51:18Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:51:17Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:51:18Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:51:17Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:51:18Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:51:17Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulfstar-ballroom/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:51:18Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 98 reviews",
+          "checked_at": "2026-10-28T05:51:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 98,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 98,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulfstar-ballroom",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 98 reviews",
+          "checked_at": "2026-10-28T05:51:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

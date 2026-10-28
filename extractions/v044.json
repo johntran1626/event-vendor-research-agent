@@ -1,0 +1,520 @@
+{
+  "vendor_id": "v044",
+  "vendor_name": "Mercer Gallery",
+  "category": "venue",
+  "slug": "mercer-gallery",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0561342,
+    "duration_ms": 12606,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7744,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2467,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7744,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2467,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7744,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7744
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "4c253510-c2ea-48e2-a67e-f3cb18614470",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:23Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "1691 Verbena Crossing, Houston, TX 77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+        "quote": "1691 Verbena Crossing, Houston, TX 77057",
+        "checked_at": "2026-10-28T05:53:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "1691 Verbena Crossing, Houston, TX 77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/contact",
+        "quote": "1691 Verbena Crossing\nHouston, TX 77057",
+        "checked_at": "2026-10-28T05:53:26Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+        "quote": "1691 Verbena Crossing, Houston, TX 77057",
+        "checked_at": "2026-10-28T05:53:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/contact",
+        "quote": "Houston, TX 77057",
+        "checked_at": "2026-10-28T05:53:26Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0176",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+        "quote": "(713) 555-0176",
+        "checked_at": "2026-10-28T05:53:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "(713) 555-0176",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/contact",
+        "quote": "Phone: (713) 555-0176",
+        "checked_at": "2026-10-28T05:53:26Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Teresa Achebe",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/about",
+        "quote": "Teresa Achebe founded Mercer Gallery in 2021. Teresa still runs it day to day",
+        "note": "Founder who still runs the business day to day; treated as owner.",
+        "checked_at": "2026-10-28T05:53:25Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 290,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+        "quote": "Max occupancy (fire marshal)\n\n290 guests",
+        "checked_at": "2026-10-28T05:53:23Z",
+        "quote_found": true
+      },
+      {
+        "value": 290,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/",
+        "quote": "Hosts up to 290 guests.",
+        "note": "Same number as the fire marshal maximum.",
+        "checked_at": "2026-10-28T05:53:24Z",
+        "quote_found": true
+      },
+      {
+        "value": 290,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+        "quote": "Capacity: 290 guests.",
+        "note": "Same number as the fire marshal maximum.",
+        "checked_at": "2026-10-28T05:53:25Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 12300,
+        "unit": "event rental (up to 6 hours)",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+        "quote": "Current rates for 2026 and 2027 events.\n\nEvent rental (up to 6 hours): $12,300",
+        "note": "Does not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:53:25Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:53:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:53:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:53:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:53:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:53:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:53:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+        "quote": "No in-house AV. Bring your own or rent it.",
+        "checked_at": "2026-10-28T05:53:25Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.4,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+        "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 223 reviews",
+        "checked_at": "2026-10-28T05:53:23Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 223,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+        "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 223 reviews",
+        "checked_at": "2026-10-28T05:53:23Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday through Friday each listed 10:00 AM - 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:53:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday through Friday each listed 10:00 AM to 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:53:26Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, social, home, packages, about and contact pages: none states a service area (a venue; the Instagram bio and home page only say the space is in Galleria, Houston)."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77057",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77057",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+          "quote": "1691 Verbena Crossing, Houston, TX 77057",
+          "checked_at": "2026-10-28T05:53:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 9,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Teresa Achebe",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Teresa Achebe",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/about",
+          "quote": "Teresa Achebe founded Mercer Gallery in 2021. Teresa still runs it day to day",
+          "checked_at": "2026-10-28T05:53:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0176",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0176",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+          "quote": "(713) 555-0176",
+          "checked_at": "2026-10-28T05:53:23Z",
+          "quote_found": true
+        },
+        {
+          "value": "(713) 555-0176",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/contact",
+          "quote": "Phone: (713) 555-0176",
+          "checked_at": "2026-10-28T05:53:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "1691 Verbena Crossing, Houston, TX 77057",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "1691 Verbena Crossing, Houston, TX 77057",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+          "quote": "1691 Verbena Crossing, Houston, TX 77057",
+          "checked_at": "2026-10-28T05:53:23Z",
+          "quote_found": true
+        },
+        {
+          "value": "1691 Verbena Crossing, Houston, TX 77057",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/contact",
+          "quote": "1691 Verbena Crossing\nHouston, TX 77057",
+          "checked_at": "2026-10-28T05:53:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 290,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 290,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+          "quote": "Max occupancy (fire marshal)\n\n290 guests",
+          "checked_at": "2026-10-28T05:53:23Z",
+          "quote_found": true
+        },
+        {
+          "value": 290,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/",
+          "quote": "Hosts up to 290 guests.",
+          "checked_at": "2026-10-28T05:53:24Z",
+          "quote_found": true
+        },
+        {
+          "value": 290,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+          "quote": "Capacity: 290 guests.",
+          "checked_at": "2026-10-28T05:53:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 12300,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 12300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+          "quote": "Current rates for 2026 and 2027 events.\n\nEvent rental (up to 6 hours): $12,300",
+          "checked_at": "2026-10-28T05:53:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "indoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+              "quote": "No in-house AV. Bring your own or rent it.",
+              "checked_at": "2026-10-28T05:53:25Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:53:24Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:53:25Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:53:24Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:53:25Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:53:24Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/mercer-gallery/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:53:25Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.4,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.4,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+          "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 223 reviews",
+          "checked_at": "2026-10-28T05:53:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 223,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 223,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/mercer-gallery",
+          "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 223 reviews",
+          "checked_at": "2026-10-28T05:53:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

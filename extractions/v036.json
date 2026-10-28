@@ -1,0 +1,569 @@
+{
+  "vendor_id": "v036",
+  "vendor_name": "Bright Lights Rentals",
+  "category": "rental",
+  "slug": "bright-lights-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.058280200000000004,
+    "duration_ms": 13643,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7658,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2716,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7658,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2716,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7658,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7658
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "399fad1d-b319-4339-bab5-e727b4b77801",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:52:48Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "3126 Shoalwater Ln, Houston, TX 77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+        "quote": "3126 Shoalwater Ln, Houston, TX 77003",
+        "checked_at": "2026-10-28T05:52:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "3126 Shoalwater Ln, Houston, TX 77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/contact",
+        "quote": "3126 Shoalwater Ln\nHouston, TX 77003",
+        "checked_at": "2026-10-28T05:52:52Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+        "quote": "3126 Shoalwater Ln, Houston, TX 77003",
+        "checked_at": "2026-10-28T05:52:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/contact",
+        "quote": "Houston, TX 77003",
+        "checked_at": "2026-10-28T05:52:52Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0138",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+        "quote": "(832) 555-0138",
+        "checked_at": "2026-10-28T05:52:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0138",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/contact",
+        "quote": "Phone: 832-555-0138",
+        "checked_at": "2026-10-28T05:52:52Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Harriet Broussard",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/brightlightsrental",
+        "quote": "Owner Harriet Broussard.",
+        "checked_at": "2026-10-28T05:52:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "Harriet Broussard",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/about",
+        "quote": "Harriet Broussard founded Bright Lights Rentals in 2008.",
+        "note": "Founder who still runs it day to day; the Instagram page names her as owner.",
+        "checked_at": "2026-10-28T05:52:51Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 200,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+        "quote": "200 guests",
+        "note": "Listed as 'Seats up to'.",
+        "checked_at": "2026-10-28T05:52:48Z",
+        "quote_found": true
+      },
+      {
+        "value": 200,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+        "quote": "We can seat up to 200 guests.",
+        "checked_at": "2026-10-28T05:52:50Z",
+        "quote_found": true
+      },
+      {
+        "value": 200,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+        "quote": "Inventory: seating for up to 200 guests.",
+        "checked_at": "2026-10-28T05:52:51Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 17,
+        "unit": "per guest",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $17",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:52:51Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:52:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:52:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:52:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+        "quote": "Speakers, microphones and projectors",
+        "checked_at": "2026-10-28T05:52:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:52:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:52:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:52:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+        "quote": "Speakers, microphones and projectors",
+        "checked_at": "2026-10-28T05:52:50Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 102 reviews",
+        "checked_at": "2026-10-28T05:52:48Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 102,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 102 reviews",
+        "checked_at": "2026-10-28T05:52:48Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+        "quote": "8:00 AM - 5:00 PM",
+        "note": "Monday through Friday each 8:00 AM - 5:00 PM; Saturday '8:00 AM - 12:00 PM'; Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:52:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/contact",
+        "quote": "8:00 AM to 5:00 PM",
+        "note": "Monday through Friday each 8:00 AM to 5:00 PM; Saturday '8:00 AM to 12:00 PM'; Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:52:52Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:52:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:52:50Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "dietary",
+      "checked": "Not applicable: rental company."
+    },
+    {
+      "field": "tables feature",
+      "checked": "Checked listing, home, packages: only the price label mentions table, which is not a feature claim; the rental list has no tables item."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:52:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77003",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77003",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+          "quote": "3126 Shoalwater Ln, Houston, TX 77003",
+          "checked_at": "2026-10-28T05:52:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 2,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Harriet Broussard",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Harriet Broussard",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/brightlightsrental",
+          "quote": "Owner Harriet Broussard.",
+          "checked_at": "2026-10-28T05:52:50Z",
+          "quote_found": true
+        },
+        {
+          "value": "Harriet Broussard",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/about",
+          "quote": "Harriet Broussard founded Bright Lights Rentals in 2008.",
+          "checked_at": "2026-10-28T05:52:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0138",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0138",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+          "quote": "(832) 555-0138",
+          "checked_at": "2026-10-28T05:52:48Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0138",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/contact",
+          "quote": "Phone: 832-555-0138",
+          "checked_at": "2026-10-28T05:52:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "3126 Shoalwater Ln, Houston, TX 77003",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "3126 Shoalwater Ln, Houston, TX 77003",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+          "quote": "3126 Shoalwater Ln, Houston, TX 77003",
+          "checked_at": "2026-10-28T05:52:48Z",
+          "quote_found": true
+        },
+        {
+          "value": "3126 Shoalwater Ln, Houston, TX 77003",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/contact",
+          "quote": "3126 Shoalwater Ln\nHouston, TX 77003",
+          "checked_at": "2026-10-28T05:52:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 200,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+          "quote": "200 guests",
+          "checked_at": "2026-10-28T05:52:48Z",
+          "quote_found": true
+        },
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+          "quote": "We can seat up to 200 guests.",
+          "checked_at": "2026-10-28T05:52:50Z",
+          "quote_found": true
+        },
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+          "quote": "Inventory: seating for up to 200 guests.",
+          "checked_at": "2026-10-28T05:52:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 17,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 17,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+          "quote": "Full setup per guest (table, chair and linen): $17",
+          "checked_at": "2026-10-28T05:52:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "av",
+        "chairs",
+        "lighting",
+        "linens"
+      ],
+      "by_feature": {
+        "av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+              "quote": "Speakers, microphones and projectors",
+              "checked_at": "2026-10-28T05:52:51Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+              "quote": "Speakers, microphones and projectors",
+              "checked_at": "2026-10-28T05:52:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:52:51Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:52:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:52:51Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:52:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:52:51Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bright-lights-rentals/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:52:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 102 reviews",
+          "checked_at": "2026-10-28T05:52:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 102,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 102,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bright-lights-rentals",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 102 reviews",
+          "checked_at": "2026-10-28T05:52:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

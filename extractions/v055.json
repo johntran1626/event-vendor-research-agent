@@ -1,0 +1,546 @@
+{
+  "vendor_id": "v055",
+  "vendor_name": "Pinecrest Hall",
+  "category": "venue",
+  "slug": "pinecrest-hall",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0588162,
+    "duration_ms": 13166,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8087,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2598,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8087,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2598,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8087,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8087
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "a42f710c-dd0a-47b5-b45d-cfd1a721dac1",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:54:08Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "947 Windmill Ridge Dr, Houston, TX 77055",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+        "quote": "947 Windmill Ridge Dr, Houston, TX 77055",
+        "checked_at": "2026-10-28T05:54:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "947 Windmill Ridge Dr, Houston, TX 77055",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/contact",
+        "quote": "947 Windmill Ridge Dr\nHouston, TX 77055",
+        "checked_at": "2026-10-28T05:54:11Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77055",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+        "quote": "Houston, TX 77055",
+        "checked_at": "2026-10-28T05:54:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "77055",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/contact",
+        "quote": "Houston, TX 77055",
+        "checked_at": "2026-10-28T05:54:11Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0152",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+        "quote": "(713) 555-0152",
+        "checked_at": "2026-10-28T05:54:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "(713) 555-0152",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/contact",
+        "quote": "Phone: (713) 555-0152",
+        "checked_at": "2026-10-28T05:54:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "(713) 555-0152",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/",
+        "quote": "Call (713) 555-0152 to schedule a tour.",
+        "checked_at": "2026-10-28T05:54:09Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Isaac Zamora",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/pinecresthall",
+        "quote": "Owner Isaac Zamora.",
+        "checked_at": "2026-10-28T05:54:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "Isaac Zamora",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/about",
+        "quote": "Isaac Zamora founded Pinecrest Hall in 2021. Isaac still runs it day to day",
+        "note": "Founder who runs it day to day; the Instagram page states him as owner.",
+        "checked_at": "2026-10-28T05:54:10Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 400,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+        "quote": "Max occupancy (fire marshal)\n\n400 guests",
+        "checked_at": "2026-10-28T05:54:08Z",
+        "quote_found": true
+      },
+      {
+        "value": 400,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/",
+        "quote": "Hosts up to 400 guests.",
+        "checked_at": "2026-10-28T05:54:09Z",
+        "quote_found": true
+      },
+      {
+        "value": 400,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+        "quote": "Capacity: 400 guests.",
+        "checked_at": "2026-10-28T05:54:10Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 12800,
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+        "quote": "Current rates for 2026 and 2027 events.\n\nEvent rental (up to 6 hours): $12,800",
+        "note": "Does not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:54:10Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:54:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:54:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:54:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:54:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:54:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:54:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+        "quote": "Catering is exclusive to our in-house kitchen. No outside caterers.",
+        "checked_at": "2026-10-28T05:54:10Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+        "quote": "4 \u2605\u2605\u2605\u2605\u2606 13 reviews",
+        "checked_at": "2026-10-28T05:54:08Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 13,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+        "quote": "4 \u2605\u2605\u2605\u2605\u2606 13 reviews",
+        "checked_at": "2026-10-28T05:54:08Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday to Friday each 10:00 AM - 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:54:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday to Friday each 10:00 AM to 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:54:11Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, and the vendor site's home, packages, about and contact pages. None states a service area (only the location Spring Branch, Houston)."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:54:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77055",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77055",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+          "quote": "Houston, TX 77055",
+          "checked_at": "2026-10-28T05:54:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 11,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Isaac Zamora",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Isaac Zamora",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/pinecresthall",
+          "quote": "Owner Isaac Zamora.",
+          "checked_at": "2026-10-28T05:54:09Z",
+          "quote_found": true
+        },
+        {
+          "value": "Isaac Zamora",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/about",
+          "quote": "Isaac Zamora founded Pinecrest Hall in 2021. Isaac still runs it day to day",
+          "checked_at": "2026-10-28T05:54:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0152",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0152",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+          "quote": "(713) 555-0152",
+          "checked_at": "2026-10-28T05:54:08Z",
+          "quote_found": true
+        },
+        {
+          "value": "(713) 555-0152",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/contact",
+          "quote": "Phone: (713) 555-0152",
+          "checked_at": "2026-10-28T05:54:11Z",
+          "quote_found": true
+        },
+        {
+          "value": "(713) 555-0152",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/",
+          "quote": "Call (713) 555-0152 to schedule a tour.",
+          "checked_at": "2026-10-28T05:54:09Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "947 Windmill Ridge Dr, Houston, TX 77055",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "947 Windmill Ridge Dr, Houston, TX 77055",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+          "quote": "947 Windmill Ridge Dr, Houston, TX 77055",
+          "checked_at": "2026-10-28T05:54:08Z",
+          "quote_found": true
+        },
+        {
+          "value": "947 Windmill Ridge Dr, Houston, TX 77055",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/contact",
+          "quote": "947 Windmill Ridge Dr\nHouston, TX 77055",
+          "checked_at": "2026-10-28T05:54:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 400,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+          "quote": "Max occupancy (fire marshal)\n\n400 guests",
+          "checked_at": "2026-10-28T05:54:08Z",
+          "quote_found": true
+        },
+        {
+          "value": 400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/",
+          "quote": "Hosts up to 400 guests.",
+          "checked_at": "2026-10-28T05:54:09Z",
+          "quote_found": true
+        },
+        {
+          "value": 400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+          "quote": "Capacity: 400 guests.",
+          "checked_at": "2026-10-28T05:54:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 12800,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 12800,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+          "quote": "Current rates for 2026 and 2027 events.\n\nEvent rental (up to 6 hours): $12,800",
+          "checked_at": "2026-10-28T05:54:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "in_house_av",
+        "indoor",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:54:09Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:54:10Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:09Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:10Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+              "quote": "Catering is exclusive to our in-house kitchen. No outside caterers.",
+              "checked_at": "2026-10-28T05:54:10Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:09Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinecrest-hall/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:10Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+          "quote": "4 \u2605\u2605\u2605\u2605\u2606 13 reviews",
+          "checked_at": "2026-10-28T05:54:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 13,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 13,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinecrest-hall",
+          "quote": "4 \u2605\u2605\u2605\u2605\u2606 13 reviews",
+          "checked_at": "2026-10-28T05:54:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

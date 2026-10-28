@@ -1,0 +1,581 @@
+{
+  "vendor_id": "v096",
+  "vendor_name": "Ash Grove at Avondale",
+  "category": "venue",
+  "slug": "the-ashgrove-at-avondale",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0642442,
+    "duration_ms": 15539,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8554,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2954,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8554,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2954,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8554,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8554
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "d4f09f73-0674-4d6e-a9c3-93e1528aec74",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:57:10Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "3976 Marshfield Dr, Houston, TX 77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+        "quote": "3976 Marshfield Dr, Houston, TX 77006",
+        "checked_at": "2026-10-28T05:57:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "3976 Marshfield Dr, Houston, TX 77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/contact",
+        "quote": "3976 Marshfield Dr\nHouston, TX 77006",
+        "checked_at": "2026-10-28T05:57:13Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+        "quote": "3976 Marshfield Dr, Houston, TX 77006",
+        "checked_at": "2026-10-28T05:57:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/contact",
+        "quote": "Houston, TX 77006",
+        "checked_at": "2026-10-28T05:57:13Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0149",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+        "quote": "(713) 555-0149",
+        "checked_at": "2026-10-28T05:57:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "(713) 555-0149",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/contact",
+        "quote": "Phone: (713) 555-0149",
+        "checked_at": "2026-10-28T05:57:13Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Zora Calloway",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/about",
+        "quote": "Zora Calloway founded The Ashgrove at Avondale in 2020.",
+        "note": "Founder who still runs it day to day; treated as owner.",
+        "checked_at": "2026-10-28T05:57:12Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 190,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+        "quote": "190 guests",
+        "note": "Listed under 'Max occupancy (fire marshal)'.",
+        "checked_at": "2026-10-28T05:57:10Z",
+        "quote_found": true
+      },
+      {
+        "value": 190,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+        "quote": "Hosts up to 190 guests.",
+        "checked_at": "2026-10-28T05:57:11Z",
+        "quote_found": true
+      },
+      {
+        "value": 190,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+        "quote": "Capacity: 190 guests.",
+        "checked_at": "2026-10-28T05:57:12Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 7900,
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+        "quote": "Event rental (up to 6 hours): $7,900",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:57:12Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:57:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:57:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:57:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:57:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:57:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:57:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:57:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:57:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+        "quote": "Street parking and nearby paid lots only.",
+        "note": "No dedicated lot; street and nearby paid lots only.",
+        "checked_at": "2026-10-28T05:57:12Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 104 reviews",
+        "checked_at": "2026-10-28T05:57:10Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 104,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 104 reviews",
+        "checked_at": "2026-10-28T05:57:10Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday-Friday each 10:00 AM - 6:00 PM; Sunday Closed. Quote shows Saturday only.",
+        "checked_at": "2026-10-28T05:57:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday-Friday each 10:00 AM to 6:00 PM; Sunday Closed. Same as listing.",
+        "checked_at": "2026-10-28T05:57:13Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [
+    {
+      "flag": "lookalike_ambiguity",
+      "reason": "The VENDOR block lists a near-identical name, Avondale Ash Grove (Austin). All pages fetched are for The Ashgrove at Avondale (Houston, 77006), which matches the Montrose, Houston hint, so the Houston listing appears to be the one meant.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+      "quote": "The Ashgrove at Avondale - Event venue - Houston, TX",
+      "checked_at": "2026-10-28T05:57:10Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages: none states an area served."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: vendor is a venue."
+    }
+  ],
+  "match_notes": [
+    "listing name 'The Ashgrove at Avondale' differs from vendors.csv name 'Ash Grove at Avondale'",
+    "near-identical names: Avondale Ash Grove (Austin)"
+  ],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:57:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77006",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77006",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+          "quote": "3976 Marshfield Dr, Houston, TX 77006",
+          "checked_at": "2026-10-28T05:57:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 3,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Zora Calloway",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Zora Calloway",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/about",
+          "quote": "Zora Calloway founded The Ashgrove at Avondale in 2020.",
+          "checked_at": "2026-10-28T05:57:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0149",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0149",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+          "quote": "(713) 555-0149",
+          "checked_at": "2026-10-28T05:57:10Z",
+          "quote_found": true
+        },
+        {
+          "value": "(713) 555-0149",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/contact",
+          "quote": "Phone: (713) 555-0149",
+          "checked_at": "2026-10-28T05:57:13Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "3976 Marshfield Dr, Houston, TX 77006",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "3976 Marshfield Dr, Houston, TX 77006",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+          "quote": "3976 Marshfield Dr, Houston, TX 77006",
+          "checked_at": "2026-10-28T05:57:10Z",
+          "quote_found": true
+        },
+        {
+          "value": "3976 Marshfield Dr, Houston, TX 77006",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/contact",
+          "quote": "3976 Marshfield Dr\nHouston, TX 77006",
+          "checked_at": "2026-10-28T05:57:13Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 190,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 190,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+          "quote": "190 guests",
+          "checked_at": "2026-10-28T05:57:10Z",
+          "quote_found": true
+        },
+        {
+          "value": 190,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+          "quote": "Hosts up to 190 guests.",
+          "checked_at": "2026-10-28T05:57:11Z",
+          "quote_found": true
+        },
+        {
+          "value": 190,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+          "quote": "Capacity: 190 guests.",
+          "checked_at": "2026-10-28T05:57:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 7900,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 7900,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+          "quote": "Event rental (up to 6 hours): $7,900",
+          "checked_at": "2026-10-28T05:57:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "in_house_av",
+        "indoor",
+        "outside_catering"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:57:11Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:57:12Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:57:11Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:57:12Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:57:11Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:57:12Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:57:11Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:57:12Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+              "quote": "Street parking and nearby paid lots only.",
+              "checked_at": "2026-10-28T05:57:12Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 104 reviews",
+          "checked_at": "2026-10-28T05:57:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 104,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 104,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 104 reviews",
+          "checked_at": "2026-10-28T05:57:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "lookalike_ambiguity",
+        "reason": "The VENDOR block lists a near-identical name, Avondale Ash Grove (Austin). All pages fetched are for The Ashgrove at Avondale (Houston, 77006), which matches the Montrose, Houston hint, so the Houston listing appears to be the one meant.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+        "by": "model"
+      }
+    ]
+  }
+}

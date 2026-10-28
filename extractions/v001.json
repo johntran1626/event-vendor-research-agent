@@ -1,0 +1,690 @@
+{
+  "vendor_id": "v001",
+  "vendor_name": "Lemongrass & Lime Catering",
+  "category": "caterer",
+  "slug": "lemongrass-and-lime-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0820562,
+    "duration_ms": 27911,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7757,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 5054,
+      "output_tokens_details": {
+        "thinking_tokens": 1336
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7757,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 5054,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7757,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7757
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "33b3a378-9c65-4347-bc6e-43091c1f4df1",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "3784 Amberwood Ct, Houston, TX 77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+        "quote": "3784 Amberwood Ct, Houston, TX 77003",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "3784 Amberwood Ct, Houston, TX 77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/contact",
+        "quote": "3784 Amberwood Ct",
+        "note": "Street line; the next line of the page reads 'Houston, TX 77003'.",
+        "checked_at": "2026-10-28T05:50:24Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+        "quote": "Houston, TX 77003",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/contact",
+        "quote": "Houston, TX 77003",
+        "checked_at": "2026-10-28T05:50:24Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0148",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+        "quote": "(832) 555-0148",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "832.555.0148",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/contact",
+        "quote": "Phone: 832.555.0148",
+        "note": "Same number, written with dots.",
+        "checked_at": "2026-10-28T05:50:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "832.555.0148",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+        "quote": "Call 832.555.0148 to get a quote.",
+        "note": "Same number, written with dots.",
+        "checked_at": "2026-10-28T05:50:22Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Avery Ashford",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/about",
+        "quote": "Avery Ashford founded Lemongrass & Lime Catering in 2019. Avery still runs it day to day",
+        "note": "Named as founder who still runs the business; the page does not use the word 'owner'.",
+        "checked_at": "2026-10-28T05:50:23Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 180,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+        "quote": "180 guests",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      },
+      {
+        "value": 180,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+        "quote": "We cater events of up to 180 guests.",
+        "checked_at": "2026-10-28T05:50:22Z",
+        "quote_found": true
+      },
+      {
+        "value": 180,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+        "quote": "Largest event: 180 guests.",
+        "checked_at": "2026-10-28T05:50:23Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 62,
+        "unit": "per person",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+        "quote": "Dinner service: $62 per person.",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:50:23Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+        "quote": "Buffet service",
+        "checked_at": "2026-10-28T05:50:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:50:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "checked_at": "2026-10-28T05:50:23Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+        "quote": "Vegetarian menu.",
+        "checked_at": "2026-10-28T05:50:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+        "quote": "Vegetarian menu",
+        "checked_at": "2026-10-28T05:50:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+        "quote": "Vegan menu.",
+        "checked_at": "2026-10-28T05:50:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "offered": true,
+        "cannot_guarantee": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+        "quote": "We can't promise a fully vegan plate.",
+        "note": "Same page also lists 'Vegan menu' and says 'Most of our sauces start with chicken stock or butter, including the ones on our vegan menu.'",
+        "checked_at": "2026-10-28T05:50:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "offered": true,
+        "cannot_guarantee": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/lemongrass-and-lime-catering",
+        "quote": "they admitted the vegan menu isn't really vegan",
+        "note": "Review by Kevin P., Jul 27, 2026: vegan noodles came with fish sauce and curry had chicken stock.",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "offered": true,
+        "cannot_guarantee": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/lemongrass-and-lime-catering",
+        "quote": "the kitchen can't keep vegan dishes separate",
+        "note": "Review by Marcus E., Apr 14, 2026.",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+        "quote": "Nut-free meals prepared separately.",
+        "checked_at": "2026-10-28T05:50:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+        "quote": "Nut-free meals prepared separately",
+        "checked_at": "2026-10-28T05:50:23Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 109 reviews",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 109,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 109 reviews",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Monday-Friday 9:00 AM - 5:00 PM; Saturday 9:00 AM - 1:00 PM; Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+        "quote": "9:00 AM - 5:00 PM",
+        "note": "Listed one day at a time; Monday to Friday 9:00 AM - 5:00 PM, Saturday 9:00 AM - 1:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "Monday-Friday 9:00 AM to 5:00 PM; Saturday 9:00 AM to 1:00 PM; Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/contact",
+        "quote": "9:00 AM to 5:00 PM",
+        "note": "Office hours listed one day at a time; Saturday 9:00 AM to 1:00 PM, Sunday Closed. Matches the listing.",
+        "checked_at": "2026-10-28T05:50:24Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:50:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:50:22Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "dietary (vegan)",
+      "description": "The home page and packages page list a 'Vegan menu', but the packages page says its sauces on the vegan menu start with chicken stock or butter and it can't promise a fully vegan plate. Two reviews (Kevin P., Jul 27, 2026; Marcus E., Apr 14, 2026) say the vegan menu is not truly vegan or the kitchen can't keep vegan dishes separate.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+        "https://vendors-r1.lab.zappstudios.us/reviews/lemongrass-and-lime-catering"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "dietary_conflict",
+      "reason": "The vendor advertises a vegan menu, but its own packages page says it can't promise a fully vegan plate, and two reviews say the vegan food was not vegan.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+      "quote": "We can't promise a fully vegan plate.",
+      "checked_at": "2026-10-28T05:50:23Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "dietary gluten_free",
+      "checked": "Listing, reviews, Instagram page, home, packages, about and contact pages: none mention gluten-free."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:50:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77003",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77003",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+          "quote": "Houston, TX 77003",
+          "checked_at": "2026-10-28T05:50:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 2,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Avery Ashford",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Avery Ashford",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/about",
+          "quote": "Avery Ashford founded Lemongrass & Lime Catering in 2019. Avery still runs it day to day",
+          "checked_at": "2026-10-28T05:50:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0148",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0148",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+          "quote": "(832) 555-0148",
+          "checked_at": "2026-10-28T05:50:21Z",
+          "quote_found": true
+        },
+        {
+          "value": "832.555.0148",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/contact",
+          "quote": "Phone: 832.555.0148",
+          "checked_at": "2026-10-28T05:50:24Z",
+          "quote_found": true
+        },
+        {
+          "value": "832.555.0148",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+          "quote": "Call 832.555.0148 to get a quote.",
+          "checked_at": "2026-10-28T05:50:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "3784 Amberwood Ct, Houston, TX 77003",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "3784 Amberwood Ct, Houston, TX 77003",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+          "quote": "3784 Amberwood Ct, Houston, TX 77003",
+          "checked_at": "2026-10-28T05:50:21Z",
+          "quote_found": true
+        },
+        {
+          "value": "3784 Amberwood Ct, Houston, TX 77003",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/contact",
+          "quote": "3784 Amberwood Ct",
+          "checked_at": "2026-10-28T05:50:24Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 180,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 180,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+          "quote": "180 guests",
+          "checked_at": "2026-10-28T05:50:21Z",
+          "quote_found": true
+        },
+        {
+          "value": 180,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+          "quote": "We cater events of up to 180 guests.",
+          "checked_at": "2026-10-28T05:50:22Z",
+          "quote_found": true
+        },
+        {
+          "value": 180,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+          "quote": "Largest event: 180 guests.",
+          "checked_at": "2026-10-28T05:50:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 62,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 62,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+          "quote": "Dinner service: $62 per person.",
+          "checked_at": "2026-10-28T05:50:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "onsite_staff"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:50:23Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:50:23Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:50:23Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "nut_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:50:22Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:50:23Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegan": {
+          "offered": true,
+          "met": false,
+          "conflict": true,
+          "sources": [
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+              "quote": "Vegan menu.",
+              "checked_at": "2026-10-28T05:50:22Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+              "quote": "We can't promise a fully vegan plate.",
+              "checked_at": "2026-10-28T05:50:23Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": true,
+              "note": "Same page also lists 'Vegan menu' and says 'Most of our sauces start with chicken stock or butter, including the ones on our vegan menu.'"
+            },
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/lemongrass-and-lime-catering",
+              "quote": "they admitted the vegan menu isn't really vegan",
+              "checked_at": "2026-10-28T05:50:21Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": true,
+              "note": "Review by Kevin P., Jul 27, 2026: vegan noodles came with fish sauce and curry had chicken stock."
+            },
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/lemongrass-and-lime-catering",
+              "quote": "the kitchen can't keep vegan dishes separate",
+              "checked_at": "2026-10-28T05:50:21Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": true,
+              "note": "Review by Marcus E., Apr 14, 2026."
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:50:22Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:50:23Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 109 reviews",
+          "checked_at": "2026-10-28T05:50:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 109,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 109,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lemongrass-and-lime-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 109 reviews",
+          "checked_at": "2026-10-28T05:50:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "dietary_conflict",
+        "reason": "The vendor advertises a vegan menu, but its own packages page says it can't promise a fully vegan plate, and two reviews say the vegan food was not vegan.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lemongrass-and-lime-catering/packages",
+        "by": "model"
+      }
+    ]
+  }
+}

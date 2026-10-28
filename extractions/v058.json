@@ -1,0 +1,546 @@
+{
+  "vendor_id": "v058",
+  "vendor_name": "Starling Hall",
+  "category": "venue",
+  "slug": "starling-hall",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0570882,
+    "duration_ms": 13168,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7880,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2508,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7880,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2508,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7880,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7880
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "f066cf1b-673d-46b9-8d51-b3e58a40fbef",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:54:21Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "9410 Osprey Landing Dr, Houston, TX 77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+        "quote": "9410 Osprey Landing Dr, Houston, TX 77008",
+        "checked_at": "2026-10-28T05:54:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "9410 Osprey Landing Dr, Houston, TX 77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/contact",
+        "quote": "9410 Osprey Landing Dr\nHouston, TX 77008",
+        "checked_at": "2026-10-28T05:54:24Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+        "quote": "Houston, TX 77008",
+        "checked_at": "2026-10-28T05:54:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/contact",
+        "quote": "Houston, TX 77008",
+        "checked_at": "2026-10-28T05:54:24Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0142",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+        "quote": "(832) 555-0142",
+        "checked_at": "2026-10-28T05:54:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0142",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/",
+        "quote": "Call 832-555-0142 to schedule a tour.",
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0142",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/contact",
+        "quote": "Phone: 832-555-0142",
+        "checked_at": "2026-10-28T05:54:24Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Jolene Nwosu",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/starlinghall",
+        "quote": "Owner Jolene Nwosu.",
+        "checked_at": "2026-10-28T05:54:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "Jolene Nwosu",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/about",
+        "quote": "Jolene Nwosu founded Starling Hall in 2009. Jolene still runs it day to day",
+        "note": "Founder who runs it day to day; the page does not use the word owner.",
+        "checked_at": "2026-10-28T05:54:24Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 150,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+        "quote": "Max occupancy (fire marshal)\n\n150 guests",
+        "kind": "fire_marshal",
+        "checked_at": "2026-10-28T05:54:21Z",
+        "quote_found": true
+      },
+      {
+        "value": 150,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/",
+        "quote": "Hosts up to 150 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      },
+      {
+        "value": 150,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+        "quote": "Capacity: 150 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 6400,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "note": "Quote line: \"Event rental (up to 6 hours): $6,400\". Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+        "quote": "No in-house AV. Bring your own or rent it.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:54:23Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 76 reviews",
+        "checked_at": "2026-10-28T05:54:21Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 76,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 76 reviews",
+        "checked_at": "2026-10-28T05:54:21Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday to Friday 10:00 AM - 6:00 PM, Sunday Closed, as listed.",
+        "checked_at": "2026-10-28T05:54:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday to Friday 10:00 AM to 6:00 PM, Sunday Closed. Same as listing.",
+        "checked_at": "2026-10-28T05:54:24Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages. None state an area served. Home and Instagram only say the venue is in The Heights, Houston."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:54:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77008",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+          "quote": "Houston, TX 77008",
+          "checked_at": "2026-10-28T05:54:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 5,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Jolene Nwosu",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Jolene Nwosu",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/starlinghall",
+          "quote": "Owner Jolene Nwosu.",
+          "checked_at": "2026-10-28T05:54:22Z",
+          "quote_found": true
+        },
+        {
+          "value": "Jolene Nwosu",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/about",
+          "quote": "Jolene Nwosu founded Starling Hall in 2009. Jolene still runs it day to day",
+          "checked_at": "2026-10-28T05:54:24Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0142",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0142",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+          "quote": "(832) 555-0142",
+          "checked_at": "2026-10-28T05:54:21Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0142",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/",
+          "quote": "Call 832-555-0142 to schedule a tour.",
+          "checked_at": "2026-10-28T05:54:23Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0142",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/contact",
+          "quote": "Phone: 832-555-0142",
+          "checked_at": "2026-10-28T05:54:24Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "9410 Osprey Landing Dr, Houston, TX 77008",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "9410 Osprey Landing Dr, Houston, TX 77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+          "quote": "9410 Osprey Landing Dr, Houston, TX 77008",
+          "checked_at": "2026-10-28T05:54:21Z",
+          "quote_found": true
+        },
+        {
+          "value": "9410 Osprey Landing Dr, Houston, TX 77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/contact",
+          "quote": "9410 Osprey Landing Dr\nHouston, TX 77008",
+          "checked_at": "2026-10-28T05:54:24Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 150,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 150,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+          "quote": "Max occupancy (fire marshal)\n\n150 guests",
+          "checked_at": "2026-10-28T05:54:21Z",
+          "quote_found": true
+        },
+        {
+          "value": 150,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/",
+          "quote": "Hosts up to 150 guests.",
+          "checked_at": "2026-10-28T05:54:23Z",
+          "quote_found": true
+        },
+        {
+          "value": 150,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+          "quote": "Capacity: 150 guests.",
+          "checked_at": "2026-10-28T05:54:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 6400,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 6400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:54:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "indoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+              "quote": "No in-house AV. Bring your own or rent it.",
+              "checked_at": "2026-10-28T05:54:23Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:23Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:23Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:23Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:23Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:23Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/starling-hall/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:23Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 76 reviews",
+          "checked_at": "2026-10-28T05:54:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 76,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 76,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/starling-hall",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 76 reviews",
+          "checked_at": "2026-10-28T05:54:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

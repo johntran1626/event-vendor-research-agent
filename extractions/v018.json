@@ -1,0 +1,553 @@
+{
+  "vendor_id": "v018",
+  "vendor_name": "Boudin Brothers Catering",
+  "category": "caterer",
+  "slug": "boudin-brothers-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.054482199999999995,
+    "duration_ms": 15214,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 6631,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2747,
+      "output_tokens_details": {
+        "thinking_tokens": 589
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 6631,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2747,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 6631,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 6631
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "59ec83aa-4599-4c93-b7d2-1b6dcda021dd",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:51:29Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2571 Wicklow Park Dr, Baytown, TX 77520",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+        "quote": "2571 Wicklow Park Dr, Baytown, TX 77520",
+        "checked_at": "2026-10-28T05:51:29Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77520",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+        "quote": "2571 Wicklow Park Dr, Baytown, TX 77520",
+        "checked_at": "2026-10-28T05:51:29Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0110",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+        "quote": "(281) 555-0110",
+        "checked_at": "2026-10-28T05:51:29Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Delia Bautista",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Owner Delia Bautista.",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 490,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+        "quote": "490 guests",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:51:29Z",
+        "quote_found": true
+      },
+      {
+        "value": 490,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Events up to 490 guests.",
+        "note": "Phrased as 'up to', so classed as marketing; it matches the listing's largest event served.",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 94,
+        "unit": "per person",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Dinner service $94 per person.",
+        "note": "The listing page publishes no price.",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Buffet service",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "plated",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Plated dinners",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Bartending and bar service (TABC certified)",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Vegetarian menu",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Vegan menu",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Gluten-free menu",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+        "quote": "Nut-free meals prepared separately",
+        "note": "Caterer states nut-free meals are prepared separately; no page says it cannot be guaranteed.",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/boudin-brothers-catering",
+        "quote": "They handled our vegetarian guests really well.",
+        "note": "Review by Brittany D., Nov 30, 2025.",
+        "checked_at": "2026-10-28T05:51:30Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+        "quote": "4 \u2605\u2605\u2605\u2605\u2606 106 reviews",
+        "checked_at": "2026-10-28T05:51:29Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 106,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+        "quote": "4 \u2605\u2605\u2605\u2605\u2606 106 reviews",
+        "checked_at": "2026-10-28T05:51:29Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+        "quote": "Saturday\n\n9:00 AM - 1:00 PM",
+        "note": "Listing gives Monday through Friday 9:00 AM - 5:00 PM, Saturday 9:00 AM - 1:00 PM, Sunday Closed, one day at a time.",
+        "checked_at": "2026-10-28T05:51:29Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:51:29Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:51:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77520",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77520",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+          "quote": "2571 Wicklow Park Dr, Baytown, TX 77520",
+          "checked_at": "2026-10-28T05:51:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 25,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Delia Bautista",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Delia Bautista",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+          "quote": "Owner Delia Bautista.",
+          "checked_at": "2026-10-28T05:51:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0110",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0110",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+          "quote": "(281) 555-0110",
+          "checked_at": "2026-10-28T05:51:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "2571 Wicklow Park Dr, Baytown, TX 77520",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2571 Wicklow Park Dr, Baytown, TX 77520",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+          "quote": "2571 Wicklow Park Dr, Baytown, TX 77520",
+          "checked_at": "2026-10-28T05:51:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 490,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 490,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+          "quote": "490 guests",
+          "checked_at": "2026-10-28T05:51:29Z",
+          "quote_found": true
+        },
+        {
+          "value": 490,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+          "quote": "Events up to 490 guests.",
+          "checked_at": "2026-10-28T05:51:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 94,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 94,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+          "quote": "Dinner service $94 per person.",
+          "checked_at": "2026-10-28T05:51:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "onsite_staff",
+        "plated"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:51:30Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:51:30Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:51:30Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:51:30Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "nut_free",
+        "vegan",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:51:30Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:51:30Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Caterer states nut-free meals are prepared separately; no page says it cannot be guaranteed."
+            }
+          ]
+        },
+        "vegan": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+              "quote": "Vegan menu",
+              "checked_at": "2026-10-28T05:51:30Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/boudinbrotherscate",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:51:30Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/boudin-brothers-catering",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:51:30Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review by Brittany D., Nov 30, 2025."
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+          "quote": "4 \u2605\u2605\u2605\u2605\u2606 106 reviews",
+          "checked_at": "2026-10-28T05:51:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 106,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 106,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/boudin-brothers-catering",
+          "quote": "4 \u2605\u2605\u2605\u2605\u2606 106 reviews",
+          "checked_at": "2026-10-28T05:51:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

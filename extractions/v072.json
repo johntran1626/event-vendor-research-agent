@@ -1,0 +1,580 @@
+{
+  "vendor_id": "v072",
+  "vendor_name": "Bluebird Table Catering",
+  "category": "caterer",
+  "slug": "bluebird-table-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.058618199999999995,
+    "duration_ms": 16744,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7690,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2737,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7690,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2737,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7690,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7690
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "4d966206-db49-4f25-bbba-9a2bf05f118a",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:55:25Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "805 Sandstone Ridge Rd, Houston, TX 77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+        "quote": "805 Sandstone Ridge Rd, Houston, TX 77008",
+        "checked_at": "2026-10-28T05:55:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "805 Sandstone Ridge Rd, Houston, TX 77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/contact",
+        "quote": "805 Sandstone Ridge Rd\nHouston, TX 77008",
+        "checked_at": "2026-10-28T05:55:27Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+        "quote": "Houston, TX 77008",
+        "checked_at": "2026-10-28T05:55:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/contact",
+        "quote": "Houston, TX 77008",
+        "checked_at": "2026-10-28T05:55:27Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0118",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+        "quote": "(832) 555-0118",
+        "checked_at": "2026-10-28T05:55:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0118",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/contact",
+        "quote": "Phone: (832) 555-0118",
+        "checked_at": "2026-10-28T05:55:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0118",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/",
+        "quote": "Call (832) 555-0118 to get a quote.",
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Stellan Zamora",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/about",
+        "quote": "Stellan Zamora founded Bluebird Table Catering in 2008. Stellan still runs it day to day",
+        "note": "Named as founder who still runs the business day to day; ownership is implied by founding and running it, not stated explicitly as 'owner'.",
+        "checked_at": "2026-10-28T05:55:27Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 220,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+        "quote": "220 guests",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:55:25Z",
+        "quote_found": true
+      },
+      {
+        "value": 220,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/",
+        "quote": "We cater events of up to 220 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      },
+      {
+        "value": 220,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "quote": "Largest event: 220 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 77,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "quote": "Dinner service: $77 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "plated",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "quote": "Plated dinners",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/",
+        "quote": "Gluten-free menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "quote": "Gluten-free menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 118 reviews",
+        "checked_at": "2026-10-28T05:55:25Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 118,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+        "quote": "118 reviews",
+        "checked_at": "2026-10-28T05:55:25Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+        "quote": "Saturday\n\n9:00 AM - 1:00 PM",
+        "note": "Monday to Friday each 9:00 AM - 5:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:55:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/contact",
+        "quote": "Saturday\n\n9:00 AM to 1:00 PM",
+        "note": "Office hours. Monday to Friday each 9:00 AM to 5:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:55:27Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:55:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:55:26Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "features: indoor/outdoor, in_house_av, outside_catering, buffet, drop_off, etc.",
+      "checked": "Listing, reviews, home, packages, about and contact pages state only plated, onsite_staff and bar_service."
+    },
+    {
+      "field": "dietary: vegan, nut_free",
+      "checked": "No page mentions vegan or nut-free options; reviews do not mention dietary problems."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:55:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77008",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+          "quote": "Houston, TX 77008",
+          "checked_at": "2026-10-28T05:55:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 5,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Stellan Zamora",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Stellan Zamora",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/about",
+          "quote": "Stellan Zamora founded Bluebird Table Catering in 2008. Stellan still runs it day to day",
+          "checked_at": "2026-10-28T05:55:27Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0118",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0118",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+          "quote": "(832) 555-0118",
+          "checked_at": "2026-10-28T05:55:25Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0118",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/contact",
+          "quote": "Phone: (832) 555-0118",
+          "checked_at": "2026-10-28T05:55:27Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0118",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/",
+          "quote": "Call (832) 555-0118 to get a quote.",
+          "checked_at": "2026-10-28T05:55:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "805 Sandstone Ridge Rd, Houston, TX 77008",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "805 Sandstone Ridge Rd, Houston, TX 77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+          "quote": "805 Sandstone Ridge Rd, Houston, TX 77008",
+          "checked_at": "2026-10-28T05:55:25Z",
+          "quote_found": true
+        },
+        {
+          "value": "805 Sandstone Ridge Rd, Houston, TX 77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/contact",
+          "quote": "805 Sandstone Ridge Rd\nHouston, TX 77008",
+          "checked_at": "2026-10-28T05:55:27Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 220,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 220,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+          "quote": "220 guests",
+          "checked_at": "2026-10-28T05:55:25Z",
+          "quote_found": true
+        },
+        {
+          "value": 220,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/",
+          "quote": "We cater events of up to 220 guests.",
+          "checked_at": "2026-10-28T05:55:26Z",
+          "quote_found": true
+        },
+        {
+          "value": 220,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+          "quote": "Largest event: 220 guests.",
+          "checked_at": "2026-10-28T05:55:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 77,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 77,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+          "quote": "Dinner service: $77 per person.",
+          "checked_at": "2026-10-28T05:55:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "onsite_staff",
+        "plated"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:55:26Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:55:26Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:55:26Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:55:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:55:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:55:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:55:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 118 reviews",
+          "checked_at": "2026-10-28T05:55:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 118,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 118,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+          "quote": "118 reviews",
+          "checked_at": "2026-10-28T05:55:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

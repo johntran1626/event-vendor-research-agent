@@ -1,0 +1,621 @@
+{
+  "vendor_id": "v087",
+  "vendor_name": "Pinnacle Party Rentals",
+  "category": "rental",
+  "slug": "pinnacle-party-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0760402,
+    "duration_ms": 23115,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8403,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4194,
+      "output_tokens_details": {
+        "thinking_tokens": 1114
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8403,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4194,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8403,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8403
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "39230cdd-f11d-4cec-b5ec-9de9bcdb4c0b",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:56:29Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "9766 Gristmill Ln, Houston, TX 77096",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+        "quote": "9766 Gristmill Ln, Houston, TX 77096",
+        "checked_at": "2026-10-28T05:56:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "9766 Gristmill Ln, Houston, TX 77096",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/contact",
+        "quote": "9766 Gristmill Ln",
+        "checked_at": "2026-10-28T05:56:32Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77096",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+        "quote": "Houston, TX 77096",
+        "checked_at": "2026-10-28T05:56:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "77096",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/contact",
+        "quote": "Houston, TX 77096",
+        "checked_at": "2026-10-28T05:56:32Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0192",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+        "quote": "(832) 555-0192",
+        "checked_at": "2026-10-28T05:56:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0192",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/contact",
+        "quote": "Phone: 832-555-0192",
+        "checked_at": "2026-10-28T05:56:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0192",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+        "quote": "Call 832-555-0192 to get a quote.",
+        "checked_at": "2026-10-28T05:56:30Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Rosalind Broussard",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/pinnaclepartyrenta",
+        "quote": "Owner Rosalind Broussard.",
+        "checked_at": "2026-10-28T05:56:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "Rosalind Broussard",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/about",
+        "quote": "Rosalind Broussard founded Pinnacle Party Rentals in 2012.",
+        "note": "Founder who still runs the business day to day; the page does not use the word owner.",
+        "checked_at": "2026-10-28T05:56:31Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 330,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+        "quote": "330 guests",
+        "kind": "seating",
+        "note": "Listed under 'Seats up to'.",
+        "checked_at": "2026-10-28T05:56:29Z",
+        "quote_found": true
+      },
+      {
+        "value": 330,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+        "quote": "We can seat up to 330 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:56:30Z",
+        "quote_found": true
+      },
+      {
+        "value": 330,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+        "quote": "Inventory: seating for up to 330 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:56:31Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 12,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $12",
+        "current": true,
+        "unit": "per guest",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:56:31Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:31Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+        "quote": "Table linens and napkins",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+        "quote": "Table linens and napkins",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:31Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:31Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:31Z",
+        "quote_found": true
+      },
+      {
+        "value": "heaters",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+        "quote": "Patio heaters",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:31Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.2,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+        "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 162 reviews",
+        "checked_at": "2026-10-28T05:56:29Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 162,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+        "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 162 reviews",
+        "checked_at": "2026-10-28T05:56:29Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+        "quote": "8:00 AM - 12:00 PM",
+        "note": "Quote is the Saturday line. Monday to Friday each read '8:00 AM - 5:00 PM'; Sunday reads 'Closed'.",
+        "checked_at": "2026-10-28T05:56:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/contact",
+        "quote": "8:00 AM to 12:00 PM",
+        "note": "Quote is the Saturday line. Monday to Friday each read '8:00 AM to 5:00 PM'; Sunday reads 'Closed'. Same hours as the listing.",
+        "checked_at": "2026-10-28T05:56:32Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Meyerland, Bellaire and the Galleria area",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+        "quote": "Meyerland, Bellaire and the Galleria area",
+        "checked_at": "2026-10-28T05:56:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "All of Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+        "quote": "We serve all of Greater Houston.",
+        "checked_at": "2026-10-28T05:56:30Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "service_area",
+      "description": "The listing says the vendor serves Meyerland, Bellaire and the Galleria area. The vendor's own website says it serves all of Greater Houston.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+        "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "service_area_conflict",
+      "reason": "The listing limits the service area to Meyerland, Bellaire and the Galleria area. The website claims all of Greater Houston.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+      "quote": "We serve all of Greater Houston.",
+      "checked_at": "2026-10-28T05:56:30Z"
+    }
+  ],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:56:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77096",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77096",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+          "quote": "Houston, TX 77096",
+          "checked_at": "2026-10-28T05:56:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 11,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Rosalind Broussard",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Rosalind Broussard",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/pinnaclepartyrenta",
+          "quote": "Owner Rosalind Broussard.",
+          "checked_at": "2026-10-28T05:56:30Z",
+          "quote_found": true
+        },
+        {
+          "value": "Rosalind Broussard",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/about",
+          "quote": "Rosalind Broussard founded Pinnacle Party Rentals in 2012.",
+          "checked_at": "2026-10-28T05:56:31Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0192",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0192",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+          "quote": "(832) 555-0192",
+          "checked_at": "2026-10-28T05:56:29Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0192",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/contact",
+          "quote": "Phone: 832-555-0192",
+          "checked_at": "2026-10-28T05:56:32Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0192",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+          "quote": "Call 832-555-0192 to get a quote.",
+          "checked_at": "2026-10-28T05:56:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "9766 Gristmill Ln, Houston, TX 77096",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "9766 Gristmill Ln, Houston, TX 77096",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+          "quote": "9766 Gristmill Ln, Houston, TX 77096",
+          "checked_at": "2026-10-28T05:56:29Z",
+          "quote_found": true
+        },
+        {
+          "value": "9766 Gristmill Ln, Houston, TX 77096",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/contact",
+          "quote": "9766 Gristmill Ln",
+          "checked_at": "2026-10-28T05:56:32Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 330,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 330,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+          "quote": "330 guests",
+          "checked_at": "2026-10-28T05:56:29Z",
+          "quote_found": true
+        },
+        {
+          "value": 330,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+          "quote": "We can seat up to 330 guests.",
+          "checked_at": "2026-10-28T05:56:30Z",
+          "quote_found": true
+        },
+        {
+          "value": 330,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+          "quote": "Inventory: seating for up to 330 guests.",
+          "checked_at": "2026-10-28T05:56:31Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 12,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 12,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+          "quote": "Full setup per guest (table, chair and linen): $12",
+          "checked_at": "2026-10-28T05:56:31Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "heaters",
+        "linens",
+        "tables",
+        "tents"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:56:30Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:56:31Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "heaters": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "heaters",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+              "quote": "Patio heaters",
+              "checked_at": "2026-10-28T05:56:31Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:56:30Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:56:31Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:56:30Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:56:31Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tents": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:56:30Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/packages",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:56:31Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.2,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.2,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+          "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 162 reviews",
+          "checked_at": "2026-10-28T05:56:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 162,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 162,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pinnacle-party-rentals",
+          "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 162 reviews",
+          "checked_at": "2026-10-28T05:56:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "service_area_conflict",
+        "reason": "The listing limits the service area to Meyerland, Bellaire and the Galleria area. The website claims all of Greater Houston.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pinnacle-party-rentals/",
+        "by": "model"
+      }
+    ]
+  }
+}

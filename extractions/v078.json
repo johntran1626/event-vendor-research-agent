@@ -1,0 +1,619 @@
+{
+  "vendor_id": "v078",
+  "vendor_name": "Two Sisters Catering",
+  "category": "caterer",
+  "slug": "two-sisters-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0758102,
+    "duration_ms": 25786,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7693,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4455,
+      "output_tokens_details": {
+        "thinking_tokens": 1420
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7693,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4455,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7693,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7693
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "e3036eaf-151e-4de8-9815-c1f52376a0b1",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "7473 Verbena Crossing, Humble, TX 77338",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "7473 Verbena Crossing, Humble, TX 77338",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "7473 Verbena Crossing, Humble, TX 77338",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/contact",
+        "quote": "7473 Verbena Crossing",
+        "note": "Street line; the next line of the page reads 'Humble, TX 77338'.",
+        "checked_at": "2026-10-28T05:55:53Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77338",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "Humble, TX 77338",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "77338",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/contact",
+        "quote": "Humble, TX 77338",
+        "checked_at": "2026-10-28T05:55:53Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0141",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "(281) 555-0141",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0141",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/",
+        "quote": "Call 281.555.0141 to get a quote.",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0141",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/contact",
+        "quote": "Phone: 281.555.0141",
+        "checked_at": "2026-10-28T05:55:53Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Zora Ortega",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/about",
+        "quote": "Zora Ortega founded Two Sisters Catering in 2011. Zora still runs it day to day",
+        "note": "The page says Zora Ortega founded and still runs the business; it does not use the word 'owner'. Reviews and the contact page mention Zora by first name only.",
+        "checked_at": "2026-10-28T05:55:53Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 300,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "300 guests",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+        "quote": "Largest event: 300 guests.",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/",
+        "quote": "We cater events of up to 300 guests.",
+        "note": "'Up to' wording on the home page; same number as the largest-event claims.",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 35,
+        "unit": "per person (dinner service, minimum 25 guests)",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+        "quote": "Dinner service: $35 per person.",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+        "quote": "Buffet service",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/",
+        "quote": "Vegetarian menu.",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/",
+        "quote": "Nut-free meals prepared separately.",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+        "quote": "Vegetarian menu",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+        "quote": "Nut-free meals prepared separately",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "4.7",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 101,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "101 reviews",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Monday-Friday 9:00 AM - 5:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "9:00 AM - 5:00 PM",
+        "note": "Same text repeated for each day Monday through Friday.",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "Saturday 9:00 AM - 1:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "9:00 AM - 1:00 PM",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "Closed",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "Monday-Friday 9:00 AM to 5:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/contact",
+        "quote": "9:00 AM to 5:00 PM",
+        "note": "Same text repeated for each day Monday through Friday (office hours).",
+        "checked_at": "2026-10-28T05:55:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "Saturday 9:00 AM to 1:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/contact",
+        "quote": "9:00 AM to 1:00 PM",
+        "checked_at": "2026-10-28T05:55:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/contact",
+        "quote": "Closed",
+        "checked_at": "2026-10-28T05:55:53Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:55:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:55:52Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "dietary vegan",
+      "checked": "Listing, reviews, home, packages, about and contact pages: no mention of vegan options."
+    },
+    {
+      "field": "dietary gluten_free",
+      "checked": "Listing, reviews, home, packages, about and contact pages: no mention of gluten-free options."
+    },
+    {
+      "field": "features plated, drop_off, outside_catering, and other non-listed features",
+      "checked": "Packages page service styles list only buffet, servers and on-site staff, and bar service; no other page lists service styles."
+    },
+    {
+      "field": "status on the vendor's own site",
+      "checked": "Only the listing states a status (Open); no review or site page says the vendor closed."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:55:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77338",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77338",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+          "quote": "Humble, TX 77338",
+          "checked_at": "2026-10-28T05:55:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 20,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Zora Ortega",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Zora Ortega",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/about",
+          "quote": "Zora Ortega founded Two Sisters Catering in 2011. Zora still runs it day to day",
+          "checked_at": "2026-10-28T05:55:53Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0141",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0141",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+          "quote": "(281) 555-0141",
+          "checked_at": "2026-10-28T05:55:51Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0141",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/",
+          "quote": "Call 281.555.0141 to get a quote.",
+          "checked_at": "2026-10-28T05:55:52Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0141",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/contact",
+          "quote": "Phone: 281.555.0141",
+          "checked_at": "2026-10-28T05:55:53Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "7473 Verbena Crossing, Humble, TX 77338",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "7473 Verbena Crossing, Humble, TX 77338",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+          "quote": "7473 Verbena Crossing, Humble, TX 77338",
+          "checked_at": "2026-10-28T05:55:51Z",
+          "quote_found": true
+        },
+        {
+          "value": "7473 Verbena Crossing, Humble, TX 77338",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/contact",
+          "quote": "7473 Verbena Crossing",
+          "checked_at": "2026-10-28T05:55:53Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 300,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+          "quote": "300 guests",
+          "checked_at": "2026-10-28T05:55:51Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+          "quote": "Largest event: 300 guests.",
+          "checked_at": "2026-10-28T05:55:52Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/",
+          "quote": "We cater events of up to 300 guests.",
+          "checked_at": "2026-10-28T05:55:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 35,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 35,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+          "quote": "Dinner service: $35 per person.",
+          "checked_at": "2026-10-28T05:55:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "onsite_staff"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:55:52Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:55:52Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:55:52Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "nut_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:55:52Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:55:52Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:55:52Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-sisters-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:55:52Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+          "quote": "4.7",
+          "checked_at": "2026-10-28T05:55:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 101,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 101,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-sisters-catering",
+          "quote": "101 reviews",
+          "checked_at": "2026-10-28T05:55:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

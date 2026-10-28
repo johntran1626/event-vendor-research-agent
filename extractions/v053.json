@@ -1,0 +1,532 @@
+{
+  "vendor_id": "v053",
+  "vendor_name": "Clearwater Commons",
+  "category": "venue",
+  "slug": "clearwater-commons",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0563742,
+    "duration_ms": 12837,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7784,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2475,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7784,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2475,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7784,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7784
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "8ac92ee6-ba64-44a1-97aa-42f7f6928a3d",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:59Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "8710 Saltmarsh Way, Webster, TX 77598",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+        "quote": "8710 Saltmarsh Way, Webster, TX 77598",
+        "checked_at": "2026-10-28T05:53:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "8710 Saltmarsh Way, Webster, TX 77598",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/contact",
+        "quote": "8710 Saltmarsh Way\nWebster, TX 77598",
+        "checked_at": "2026-10-28T05:54:02Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77598",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+        "quote": "8710 Saltmarsh Way, Webster, TX 77598",
+        "checked_at": "2026-10-28T05:53:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "77598",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/contact",
+        "quote": "Webster, TX 77598",
+        "checked_at": "2026-10-28T05:54:02Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0123",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+        "quote": "(832) 555-0123",
+        "checked_at": "2026-10-28T05:53:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "832 555 0123",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/contact",
+        "quote": "Phone: 832 555 0123",
+        "checked_at": "2026-10-28T05:54:02Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Delia Ridley",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/clearwatercommons",
+        "quote": "Owner Delia Ridley.",
+        "checked_at": "2026-10-28T05:54:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "Delia Ridley",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/about",
+        "quote": "Delia Ridley founded Clearwater Commons in 2014. Delia still runs it day to day",
+        "note": "Founder who runs it day to day; the page does not use the word owner.",
+        "checked_at": "2026-10-28T05:54:01Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 160,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+        "quote": "Max occupancy (fire marshal)\n\n160 guests",
+        "kind": "fire_marshal",
+        "checked_at": "2026-10-28T05:53:59Z",
+        "quote_found": true
+      },
+      {
+        "value": 160,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/",
+        "quote": "Hosts up to 160 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:00Z",
+        "quote_found": true
+      },
+      {
+        "value": 160,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+        "quote": "Capacity: 160 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:01Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 12200,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "note": "Quote of the rate line: \"Event rental (up to 6 hours): $12,200\". Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:54:01Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:01Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:01Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:01Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+        "quote": "No in-house AV. Bring your own or rent it.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:54:01Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 167 reviews",
+        "checked_at": "2026-10-28T05:53:59Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 167,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 167 reviews",
+        "checked_at": "2026-10-28T05:53:59Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday through Friday each listed as 10:00 AM - 6:00 PM; Sunday: Closed.",
+        "checked_at": "2026-10-28T05:53:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday through Friday each listed as 10:00 AM to 6:00 PM; Sunday: Closed.",
+        "checked_at": "2026-10-28T05:54:02Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "listing, reviews, social, home, packages, about and contact pages: none states an area served (only the venue's Webster location)."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77598",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77598",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+          "quote": "8710 Saltmarsh Way, Webster, TX 77598",
+          "checked_at": "2026-10-28T05:53:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 21,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Delia Ridley",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Delia Ridley",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/clearwatercommons",
+          "quote": "Owner Delia Ridley.",
+          "checked_at": "2026-10-28T05:54:00Z",
+          "quote_found": true
+        },
+        {
+          "value": "Delia Ridley",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/about",
+          "quote": "Delia Ridley founded Clearwater Commons in 2014. Delia still runs it day to day",
+          "checked_at": "2026-10-28T05:54:01Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0123",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0123",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+          "quote": "(832) 555-0123",
+          "checked_at": "2026-10-28T05:53:59Z",
+          "quote_found": true
+        },
+        {
+          "value": "832 555 0123",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/contact",
+          "quote": "Phone: 832 555 0123",
+          "checked_at": "2026-10-28T05:54:02Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "8710 Saltmarsh Way, Webster, TX 77598",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "8710 Saltmarsh Way, Webster, TX 77598",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+          "quote": "8710 Saltmarsh Way, Webster, TX 77598",
+          "checked_at": "2026-10-28T05:53:59Z",
+          "quote_found": true
+        },
+        {
+          "value": "8710 Saltmarsh Way, Webster, TX 77598",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/contact",
+          "quote": "8710 Saltmarsh Way\nWebster, TX 77598",
+          "checked_at": "2026-10-28T05:54:02Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 160,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 160,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+          "quote": "Max occupancy (fire marshal)\n\n160 guests",
+          "checked_at": "2026-10-28T05:53:59Z",
+          "quote_found": true
+        },
+        {
+          "value": 160,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/",
+          "quote": "Hosts up to 160 guests.",
+          "checked_at": "2026-10-28T05:54:00Z",
+          "quote_found": true
+        },
+        {
+          "value": 160,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+          "quote": "Capacity: 160 guests.",
+          "checked_at": "2026-10-28T05:54:01Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 12200,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 12200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:54:01Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "indoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+              "quote": "No in-house AV. Bring your own or rent it.",
+              "checked_at": "2026-10-28T05:54:01Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:00Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:01Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:00Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:01Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:00Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/clearwater-commons/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:01Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 167 reviews",
+          "checked_at": "2026-10-28T05:53:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 167,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 167,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/clearwater-commons",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 167 reviews",
+          "checked_at": "2026-10-28T05:53:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

@@ -1,0 +1,621 @@
+{
+  "vendor_id": "v062",
+  "vendor_name": "Saddlehorn Ranch",
+  "category": "venue",
+  "slug": "saddlehorn-ranch",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.06305820000000001,
+    "duration_ms": 15063,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8115,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3011,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8115,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3011,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8115,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8115
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "c25503bd-3f24-4cdd-b77e-bdc4201f70e3",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:54:39Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "6709 Edgewater Pkwy, Tomball, TX 77375",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "6709 Edgewater Pkwy, Tomball, TX 77375",
+        "checked_at": "2026-10-28T05:54:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "6709 Edgewater Pkwy, Tomball, TX 77375",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/contact",
+        "quote": "6709 Edgewater Pkwy\nTomball, TX 77375",
+        "checked_at": "2026-10-28T05:54:42Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77375",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "Tomball, TX 77375",
+        "checked_at": "2026-10-28T05:54:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "77375",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/contact",
+        "quote": "Tomball, TX 77375",
+        "checked_at": "2026-10-28T05:54:42Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0124",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "(281) 555-0124",
+        "checked_at": "2026-10-28T05:54:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "281 555 0124",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+        "quote": "Call 281 555 0124 to schedule a tour.",
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "281 555 0124",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/contact",
+        "quote": "Phone: 281 555 0124",
+        "checked_at": "2026-10-28T05:54:42Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Stellan Sorensen",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/saddlehornranch",
+        "quote": "Owner Stellan Sorensen.",
+        "checked_at": "2026-10-28T05:54:40Z",
+        "quote_found": true
+      },
+      {
+        "value": "Stellan Sorensen",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/about",
+        "quote": "Stellan Sorensen founded Saddlehorn Ranch in 2017.",
+        "note": "Founder who still runs it day to day.",
+        "checked_at": "2026-10-28T05:54:42Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 350,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "350 guests",
+        "kind": "fire_marshal",
+        "note": "Listed as Max occupancy (fire marshal).",
+        "checked_at": "2026-10-28T05:54:39Z",
+        "quote_found": true
+      },
+      {
+        "value": 350,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+        "quote": "Hosts up to 350 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      },
+      {
+        "value": 350,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+        "quote": "Capacity: 350 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 4900,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+        "quote": "Event rental (up to 6 hours): $4,900",
+        "current": true,
+        "unit": "per event (up to 6 hours)",
+        "note": "Page says \"Current rates for 2026 and 2027 events.\" Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+        "quote": "No in-house AV.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:54:41Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.5,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 68 reviews",
+        "checked_at": "2026-10-28T05:54:39Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 68,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 68 reviews",
+        "checked_at": "2026-10-28T05:54:39Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Monday-Friday 10:00 AM - 6:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "10:00 AM - 6:00 PM",
+        "note": "Listing gives Monday through Friday as 10:00 AM - 6:00 PM, one day at a time.",
+        "checked_at": "2026-10-28T05:54:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "Saturday 10:00 AM - 2:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "10:00 AM - 2:00 PM",
+        "checked_at": "2026-10-28T05:54:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "Closed",
+        "note": "Sunday closed (regular weekly hours, not a closure of the business).",
+        "checked_at": "2026-10-28T05:54:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "Monday-Friday 10:00 AM to 6:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/contact",
+        "quote": "10:00 AM to 6:00 PM",
+        "note": "Office hours, Monday through Friday.",
+        "checked_at": "2026-10-28T05:54:42Z",
+        "quote_found": true
+      },
+      {
+        "value": "Saturday 10:00 AM to 2:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/contact",
+        "quote": "10:00 AM to 2:00 PM",
+        "note": "Office hours.",
+        "checked_at": "2026-10-28T05:54:42Z",
+        "quote_found": true
+      },
+      {
+        "value": "Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/contact",
+        "quote": "Closed",
+        "note": "Office hours.",
+        "checked_at": "2026-10-28T05:54:42Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages. None states an area served."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: venue, not a caterer."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:54:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77375",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77375",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+          "quote": "Tomball, TX 77375",
+          "checked_at": "2026-10-28T05:54:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 29,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Stellan Sorensen",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Stellan Sorensen",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/saddlehornranch",
+          "quote": "Owner Stellan Sorensen.",
+          "checked_at": "2026-10-28T05:54:40Z",
+          "quote_found": true
+        },
+        {
+          "value": "Stellan Sorensen",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/about",
+          "quote": "Stellan Sorensen founded Saddlehorn Ranch in 2017.",
+          "checked_at": "2026-10-28T05:54:42Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0124",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0124",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+          "quote": "(281) 555-0124",
+          "checked_at": "2026-10-28T05:54:39Z",
+          "quote_found": true
+        },
+        {
+          "value": "281 555 0124",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+          "quote": "Call 281 555 0124 to schedule a tour.",
+          "checked_at": "2026-10-28T05:54:41Z",
+          "quote_found": true
+        },
+        {
+          "value": "281 555 0124",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/contact",
+          "quote": "Phone: 281 555 0124",
+          "checked_at": "2026-10-28T05:54:42Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "6709 Edgewater Pkwy, Tomball, TX 77375",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "6709 Edgewater Pkwy, Tomball, TX 77375",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+          "quote": "6709 Edgewater Pkwy, Tomball, TX 77375",
+          "checked_at": "2026-10-28T05:54:39Z",
+          "quote_found": true
+        },
+        {
+          "value": "6709 Edgewater Pkwy, Tomball, TX 77375",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/contact",
+          "quote": "6709 Edgewater Pkwy\nTomball, TX 77375",
+          "checked_at": "2026-10-28T05:54:42Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 350,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 350,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+          "quote": "350 guests",
+          "checked_at": "2026-10-28T05:54:39Z",
+          "quote_found": true
+        },
+        {
+          "value": 350,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+          "quote": "Hosts up to 350 guests.",
+          "checked_at": "2026-10-28T05:54:41Z",
+          "quote_found": true
+        },
+        {
+          "value": 350,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+          "quote": "Capacity: 350 guests.",
+          "checked_at": "2026-10-28T05:54:41Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 4900,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4900,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+          "quote": "Event rental (up to 6 hours): $4,900",
+          "checked_at": "2026-10-28T05:54:41Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "indoor",
+        "outdoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+              "quote": "No in-house AV.",
+              "checked_at": "2026-10-28T05:54:41Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:41Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:41Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outdoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:54:41Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:54:41Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:41Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:41Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:41Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:41Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.5,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.5,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+          "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 68 reviews",
+          "checked_at": "2026-10-28T05:54:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 68,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 68,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+          "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 68 reviews",
+          "checked_at": "2026-10-28T05:54:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

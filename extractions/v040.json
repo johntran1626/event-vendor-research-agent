@@ -1,0 +1,613 @@
+{
+  "vendor_id": "v040",
+  "vendor_name": "Masa Fina Catering",
+  "category": "caterer",
+  "slug": "masa-fina-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.05944220000000001,
+    "duration_ms": 15038,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7971,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2707,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7971,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2707,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7971,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7971
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "65b214ed-dd28-4ac4-8110-d46aab96a3c1",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:05Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "5273 Sandstone Ridge Rd, Houston, TX 77011",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+        "quote": "5273 Sandstone Ridge Rd, Houston, TX 77011",
+        "checked_at": "2026-10-28T05:53:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "5273 Sandstone Ridge Rd, Houston, TX 77011",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/contact",
+        "quote": "5273 Sandstone Ridge Rd",
+        "checked_at": "2026-10-28T05:53:08Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77011",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+        "quote": "Houston, TX 77011",
+        "checked_at": "2026-10-28T05:53:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "77011",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/contact",
+        "quote": "Houston, TX 77011",
+        "checked_at": "2026-10-28T05:53:08Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0124",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+        "quote": "(832) 555-0124",
+        "checked_at": "2026-10-28T05:53:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0124",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/contact",
+        "quote": "Phone: 832-555-0124",
+        "checked_at": "2026-10-28T05:53:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0124",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+        "quote": "Call 832-555-0124 to get a quote.",
+        "checked_at": "2026-10-28T05:53:06Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Gideon Quintero",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/about",
+        "quote": "Gideon Quintero founded Masa Fina Catering in 2016. Gideon still runs it day to day",
+        "checked_at": "2026-10-28T05:53:07Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 240,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+        "quote": "240 guests",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:53:05Z",
+        "quote_found": true
+      },
+      {
+        "value": 240,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+        "quote": "We cater events of up to 240 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:53:06Z",
+        "quote_found": true
+      },
+      {
+        "value": 240,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+        "quote": "Largest event: 240 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:53:07Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 41,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+        "quote": "Dinner service: $41 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests; excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:53:07Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "plated",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+        "quote": "Plated dinners",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:07Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:06Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+        "quote": "Vegan menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:06Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+        "quote": "Nut-free meals prepared separately.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:06Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+        "quote": "Vegan menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+        "quote": "Nut-free meals prepared separately",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/masa-fina-catering",
+        "quote": "They handled our vegetarian guests really well.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "note": "Review dated Sep 9, 2025",
+        "checked_at": "2026-10-28T05:53:05Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.2,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+        "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 87 reviews",
+        "checked_at": "2026-10-28T05:53:05Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 87,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+        "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 87 reviews",
+        "checked_at": "2026-10-28T05:53:05Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+        "quote": "Saturday 9:00 AM - 1:00 PM",
+        "note": "Monday through Friday each 9:00 AM - 5:00 PM; Sunday Closed",
+        "checked_at": "2026-10-28T05:53:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/contact",
+        "quote": "Saturday 9:00 AM to 1:00 PM",
+        "note": "Office hours; Monday through Friday each 9:00 AM to 5:00 PM; Sunday Closed",
+        "checked_at": "2026-10-28T05:53:08Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:53:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:53:06Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77011",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77011",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+          "quote": "Houston, TX 77011",
+          "checked_at": "2026-10-28T05:53:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 4,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Gideon Quintero",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Gideon Quintero",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/about",
+          "quote": "Gideon Quintero founded Masa Fina Catering in 2016. Gideon still runs it day to day",
+          "checked_at": "2026-10-28T05:53:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0124",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0124",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+          "quote": "(832) 555-0124",
+          "checked_at": "2026-10-28T05:53:05Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0124",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/contact",
+          "quote": "Phone: 832-555-0124",
+          "checked_at": "2026-10-28T05:53:08Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0124",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+          "quote": "Call 832-555-0124 to get a quote.",
+          "checked_at": "2026-10-28T05:53:06Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "5273 Sandstone Ridge Rd, Houston, TX 77011",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "5273 Sandstone Ridge Rd, Houston, TX 77011",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+          "quote": "5273 Sandstone Ridge Rd, Houston, TX 77011",
+          "checked_at": "2026-10-28T05:53:05Z",
+          "quote_found": true
+        },
+        {
+          "value": "5273 Sandstone Ridge Rd, Houston, TX 77011",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/contact",
+          "quote": "5273 Sandstone Ridge Rd",
+          "checked_at": "2026-10-28T05:53:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 240,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 240,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+          "quote": "240 guests",
+          "checked_at": "2026-10-28T05:53:05Z",
+          "quote_found": true
+        },
+        {
+          "value": 240,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+          "quote": "We cater events of up to 240 guests.",
+          "checked_at": "2026-10-28T05:53:06Z",
+          "quote_found": true
+        },
+        {
+          "value": 240,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+          "quote": "Largest event: 240 guests.",
+          "checked_at": "2026-10-28T05:53:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 41,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 41,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+          "quote": "Dinner service: $41 per person.",
+          "checked_at": "2026-10-28T05:53:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "buffet",
+        "plated"
+      ],
+      "by_feature": {
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:53:07Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:53:07Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "nut_free",
+        "vegan",
+        "vegetarian"
+      ],
+      "by_need": {
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:53:06Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:53:07Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegan": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+              "quote": "Vegan menu.",
+              "checked_at": "2026-10-28T05:53:06Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+              "quote": "Vegan menu",
+              "checked_at": "2026-10-28T05:53:07Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:53:06Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/masa-fina-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:53:07Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/masa-fina-catering",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:53:05Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review dated Sep 9, 2025"
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.2,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.2,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+          "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 87 reviews",
+          "checked_at": "2026-10-28T05:53:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 87,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 87,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/masa-fina-catering",
+          "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 87 reviews",
+          "checked_at": "2026-10-28T05:53:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

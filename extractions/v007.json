@@ -1,0 +1,562 @@
+{
+  "vendor_id": "v007",
+  "vendor_name": "Coastal Canvas Tents",
+  "category": "rental",
+  "slug": "coastal-canvas-tents",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.058670200000000006,
+    "duration_ms": 14288,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7443,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2841,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7443,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2841,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7443,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7443
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "95ac0191-f27e-49d9-8f20-bb611e606fc9",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:50:49Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "1106 Bluebell Ln, Webster, TX 77598",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "quote": "1106 Bluebell Ln, Webster, TX 77598",
+        "checked_at": "2026-10-28T05:50:49Z",
+        "quote_found": true
+      },
+      {
+        "value": "1106 Bluebell Ln, Webster, TX 77598",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/contact",
+        "quote": "1106 Bluebell Ln\nWebster, TX 77598",
+        "checked_at": "2026-10-28T05:50:52Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77598",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "quote": "Webster, TX 77598",
+        "checked_at": "2026-10-28T05:50:49Z",
+        "quote_found": true
+      },
+      {
+        "value": "77598",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/contact",
+        "quote": "Webster, TX 77598",
+        "checked_at": "2026-10-28T05:50:52Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0176",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "quote": "(281) 555-0176",
+        "checked_at": "2026-10-28T05:50:49Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0176",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/contact",
+        "quote": "Phone: 281.555.0176",
+        "checked_at": "2026-10-28T05:50:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0176",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+        "quote": "Call 281.555.0176 to get a quote.",
+        "checked_at": "2026-10-28T05:50:50Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Rosalind Bautista",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/about",
+        "quote": "Rosalind Bautista founded Coastal Canvas Tents in 2014. Rosalind still runs it day to day",
+        "note": "Founder who still runs the business; the page does not use the word owner, but founder who runs it day to day. A review calls 'Rosalind' the owner (first name only).",
+        "checked_at": "2026-10-28T05:50:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "Rosalind (first name only)",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/coastal-canvas-tents",
+        "quote": "Rosalind, the owner, was great to work with.",
+        "note": "First name only; full name comes from the About page.",
+        "checked_at": "2026-10-28T05:50:49Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 200,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "quote": "200 guests",
+        "kind": "seating",
+        "note": "Listing 'Seats up to'",
+        "checked_at": "2026-10-28T05:50:49Z",
+        "quote_found": true
+      },
+      {
+        "value": 500,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+        "quote": "We can seat up to 500 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:50:50Z",
+        "quote_found": true
+      },
+      {
+        "value": 500,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages",
+        "quote": "Inventory: seating for up to 500 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:50:51Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 24,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages",
+        "quote": "Full setup per guest (table, chair and linen): $24",
+        "current": true,
+        "unit": "per guest",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:50:51Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:50Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 93 reviews",
+        "checked_at": "2026-10-28T05:50:49Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 93,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 93 reviews",
+        "checked_at": "2026-10-28T05:50:49Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "quote": "Saturday\n\n8:00 AM - 12:00 PM",
+        "note": "Weekdays 8:00 AM - 5:00 PM, Sunday Closed on the listing.",
+        "checked_at": "2026-10-28T05:50:49Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/contact",
+        "quote": "Saturday\n\n8:00 AM to 12:00 PM",
+        "note": "Office hours; same as the listing.",
+        "checked_at": "2026-10-28T05:50:52Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:50:49Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:50:50Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "capacity",
+      "description": "The listing says it seats up to 200 guests. The website home page and packages page say up to 500 guests.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "capacity_conflict",
+      "reason": "Listing says seats up to 200 guests; the vendor's own website says up to 500.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+      "quote": "200 guests",
+      "checked_at": "2026-10-28T05:50:49Z"
+    }
+  ],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:50:49Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77598",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77598",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+          "quote": "Webster, TX 77598",
+          "checked_at": "2026-10-28T05:50:49Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 21,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Rosalind Bautista",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Rosalind Bautista",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/about",
+          "quote": "Rosalind Bautista founded Coastal Canvas Tents in 2014. Rosalind still runs it day to day",
+          "checked_at": "2026-10-28T05:50:51Z",
+          "quote_found": true
+        },
+        {
+          "value": "Rosalind (first name only)",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/coastal-canvas-tents",
+          "quote": "Rosalind, the owner, was great to work with.",
+          "checked_at": "2026-10-28T05:50:49Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "phone": {
+      "value": "(281) 555-0176",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0176",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+          "quote": "(281) 555-0176",
+          "checked_at": "2026-10-28T05:50:49Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0176",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/contact",
+          "quote": "Phone: 281.555.0176",
+          "checked_at": "2026-10-28T05:50:52Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0176",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+          "quote": "Call 281.555.0176 to get a quote.",
+          "checked_at": "2026-10-28T05:50:50Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "1106 Bluebell Ln, Webster, TX 77598",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "1106 Bluebell Ln, Webster, TX 77598",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+          "quote": "1106 Bluebell Ln, Webster, TX 77598",
+          "checked_at": "2026-10-28T05:50:49Z",
+          "quote_found": true
+        },
+        {
+          "value": "1106 Bluebell Ln, Webster, TX 77598",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/contact",
+          "quote": "1106 Bluebell Ln\nWebster, TX 77598",
+          "checked_at": "2026-10-28T05:50:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 200,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+          "quote": "200 guests",
+          "checked_at": "2026-10-28T05:50:49Z",
+          "quote_found": true
+        },
+        {
+          "value": 500,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+          "quote": "We can seat up to 500 guests.",
+          "checked_at": "2026-10-28T05:50:50Z",
+          "quote_found": true
+        },
+        {
+          "value": 500,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages",
+          "quote": "Inventory: seating for up to 500 guests.",
+          "checked_at": "2026-10-28T05:50:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true,
+      "note": "lowest of the numbers sources give"
+    },
+    "price": {
+      "value": 24,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 24,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages",
+          "quote": "Full setup per guest (table, chair and linen): $24",
+          "checked_at": "2026-10-28T05:50:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "chairs",
+        "tables",
+        "tents"
+      ],
+      "by_feature": {
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:50:51Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:50:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:50:51Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:50:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tents": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/packages",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:50:51Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/coastal-canvas-tents/",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:50:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 93 reviews",
+          "checked_at": "2026-10-28T05:50:49Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 93,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 93,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 93 reviews",
+          "checked_at": "2026-10-28T05:50:49Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "capacity_conflict",
+        "reason": "Listing says seats up to 200 guests; the vendor's own website says up to 500.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/coastal-canvas-tents",
+        "by": "model"
+      }
+    ]
+  }
+}

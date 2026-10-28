@@ -1,0 +1,620 @@
+{
+  "vendor_id": "v013",
+  "vendor_name": "The Bellwether",
+  "category": "venue",
+  "slug": "the-bellwether",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.05994820000000001,
+    "duration_ms": 14639,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7570,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2918,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7570,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2918,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7570,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7570
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "7b65270b-63df-45e0-a814-7a874f44ab5b",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "4866 Fallow Field Rd, Houston, TX 77002",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+        "quote": "4866 Fallow Field Rd, Houston, TX 77002",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "4866 Fallow Field Rd, Houston, TX 77002",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/contact",
+        "quote": "4866 Fallow Field Rd\nHouston, TX 77002",
+        "checked_at": "2026-10-28T05:51:10Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77002",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+        "quote": "4866 Fallow Field Rd, Houston, TX 77002",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "77002",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/contact",
+        "quote": "Houston, TX 77002",
+        "checked_at": "2026-10-28T05:51:10Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0146",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+        "quote": "(713) 555-0146",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0146",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/contact",
+        "quote": "Phone: 713.555.0146",
+        "checked_at": "2026-10-28T05:51:10Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Vivian Carver",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thebellwether",
+        "quote": "Owner Vivian Carver.",
+        "checked_at": "2026-10-28T05:51:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "Vivian Carver",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/about",
+        "quote": "Vivian Carver founded The Bellwether in 2008. Vivian still runs it day to day",
+        "note": "Founder who still runs the business; the page does not use the word owner.",
+        "checked_at": "2026-10-28T05:51:09Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 210,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+        "quote": "Max occupancy (fire marshal)\n\n210 guests",
+        "kind": "fire_marshal",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      },
+      {
+        "value": 210,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/",
+        "quote": "Hosts up to 210 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:51:08Z",
+        "quote_found": true
+      },
+      {
+        "value": 210,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+        "quote": "Capacity: 210 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:51:09Z",
+        "quote_found": true
+      },
+      {
+        "value": 120,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/the-bellwether",
+        "quote": "about 120 guests",
+        "kind": "largest_event",
+        "note": "Reviewer's past event (Jul 26, 2025), not a capacity; recorded only as the size of one past event.",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 8900,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "note": "Event rental (up to 6 hours): $8,900. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:51:09Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+        "quote": "Street parking and nearby paid lots only.",
+        "offered": false,
+        "note": "No own parking lot; street and nearby paid lots only.",
+        "checked_at": "2026-10-28T05:51:09Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.9,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+        "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 64 reviews",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 64,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+        "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 64 reviews",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+        "quote": "10:00 AM - 6:00 PM",
+        "note": "Listed identically for Monday through Friday.",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "Saturday 10:00 AM - 2:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+        "quote": "10:00 AM - 2:00 PM",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+        "quote": "Closed",
+        "checked_at": "2026-10-28T05:51:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/contact",
+        "quote": "10:00 AM to 6:00 PM",
+        "note": "Office hours, same for Monday through Friday.",
+        "checked_at": "2026-10-28T05:51:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "Saturday 10:00 AM to 2:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/contact",
+        "quote": "10:00 AM to 2:00 PM",
+        "checked_at": "2026-10-28T05:51:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/contact",
+        "quote": "Closed",
+        "checked_at": "2026-10-28T05:51:10Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages. Only 'Downtown, Houston' as the location, with no stated service area."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: venue, not a caterer."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:51:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77002",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77002",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+          "quote": "4866 Fallow Field Rd, Houston, TX 77002",
+          "checked_at": "2026-10-28T05:51:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 1,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Vivian Carver",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Vivian Carver",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/thebellwether",
+          "quote": "Owner Vivian Carver.",
+          "checked_at": "2026-10-28T05:51:08Z",
+          "quote_found": true
+        },
+        {
+          "value": "Vivian Carver",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/about",
+          "quote": "Vivian Carver founded The Bellwether in 2008. Vivian still runs it day to day",
+          "checked_at": "2026-10-28T05:51:09Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0146",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0146",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+          "quote": "(713) 555-0146",
+          "checked_at": "2026-10-28T05:51:07Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0146",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/contact",
+          "quote": "Phone: 713.555.0146",
+          "checked_at": "2026-10-28T05:51:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "4866 Fallow Field Rd, Houston, TX 77002",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "4866 Fallow Field Rd, Houston, TX 77002",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+          "quote": "4866 Fallow Field Rd, Houston, TX 77002",
+          "checked_at": "2026-10-28T05:51:07Z",
+          "quote_found": true
+        },
+        {
+          "value": "4866 Fallow Field Rd, Houston, TX 77002",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/contact",
+          "quote": "4866 Fallow Field Rd\nHouston, TX 77002",
+          "checked_at": "2026-10-28T05:51:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 210,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 210,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+          "quote": "Max occupancy (fire marshal)\n\n210 guests",
+          "checked_at": "2026-10-28T05:51:07Z",
+          "quote_found": true
+        },
+        {
+          "value": 210,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/",
+          "quote": "Hosts up to 210 guests.",
+          "checked_at": "2026-10-28T05:51:08Z",
+          "quote_found": true
+        },
+        {
+          "value": 210,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+          "quote": "Capacity: 210 guests.",
+          "checked_at": "2026-10-28T05:51:09Z",
+          "quote_found": true
+        },
+        {
+          "value": 120,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/the-bellwether",
+          "quote": "about 120 guests",
+          "checked_at": "2026-10-28T05:51:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 8900,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 8900,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:51:09Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "in_house_av",
+        "indoor",
+        "outside_catering"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:51:08Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:51:09Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:51:08Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:51:09Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:51:08Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:51:09Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:51:08Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:51:09Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-bellwether/packages",
+              "quote": "Street parking and nearby paid lots only.",
+              "checked_at": "2026-10-28T05:51:09Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.9,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.9,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+          "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 64 reviews",
+          "checked_at": "2026-10-28T05:51:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 64,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 64,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-bellwether",
+          "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 64 reviews",
+          "checked_at": "2026-10-28T05:51:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

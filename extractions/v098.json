@@ -1,0 +1,574 @@
+{
+  "vendor_id": "v098",
+  "vendor_name": "Halfmoon Pavilion",
+  "category": "venue",
+  "slug": "halfmoon-pavilion",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0382376,
+    "duration_ms": 19231,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 573,
+      "cache_read_input_tokens": 12716,
+      "output_tokens": 3467,
+      "output_tokens_details": {
+        "thinking_tokens": 675
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 573,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3467,
+          "cache_read_input_tokens": 12716,
+          "cache_creation_input_tokens": 573,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 573
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "8b6abccf-315e-4fc3-9095-e5ba5661a214",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:57:19Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "3097 Harrow Gate Ln, Friendswood, TX 77546",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+        "quote": "3097 Harrow Gate Ln, Friendswood, TX 77546",
+        "checked_at": "2026-10-28T05:57:19Z",
+        "quote_found": true
+      },
+      {
+        "value": "3097 Harrow Gate Ln, Friendswood, TX 77546",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/contact",
+        "quote": "3097 Harrow Gate Ln",
+        "note": "Street on one line, 'Friendswood, TX 77546' on the next.",
+        "checked_at": "2026-10-28T05:57:22Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77546",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+        "quote": "Friendswood, TX 77546",
+        "checked_at": "2026-10-28T05:57:19Z",
+        "quote_found": true
+      },
+      {
+        "value": "77546",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/contact",
+        "quote": "Friendswood, TX 77546",
+        "checked_at": "2026-10-28T05:57:22Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0164",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+        "quote": "(281) 555-0164",
+        "checked_at": "2026-10-28T05:57:19Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0164",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/contact",
+        "quote": "Phone: 281.555.0164",
+        "note": "Same number, different formatting.",
+        "checked_at": "2026-10-28T05:57:22Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Quentin Calloway",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/halfmoonpavilion",
+        "quote": "Owner Quentin Calloway.",
+        "checked_at": "2026-10-28T05:57:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "Quentin Calloway",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/about",
+        "quote": "Quentin Calloway founded Halfmoon Pavilion in 2012.",
+        "note": "Also says Quentin still runs it day to day.",
+        "checked_at": "2026-10-28T05:57:21Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 200,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+        "quote": "200 guests",
+        "note": "Under the label 'Max occupancy (fire marshal)'.",
+        "checked_at": "2026-10-28T05:57:19Z",
+        "quote_found": true
+      },
+      {
+        "value": 200,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/",
+        "quote": "Hosts up to 200 guests.",
+        "checked_at": "2026-10-28T05:57:20Z",
+        "quote_found": true
+      },
+      {
+        "value": 200,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+        "quote": "Capacity: 200 guests.",
+        "checked_at": "2026-10-28T05:57:21Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 11300,
+        "current": true,
+        "unit": "event rental, up to 6 hours",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+        "quote": "Event rental (up to 6 hours): $11,300",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:57:21Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "outdoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/",
+        "quote": "Outdoor lawn and covered patio",
+        "checked_at": "2026-10-28T05:57:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+        "quote": "Outdoor lawn and covered patio",
+        "checked_at": "2026-10-28T05:57:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+        "quote": "Outdoor venue only. No indoor hall.",
+        "checked_at": "2026-10-28T05:57:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:57:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:57:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:57:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:57:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:57:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:57:21Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 3.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+        "quote": "3.6 \u2605\u2605\u2605\u2605\u2606 230 reviews",
+        "checked_at": "2026-10-28T05:57:19Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 230,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+        "quote": "3.6 \u2605\u2605\u2605\u2605\u2606 230 reviews",
+        "checked_at": "2026-10-28T05:57:19Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+        "quote": "10:00 AM - 6:00 PM",
+        "note": "Listing gives each weekday separately; Monday to Friday all 10:00 AM - 6:00 PM, Saturday 10:00 AM - 2:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:57:19Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/contact",
+        "quote": "10:00 AM to 6:00 PM",
+        "note": "Office hours. Monday to Friday all 10:00 AM to 6:00 PM, Saturday 10:00 AM to 2:00 PM, Sunday Closed. Same as the listing.",
+        "checked_at": "2026-10-28T05:57:22Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages. None states an area served; they only give the venue's own location in Friendswood."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:57:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77546",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77546",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+          "quote": "Friendswood, TX 77546",
+          "checked_at": "2026-10-28T05:57:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 21,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Quentin Calloway",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Quentin Calloway",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/halfmoonpavilion",
+          "quote": "Owner Quentin Calloway.",
+          "checked_at": "2026-10-28T05:57:20Z",
+          "quote_found": true
+        },
+        {
+          "value": "Quentin Calloway",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/about",
+          "quote": "Quentin Calloway founded Halfmoon Pavilion in 2012.",
+          "checked_at": "2026-10-28T05:57:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0164",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0164",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+          "quote": "(281) 555-0164",
+          "checked_at": "2026-10-28T05:57:19Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0164",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/contact",
+          "quote": "Phone: 281.555.0164",
+          "checked_at": "2026-10-28T05:57:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "3097 Harrow Gate Ln, Friendswood, TX 77546",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "3097 Harrow Gate Ln, Friendswood, TX 77546",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+          "quote": "3097 Harrow Gate Ln, Friendswood, TX 77546",
+          "checked_at": "2026-10-28T05:57:19Z",
+          "quote_found": true
+        },
+        {
+          "value": "3097 Harrow Gate Ln, Friendswood, TX 77546",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/contact",
+          "quote": "3097 Harrow Gate Ln",
+          "checked_at": "2026-10-28T05:57:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 200,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+          "quote": "200 guests",
+          "checked_at": "2026-10-28T05:57:19Z",
+          "quote_found": true
+        },
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/",
+          "quote": "Hosts up to 200 guests.",
+          "checked_at": "2026-10-28T05:57:20Z",
+          "quote_found": true
+        },
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+          "quote": "Capacity: 200 guests.",
+          "checked_at": "2026-10-28T05:57:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 11300,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 11300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+          "quote": "Event rental (up to 6 hours): $11,300",
+          "checked_at": "2026-10-28T05:57:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "in_house_av",
+        "outdoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:57:20Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:57:21Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+              "quote": "Outdoor venue only. No indoor hall.",
+              "checked_at": "2026-10-28T05:57:21Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "outdoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:57:20Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:57:21Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:57:20Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:57:21Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:57:20Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halfmoon-pavilion/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:57:21Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 3.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 3.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+          "quote": "3.6 \u2605\u2605\u2605\u2605\u2606 230 reviews",
+          "checked_at": "2026-10-28T05:57:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 230,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 230,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halfmoon-pavilion",
+          "quote": "3.6 \u2605\u2605\u2605\u2605\u2606 230 reviews",
+          "checked_at": "2026-10-28T05:57:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

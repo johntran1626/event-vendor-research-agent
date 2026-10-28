@@ -1,0 +1,516 @@
+{
+  "vendor_id": "v071",
+  "vendor_name": "The Assembly at Taft",
+  "category": "venue",
+  "slug": "the-assembly-at-taft",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.057294199999999997,
+    "duration_ms": 12893,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7989,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2485,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7989,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2485,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7989,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7989
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "8cef2c7f-7d6f-49da-9d2f-d195b260fe61",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:55:20Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "6826 Hollyhock Row, Houston, TX 77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+        "quote": "6826 Hollyhock Row, Houston, TX 77006",
+        "checked_at": "2026-10-28T05:55:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "6826 Hollyhock Row, Houston, TX 77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/contact",
+        "quote": "6826 Hollyhock Row\nHouston, TX 77006",
+        "checked_at": "2026-10-28T05:55:23Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+        "quote": "6826 Hollyhock Row, Houston, TX 77006",
+        "checked_at": "2026-10-28T05:55:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/contact",
+        "quote": "Houston, TX 77006",
+        "checked_at": "2026-10-28T05:55:23Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0163",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+        "quote": "(713) 555-0163",
+        "checked_at": "2026-10-28T05:55:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0163",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/",
+        "quote": "Call 713.555.0163 to schedule a tour.",
+        "checked_at": "2026-10-28T05:55:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0163",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/contact",
+        "quote": "Phone: 713.555.0163",
+        "checked_at": "2026-10-28T05:55:23Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Farah Underwood",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/about",
+        "quote": "Farah Underwood founded The Assembly at Taft in 2012. Farah still runs it day to day",
+        "note": "Founder who still runs the business day to day; named as owner by inference from founder role.",
+        "checked_at": "2026-10-28T05:55:23Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 260,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+        "quote": "Max occupancy (fire marshal)\n\n260 guests",
+        "kind": "fire_marshal",
+        "checked_at": "2026-10-28T05:55:20Z",
+        "quote_found": true
+      },
+      {
+        "value": 260,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/",
+        "quote": "Hosts up to 260 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:55:22Z",
+        "quote_found": true
+      },
+      {
+        "value": 260,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+        "quote": "Capacity: 260 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:55:22Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 11400,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "note": "Quote of the rate line: Event rental (up to 6 hours): $11,400. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:55:22Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+        "quote": "No in-house AV.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:55:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+        "quote": "No outside caterers.",
+        "offered": false,
+        "note": "Catering is exclusive to the in-house kitchen.",
+        "checked_at": "2026-10-28T05:55:22Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.5,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+        "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 215 reviews",
+        "checked_at": "2026-10-28T05:55:20Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 215,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+        "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 215 reviews",
+        "checked_at": "2026-10-28T05:55:20Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday through Friday each listed as 10:00 AM - 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:55:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday through Friday each listed as 10:00 AM to 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:55:23Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, social, home, packages, about and contact pages; none state an area served (social page says only 'Event space in Montrose, Houston')."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:55:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77006",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77006",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+          "quote": "6826 Hollyhock Row, Houston, TX 77006",
+          "checked_at": "2026-10-28T05:55:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 3,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Farah Underwood",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Farah Underwood",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/about",
+          "quote": "Farah Underwood founded The Assembly at Taft in 2012. Farah still runs it day to day",
+          "checked_at": "2026-10-28T05:55:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0163",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0163",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+          "quote": "(713) 555-0163",
+          "checked_at": "2026-10-28T05:55:20Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0163",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/",
+          "quote": "Call 713.555.0163 to schedule a tour.",
+          "checked_at": "2026-10-28T05:55:22Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0163",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/contact",
+          "quote": "Phone: 713.555.0163",
+          "checked_at": "2026-10-28T05:55:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "6826 Hollyhock Row, Houston, TX 77006",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "6826 Hollyhock Row, Houston, TX 77006",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+          "quote": "6826 Hollyhock Row, Houston, TX 77006",
+          "checked_at": "2026-10-28T05:55:20Z",
+          "quote_found": true
+        },
+        {
+          "value": "6826 Hollyhock Row, Houston, TX 77006",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/contact",
+          "quote": "6826 Hollyhock Row\nHouston, TX 77006",
+          "checked_at": "2026-10-28T05:55:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 260,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+          "quote": "Max occupancy (fire marshal)\n\n260 guests",
+          "checked_at": "2026-10-28T05:55:20Z",
+          "quote_found": true
+        },
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/",
+          "quote": "Hosts up to 260 guests.",
+          "checked_at": "2026-10-28T05:55:22Z",
+          "quote_found": true
+        },
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+          "quote": "Capacity: 260 guests.",
+          "checked_at": "2026-10-28T05:55:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 11400,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 11400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:55:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "indoor",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+              "quote": "No in-house AV.",
+              "checked_at": "2026-10-28T05:55:22Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:55:22Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:55:22Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+              "quote": "No outside caterers.",
+              "checked_at": "2026-10-28T05:55:22Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:55:22Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-assembly-at-taft/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:55:22Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.5,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.5,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+          "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 215 reviews",
+          "checked_at": "2026-10-28T05:55:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 215,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 215,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-assembly-at-taft",
+          "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 215 reviews",
+          "checked_at": "2026-10-28T05:55:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

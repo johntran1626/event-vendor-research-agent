@@ -1,0 +1,667 @@
+{
+  "vendor_id": "v076",
+  "vendor_name": "Tidepool Provisions",
+  "category": "caterer",
+  "slug": "tidepool-provisions",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0620802,
+    "duration_ms": 15021,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7928,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2988,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7928,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2988,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7928,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7928
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "e3cd8b67-f4b4-4ca0-9b14-cd4a639585d7",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:55:42Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "9743 Windmill Ridge Dr, Kemah, TX 77565",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+        "quote": "9743 Windmill Ridge Dr, Kemah, TX 77565",
+        "checked_at": "2026-10-28T05:55:42Z",
+        "quote_found": true
+      },
+      {
+        "value": "9743 Windmill Ridge Dr, Kemah, TX 77565",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/contact",
+        "quote": "9743 Windmill Ridge Dr",
+        "note": "Street on one line; city/state/zip on the next line: Kemah, TX 77565",
+        "checked_at": "2026-10-28T05:55:45Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77565",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+        "quote": "Kemah, TX 77565",
+        "checked_at": "2026-10-28T05:55:42Z",
+        "quote_found": true
+      },
+      {
+        "value": "77565",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/contact",
+        "quote": "Kemah, TX 77565",
+        "checked_at": "2026-10-28T05:55:45Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0131",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+        "quote": "(832) 555-0131",
+        "checked_at": "2026-10-28T05:55:42Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0131",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+        "quote": "Call 832-555-0131 to get a quote.",
+        "checked_at": "2026-10-28T05:55:43Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0131",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/contact",
+        "quote": "Phone: 832-555-0131",
+        "checked_at": "2026-10-28T05:55:45Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Ulises Holloway",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/about",
+        "quote": "Ulises Holloway founded Tidepool Provisions in 2015. Ulises still runs it day to day",
+        "note": "Founder who still runs the business day to day; page does not use the word owner.",
+        "checked_at": "2026-10-28T05:55:44Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 390,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+        "quote": "390 guests",
+        "kind": "largest_event",
+        "note": "Listing: Largest event served",
+        "checked_at": "2026-10-28T05:55:42Z",
+        "quote_found": true
+      },
+      {
+        "value": 390,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+        "quote": "Largest event: 390 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:55:44Z",
+        "quote_found": true
+      },
+      {
+        "value": 390,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+        "quote": "We cater events of up to 390 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:55:43Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 101,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+        "quote": "Dinner service: $101 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Page says: Current rates for 2026 and 2027 events. Minimum 25 guests. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:55:44Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "drop_off",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+        "quote": "Drop-off delivery",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+        "quote": "Servers and on-site event staff",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:44Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+        "quote": "Vegan menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+        "quote": "Gluten-free menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:43Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+        "quote": "Vegan menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:43Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+        "quote": "Gluten-free menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:43Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/tidepool-provisions",
+        "quote": "They handled our vegetarian guests really well.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "note": "Review dated Nov 30, 2025",
+        "checked_at": "2026-10-28T05:55:42Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.9,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+        "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 91 reviews",
+        "checked_at": "2026-10-28T05:55:42Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 91,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+        "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 91 reviews",
+        "checked_at": "2026-10-28T05:55:42Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+        "quote": "Saturday\n\n9:00 AM - 1:00 PM",
+        "note": "Listing gives each day separately; Monday-Friday 9:00 AM - 5:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:55:42Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/contact",
+        "quote": "Saturday\n\n9:00 AM to 1:00 PM",
+        "note": "Office hours; Monday-Friday 9:00 AM to 5:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:55:45Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:55:42Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:55:43Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "dietary.nut_free",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages: no mention of nut-free."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:55:42Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77565",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77565",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+          "quote": "Kemah, TX 77565",
+          "checked_at": "2026-10-28T05:55:42Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 26,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Ulises Holloway",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Ulises Holloway",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/about",
+          "quote": "Ulises Holloway founded Tidepool Provisions in 2015. Ulises still runs it day to day",
+          "checked_at": "2026-10-28T05:55:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0131",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0131",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+          "quote": "(832) 555-0131",
+          "checked_at": "2026-10-28T05:55:42Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0131",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+          "quote": "Call 832-555-0131 to get a quote.",
+          "checked_at": "2026-10-28T05:55:43Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0131",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/contact",
+          "quote": "Phone: 832-555-0131",
+          "checked_at": "2026-10-28T05:55:45Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "9743 Windmill Ridge Dr, Kemah, TX 77565",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "9743 Windmill Ridge Dr, Kemah, TX 77565",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+          "quote": "9743 Windmill Ridge Dr, Kemah, TX 77565",
+          "checked_at": "2026-10-28T05:55:42Z",
+          "quote_found": true
+        },
+        {
+          "value": "9743 Windmill Ridge Dr, Kemah, TX 77565",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/contact",
+          "quote": "9743 Windmill Ridge Dr",
+          "checked_at": "2026-10-28T05:55:45Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 390,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 390,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+          "quote": "390 guests",
+          "checked_at": "2026-10-28T05:55:42Z",
+          "quote_found": true
+        },
+        {
+          "value": 390,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+          "quote": "Largest event: 390 guests.",
+          "checked_at": "2026-10-28T05:55:44Z",
+          "quote_found": true
+        },
+        {
+          "value": 390,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+          "quote": "We cater events of up to 390 guests.",
+          "checked_at": "2026-10-28T05:55:43Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 101,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 101,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+          "quote": "Dinner service: $101 per person.",
+          "checked_at": "2026-10-28T05:55:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "drop_off",
+        "onsite_staff"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:55:44Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:55:44Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "drop_off": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "drop_off",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+              "quote": "Drop-off delivery",
+              "checked_at": "2026-10-28T05:55:44Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:55:44Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "vegan",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:55:44Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:55:43Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegan": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+              "quote": "Vegan menu",
+              "checked_at": "2026-10-28T05:55:44Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+              "quote": "Vegan menu.",
+              "checked_at": "2026-10-28T05:55:43Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:55:44Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tidepool-provisions/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:55:43Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/tidepool-provisions",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:55:42Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review dated Nov 30, 2025"
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.9,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.9,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+          "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 91 reviews",
+          "checked_at": "2026-10-28T05:55:42Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 91,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 91,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tidepool-provisions",
+          "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 91 reviews",
+          "checked_at": "2026-10-28T05:55:42Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

@@ -1,0 +1,572 @@
+{
+  "vendor_id": "v043",
+  "vendor_name": "Lumina Lighting & Linen",
+  "category": "rental",
+  "slug": "lumina-lighting-and-linen",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0696022,
+    "duration_ms": 21227,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7996,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3713,
+      "output_tokens_details": {
+        "thinking_tokens": 943
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7996,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3713,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7996,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7996
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "c5242306-e6fc-4375-a279-bdb70a776025",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:18Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2275 Osprey Landing Dr, Houston, TX 77012",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+        "quote": "2275 Osprey Landing Dr, Houston, TX 77012",
+        "checked_at": "2026-10-28T05:53:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "2275 Osprey Landing Dr, Houston, TX 77012",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/contact",
+        "quote": "2275 Osprey Landing Dr",
+        "checked_at": "2026-10-28T05:53:21Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77012",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+        "quote": "Houston, TX 77012",
+        "checked_at": "2026-10-28T05:53:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "77012",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/contact",
+        "quote": "Houston, TX 77012",
+        "checked_at": "2026-10-28T05:53:21Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0195",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+        "quote": "(713) 555-0195",
+        "checked_at": "2026-10-28T05:53:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "(713) 555-0195",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/contact",
+        "quote": "Phone: (713) 555-0195",
+        "checked_at": "2026-10-28T05:53:21Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Yusuf Nwosu",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/about",
+        "quote": "Yusuf Nwosu founded Lumina Lighting & Linen in 2012.",
+        "note": "Founder who still runs the business day to day; the page does not use the word 'owner', so ownership is inferred from founder and operator.",
+        "checked_at": "2026-10-28T05:53:21Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 300,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+        "quote": "300 guests",
+        "note": "Listing 'Seats up to'.",
+        "checked_at": "2026-10-28T05:53:18Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+        "quote": "We can seat up to 300 guests.",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+        "quote": "Inventory: seating for up to 300 guests.",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 22,
+        "unit": "per guest",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+        "quote": "Full setup per guest (table, chair and linen): $22",
+        "note": "Page says 'Current rates for 2026 and 2027 events' and 'New price list, effective October 26, 2026. Full setup per guest is now $22.' Excludes tax and gratuity. No older price published.",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+        "quote": "Dance floor",
+        "note": "Listed under 'What we rent'.",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 97 reviews",
+        "checked_at": "2026-10-28T05:53:18Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 97,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 97 reviews",
+        "checked_at": "2026-10-28T05:53:18Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+        "quote": "8:00 AM - 5:00 PM",
+        "note": "Same time shown for each of Monday to Friday. Saturday '8:00 AM - 12:00 PM'. Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:53:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/contact",
+        "quote": "8:00 AM to 5:00 PM",
+        "note": "Same time shown for each of Monday to Friday. Saturday '8:00 AM to 12:00 PM'. Sunday 'Closed'. Same hours as the listing.",
+        "checked_at": "2026-10-28T05:53:21Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:53:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:53:20Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [],
+  "match_notes": [
+    "near-identical names: The Linen Closet Rentals (Houston)"
+  ],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:18Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77012",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77012",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+          "quote": "Houston, TX 77012",
+          "checked_at": "2026-10-28T05:53:18Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 6,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Yusuf Nwosu",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Yusuf Nwosu",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/about",
+          "quote": "Yusuf Nwosu founded Lumina Lighting & Linen in 2012.",
+          "checked_at": "2026-10-28T05:53:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0195",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0195",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+          "quote": "(713) 555-0195",
+          "checked_at": "2026-10-28T05:53:18Z",
+          "quote_found": true
+        },
+        {
+          "value": "(713) 555-0195",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/contact",
+          "quote": "Phone: (713) 555-0195",
+          "checked_at": "2026-10-28T05:53:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "2275 Osprey Landing Dr, Houston, TX 77012",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2275 Osprey Landing Dr, Houston, TX 77012",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+          "quote": "2275 Osprey Landing Dr, Houston, TX 77012",
+          "checked_at": "2026-10-28T05:53:18Z",
+          "quote_found": true
+        },
+        {
+          "value": "2275 Osprey Landing Dr, Houston, TX 77012",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/contact",
+          "quote": "2275 Osprey Landing Dr",
+          "checked_at": "2026-10-28T05:53:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 300,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+          "quote": "300 guests",
+          "checked_at": "2026-10-28T05:53:18Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+          "quote": "We can seat up to 300 guests.",
+          "checked_at": "2026-10-28T05:53:20Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+          "quote": "Inventory: seating for up to 300 guests.",
+          "checked_at": "2026-10-28T05:53:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 22,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 22,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+          "quote": "Full setup per guest (table, chair and linen): $22",
+          "checked_at": "2026-10-28T05:53:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "chairs",
+        "dance_floor",
+        "lighting",
+        "linens",
+        "tables"
+      ],
+      "by_feature": {
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:53:20Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:53:20Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:53:20Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:53:20Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:53:20Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:53:20Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:53:20Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:53:20Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:53:20Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 97 reviews",
+          "checked_at": "2026-10-28T05:53:18Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 97,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 97,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 97 reviews",
+          "checked_at": "2026-10-28T05:53:18Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

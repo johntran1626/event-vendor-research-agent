@@ -1,0 +1,417 @@
+{
+  "vendor_id": "v080",
+  "vendor_name": "Fiesta Rentals Co.",
+  "category": "rental",
+  "slug": "fiesta-rentals-co",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0569302,
+    "duration_ms": 17339,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7068,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2817,
+      "output_tokens_details": {
+        "thinking_tokens": 968
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7068,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2817,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7068,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7068
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "607645d3-e111-42d4-99a4-7c563d5bb533",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "202 Saltmarsh Way, Houston, TX 77087",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "202 Saltmarsh Way, Houston, TX 77087",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77087",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "202 Saltmarsh Way, Houston, TX 77087",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0113",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "(713) 555-0113",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Avery Thibodeaux",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+        "quote": "Owner Avery Thibodeaux.",
+        "note": "Only the social page names the owner. A review mentions \"Avery\" by first name only, without a role.",
+        "checked_at": "2026-10-28T05:56:00Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 240,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "240 guests",
+        "note": "Listed as \"Seats up to\".",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      },
+      {
+        "value": 240,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+        "quote": "Seats up to 240 guests.",
+        "checked_at": "2026-10-28T05:56:00Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 13,
+        "unit": "per guest",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+        "quote": "Full setup $13 per guest.",
+        "note": "Presented as the rate now, with no earlier-year or old-package label. The listing page gives no price.",
+        "checked_at": "2026-10-28T05:56:00Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:56:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:56:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:56:00Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.2,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 158 reviews",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 158,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 158 reviews",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Monday-Friday 8:00 AM - 5:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "8:00 AM - 5:00 PM",
+        "note": "Same hours listed under each of Monday, Tuesday, Wednesday, Thursday and Friday.",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "Saturday 8:00 AM - 12:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "8:00 AM - 12:00 PM",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "Closed",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:55:59Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "features: lighting, tents, heaters, av",
+      "checked": "Listing, reviews and social pages. The only item list is on the social page (tables, chairs, linens and napkins). One review says the customer rented lighting, but that is a review, not the vendor's own statement, so no claim was made."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable. This is a rental company."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:55:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77087",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77087",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+          "quote": "202 Saltmarsh Way, Houston, TX 77087",
+          "checked_at": "2026-10-28T05:55:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 9,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Avery Thibodeaux",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Avery Thibodeaux",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+          "quote": "Owner Avery Thibodeaux.",
+          "checked_at": "2026-10-28T05:56:00Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0113",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0113",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+          "quote": "(713) 555-0113",
+          "checked_at": "2026-10-28T05:55:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "202 Saltmarsh Way, Houston, TX 77087",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "202 Saltmarsh Way, Houston, TX 77087",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+          "quote": "202 Saltmarsh Way, Houston, TX 77087",
+          "checked_at": "2026-10-28T05:55:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 240,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 240,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+          "quote": "240 guests",
+          "checked_at": "2026-10-28T05:55:59Z",
+          "quote_found": true
+        },
+        {
+          "value": 240,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+          "quote": "Seats up to 240 guests.",
+          "checked_at": "2026-10-28T05:56:00Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 13,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 13,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+          "quote": "Full setup $13 per guest.",
+          "checked_at": "2026-10-28T05:56:00Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "chairs",
+        "linens",
+        "tables"
+      ],
+      "by_feature": {
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:56:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:56:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/fiestarentalsco",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:56:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.2,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.2,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+          "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 158 reviews",
+          "checked_at": "2026-10-28T05:55:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 158,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 158,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fiesta-rentals-co",
+          "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 158 reviews",
+          "checked_at": "2026-10-28T05:55:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

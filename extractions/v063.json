@@ -1,0 +1,635 @@
+{
+  "vendor_id": "v063",
+  "vendor_name": "Thistle Hall",
+  "category": "venue",
+  "slug": "thistle-hall",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0649682,
+    "duration_ms": 16555,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8170,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3180,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8170,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3180,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8170,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8170
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "6653b689-975d-4e7b-81e0-7b5287b9ff4b",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+        "quote": "Status: Open",
+        "note": "Listing page says open.",
+        "checked_at": "2026-10-28T05:54:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/thistle-hall",
+        "quote": "Thistle Hall was locked, with a closed-for-good notice on the door.",
+        "note": "Review by Jasmine B., Oct 6, 2026.",
+        "checked_at": "2026-10-28T05:54:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/thistle-hall",
+        "quote": "Thistle Hall closed at the end of August and every booking is being refunded.",
+        "note": "Review by Brittany W., Sep 15, 2026 (says the owner emailed her).",
+        "checked_at": "2026-10-28T05:54:44Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2565 Arbor Glen St, Houston, TX 77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+        "quote": "2565 Arbor Glen St, Houston, TX 77008",
+        "checked_at": "2026-10-28T05:54:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "2565 Arbor Glen St, Houston, TX 77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/contact",
+        "quote": "2565 Arbor Glen St",
+        "checked_at": "2026-10-28T05:54:47Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+        "quote": "Houston, TX 77008",
+        "checked_at": "2026-10-28T05:54:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/contact",
+        "quote": "Houston, TX 77008",
+        "checked_at": "2026-10-28T05:54:47Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0168",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+        "quote": "(832) 555-0168",
+        "checked_at": "2026-10-28T05:54:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "832.555.0168",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+        "quote": "Call 832.555.0168 to schedule a tour.",
+        "checked_at": "2026-10-28T05:54:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "832.555.0168",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/contact",
+        "quote": "Phone: 832.555.0168",
+        "checked_at": "2026-10-28T05:54:47Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Ulises Gutierrez",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thistlehall",
+        "quote": "Owner Ulises Gutierrez.",
+        "checked_at": "2026-10-28T05:54:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "Ulises Gutierrez",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/about",
+        "quote": "Ulises Gutierrez founded Thistle Hall in 2006. Ulises still runs it day to day",
+        "note": "Founder who runs it day to day; the Instagram page names them as owner.",
+        "checked_at": "2026-10-28T05:54:46Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 230,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+        "quote": "230 guests",
+        "kind": "fire_marshal",
+        "note": "Listed under 'Max occupancy (fire marshal)'.",
+        "checked_at": "2026-10-28T05:54:44Z",
+        "quote_found": true
+      },
+      {
+        "value": 230,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+        "quote": "Hosts up to 230 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:45Z",
+        "quote_found": true
+      },
+      {
+        "value": 230,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+        "quote": "Capacity: 230 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:46Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 8800,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "note": "Quote of the line: 'Event rental (up to 6 hours): $8,800'. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:54:46Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:46Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 162 reviews",
+        "checked_at": "2026-10-28T05:54:44Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 162,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+        "quote": "162 reviews",
+        "checked_at": "2026-10-28T05:54:44Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+        "quote": "Saturday 10:00 AM - 2:00 PM",
+        "note": "Monday to Friday each read '10:00 AM - 6:00 PM'; Sunday reads 'Closed'.",
+        "checked_at": "2026-10-28T05:54:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/contact",
+        "quote": "Saturday 10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday to Friday each read '10:00 AM to 6:00 PM'; Sunday reads 'Closed'.",
+        "checked_at": "2026-10-28T05:54:47Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "status",
+      "description": "The listing page says 'Status: Open' and the vendor's own site is up with 2026-2027 rates, but two reviews say it has closed for good: Brittany W. (Sep 15, 2026) says it closed at the end of August with bookings refunded, and Jasmine B. (Oct 6, 2026) found it locked with a closed-for-good notice.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+        "https://vendors-r1.lab.zappstudios.us/reviews/thistle-hall"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "closed",
+      "reason": "Two recent reviews (Sep 15 and Oct 6, 2026) say Thistle Hall closed for good, though the listing still says Open.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/thistle-hall",
+      "quote": "Thistle Hall was locked, with a closed-for-good notice on the door.",
+      "checked_at": "2026-10-28T05:54:44Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages. None gives an area served."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "closed",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "closed",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/thistle-hall",
+          "quote": "Thistle Hall was locked, with a closed-for-good notice on the door.",
+          "checked_at": "2026-10-28T05:54:44Z",
+          "quote_found": true
+        },
+        {
+          "value": "closed",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/thistle-hall",
+          "quote": "Thistle Hall closed at the end of August and every booking is being refunded.",
+          "checked_at": "2026-10-28T05:54:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "zip": {
+      "value": "77008",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+          "quote": "Houston, TX 77008",
+          "checked_at": "2026-10-28T05:54:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 5,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Ulises Gutierrez",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Ulises Gutierrez",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/thistlehall",
+          "quote": "Owner Ulises Gutierrez.",
+          "checked_at": "2026-10-28T05:54:45Z",
+          "quote_found": true
+        },
+        {
+          "value": "Ulises Gutierrez",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/about",
+          "quote": "Ulises Gutierrez founded Thistle Hall in 2006. Ulises still runs it day to day",
+          "checked_at": "2026-10-28T05:54:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0168",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0168",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+          "quote": "(832) 555-0168",
+          "checked_at": "2026-10-28T05:54:44Z",
+          "quote_found": true
+        },
+        {
+          "value": "832.555.0168",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+          "quote": "Call 832.555.0168 to schedule a tour.",
+          "checked_at": "2026-10-28T05:54:45Z",
+          "quote_found": true
+        },
+        {
+          "value": "832.555.0168",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/contact",
+          "quote": "Phone: 832.555.0168",
+          "checked_at": "2026-10-28T05:54:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "2565 Arbor Glen St, Houston, TX 77008",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2565 Arbor Glen St, Houston, TX 77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+          "quote": "2565 Arbor Glen St, Houston, TX 77008",
+          "checked_at": "2026-10-28T05:54:44Z",
+          "quote_found": true
+        },
+        {
+          "value": "2565 Arbor Glen St, Houston, TX 77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/contact",
+          "quote": "2565 Arbor Glen St",
+          "checked_at": "2026-10-28T05:54:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 230,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 230,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+          "quote": "230 guests",
+          "checked_at": "2026-10-28T05:54:44Z",
+          "quote_found": true
+        },
+        {
+          "value": 230,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+          "quote": "Hosts up to 230 guests.",
+          "checked_at": "2026-10-28T05:54:45Z",
+          "quote_found": true
+        },
+        {
+          "value": 230,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+          "quote": "Capacity: 230 guests.",
+          "checked_at": "2026-10-28T05:54:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 8800,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 8800,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:54:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "in_house_av",
+        "indoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:54:46Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:54:45Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:54:46Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:45Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:46Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:45Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:46Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:45Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/thistle-hall/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:46Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 162 reviews",
+          "checked_at": "2026-10-28T05:54:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 162,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 162,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/thistle-hall",
+          "quote": "162 reviews",
+          "checked_at": "2026-10-28T05:54:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "closed",
+        "reason": "Two recent reviews (Sep 15 and Oct 6, 2026) say Thistle Hall closed for good, though the listing still says Open.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/thistle-hall",
+        "by": "model"
+      }
+    ]
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "vendor_id": "v035",
+  "vendor_name": "Gather Round Rentals",
+  "category": "rental",
+  "slug": "gather-round-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.058424199999999996,
+    "duration_ms": 15232,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7689,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2718,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7689,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2718,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7689,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7689
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "743f1c3a-83d9-469b-b9bf-a630e1321762",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:52:44Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2469 Gristmill Ln, Houston, TX 77027",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+        "quote": "2469 Gristmill Ln, Houston, TX 77027",
+        "checked_at": "2026-10-28T05:52:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "2469 Gristmill Ln, Houston, TX 77027",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/contact",
+        "quote": "2469 Gristmill Ln\nHouston, TX 77027",
+        "checked_at": "2026-10-28T05:52:47Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77027",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+        "quote": "2469 Gristmill Ln, Houston, TX 77027",
+        "checked_at": "2026-10-28T05:52:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "77027",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/contact",
+        "quote": "Houston, TX 77027",
+        "checked_at": "2026-10-28T05:52:47Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0168",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+        "quote": "(713) 555-0168",
+        "checked_at": "2026-10-28T05:52:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "713 555 0168",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+        "quote": "Call 713 555 0168 to get a quote.",
+        "checked_at": "2026-10-28T05:52:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "713 555 0168",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/contact",
+        "quote": "Phone: 713 555 0168",
+        "checked_at": "2026-10-28T05:52:47Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Calvin Whitfield",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/gatherroundrentals",
+        "quote": "Owner Calvin Whitfield.",
+        "checked_at": "2026-10-28T05:52:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "Calvin Whitfield",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/about",
+        "quote": "Calvin Whitfield founded Gather Round Rentals in 2017.",
+        "note": "Founder; still runs it day to day.",
+        "checked_at": "2026-10-28T05:52:46Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 220,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+        "quote": "220 guests",
+        "kind": "seating",
+        "note": "Listed as 'Seats up to'.",
+        "checked_at": "2026-10-28T05:52:44Z",
+        "quote_found": true
+      },
+      {
+        "value": 220,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+        "quote": "We can seat up to 220 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:52:45Z",
+        "quote_found": true
+      },
+      {
+        "value": 220,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+        "quote": "Inventory: seating for up to 220 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:52:46Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 16,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "per guest",
+        "note": "Full setup per guest (table, chair and linen): $16. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:52:46Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+        "quote": "Table linens and napkins",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+        "quote": "Uplighting and string lights",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+        "quote": "Table linens and napkins",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+        "quote": "Uplighting and string lights",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:45Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.5,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+        "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 58 reviews",
+        "checked_at": "2026-10-28T05:52:44Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 58,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+        "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 58 reviews",
+        "checked_at": "2026-10-28T05:52:44Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+        "quote": "8:00 AM - 12:00 PM",
+        "note": "Listing: Monday-Friday 8:00 AM - 5:00 PM, Saturday 8:00 AM - 12:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:52:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/contact",
+        "quote": "8:00 AM to 12:00 PM",
+        "note": "Office hours: Monday-Friday 8:00 AM to 5:00 PM, Saturday 8:00 AM to 12:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:52:47Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:52:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:52:45Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:52:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77027",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77027",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+          "quote": "2469 Gristmill Ln, Houston, TX 77027",
+          "checked_at": "2026-10-28T05:52:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 6,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Calvin Whitfield",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Calvin Whitfield",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/gatherroundrentals",
+          "quote": "Owner Calvin Whitfield.",
+          "checked_at": "2026-10-28T05:52:45Z",
+          "quote_found": true
+        },
+        {
+          "value": "Calvin Whitfield",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/about",
+          "quote": "Calvin Whitfield founded Gather Round Rentals in 2017.",
+          "checked_at": "2026-10-28T05:52:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0168",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0168",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+          "quote": "(713) 555-0168",
+          "checked_at": "2026-10-28T05:52:44Z",
+          "quote_found": true
+        },
+        {
+          "value": "713 555 0168",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+          "quote": "Call 713 555 0168 to get a quote.",
+          "checked_at": "2026-10-28T05:52:45Z",
+          "quote_found": true
+        },
+        {
+          "value": "713 555 0168",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/contact",
+          "quote": "Phone: 713 555 0168",
+          "checked_at": "2026-10-28T05:52:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "2469 Gristmill Ln, Houston, TX 77027",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2469 Gristmill Ln, Houston, TX 77027",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+          "quote": "2469 Gristmill Ln, Houston, TX 77027",
+          "checked_at": "2026-10-28T05:52:44Z",
+          "quote_found": true
+        },
+        {
+          "value": "2469 Gristmill Ln, Houston, TX 77027",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/contact",
+          "quote": "2469 Gristmill Ln\nHouston, TX 77027",
+          "checked_at": "2026-10-28T05:52:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 220,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 220,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+          "quote": "220 guests",
+          "checked_at": "2026-10-28T05:52:44Z",
+          "quote_found": true
+        },
+        {
+          "value": 220,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+          "quote": "We can seat up to 220 guests.",
+          "checked_at": "2026-10-28T05:52:45Z",
+          "quote_found": true
+        },
+        {
+          "value": 220,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+          "quote": "Inventory: seating for up to 220 guests.",
+          "checked_at": "2026-10-28T05:52:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 16,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 16,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:52:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "chairs",
+        "lighting",
+        "linens",
+        "tables",
+        "tents"
+      ],
+      "by_feature": {
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:52:46Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:52:45Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:52:46Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:52:45Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:52:46Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:52:45Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:52:46Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:52:45Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tents": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gather-round-rentals/packages",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:52:46Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.5,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.5,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+          "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 58 reviews",
+          "checked_at": "2026-10-28T05:52:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 58,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 58,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gather-round-rentals",
+          "quote": "4.5 \u2605\u2605\u2605\u2605\u2605 58 reviews",
+          "checked_at": "2026-10-28T05:52:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

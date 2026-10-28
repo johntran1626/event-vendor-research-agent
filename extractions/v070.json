@@ -1,0 +1,598 @@
+{
+  "vendor_id": "v070",
+  "vendor_name": "Celebrate Rentals",
+  "category": "rental",
+  "slug": "celebrate-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.06941220000000001,
+    "duration_ms": 20245,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8051,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3672,
+      "output_tokens_details": {
+        "thinking_tokens": 937
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8051,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3672,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8051,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8051
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "35d56ae5-b870-4a77-a503-062f4ea384fc",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:55:16Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "8397 Cormorant Way, Baytown, TX 77520",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+        "quote": "8397 Cormorant Way, Baytown, TX 77520",
+        "checked_at": "2026-10-28T05:55:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "8397 Cormorant Way, Baytown, TX 77520",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/contact",
+        "quote": "8397 Cormorant Way",
+        "note": "Street on one line, 'Baytown, TX 77520' on the next line of the page.",
+        "checked_at": "2026-10-28T05:55:19Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77520",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+        "quote": "Baytown, TX 77520",
+        "checked_at": "2026-10-28T05:55:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "77520",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/contact",
+        "quote": "Baytown, TX 77520",
+        "checked_at": "2026-10-28T05:55:19Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0121",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+        "quote": "(281) 555-0121",
+        "checked_at": "2026-10-28T05:55:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0121",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+        "quote": "Call 281.555.0121 to get a quote.",
+        "checked_at": "2026-10-28T05:55:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0121",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/contact",
+        "quote": "Phone: 281.555.0121",
+        "checked_at": "2026-10-28T05:55:19Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Farah Whitfield",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/about",
+        "quote": "Farah Whitfield founded Celebrate Rentals in 2011.",
+        "note": "Farah still runs it day to day.",
+        "checked_at": "2026-10-28T05:55:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "Farah Whitfield",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/celebraterentals",
+        "quote": "Owner Farah Whitfield.",
+        "checked_at": "2026-10-28T05:55:17Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 90,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+        "quote": "90 guests",
+        "note": "Listed as 'Seats up to'.",
+        "checked_at": "2026-10-28T05:55:16Z",
+        "quote_found": true
+      },
+      {
+        "value": 90,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+        "quote": "We can seat up to 90 guests.",
+        "checked_at": "2026-10-28T05:55:17Z",
+        "quote_found": true
+      },
+      {
+        "value": 90,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+        "quote": "Inventory: seating for up to 90 guests.",
+        "checked_at": "2026-10-28T05:55:18Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 19,
+        "current": true,
+        "unit": "per guest, full setup (table, chair and linen)",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $19",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:55:18Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:55:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:55:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:55:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:55:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:55:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:55:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:55:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:55:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+        "quote": "Speakers, microphones and projectors",
+        "checked_at": "2026-10-28T05:55:18Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.9,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+        "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 160 reviews",
+        "checked_at": "2026-10-28T05:55:16Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 160,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+        "quote": "160 reviews",
+        "checked_at": "2026-10-28T05:55:16Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+        "quote": "8:00 AM - 5:00 PM",
+        "note": "Same hours listed for each of Monday to Friday; Saturday '8:00 AM - 12:00 PM'; Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:55:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/contact",
+        "quote": "8:00 AM to 5:00 PM",
+        "note": "Office hours. Same for each of Monday to Friday; Saturday '8:00 AM to 12:00 PM'; Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:55:19Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:55:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:55:17Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:55:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77520",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77520",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+          "quote": "Baytown, TX 77520",
+          "checked_at": "2026-10-28T05:55:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 25,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Farah Whitfield",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Farah Whitfield",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/about",
+          "quote": "Farah Whitfield founded Celebrate Rentals in 2011.",
+          "checked_at": "2026-10-28T05:55:18Z",
+          "quote_found": true
+        },
+        {
+          "value": "Farah Whitfield",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/celebraterentals",
+          "quote": "Owner Farah Whitfield.",
+          "checked_at": "2026-10-28T05:55:17Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0121",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0121",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+          "quote": "(281) 555-0121",
+          "checked_at": "2026-10-28T05:55:16Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0121",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+          "quote": "Call 281.555.0121 to get a quote.",
+          "checked_at": "2026-10-28T05:55:17Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0121",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/contact",
+          "quote": "Phone: 281.555.0121",
+          "checked_at": "2026-10-28T05:55:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "8397 Cormorant Way, Baytown, TX 77520",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "8397 Cormorant Way, Baytown, TX 77520",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+          "quote": "8397 Cormorant Way, Baytown, TX 77520",
+          "checked_at": "2026-10-28T05:55:16Z",
+          "quote_found": true
+        },
+        {
+          "value": "8397 Cormorant Way, Baytown, TX 77520",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/contact",
+          "quote": "8397 Cormorant Way",
+          "checked_at": "2026-10-28T05:55:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 90,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 90,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+          "quote": "90 guests",
+          "checked_at": "2026-10-28T05:55:16Z",
+          "quote_found": true
+        },
+        {
+          "value": 90,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+          "quote": "We can seat up to 90 guests.",
+          "checked_at": "2026-10-28T05:55:17Z",
+          "quote_found": true
+        },
+        {
+          "value": 90,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+          "quote": "Inventory: seating for up to 90 guests.",
+          "checked_at": "2026-10-28T05:55:18Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 19,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 19,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+          "quote": "Full setup per guest (table, chair and linen): $19",
+          "checked_at": "2026-10-28T05:55:18Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "av",
+        "chairs",
+        "lighting",
+        "linens",
+        "tables"
+      ],
+      "by_feature": {
+        "av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+              "quote": "Speakers, microphones and projectors",
+              "checked_at": "2026-10-28T05:55:18Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:55:17Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:55:18Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:55:17Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:55:18Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:55:17Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:55:18Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:55:17Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/celebrate-rentals/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:55:18Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.9,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.9,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+          "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 160 reviews",
+          "checked_at": "2026-10-28T05:55:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 160,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 160,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/celebrate-rentals",
+          "quote": "160 reviews",
+          "checked_at": "2026-10-28T05:55:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

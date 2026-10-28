@@ -1,0 +1,672 @@
+{
+  "vendor_id": "v026",
+  "vendor_name": "Wild Plum Catering",
+  "category": "caterer",
+  "slug": "wild-plum-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.07921619999999999,
+    "duration_ms": 28008,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7532,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4860,
+      "output_tokens_details": {
+        "thinking_tokens": 1451
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7532,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4860,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7532,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7532
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "79f2bd72-e18a-4f4c-a299-64ab98bc2520",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:52:04Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2073 Larkhaven Ct, Houston, TX 77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+        "quote": "2073 Larkhaven Ct, Houston, TX 77019",
+        "checked_at": "2026-10-28T05:52:04Z",
+        "quote_found": true
+      },
+      {
+        "value": "2073 Larkhaven Ct, Houston, TX 77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/contact",
+        "quote": "2073 Larkhaven Ct",
+        "note": "Street line; city, state and zip are on the next line of the page.",
+        "checked_at": "2026-10-28T05:52:07Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+        "quote": "Houston, TX 77019",
+        "checked_at": "2026-10-28T05:52:04Z",
+        "quote_found": true
+      },
+      {
+        "value": "77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/contact",
+        "quote": "Houston, TX 77019",
+        "checked_at": "2026-10-28T05:52:07Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0100",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+        "quote": "(713) 555-0100",
+        "checked_at": "2026-10-28T05:52:04Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0100",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/contact",
+        "quote": "Phone: 713.555.0100",
+        "note": "Same number as the listing, written differently.",
+        "checked_at": "2026-10-28T05:52:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0100",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+        "quote": "Call 713.555.0100 to get a quote.",
+        "note": "Same number as the listing, written differently.",
+        "checked_at": "2026-10-28T05:52:05Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Jolene Broussard",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/about",
+        "quote": "Jolene Broussard founded Wild Plum Catering in 2014. Jolene still runs it day to day",
+        "note": "The page says founder who still runs the business; it does not use the word 'owner'.",
+        "checked_at": "2026-10-28T05:52:06Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 230,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+        "quote": "230 guests",
+        "checked_at": "2026-10-28T05:52:04Z",
+        "quote_found": true
+      },
+      {
+        "value": 230,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+        "quote": "We cater events of up to 230 guests.",
+        "checked_at": "2026-10-28T05:52:05Z",
+        "quote_found": true
+      },
+      {
+        "value": 230,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+        "quote": "Largest event: 230 guests.",
+        "checked_at": "2026-10-28T05:52:06Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 72,
+        "unit": "per person",
+        "current": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+        "quote": "2025 Gala Menus",
+        "note": "Home page labels this '2025 Gala Menus': 'Plated dinners from $72 per person, with servers and bar service.' Earlier-year label, so not current.",
+        "checked_at": "2026-10-28T05:52:05Z",
+        "quote_found": true
+      },
+      {
+        "value": 96,
+        "unit": "per person",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+        "quote": "Dinner service: $96 per person.",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:52:06Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "plated",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+        "quote": "Plated dinners",
+        "checked_at": "2026-10-28T05:52:06Z",
+        "quote_found": true
+      },
+      {
+        "value": "plated",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+        "quote": "Plated dinners from $72 per person",
+        "checked_at": "2026-10-28T05:52:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:52:06Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "checked_at": "2026-10-28T05:52:06Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+        "quote": "with servers and bar service",
+        "checked_at": "2026-10-28T05:52:05Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+        "quote": "Vegetarian menu.",
+        "checked_at": "2026-10-28T05:52:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+        "quote": "Vegetarian menu",
+        "checked_at": "2026-10-28T05:52:06Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+        "quote": "Gluten-free menu.",
+        "checked_at": "2026-10-28T05:52:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+        "quote": "Gluten-free menu",
+        "checked_at": "2026-10-28T05:52:06Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 144 reviews",
+        "checked_at": "2026-10-28T05:52:04Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 144,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 144 reviews",
+        "checked_at": "2026-10-28T05:52:04Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+        "quote": "9:00 AM - 5:00 PM",
+        "note": "Weekday hours quoted; Saturday is '9:00 AM - 1:00 PM' and Sunday is 'Closed' on the same page.",
+        "checked_at": "2026-10-28T05:52:04Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/contact",
+        "quote": "9:00 AM to 5:00 PM",
+        "note": "Listed as office hours. Saturday is '9:00 AM to 1:00 PM' and Sunday is 'Closed' on the same page. Same hours as the listing.",
+        "checked_at": "2026-10-28T05:52:07Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:52:04Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:52:05Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "price",
+      "description": "The home page shows 'Plated dinners from $72 per person' under '2025 Gala Menus'. The packages page shows 'Dinner service: $96 per person' as current rates for 2026 and 2027 events. The $72 price is the older one.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "stale_pricing",
+      "reason": "The home page publishes a $72 per person price labeled '2025 Gala Menus'. The packages page gives $96 per person as the current rate for 2026 and 2027 events.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+      "quote": "2025 Gala Menus",
+      "checked_at": "2026-10-28T05:52:05Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "dietary: vegan",
+      "checked": "Listing, reviews, social, home, packages, about and contact pages. None mention vegan."
+    },
+    {
+      "field": "dietary: nut_free",
+      "checked": "Listing, reviews, social, home, packages, about and contact pages. None mention nut-free options."
+    },
+    {
+      "field": "feature: buffet",
+      "checked": "Home, packages, listing. Only a review (Carlos F., Aug 1, 2025) mentions a buffet, which is not treated as a vendor claim."
+    },
+    {
+      "field": "feature: drop_off",
+      "checked": "Home and packages pages list plated dinners, staff and bar service only. No drop-off service is mentioned."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:52:04Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77019",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77019",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+          "quote": "Houston, TX 77019",
+          "checked_at": "2026-10-28T05:52:04Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 4,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Jolene Broussard",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Jolene Broussard",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/about",
+          "quote": "Jolene Broussard founded Wild Plum Catering in 2014. Jolene still runs it day to day",
+          "checked_at": "2026-10-28T05:52:06Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0100",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0100",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+          "quote": "(713) 555-0100",
+          "checked_at": "2026-10-28T05:52:04Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0100",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/contact",
+          "quote": "Phone: 713.555.0100",
+          "checked_at": "2026-10-28T05:52:07Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0100",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+          "quote": "Call 713.555.0100 to get a quote.",
+          "checked_at": "2026-10-28T05:52:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "2073 Larkhaven Ct, Houston, TX 77019",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2073 Larkhaven Ct, Houston, TX 77019",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+          "quote": "2073 Larkhaven Ct, Houston, TX 77019",
+          "checked_at": "2026-10-28T05:52:04Z",
+          "quote_found": true
+        },
+        {
+          "value": "2073 Larkhaven Ct, Houston, TX 77019",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/contact",
+          "quote": "2073 Larkhaven Ct",
+          "checked_at": "2026-10-28T05:52:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 230,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 230,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+          "quote": "230 guests",
+          "checked_at": "2026-10-28T05:52:04Z",
+          "quote_found": true
+        },
+        {
+          "value": 230,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+          "quote": "We cater events of up to 230 guests.",
+          "checked_at": "2026-10-28T05:52:05Z",
+          "quote_found": true
+        },
+        {
+          "value": 230,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+          "quote": "Largest event: 230 guests.",
+          "checked_at": "2026-10-28T05:52:06Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 96,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 72,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+          "quote": "2025 Gala Menus",
+          "checked_at": "2026-10-28T05:52:05Z",
+          "quote_found": true
+        },
+        {
+          "value": 96,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+          "quote": "Dinner service: $96 per person.",
+          "checked_at": "2026-10-28T05:52:06Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": [
+        {
+          "value": 72,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+          "quote": "2025 Gala Menus",
+          "checked_at": "2026-10-28T05:52:05Z",
+          "quote_found": true
+        }
+      ]
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "onsite_staff",
+        "plated"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:52:06Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+              "quote": "with servers and bar service",
+              "checked_at": "2026-10-28T05:52:05Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:52:06Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:52:06Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+              "quote": "Plated dinners from $72 per person",
+              "checked_at": "2026-10-28T05:52:05Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:52:05Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:52:06Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:52:05Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:52:06Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 144 reviews",
+          "checked_at": "2026-10-28T05:52:04Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 144,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 144,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/wild-plum-catering",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 144 reviews",
+          "checked_at": "2026-10-28T05:52:04Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "stale_pricing",
+        "reason": "The home page publishes a $72 per person price labeled '2025 Gala Menus'. The packages page gives $96 per person as the current rate for 2026 and 2027 events.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/wild-plum-catering/",
+        "by": "model"
+      }
+    ]
+  }
+}

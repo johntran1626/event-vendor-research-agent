@@ -1,0 +1,574 @@
+{
+  "vendor_id": "v092",
+  "vendor_name": "Parasol Event Rentals",
+  "category": "rental",
+  "slug": "parasol-event-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.059352199999999994,
+    "duration_ms": 13371,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8086,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2652,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8086,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2652,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8086,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8086
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "90354738-4f2e-48a7-b088-99711c20b133",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:56:52Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "714 Cormorant Way, Houston, TX 77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+        "quote": "714 Cormorant Way, Houston, TX 77019",
+        "checked_at": "2026-10-28T05:56:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "714 Cormorant Way, Houston, TX 77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/contact",
+        "quote": "714 Cormorant Way",
+        "note": "Street on one line, 'Houston, TX 77019' on the next line",
+        "checked_at": "2026-10-28T05:56:55Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+        "quote": "714 Cormorant Way, Houston, TX 77019",
+        "checked_at": "2026-10-28T05:56:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/contact",
+        "quote": "Houston, TX 77019",
+        "checked_at": "2026-10-28T05:56:55Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0198",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+        "quote": "(832) 555-0198",
+        "checked_at": "2026-10-28T05:56:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0198",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/contact",
+        "quote": "Phone: 832-555-0198",
+        "checked_at": "2026-10-28T05:56:55Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0198",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+        "quote": "Call 832-555-0198 to get a quote.",
+        "checked_at": "2026-10-28T05:56:53Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Rosalind Fairbanks",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/about",
+        "quote": "Rosalind Fairbanks founded Parasol Event Rentals in 2013.",
+        "checked_at": "2026-10-28T05:56:54Z",
+        "quote_found": true
+      },
+      {
+        "value": "Rosalind Fairbanks",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/parasoleventrental",
+        "quote": "Owner Rosalind Fairbanks.",
+        "checked_at": "2026-10-28T05:56:53Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 460,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+        "quote": "460 guests",
+        "kind": "seating",
+        "note": "Listed as 'Seats up to'",
+        "checked_at": "2026-10-28T05:56:52Z",
+        "quote_found": true
+      },
+      {
+        "value": 460,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+        "quote": "We can seat up to 460 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:56:53Z",
+        "quote_found": true
+      },
+      {
+        "value": 460,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+        "quote": "Inventory: seating for up to 460 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:56:54Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 27,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $27",
+        "current": true,
+        "unit": "per guest",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:56:54Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:54Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:54Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+        "quote": "Uplighting and string lights",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:54Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:54Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+        "quote": "Uplighting and string lights",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:53Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.1,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+        "quote": "4.1 \u2605\u2605\u2605\u2605\u2606 189 reviews",
+        "checked_at": "2026-10-28T05:56:52Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 189,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+        "quote": "4.1 \u2605\u2605\u2605\u2605\u2606 189 reviews",
+        "checked_at": "2026-10-28T05:56:52Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+        "quote": "Saturday 8:00 AM - 12:00 PM",
+        "note": "Weekdays listed as 8:00 AM - 5:00 PM each day; Sunday: Closed",
+        "checked_at": "2026-10-28T05:56:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/contact",
+        "quote": "Saturday 8:00 AM to 12:00 PM",
+        "note": "Office hours; weekdays 8:00 AM to 5:00 PM each day; Sunday: Closed",
+        "checked_at": "2026-10-28T05:56:55Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:56:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:56:53Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:56:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77019",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77019",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+          "quote": "714 Cormorant Way, Houston, TX 77019",
+          "checked_at": "2026-10-28T05:56:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 4,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Rosalind Fairbanks",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Rosalind Fairbanks",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/about",
+          "quote": "Rosalind Fairbanks founded Parasol Event Rentals in 2013.",
+          "checked_at": "2026-10-28T05:56:54Z",
+          "quote_found": true
+        },
+        {
+          "value": "Rosalind Fairbanks",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/parasoleventrental",
+          "quote": "Owner Rosalind Fairbanks.",
+          "checked_at": "2026-10-28T05:56:53Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0198",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0198",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+          "quote": "(832) 555-0198",
+          "checked_at": "2026-10-28T05:56:52Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0198",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/contact",
+          "quote": "Phone: 832-555-0198",
+          "checked_at": "2026-10-28T05:56:55Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0198",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+          "quote": "Call 832-555-0198 to get a quote.",
+          "checked_at": "2026-10-28T05:56:53Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "714 Cormorant Way, Houston, TX 77019",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "714 Cormorant Way, Houston, TX 77019",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+          "quote": "714 Cormorant Way, Houston, TX 77019",
+          "checked_at": "2026-10-28T05:56:52Z",
+          "quote_found": true
+        },
+        {
+          "value": "714 Cormorant Way, Houston, TX 77019",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/contact",
+          "quote": "714 Cormorant Way",
+          "checked_at": "2026-10-28T05:56:55Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 460,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 460,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+          "quote": "460 guests",
+          "checked_at": "2026-10-28T05:56:52Z",
+          "quote_found": true
+        },
+        {
+          "value": 460,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+          "quote": "We can seat up to 460 guests.",
+          "checked_at": "2026-10-28T05:56:53Z",
+          "quote_found": true
+        },
+        {
+          "value": 460,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+          "quote": "Inventory: seating for up to 460 guests.",
+          "checked_at": "2026-10-28T05:56:54Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 27,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 27,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+          "quote": "Full setup per guest (table, chair and linen): $27",
+          "checked_at": "2026-10-28T05:56:54Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "chairs",
+        "lighting",
+        "tables",
+        "tents"
+      ],
+      "by_feature": {
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:56:54Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:56:53Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:56:54Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:56:53Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:56:54Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:56:53Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tents": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/packages",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:56:54Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/parasol-event-rentals/",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:56:53Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.1,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.1,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+          "quote": "4.1 \u2605\u2605\u2605\u2605\u2606 189 reviews",
+          "checked_at": "2026-10-28T05:56:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 189,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 189,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/parasol-event-rentals",
+          "quote": "4.1 \u2605\u2605\u2605\u2605\u2606 189 reviews",
+          "checked_at": "2026-10-28T05:56:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

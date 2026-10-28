@@ -1,0 +1,595 @@
+{
+  "vendor_id": "v057",
+  "vendor_name": "Redwing Ranch",
+  "category": "venue",
+  "slug": "redwing-ranch",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0599282,
+    "duration_ms": 13675,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8055,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2722,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8055,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2722,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8055,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8055
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "2f9c87ef-9d61-4252-bc40-162dc7351a8d",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:54:17Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2634 Rushwood Trail, Cypress, TX 77429",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+        "quote": "2634 Rushwood Trail, Cypress, TX 77429",
+        "checked_at": "2026-10-28T05:54:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "2634 Rushwood Trail, Cypress, TX 77429",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/contact",
+        "quote": "2634 Rushwood Trail\nCypress, TX 77429",
+        "checked_at": "2026-10-28T05:54:20Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77429",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+        "quote": "2634 Rushwood Trail, Cypress, TX 77429",
+        "checked_at": "2026-10-28T05:54:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "77429",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/contact",
+        "quote": "Cypress, TX 77429",
+        "checked_at": "2026-10-28T05:54:20Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0151",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+        "quote": "(832) 555-0151",
+        "checked_at": "2026-10-28T05:54:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "832.555.0151",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+        "quote": "Call 832.555.0151 to schedule a tour.",
+        "checked_at": "2026-10-28T05:54:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "832.555.0151",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/contact",
+        "quote": "Phone: 832.555.0151",
+        "checked_at": "2026-10-28T05:54:20Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Esperanza Achebe",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/about",
+        "quote": "Esperanza Achebe founded Redwing Ranch in 2013. Esperanza still runs it day to day",
+        "note": "Founder who still runs the business day to day; treated as owner.",
+        "checked_at": "2026-10-28T05:54:19Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 400,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+        "quote": "400 guests",
+        "kind": "fire_marshal",
+        "note": "Listed as 'Max occupancy (fire marshal)'.",
+        "checked_at": "2026-10-28T05:54:17Z",
+        "quote_found": true
+      },
+      {
+        "value": 400,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+        "quote": "Hosts up to 400 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:18Z",
+        "quote_found": true
+      },
+      {
+        "value": 400,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+        "quote": "Capacity: 400 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:19Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 6200,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "note": "Line: 'Event rental (up to 6 hours): $6,200'. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:54:19Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:19Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:19Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:19Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:18Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:19Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:19Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+        "quote": "No in-house AV. Bring your own or rent it.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:54:19Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 127 reviews",
+        "checked_at": "2026-10-28T05:54:17Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 127,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 127 reviews",
+        "checked_at": "2026-10-28T05:54:17Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Listing gives Monday through Friday 10:00 AM - 6:00 PM, Saturday 10:00 AM - 2:00 PM, Sunday Closed (one day per line on the page).",
+        "checked_at": "2026-10-28T05:54:17Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours; Monday through Friday 10:00 AM to 6:00 PM, Sunday Closed. Same as listing.",
+        "checked_at": "2026-10-28T05:54:20Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages; none state a service area."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:54:17Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77429",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77429",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+          "quote": "2634 Rushwood Trail, Cypress, TX 77429",
+          "checked_at": "2026-10-28T05:54:17Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 25,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Esperanza Achebe",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Esperanza Achebe",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/about",
+          "quote": "Esperanza Achebe founded Redwing Ranch in 2013. Esperanza still runs it day to day",
+          "checked_at": "2026-10-28T05:54:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0151",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0151",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+          "quote": "(832) 555-0151",
+          "checked_at": "2026-10-28T05:54:17Z",
+          "quote_found": true
+        },
+        {
+          "value": "832.555.0151",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+          "quote": "Call 832.555.0151 to schedule a tour.",
+          "checked_at": "2026-10-28T05:54:18Z",
+          "quote_found": true
+        },
+        {
+          "value": "832.555.0151",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/contact",
+          "quote": "Phone: 832.555.0151",
+          "checked_at": "2026-10-28T05:54:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "2634 Rushwood Trail, Cypress, TX 77429",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2634 Rushwood Trail, Cypress, TX 77429",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+          "quote": "2634 Rushwood Trail, Cypress, TX 77429",
+          "checked_at": "2026-10-28T05:54:17Z",
+          "quote_found": true
+        },
+        {
+          "value": "2634 Rushwood Trail, Cypress, TX 77429",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/contact",
+          "quote": "2634 Rushwood Trail\nCypress, TX 77429",
+          "checked_at": "2026-10-28T05:54:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 400,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+          "quote": "400 guests",
+          "checked_at": "2026-10-28T05:54:17Z",
+          "quote_found": true
+        },
+        {
+          "value": 400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+          "quote": "Hosts up to 400 guests.",
+          "checked_at": "2026-10-28T05:54:18Z",
+          "quote_found": true
+        },
+        {
+          "value": 400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+          "quote": "Capacity: 400 guests.",
+          "checked_at": "2026-10-28T05:54:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 6200,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 6200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:54:19Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "indoor",
+        "outdoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:54:19Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+              "quote": "No in-house AV. Bring your own or rent it.",
+              "checked_at": "2026-10-28T05:54:19Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:18Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:54:19Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outdoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:54:18Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:54:19Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:18Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:19Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:18Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/redwing-ranch/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:19Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 127 reviews",
+          "checked_at": "2026-10-28T05:54:17Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 127,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 127,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/redwing-ranch",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 127 reviews",
+          "checked_at": "2026-10-28T05:54:17Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}
