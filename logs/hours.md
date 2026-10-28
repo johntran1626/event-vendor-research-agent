@@ -13,7 +13,7 @@ Save as `logs/hours.md`. One file for the group, one section per person.
 
 | Date | Hours | What I did | Issue / PR |
 |---|---|---|---|
-| | | | |
+| 2026-10-28 | 2 | Crawled all 99 vendors, checked availability, extracted facts for all 99 with claude -p (24/24 eval vendors match), wrote the re-check and store scripts, set up Supabase with the schema and a first run, opened PRs | #1 #2 #3 #4 #5 #6 #8 #9 #14, PRs #20-#28 |
 
 ## Chris (ChrisB2024)
 
