@@ -198,6 +198,22 @@ def build(run_id, extra):
     return tables
 
 
+def batches(rows, max_bytes=32_000):
+    """Split rows into request bodies of at most max_bytes. On John's Mac, Python's TLS
+    fails every POST body over about 50 KB to Supabase (SSLV3_ALERT_BAD_RECORD_MAC),
+    while 38 KB goes through, so bodies stay well under that."""
+    batch, size = [], 2
+    for row in rows:
+        n = len(json.dumps(row)) + 2
+        if batch and size + n > max_bytes:
+            yield batch
+            batch, size = [], 2
+        batch.append(row)
+        size += n
+    if batch:
+        yield batch
+
+
 def upsert(base, key, table, rows):
     headers = {"apikey": key, "Content-Type": "application/json",
                "Prefer": "resolution=merge-duplicates,return=minimal"}
@@ -206,8 +222,8 @@ def upsert(base, key, table, rows):
     url = f"{base}/rest/v1/{table}"
     if table in CONFLICT_KEYS:
         url += f"?on_conflict={CONFLICT_KEYS[table]}"
-    for i in range(0, len(rows), 200):
-        body = json.dumps(rows[i:i + 200]).encode()
+    for batch in batches(rows):
+        body = json.dumps(batch).encode()
         for attempt in range(4):
             req = urllib.request.Request(url, data=body, headers=headers, method="POST")
             try:
