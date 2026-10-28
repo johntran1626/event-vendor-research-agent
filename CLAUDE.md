@@ -1,13 +1,11 @@
 # CLAUDE.md
 
-<!-- Starter for your fork's root CLAUDE.md, pre-filled for project C, rotation round. Fill in the <placeholders>, delete what you don't use, delete this comment. Keep it under 60 lines: every line loads every session and costs usage. When Claude gets something wrong twice, add a rule. -->
-
 ## Project
 - Event vendor research agent (Lab project C, rotation). Cattail & Rye Events (a fictional Houston event planner) needs, for each event brief, the 3 venues, 3 caterers and 3 rental companies to call, the three that fit one total budget together, every fact with a source and the time it was checked, and inquiries sent and followed up through the sandbox inbox. The vendors are fictional and live in the Lab sandbox at `https://vendors-r1.lab.zappstudios.us`.
 - Brief: `README.md`. Checklist: `docs/MILESTONES.md`. Sandbox and inbox: `docs/SANDBOX.md`. Rubric, package rule and zip table: `docs/RUBRIC.md`.
-- The app lives in `web/`: Next.js App Router, TypeScript, Tailwind. Database: Supabase Postgres with RLS, migrations in `supabase/migrations/`. Hosting: Vercel (Root Directory `web`), connected to the fork so a merge to `main` deploys, owned by <owner>. The app only displays results. It never calls Claude.
+- The app lives in `web/`: Next.js App Router, TypeScript, Tailwind. Database: Supabase Postgres with RLS, migrations in `supabase/migrations/`. Hosting: Vercel (Root Directory `web`), connected to the fork so a merge to `main` deploys, owned by johntran1626 (the fork owner, who merges every PR). The app only displays results. It never calls Claude.
 - The pipeline (crawl, extract, availability, score, packages, inbox, re-check, store) lives in `agent/` and runs locally, with prompts in `prompts/`.
-- Round: due Wed Nov 4. Done means: <the checklist boxes you're working on>.
+- Round: due Wed Nov 4. Done means: every box in `docs/MILESTONES.md` on `main` and the live URL. Team: John Tran (johntran1626, owner) and Chris (ChrisB2024). Work is tracked in the GitHub Issues of milestone "Round 1".
 
 ## Data
 - Data files: `data/vendors.csv` (99 vendors), `data/briefs/*.json` and `*.md` (event briefs, each with a `total_budget`), `evals/public.jsonl` (24 labelled rows). Never edit them.

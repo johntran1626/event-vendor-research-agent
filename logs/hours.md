@@ -9,25 +9,13 @@ Save as `logs/hours.md`. One file for the group, one section per person.
 - Add rows only at the bottom of **your own section**, so two people never edit the same lines.
 - Honest numbers only. Zero is an honest number. A week of identical round numbers isn't.
 
-## <name 1>
-
-| Date | Hours | What I did | Issue / PR |
-|---|---|---|---|
-| 2026-10-24 | 1.5 | Forked the starter repo, added my teammate and HZapperz, checked the sandbox loads | #1 |
-
-## <name 2>
+## John Tran (johntran1626)
 
 | Date | Hours | What I did | Issue / PR |
 |---|---|---|---|
 | | | | |
 
-## <name 3>
-
-| Date | Hours | What I did | Issue / PR |
-|---|---|---|---|
-| | | | |
-
-## <name 4>
+## Chris (ChrisB2024)
 
 | Date | Hours | What I did | Issue / PR |
 |---|---|---|---|
