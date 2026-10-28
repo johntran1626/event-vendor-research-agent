@@ -43,6 +43,7 @@ create table if not exists public.facts (
   quote text,                                     -- the words on the page that support the value
   checked_at timestamptz not null,                -- when the source page was fetched
   is_conflict boolean not null default false,
+  used boolean not null default false,        -- the claim the rubric uses for this field
   note text,
   check (is_unknown or (value is not null and source_url is not null))
 );
