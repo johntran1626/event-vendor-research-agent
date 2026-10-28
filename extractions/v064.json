@@ -1,0 +1,607 @@
+{
+  "vendor_id": "v064",
+  "vendor_name": "Elm Street Rentals",
+  "category": "rental",
+  "slug": "elm-street-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0692202,
+    "duration_ms": 21869,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7568,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3846,
+      "output_tokens_details": {
+        "thinking_tokens": 1030
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7568,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3846,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7568,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7568
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "14f1ed44-1666-4203-acb1-c54a792cc8d2",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:54:48Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2230 Cinder Lake Dr, Houston, TX 77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+        "quote": "2230 Cinder Lake Dr, Houston, TX 77006",
+        "checked_at": "2026-10-28T05:54:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "2230 Cinder Lake Dr, Houston, TX 77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/contact",
+        "quote": "2230 Cinder Lake Dr",
+        "checked_at": "2026-10-28T05:54:52Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+        "quote": "Houston, TX 77006",
+        "checked_at": "2026-10-28T05:54:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "77006",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/contact",
+        "quote": "Houston, TX 77006",
+        "checked_at": "2026-10-28T05:54:52Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0108",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+        "quote": "(713) 555-0108",
+        "checked_at": "2026-10-28T05:54:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "713 555 0108",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+        "quote": "Call 713 555 0108 to get a quote.",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "713 555 0108",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/contact",
+        "quote": "Phone: 713 555 0108",
+        "checked_at": "2026-10-28T05:54:52Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Noemi Espinoza",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/elmstreetrentals",
+        "quote": "Owner Noemi Espinoza.",
+        "checked_at": "2026-10-28T05:54:49Z",
+        "quote_found": true
+      },
+      {
+        "value": "Noemi Espinoza",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/about",
+        "quote": "Noemi Espinoza founded Elm Street Rentals in 2013.",
+        "note": "Founder who still runs the business day to day; the Facebook page names her as owner.",
+        "checked_at": "2026-10-28T05:54:51Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 280,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+        "quote": "280 guests",
+        "note": "Listing field 'Seats up to'.",
+        "checked_at": "2026-10-28T05:54:48Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+        "quote": "We can seat up to 280 guests.",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+        "quote": "Inventory: seating for up to 280 guests.",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 19,
+        "unit": "per guest",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $19",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+        "quote": "Dance floor",
+        "note": "Listed under 'What we rent'.",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 88 reviews",
+        "checked_at": "2026-10-28T05:54:48Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 88,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 88 reviews",
+        "checked_at": "2026-10-28T05:54:48Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+        "quote": "8:00 AM - 12:00 PM",
+        "note": "Quote is the Saturday line; Monday to Friday show 8:00 AM - 5:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:54:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/contact",
+        "quote": "8:00 AM to 12:00 PM",
+        "note": "Quote is the Saturday line; Monday to Friday show 8:00 AM to 5:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:54:52Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:54:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:54:50Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "features: tents, heaters, av",
+      "checked": "Listing, reviews, Facebook, home, packages, about and contact pages: none mention tents, heaters or AV equipment."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: rental company."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:54:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77006",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77006",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+          "quote": "Houston, TX 77006",
+          "checked_at": "2026-10-28T05:54:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 3,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Noemi Espinoza",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Noemi Espinoza",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/elmstreetrentals",
+          "quote": "Owner Noemi Espinoza.",
+          "checked_at": "2026-10-28T05:54:49Z",
+          "quote_found": true
+        },
+        {
+          "value": "Noemi Espinoza",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/about",
+          "quote": "Noemi Espinoza founded Elm Street Rentals in 2013.",
+          "checked_at": "2026-10-28T05:54:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0108",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0108",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+          "quote": "(713) 555-0108",
+          "checked_at": "2026-10-28T05:54:48Z",
+          "quote_found": true
+        },
+        {
+          "value": "713 555 0108",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+          "quote": "Call 713 555 0108 to get a quote.",
+          "checked_at": "2026-10-28T05:54:50Z",
+          "quote_found": true
+        },
+        {
+          "value": "713 555 0108",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/contact",
+          "quote": "Phone: 713 555 0108",
+          "checked_at": "2026-10-28T05:54:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "2230 Cinder Lake Dr, Houston, TX 77006",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2230 Cinder Lake Dr, Houston, TX 77006",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+          "quote": "2230 Cinder Lake Dr, Houston, TX 77006",
+          "checked_at": "2026-10-28T05:54:48Z",
+          "quote_found": true
+        },
+        {
+          "value": "2230 Cinder Lake Dr, Houston, TX 77006",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/contact",
+          "quote": "2230 Cinder Lake Dr",
+          "checked_at": "2026-10-28T05:54:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 280,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+          "quote": "280 guests",
+          "checked_at": "2026-10-28T05:54:48Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+          "quote": "We can seat up to 280 guests.",
+          "checked_at": "2026-10-28T05:54:50Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+          "quote": "Inventory: seating for up to 280 guests.",
+          "checked_at": "2026-10-28T05:54:50Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 19,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 19,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+          "quote": "Full setup per guest (table, chair and linen): $19",
+          "checked_at": "2026-10-28T05:54:50Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "chairs",
+        "dance_floor",
+        "lighting",
+        "linens",
+        "tables"
+      ],
+      "by_feature": {
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:54:50Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:54:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:54:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:54:50Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:54:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:54:50Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:54:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:54:50Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/elm-street-rentals/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:54:50Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 88 reviews",
+          "checked_at": "2026-10-28T05:54:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 88,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 88,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/elm-street-rentals",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 88 reviews",
+          "checked_at": "2026-10-28T05:54:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

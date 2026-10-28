@@ -1,0 +1,628 @@
+{
+  "vendor_id": "v027",
+  "vendor_name": "Pearl Street Catering",
+  "category": "caterer",
+  "slug": "pearl-street-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.06126619999999999,
+    "duration_ms": 17112,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7127,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3227,
+      "output_tokens_details": {
+        "thinking_tokens": 368
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7127,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3227,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7127,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7127
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "83a2755f-c66f-4bba-8e21-5adfe9582e84",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:52:08Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "8826 Larkhaven Ct, Houston, TX 77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+        "quote": "8826 Larkhaven Ct, Houston, TX 77008",
+        "checked_at": "2026-10-28T05:52:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "8826 Larkhaven Ct, Houston, TX 77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/contact",
+        "quote": "8826 Larkhaven Ct\nHouston, TX 77008",
+        "checked_at": "2026-10-28T05:52:11Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+        "quote": "Houston, TX 77008",
+        "checked_at": "2026-10-28T05:52:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/contact",
+        "quote": "Houston, TX 77008",
+        "checked_at": "2026-10-28T05:52:11Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0128",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+        "quote": "(832) 555-0128",
+        "checked_at": "2026-10-28T05:52:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "832 555 0128",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/contact",
+        "quote": "Phone: 832 555 0128",
+        "checked_at": "2026-10-28T05:52:11Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Celeste Ridley",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/about",
+        "quote": "Celeste Ridley founded Pearl Street Catering in 2008. Celeste still runs it day to day",
+        "note": "Founder who still runs the business day to day; the page does not use the word 'owner', so ownership is inferred from founder and runs-it wording.",
+        "checked_at": "2026-10-28T05:52:10Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 230,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+        "quote": "Largest event served\n\n230 guests",
+        "checked_at": "2026-10-28T05:52:08Z",
+        "quote_found": true
+      },
+      {
+        "value": 230,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+        "quote": "Largest event: 230 guests.",
+        "checked_at": "2026-10-28T05:52:10Z",
+        "quote_found": true
+      },
+      {
+        "value": 230,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/",
+        "quote": "We cater events of up to 230 guests.",
+        "note": "Phrased as 'up to', but matches the largest-event figure on the other pages.",
+        "checked_at": "2026-10-28T05:52:09Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 77,
+        "unit": "per person (dinner service, minimum 25 guests)",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+        "quote": "Current rates for 2026 and 2027 events.\n\nDinner service: $77 per person.",
+        "note": "Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:52:10Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+        "quote": "Buffet service",
+        "checked_at": "2026-10-28T05:52:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "drop_off",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+        "quote": "Drop-off delivery",
+        "checked_at": "2026-10-28T05:52:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "checked_at": "2026-10-28T05:52:10Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+        "quote": "Vegetarian menu",
+        "checked_at": "2026-10-28T05:52:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+        "quote": "Gluten-free menu",
+        "checked_at": "2026-10-28T05:52:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+        "quote": "Nut-free meals prepared separately",
+        "checked_at": "2026-10-28T05:52:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/",
+        "quote": "Vegetarian menu.",
+        "checked_at": "2026-10-28T05:52:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/",
+        "quote": "Gluten-free menu.",
+        "checked_at": "2026-10-28T05:52:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/",
+        "quote": "Nut-free meals prepared separately.",
+        "checked_at": "2026-10-28T05:52:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pearl-street-catering",
+        "quote": "They handled our vegetarian guests really well.",
+        "note": "Review by Jose T., Mar 4, 2026.",
+        "checked_at": "2026-10-28T05:52:09Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.9,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+        "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 35 reviews",
+        "checked_at": "2026-10-28T05:52:08Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 35,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+        "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 35 reviews",
+        "checked_at": "2026-10-28T05:52:08Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+        "quote": "Saturday\n\n9:00 AM - 1:00 PM\n\nSunday\n\nClosed",
+        "checked_at": "2026-10-28T05:52:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/contact",
+        "quote": "Saturday\n\n9:00 AM to 1:00 PM\n\nSunday\n\nClosed",
+        "note": "Listed as office hours; same times as the listing.",
+        "checked_at": "2026-10-28T05:52:11Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+        "quote": "Service area\n\nGreater Houston",
+        "checked_at": "2026-10-28T05:52:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:52:09Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "dietary: vegan",
+      "checked": "Listing, reviews, home, packages, about and contact pages. None mention vegan options."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:52:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77008",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+          "quote": "Houston, TX 77008",
+          "checked_at": "2026-10-28T05:52:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 5,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Celeste Ridley",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Celeste Ridley",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/about",
+          "quote": "Celeste Ridley founded Pearl Street Catering in 2008. Celeste still runs it day to day",
+          "checked_at": "2026-10-28T05:52:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0128",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0128",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+          "quote": "(832) 555-0128",
+          "checked_at": "2026-10-28T05:52:08Z",
+          "quote_found": true
+        },
+        {
+          "value": "832 555 0128",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/contact",
+          "quote": "Phone: 832 555 0128",
+          "checked_at": "2026-10-28T05:52:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "8826 Larkhaven Ct, Houston, TX 77008",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "8826 Larkhaven Ct, Houston, TX 77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+          "quote": "8826 Larkhaven Ct, Houston, TX 77008",
+          "checked_at": "2026-10-28T05:52:08Z",
+          "quote_found": true
+        },
+        {
+          "value": "8826 Larkhaven Ct, Houston, TX 77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/contact",
+          "quote": "8826 Larkhaven Ct\nHouston, TX 77008",
+          "checked_at": "2026-10-28T05:52:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 230,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 230,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+          "quote": "Largest event served\n\n230 guests",
+          "checked_at": "2026-10-28T05:52:08Z",
+          "quote_found": true
+        },
+        {
+          "value": 230,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+          "quote": "Largest event: 230 guests.",
+          "checked_at": "2026-10-28T05:52:10Z",
+          "quote_found": true
+        },
+        {
+          "value": 230,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/",
+          "quote": "We cater events of up to 230 guests.",
+          "checked_at": "2026-10-28T05:52:09Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 77,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 77,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+          "quote": "Current rates for 2026 and 2027 events.\n\nDinner service: $77 per person.",
+          "checked_at": "2026-10-28T05:52:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "drop_off"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:52:10Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:52:10Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "drop_off": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "drop_off",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+              "quote": "Drop-off delivery",
+              "checked_at": "2026-10-28T05:52:10Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "nut_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:52:10Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:52:09Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:52:10Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:52:09Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:52:10Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pearl-street-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:52:09Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pearl-street-catering",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:52:09Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review by Jose T., Mar 4, 2026."
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.9,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.9,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+          "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 35 reviews",
+          "checked_at": "2026-10-28T05:52:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 35,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 35,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pearl-street-catering",
+          "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 35 reviews",
+          "checked_at": "2026-10-28T05:52:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "vendor_id": "v020",
+  "vendor_name": "Tall Pines Tent Co.",
+  "category": "rental",
+  "slug": "tall-pines-tent-co",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0724902,
+    "duration_ms": 23639,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7623,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4151,
+      "output_tokens_details": {
+        "thinking_tokens": 1222
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7623,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4151,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7623,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7623
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "f3cd46ed-eb3b-48df-b4d0-703211071af7",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:51:36Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "3761 Kingsbridge Trace, The Woodlands, TX 77380",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+        "quote": "3761 Kingsbridge Trace, The Woodlands, TX 77380",
+        "checked_at": "2026-10-28T05:51:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "3761 Kingsbridge Trace, The Woodlands, TX 77380",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/contact",
+        "quote": "3761 Kingsbridge Trace",
+        "checked_at": "2026-10-28T05:51:39Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77380",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+        "quote": "The Woodlands, TX 77380",
+        "checked_at": "2026-10-28T05:51:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "77380",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/contact",
+        "quote": "The Woodlands, TX 77380",
+        "checked_at": "2026-10-28T05:51:39Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0149",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+        "quote": "(832) 555-0149",
+        "checked_at": "2026-10-28T05:51:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0149",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/contact",
+        "quote": "Phone: (832) 555-0149",
+        "checked_at": "2026-10-28T05:51:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0149",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+        "quote": "Call (832) 555-0149 to get a quote.",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [],
+    "capacity": [
+      {
+        "value": 110,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+        "quote": "110 guests",
+        "note": "Listing: \"Seats up to\" 110 guests.",
+        "checked_at": "2026-10-28T05:51:36Z",
+        "quote_found": true
+      },
+      {
+        "value": 110,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+        "quote": "We can seat up to 110 guests.",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      },
+      {
+        "value": 110,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+        "quote": "Inventory: seating for up to 110 guests.",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 26,
+        "unit": "per guest",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "note": "Full setup per guest (table, chair and linen): $26. Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+        "quote": "Frame and pole tents",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 151 reviews",
+        "checked_at": "2026-10-28T05:51:36Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 151,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 151 reviews",
+        "checked_at": "2026-10-28T05:51:36Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+        "quote": "8:00 AM - 5:00 PM",
+        "note": "Quoted for Monday-Friday; Saturday 8:00 AM - 12:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:51:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/contact",
+        "quote": "8:00 AM to 5:00 PM",
+        "note": "Office hours. Quoted for Monday-Friday; Saturday 8:00 AM to 12:00 PM, Sunday Closed. Same as listing.",
+        "checked_at": "2026-10-28T05:51:39Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:51:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:51:38Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [
+    {
+      "flag": "owner_unknown",
+      "reason": "No page names the owner. Mackenzie is named only by first name as operations lead (staff, not owner).",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+      "quote": "Ask for Mackenzie, our operations lead.",
+      "checked_at": "2026-10-28T05:51:38Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "owner",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages. Only Mackenzie (first name only), operations lead, is named; staff, not the owner."
+    },
+    {
+      "field": "chairs",
+      "checked": "Home and packages rent lists (tables, linens, lighting, dance floor, tents) do not list chairs. The price label mentions chair but that defines the rate, not inventory. A review mentions rented chairs but is not a vendor claim."
+    },
+    {
+      "field": "heaters/av",
+      "checked": "No page mentions heaters or AV."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: rental company."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:51:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77380",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77380",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+          "quote": "The Woodlands, TX 77380",
+          "checked_at": "2026-10-28T05:51:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 28,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": null,
+      "unknown": true,
+      "sources": [],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0149",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0149",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+          "quote": "(832) 555-0149",
+          "checked_at": "2026-10-28T05:51:36Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0149",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/contact",
+          "quote": "Phone: (832) 555-0149",
+          "checked_at": "2026-10-28T05:51:39Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0149",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+          "quote": "Call (832) 555-0149 to get a quote.",
+          "checked_at": "2026-10-28T05:51:38Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "3761 Kingsbridge Trace, The Woodlands, TX 77380",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "3761 Kingsbridge Trace, The Woodlands, TX 77380",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+          "quote": "3761 Kingsbridge Trace, The Woodlands, TX 77380",
+          "checked_at": "2026-10-28T05:51:36Z",
+          "quote_found": true
+        },
+        {
+          "value": "3761 Kingsbridge Trace, The Woodlands, TX 77380",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/contact",
+          "quote": "3761 Kingsbridge Trace",
+          "checked_at": "2026-10-28T05:51:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 110,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 110,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+          "quote": "110 guests",
+          "checked_at": "2026-10-28T05:51:36Z",
+          "quote_found": true
+        },
+        {
+          "value": 110,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+          "quote": "We can seat up to 110 guests.",
+          "checked_at": "2026-10-28T05:51:38Z",
+          "quote_found": true
+        },
+        {
+          "value": 110,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+          "quote": "Inventory: seating for up to 110 guests.",
+          "checked_at": "2026-10-28T05:51:38Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 26,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 26,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:51:38Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "lighting",
+        "linens",
+        "tables",
+        "tents"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:51:38Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:51:38Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:51:38Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:51:38Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:51:38Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:51:38Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:51:38Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:51:38Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tents": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/packages",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:51:38Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 151 reviews",
+          "checked_at": "2026-10-28T05:51:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 151,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 151,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/tall-pines-tent-co",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 151 reviews",
+          "checked_at": "2026-10-28T05:51:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "owner_unknown",
+        "reason": "No page names the owner. Mackenzie is named only by first name as operations lead (staff, not owner).",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/tall-pines-tent-co/",
+        "by": "model"
+      }
+    ]
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "vendor_id": "v002",
+  "vendor_name": "Driftwood Pavilion",
+  "category": "venue",
+  "slug": "driftwood-pavilion",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.08473,
+    "duration_ms": 20223,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 12019,
+      "cache_read_input_tokens": 0,
+      "output_tokens": 3665,
+      "output_tokens_details": {
+        "thinking_tokens": 605
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 12019,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3665,
+          "cache_read_input_tokens": 0,
+          "cache_creation_input_tokens": 12019,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 12019
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "f332d958-3122-4420-b858-d663044ba863",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:50:25Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "6801 Tanager St, Kemah, TX 77565",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+        "quote": "6801 Tanager St, Kemah, TX 77565",
+        "checked_at": "2026-10-28T05:50:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "6801 Tanager St, Kemah, TX 77565",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/contact",
+        "quote": "6801 Tanager St\nKemah, TX 77565",
+        "checked_at": "2026-10-28T05:50:29Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77565",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+        "quote": "Kemah, TX 77565",
+        "checked_at": "2026-10-28T05:50:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "77565",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/contact",
+        "quote": "Kemah, TX 77565",
+        "checked_at": "2026-10-28T05:50:29Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0109",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+        "quote": "(832) 555-0109",
+        "checked_at": "2026-10-28T05:50:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0109",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/contact",
+        "quote": "Phone: (832) 555-0109",
+        "checked_at": "2026-10-28T05:50:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0109",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+        "quote": "Call (832) 555-0109 to schedule a tour.",
+        "checked_at": "2026-10-28T05:50:27Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Jolene Achebe",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/driftwoodpavilion",
+        "quote": "Owner Jolene Achebe.",
+        "checked_at": "2026-10-28T05:50:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "Jolene Achebe",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/about",
+        "quote": "Jolene Achebe founded Driftwood Pavilion in 2006. Jolene still runs it day to day",
+        "note": "Founder who still runs the business; consistent with the Instagram bio naming her as owner.",
+        "checked_at": "2026-10-28T05:50:28Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 300,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+        "quote": "Max occupancy (fire marshal)\n\n300 guests",
+        "kind": "fire_marshal",
+        "checked_at": "2026-10-28T05:50:25Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+        "quote": "Hosts up to 300 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:50:27Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+        "quote": "Capacity: 300 guests.",
+        "kind": "marketing",
+        "note": "Not labeled as fire marshal on this page.",
+        "checked_at": "2026-10-28T05:50:28Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 7400,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+        "quote": "Current rates for 2026 and 2027 events. Event rental (up to 6 hours): $7,400",
+        "current": true,
+        "unit": "event rental, up to 6 hours",
+        "note": "Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:50:28Z",
+        "quote_found": true
+      },
+      {
+        "value": 5200,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+        "quote": "2025 Spring Picnic Packages\n\nSaturday afternoon, pavilion and lawn from $5,200.",
+        "current": false,
+        "unit": "Saturday afternoon package, from",
+        "note": "Labeled 2025; older package.",
+        "checked_at": "2026-10-28T05:50:27Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+        "quote": "Outdoor venue only. No indoor hall.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:50:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+        "quote": "No in-house AV. Bring your own or rent it.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:50:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:27Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 83 reviews",
+        "checked_at": "2026-10-28T05:50:25Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 83,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 83 reviews",
+        "checked_at": "2026-10-28T05:50:25Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM\n\nSunday\n\nClosed",
+        "checked_at": "2026-10-28T05:50:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM\n\nSunday\n\nClosed",
+        "note": "Listed as office hours; same as the listing.",
+        "checked_at": "2026-10-28T05:50:29Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "price",
+      "description": "The home page shows a 2025 Spring Picnic package from $5,200 (labeled 2025). The packages page shows current event rental of $7,400 for 2026 and 2027 events. The $5,200 is an older, differently scoped package, so use $7,400 as current.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "stale_pricing",
+      "reason": "The home page still publishes a 2025 package price ($5,200) while the packages page lists current 2026-2027 rates ($7,400).",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+      "quote": "2025 Spring Picnic Packages",
+      "checked_at": "2026-10-28T05:50:27Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages: none state an area served."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:50:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77565",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77565",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+          "quote": "Kemah, TX 77565",
+          "checked_at": "2026-10-28T05:50:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 26,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Jolene Achebe",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Jolene Achebe",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/driftwoodpavilion",
+          "quote": "Owner Jolene Achebe.",
+          "checked_at": "2026-10-28T05:50:27Z",
+          "quote_found": true
+        },
+        {
+          "value": "Jolene Achebe",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/about",
+          "quote": "Jolene Achebe founded Driftwood Pavilion in 2006. Jolene still runs it day to day",
+          "checked_at": "2026-10-28T05:50:28Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0109",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0109",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+          "quote": "(832) 555-0109",
+          "checked_at": "2026-10-28T05:50:25Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0109",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/contact",
+          "quote": "Phone: (832) 555-0109",
+          "checked_at": "2026-10-28T05:50:29Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0109",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+          "quote": "Call (832) 555-0109 to schedule a tour.",
+          "checked_at": "2026-10-28T05:50:27Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "6801 Tanager St, Kemah, TX 77565",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "6801 Tanager St, Kemah, TX 77565",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+          "quote": "6801 Tanager St, Kemah, TX 77565",
+          "checked_at": "2026-10-28T05:50:25Z",
+          "quote_found": true
+        },
+        {
+          "value": "6801 Tanager St, Kemah, TX 77565",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/contact",
+          "quote": "6801 Tanager St\nKemah, TX 77565",
+          "checked_at": "2026-10-28T05:50:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 300,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+          "quote": "Max occupancy (fire marshal)\n\n300 guests",
+          "checked_at": "2026-10-28T05:50:25Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+          "quote": "Hosts up to 300 guests.",
+          "checked_at": "2026-10-28T05:50:27Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+          "quote": "Capacity: 300 guests.",
+          "checked_at": "2026-10-28T05:50:28Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 7400,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 7400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+          "quote": "Current rates for 2026 and 2027 events. Event rental (up to 6 hours): $7,400",
+          "checked_at": "2026-10-28T05:50:28Z",
+          "quote_found": true
+        },
+        {
+          "value": 5200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+          "quote": "2025 Spring Picnic Packages\n\nSaturday afternoon, pavilion and lawn from $5,200.",
+          "checked_at": "2026-10-28T05:50:27Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": [
+        {
+          "value": 5200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+          "quote": "2025 Spring Picnic Packages\n\nSaturday afternoon, pavilion and lawn from $5,200.",
+          "checked_at": "2026-10-28T05:50:27Z",
+          "quote_found": true
+        }
+      ]
+    },
+    "features": {
+      "value": [
+        "outdoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+              "quote": "No in-house AV. Bring your own or rent it.",
+              "checked_at": "2026-10-28T05:50:28Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+              "quote": "Outdoor venue only. No indoor hall.",
+              "checked_at": "2026-10-28T05:50:28Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "outdoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:50:28Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:50:27Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:50:28Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:50:27Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:50:28Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:50:27Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 83 reviews",
+          "checked_at": "2026-10-28T05:50:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 83,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 83,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/driftwood-pavilion",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 83 reviews",
+          "checked_at": "2026-10-28T05:50:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "stale_pricing",
+        "reason": "The home page still publishes a 2025 package price ($5,200) while the packages page lists current 2026-2027 rates ($7,400).",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/driftwood-pavilion/",
+        "by": "model"
+      }
+    ]
+  }
+}

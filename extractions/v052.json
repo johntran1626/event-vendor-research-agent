@@ -1,0 +1,582 @@
+{
+  "vendor_id": "v052",
+  "vendor_name": "Cardinal Point Pavilion",
+  "category": "venue",
+  "slug": "cardinal-point-pavilion",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0590322,
+    "duration_ms": 14616,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7391,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2898,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7391,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2898,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7391,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7391
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "701b1470-ba80-4a2d-893f-f3a22fe2929c",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:54Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "9184 Saltmarsh Way, Katy, TX 77450",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+        "quote": "9184 Saltmarsh Way, Katy, TX 77450",
+        "checked_at": "2026-10-28T05:53:54Z",
+        "quote_found": true
+      },
+      {
+        "value": "9184 Saltmarsh Way, Katy, TX 77450",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/contact",
+        "quote": "9184 Saltmarsh Way\nKaty, TX 77450",
+        "checked_at": "2026-10-28T05:53:57Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77450",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+        "quote": "Katy, TX 77450",
+        "checked_at": "2026-10-28T05:53:54Z",
+        "quote_found": true
+      },
+      {
+        "value": "77450",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/contact",
+        "quote": "Katy, TX 77450",
+        "checked_at": "2026-10-28T05:53:57Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0179",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+        "quote": "(832) 555-0179",
+        "checked_at": "2026-10-28T05:53:54Z",
+        "quote_found": true
+      },
+      {
+        "value": "832 555 0179",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/contact",
+        "quote": "Phone: 832 555 0179",
+        "checked_at": "2026-10-28T05:53:57Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Calvin Landry",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/cardinalpointpavil",
+        "quote": "Owner Calvin Landry.",
+        "checked_at": "2026-10-28T05:53:55Z",
+        "quote_found": true
+      },
+      {
+        "value": "Calvin Landry",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/about",
+        "quote": "Calvin Landry founded Cardinal Point Pavilion in 2014. Calvin still runs it day to day",
+        "note": "Founder and day-to-day operator; the Instagram bio names him as owner.",
+        "checked_at": "2026-10-28T05:53:57Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 220,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+        "quote": "Max occupancy (fire marshal) 220 guests",
+        "checked_at": "2026-10-28T05:53:54Z",
+        "quote_found": true
+      },
+      {
+        "value": 400,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/",
+        "quote": "Hosts up to 400 guests.",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      },
+      {
+        "value": 400,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+        "quote": "Capacity: 400 guests.",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 5200,
+        "unit": "event rental (up to 6 hours)",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+        "quote": "Current rates for 2026 and 2027 events. Event rental (up to 6 hours): $5,200",
+        "note": "Does not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "outdoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+        "quote": "Outdoor lawn and covered patio",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+        "quote": "Outdoor venue only. No indoor hall.",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+        "quote": "No in-house AV. Bring your own or rent it.",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/",
+        "quote": "Outdoor lawn and covered patio",
+        "checked_at": "2026-10-28T05:53:56Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 104 reviews",
+        "checked_at": "2026-10-28T05:53:54Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 104,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 104 reviews",
+        "checked_at": "2026-10-28T05:53:54Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+        "quote": "Saturday 10:00 AM - 2:00 PM Sunday Closed",
+        "checked_at": "2026-10-28T05:53:54Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/contact",
+        "quote": "Saturday 10:00 AM to 2:00 PM Sunday Closed",
+        "note": "Office hours",
+        "checked_at": "2026-10-28T05:53:57Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "capacity",
+      "description": "The listing gives a fire marshal max occupancy of 220 guests. The vendor's home page and packages page say it hosts up to 400 guests (marketing figure).",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+        "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "capacity_conflict",
+      "reason": "Fire marshal max occupancy is 220 on the listing, but the vendor's own site claims 400 guests.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+      "quote": "Max occupancy (fire marshal) 220 guests",
+      "checked_at": "2026-10-28T05:53:54Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages; none states an area served."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: vendor is a venue."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:54Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77450",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77450",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+          "quote": "Katy, TX 77450",
+          "checked_at": "2026-10-28T05:53:54Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 25,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Calvin Landry",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Calvin Landry",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/cardinalpointpavil",
+          "quote": "Owner Calvin Landry.",
+          "checked_at": "2026-10-28T05:53:55Z",
+          "quote_found": true
+        },
+        {
+          "value": "Calvin Landry",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/about",
+          "quote": "Calvin Landry founded Cardinal Point Pavilion in 2014. Calvin still runs it day to day",
+          "checked_at": "2026-10-28T05:53:57Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0179",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0179",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+          "quote": "(832) 555-0179",
+          "checked_at": "2026-10-28T05:53:54Z",
+          "quote_found": true
+        },
+        {
+          "value": "832 555 0179",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/contact",
+          "quote": "Phone: 832 555 0179",
+          "checked_at": "2026-10-28T05:53:57Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "9184 Saltmarsh Way, Katy, TX 77450",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "9184 Saltmarsh Way, Katy, TX 77450",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+          "quote": "9184 Saltmarsh Way, Katy, TX 77450",
+          "checked_at": "2026-10-28T05:53:54Z",
+          "quote_found": true
+        },
+        {
+          "value": "9184 Saltmarsh Way, Katy, TX 77450",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/contact",
+          "quote": "9184 Saltmarsh Way\nKaty, TX 77450",
+          "checked_at": "2026-10-28T05:53:57Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 220,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 220,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+          "quote": "Max occupancy (fire marshal) 220 guests",
+          "checked_at": "2026-10-28T05:53:54Z",
+          "quote_found": true
+        },
+        {
+          "value": 400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/",
+          "quote": "Hosts up to 400 guests.",
+          "checked_at": "2026-10-28T05:53:56Z",
+          "quote_found": true
+        },
+        {
+          "value": 400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+          "quote": "Capacity: 400 guests.",
+          "checked_at": "2026-10-28T05:53:56Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 5200,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 5200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+          "quote": "Current rates for 2026 and 2027 events. Event rental (up to 6 hours): $5,200",
+          "checked_at": "2026-10-28T05:53:56Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "outdoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+              "quote": "No in-house AV. Bring your own or rent it.",
+              "checked_at": "2026-10-28T05:53:56Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+              "quote": "Outdoor venue only. No indoor hall.",
+              "checked_at": "2026-10-28T05:53:56Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "outdoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:53:56Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:53:56Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:53:56Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:53:56Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:53:56Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cardinal-point-pavilion/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:53:56Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 104 reviews",
+          "checked_at": "2026-10-28T05:53:54Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 104,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 104,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 104 reviews",
+          "checked_at": "2026-10-28T05:53:54Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "capacity_conflict",
+        "reason": "Fire marshal max occupancy is 220 on the listing, but the vendor's own site claims 400 guests.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cardinal-point-pavilion",
+        "by": "model"
+      }
+    ]
+  }
+}

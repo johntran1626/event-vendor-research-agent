@@ -1,0 +1,553 @@
+{
+  "vendor_id": "v088",
+  "vendor_name": "Spice Route Kitchen",
+  "category": "caterer",
+  "slug": "spice-route-kitchen",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0553082,
+    "duration_ms": 13516,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7235,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2588,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7235,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2588,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7235,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7235
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "fd40ee83-5c55-4e07-aa75-c608f466db16",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:56:33Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "9221 Hawthorn Bend Rd, Houston, TX 77036",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+        "quote": "9221 Hawthorn Bend Rd, Houston, TX 77036",
+        "checked_at": "2026-10-28T05:56:33Z",
+        "quote_found": true
+      },
+      {
+        "value": "9221 Hawthorn Bend Rd, Houston, TX 77036",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/contact",
+        "quote": "9221 Hawthorn Bend Rd\nHouston, TX 77036",
+        "checked_at": "2026-10-28T05:56:36Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77036",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+        "quote": "Houston, TX 77036",
+        "checked_at": "2026-10-28T05:56:33Z",
+        "quote_found": true
+      },
+      {
+        "value": "77036",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/contact",
+        "quote": "Houston, TX 77036",
+        "checked_at": "2026-10-28T05:56:36Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0184",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+        "quote": "(713) 555-0184",
+        "checked_at": "2026-10-28T05:56:33Z",
+        "quote_found": true
+      },
+      {
+        "value": "713-555-0184",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/",
+        "quote": "Call 713-555-0184 to get a quote.",
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "713-555-0184",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/contact",
+        "quote": "Phone: 713-555-0184",
+        "checked_at": "2026-10-28T05:56:36Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Fletcher Ibarra",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/about",
+        "quote": "Fletcher Ibarra founded Spice Route Kitchen in 2018. Fletcher still runs it day to day",
+        "note": "Founder who still runs the business day to day; page does not use the word owner, so ownership is inferred from founding and running it.",
+        "checked_at": "2026-10-28T05:56:36Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+        "quote": "280 guests",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:56:33Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+        "quote": "Largest event: 280 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/",
+        "quote": "We cater events of up to 280 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 103,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "per person",
+        "note": "Quote for the price line: \"Dinner service: $103 per person.\" Minimum 25 guests. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "plated",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+        "quote": "Plated dinners",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "drop_off",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+        "quote": "Drop-off delivery",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 173 reviews",
+        "checked_at": "2026-10-28T05:56:33Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 173,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 173 reviews",
+        "checked_at": "2026-10-28T05:56:33Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+        "quote": "Saturday\n\n9:00 AM - 1:00 PM",
+        "note": "Monday through Friday each listed as 9:00 AM - 5:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:56:33Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/contact",
+        "quote": "Saturday\n\n9:00 AM to 1:00 PM",
+        "note": "Monday through Friday each listed as 9:00 AM to 5:00 PM; Sunday Closed. Same as listing.",
+        "checked_at": "2026-10-28T05:56:36Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:56:33Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:56:35Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "dietary: vegan, gluten_free, nut_free",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages mention only a vegetarian menu."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:56:33Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77036",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77036",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+          "quote": "Houston, TX 77036",
+          "checked_at": "2026-10-28T05:56:33Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 13,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Fletcher Ibarra",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Fletcher Ibarra",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/about",
+          "quote": "Fletcher Ibarra founded Spice Route Kitchen in 2018. Fletcher still runs it day to day",
+          "checked_at": "2026-10-28T05:56:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0184",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0184",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+          "quote": "(713) 555-0184",
+          "checked_at": "2026-10-28T05:56:33Z",
+          "quote_found": true
+        },
+        {
+          "value": "713-555-0184",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/",
+          "quote": "Call 713-555-0184 to get a quote.",
+          "checked_at": "2026-10-28T05:56:35Z",
+          "quote_found": true
+        },
+        {
+          "value": "713-555-0184",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/contact",
+          "quote": "Phone: 713-555-0184",
+          "checked_at": "2026-10-28T05:56:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "9221 Hawthorn Bend Rd, Houston, TX 77036",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "9221 Hawthorn Bend Rd, Houston, TX 77036",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+          "quote": "9221 Hawthorn Bend Rd, Houston, TX 77036",
+          "checked_at": "2026-10-28T05:56:33Z",
+          "quote_found": true
+        },
+        {
+          "value": "9221 Hawthorn Bend Rd, Houston, TX 77036",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/contact",
+          "quote": "9221 Hawthorn Bend Rd\nHouston, TX 77036",
+          "checked_at": "2026-10-28T05:56:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 280,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+          "quote": "280 guests",
+          "checked_at": "2026-10-28T05:56:33Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+          "quote": "Largest event: 280 guests.",
+          "checked_at": "2026-10-28T05:56:35Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/",
+          "quote": "We cater events of up to 280 guests.",
+          "checked_at": "2026-10-28T05:56:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 103,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 103,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:56:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "drop_off",
+        "plated"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:56:35Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:56:35Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "drop_off": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "drop_off",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+              "quote": "Drop-off delivery",
+              "checked_at": "2026-10-28T05:56:35Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:56:35Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "vegetarian"
+      ],
+      "by_need": {
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:56:35Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/spice-route-kitchen/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:56:35Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 173 reviews",
+          "checked_at": "2026-10-28T05:56:33Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 173,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 173,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/spice-route-kitchen",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 173 reviews",
+          "checked_at": "2026-10-28T05:56:33Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

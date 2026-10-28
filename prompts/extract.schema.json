@@ -1,0 +1,505 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": [
+              "open",
+              "closed"
+            ]
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote"
+        ]
+      }
+    },
+    "address": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote"
+        ]
+      }
+    },
+    "zip": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "string",
+            "pattern": "^[0-9]{5}$"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote"
+        ]
+      }
+    },
+    "phone": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote"
+        ]
+      }
+    },
+    "owner": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote"
+        ]
+      }
+    },
+    "capacity": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "integer"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "fire_marshal",
+              "largest_event",
+              "seating",
+              "marketing"
+            ]
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote",
+          "kind"
+        ]
+      }
+    },
+    "price": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "number"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "current": {
+            "type": "boolean"
+          },
+          "unit": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote",
+          "current"
+        ]
+      }
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": [
+              "indoor",
+              "outdoor",
+              "in_house_av",
+              "outside_catering",
+              "parking_lot",
+              "dance_floor",
+              "buffet",
+              "plated",
+              "drop_off",
+              "onsite_staff",
+              "bar_service",
+              "tables",
+              "chairs",
+              "linens",
+              "lighting",
+              "tents",
+              "heaters",
+              "av"
+            ]
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "offered": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote",
+          "offered"
+        ]
+      }
+    },
+    "dietary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": [
+              "vegetarian",
+              "vegan",
+              "gluten_free",
+              "nut_free"
+            ]
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          },
+          "offered": {
+            "type": "boolean"
+          },
+          "cannot_guarantee": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote",
+          "offered",
+          "cannot_guarantee"
+        ]
+      }
+    },
+    "rating": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "number"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote"
+        ]
+      }
+    },
+    "review_count": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "integer"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote"
+        ]
+      }
+    },
+    "hours": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote"
+        ]
+      }
+    },
+    "service_area": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "value": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "value",
+          "source_url",
+          "quote"
+        ]
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "field": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "source_urls": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "field",
+          "description",
+          "source_urls"
+        ]
+      }
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "flag": {
+            "type": "string",
+            "enum": [
+              "closed",
+              "capacity_conflict",
+              "stale_pricing",
+              "dietary_conflict",
+              "prompt_injection",
+              "js_only_site",
+              "owner_unknown",
+              "hours_conflict",
+              "service_area_conflict",
+              "lookalike_ambiguity"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "quote": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "flag",
+          "reason",
+          "source_url"
+        ]
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "field": {
+            "type": "string"
+          },
+          "checked": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "field",
+          "checked"
+        ]
+      }
+    }
+  },
+  "required": [
+    "status",
+    "address",
+    "zip",
+    "phone",
+    "owner",
+    "capacity",
+    "price",
+    "features",
+    "dietary",
+    "rating",
+    "review_count",
+    "hours",
+    "service_area",
+    "conflicts",
+    "flags",
+    "unknowns"
+  ]
+}
