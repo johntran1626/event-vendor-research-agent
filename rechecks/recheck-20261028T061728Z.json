@@ -1,0 +1,70 @@
+{
+ "recheck_id": "recheck-20261028T061728Z",
+ "started_at": "2026-10-28T06:17:28Z",
+ "first_crawl": "20261028T055020Z",
+ "latest_crawl": "20261028T055020Z",
+ "latest_availability_check": "20261028T060735Z",
+ "dates": [
+  "2027-03-06",
+  "2027-04-24"
+ ],
+ "vendors": [
+  {
+   "vendor_id": "v002",
+   "vendor_name": "Driftwood Pavilion",
+   "slug": "driftwood-pavilion",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=driftwood-pavilion&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-10-28T06:17:32Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=driftwood-pavilion&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-10-28T06:17:33Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v034",
+   "vendor_name": "Sweet Tea Catering",
+   "slug": "sweet-tea-catering",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=sweet-tea-catering&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-10-28T06:17:37Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=sweet-tea-catering&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-10-28T06:17:37Z"
+    }
+   ],
+   "calendar_changes": []
+  }
+ ],
+ "finished_at": "2026-10-28T06:17:37Z"
+}

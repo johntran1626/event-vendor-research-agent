@@ -185,10 +185,12 @@ def save_page(vdir, kind, res, pages):
     return links
 
 
-def crawl_vendor(vendor, crawl_dir):
+def crawl_vendor(vendor, crawl_dir, match=None):
+    """Fetch one vendor's pages. A re-check passes the match it already has,
+    so the same listing is fetched again without a new search."""
     vdir = crawl_dir / vendor["vendor_id"]
     vdir.mkdir(parents=True, exist_ok=True)
-    match = find_listing(vendor)
+    match = match or find_listing(vendor)
     (vdir / "match.json").write_text(json.dumps(match, indent=2), encoding="utf-8")
 
     pages = []
