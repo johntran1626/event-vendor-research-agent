@@ -26,8 +26,10 @@ Usage:
 import argparse
 import csv
 import json
+import ssl
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -204,12 +206,20 @@ def upsert(base, key, table, rows):
     url = f"{base}/rest/v1/{table}"
     if table in CONFLICT_KEYS:
         url += f"?on_conflict={CONFLICT_KEYS[table]}"
-    for i in range(0, len(rows), 500):
-        req = urllib.request.Request(url, data=json.dumps(rows[i:i + 500]).encode(), headers=headers, method="POST")
-        try:
-            urllib.request.urlopen(req, timeout=60).read()
-        except urllib.error.HTTPError as e:
-            raise SystemExit(f"upsert into {table} failed: {e.code} {e.read().decode()[:500]}")
+    for i in range(0, len(rows), 200):
+        body = json.dumps(rows[i:i + 200]).encode()
+        for attempt in range(4):
+            req = urllib.request.Request(url, data=body, headers=headers, method="POST")
+            try:
+                urllib.request.urlopen(req, timeout=60).read()
+                break
+            except urllib.error.HTTPError as e:
+                if e.code < 500 or attempt == 3:
+                    raise SystemExit(f"upsert into {table} failed: {e.code} {e.read().decode()[:500]}")
+            except (urllib.error.URLError, ssl.SSLError, ConnectionError, TimeoutError):
+                if attempt == 3:
+                    raise
+            time.sleep(2 * (attempt + 1))  # a dropped connection or 5xx: wait and send the batch again
 
 
 def delete_run_rows(base, key, table, run_id):
