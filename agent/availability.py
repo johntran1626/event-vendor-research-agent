@@ -87,7 +87,8 @@ def main():
             print(f"{vendor_id} {slug} {date}: {row['status']}", flush=True)
 
     OUT.mkdir(parents=True, exist_ok=True)
-    out = {"check_id": check_id, "crawl_id": crawl_id, "briefs": briefs, "dates": dates, "rows": rows}
+    out = {"check_id": check_id, "crawl_id": crawl_id, "full": not args.ids,
+           "briefs": briefs, "dates": dates, "rows": rows}
     (OUT / f"{check_id}.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
     if not args.ids:
         (OUT / "LATEST").write_text(check_id + "\n")
