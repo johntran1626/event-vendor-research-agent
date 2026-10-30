@@ -149,6 +149,15 @@ def latest_full_availability():
     return full[-1] if full else None
 
 
+def brief_details(brief_id, date):
+    """The brief as its JSON file gives it (client, event, guests, budgets, must-haves), for the app."""
+    for path in sorted((ROOT / "data" / "briefs").glob("*.json")):
+        brief = json.loads(path.read_text(encoding="utf-8"))
+        if brief.get("brief_id") == brief_id:
+            return brief
+    return {"brief_id": brief_id, "date": date}
+
+
 def build(run_id, extra):
     crawl_id = (CACHE / "LATEST_CRAWL").read_text().strip()
     manifest = json.loads((CACHE / "crawls" / crawl_id / "manifest.json").read_text(encoding="utf-8"))
@@ -173,7 +182,7 @@ def build(run_id, extra):
         "models": {"crawl": None, "extract": models[0] if len(models) == 1 else models,
                    "availability": None, "score": None, "package": None},
         "crawl_id": crawl_id, "availability_check_id": av["check_id"] if av else None,
-        "briefs": [{"brief_id": b["brief_id"], "date": b["date"]} for b in (av["briefs"] if av else [])],
+        "briefs": [brief_details(b["brief_id"], b["date"]) for b in (av["briefs"] if av else [])],
         "notes": f"{len(recs)} of {len(csv_rows)} vendors extracted",
     })
     for v in csv_rows:
