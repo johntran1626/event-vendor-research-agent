@@ -1,0 +1,594 @@
+{
+  "vendor_id": "v100",
+  "vendor_name": "Partyline Rentals",
+  "category": "rental",
+  "slug": "partyline-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.06997619999999999,
+    "duration_ms": 25908,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7542,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3932,
+      "output_tokens_details": {
+        "thinking_tokens": 931
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7542,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3932,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7542,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7542
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "6e9a24e6-6c59-41be-9738-ce6abe806fb0",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+        "quote": "Status: Open",
+        "note": "No review or website page says it closed.",
+        "checked_at": "2026-10-28T05:57:28Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "8495 Arbor Glen St, Pasadena, TX 77502",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+        "quote": "8495 Arbor Glen St, Pasadena, TX 77502",
+        "checked_at": "2026-10-28T05:57:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "8495 Arbor Glen St, Pasadena, TX 77502",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/contact",
+        "quote": "8495 Arbor Glen St\nPasadena, TX 77502",
+        "checked_at": "2026-10-28T05:57:31Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77502",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+        "quote": "Pasadena, TX 77502",
+        "checked_at": "2026-10-28T05:57:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "77502",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/contact",
+        "quote": "Pasadena, TX 77502",
+        "checked_at": "2026-10-28T05:57:31Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0172",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+        "quote": "(281) 555-0172",
+        "checked_at": "2026-10-28T05:57:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "(281) 555-0172",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/contact",
+        "quote": "Phone: (281) 555-0172",
+        "checked_at": "2026-10-28T05:57:31Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Calvin Marchetti",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/about",
+        "quote": "Calvin Marchetti founded Partyline Rentals in 2016. Calvin still runs it day to day",
+        "note": "Founder who still runs the business; the page does not use the word 'owner'.",
+        "checked_at": "2026-10-28T05:57:30Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 560,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+        "quote": "560 guests",
+        "note": "Listing label: 'Seats up to'.",
+        "checked_at": "2026-10-28T05:57:28Z",
+        "quote_found": true
+      },
+      {
+        "value": 560,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+        "quote": "We can seat up to 560 guests.",
+        "checked_at": "2026-10-28T05:57:29Z",
+        "quote_found": true
+      },
+      {
+        "value": 560,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+        "quote": "Inventory: seating for up to 560 guests.",
+        "checked_at": "2026-10-28T05:57:30Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 28,
+        "unit": "per guest, full setup (table, chair and linen)",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $28",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:57:30Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:57:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:57:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:57:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:57:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+        "quote": "Speakers, microphones and projectors",
+        "checked_at": "2026-10-28T05:57:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:57:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:57:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:57:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:57:29Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.2,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+        "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 72 reviews",
+        "checked_at": "2026-10-28T05:57:28Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 72,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+        "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 72 reviews",
+        "checked_at": "2026-10-28T05:57:28Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+        "quote": "8:00 AM - 5:00 PM",
+        "note": "Listing hours. Quote shows Monday-Friday; Saturday is '8:00 AM - 12:00 PM', Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:57:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon Closed; Tue-Fri 11:00 AM to 7:00 PM; Sat 10:00 AM to 5:00 PM; Sun 12:00 PM to 4:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/contact",
+        "quote": "11:00 AM to 7:00 PM",
+        "note": "Website 'Office hours'. Quote shows Tuesday-Friday; Saturday is '10:00 AM to 5:00 PM', Sunday '12:00 PM to 4:00 PM', Monday 'Closed'.",
+        "checked_at": "2026-10-28T05:57:31Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:57:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:57:29Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "hours",
+      "description": "The listing gives Monday-Friday 8:00 AM - 5:00 PM, Saturday 8:00 AM - 12:00 PM and Sunday closed. The website contact page gives Monday closed, Tuesday-Friday 11:00 AM to 7:00 PM, Saturday 10:00 AM to 5:00 PM and Sunday 12:00 PM to 4:00 PM.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+        "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/contact"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "hours_conflict",
+      "reason": "Listing hours and the website's office hours differ on almost every day (for example Monday 8-5 vs Closed; Sunday Closed vs 12-4).",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/contact",
+      "quote": "Office hours",
+      "checked_at": "2026-10-28T05:57:31Z"
+    }
+  ],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:57:28Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77502",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77502",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+          "quote": "Pasadena, TX 77502",
+          "checked_at": "2026-10-28T05:57:28Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 12,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Calvin Marchetti",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Calvin Marchetti",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/about",
+          "quote": "Calvin Marchetti founded Partyline Rentals in 2016. Calvin still runs it day to day",
+          "checked_at": "2026-10-28T05:57:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0172",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0172",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+          "quote": "(281) 555-0172",
+          "checked_at": "2026-10-28T05:57:28Z",
+          "quote_found": true
+        },
+        {
+          "value": "(281) 555-0172",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/contact",
+          "quote": "Phone: (281) 555-0172",
+          "checked_at": "2026-10-28T05:57:31Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "8495 Arbor Glen St, Pasadena, TX 77502",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "8495 Arbor Glen St, Pasadena, TX 77502",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+          "quote": "8495 Arbor Glen St, Pasadena, TX 77502",
+          "checked_at": "2026-10-28T05:57:28Z",
+          "quote_found": true
+        },
+        {
+          "value": "8495 Arbor Glen St, Pasadena, TX 77502",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/contact",
+          "quote": "8495 Arbor Glen St\nPasadena, TX 77502",
+          "checked_at": "2026-10-28T05:57:31Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 560,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 560,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+          "quote": "560 guests",
+          "checked_at": "2026-10-28T05:57:28Z",
+          "quote_found": true
+        },
+        {
+          "value": 560,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+          "quote": "We can seat up to 560 guests.",
+          "checked_at": "2026-10-28T05:57:29Z",
+          "quote_found": true
+        },
+        {
+          "value": 560,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+          "quote": "Inventory: seating for up to 560 guests.",
+          "checked_at": "2026-10-28T05:57:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 28,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 28,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+          "quote": "Full setup per guest (table, chair and linen): $28",
+          "checked_at": "2026-10-28T05:57:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "av",
+        "chairs",
+        "dance_floor",
+        "lighting",
+        "tables"
+      ],
+      "by_feature": {
+        "av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+              "quote": "Speakers, microphones and projectors",
+              "checked_at": "2026-10-28T05:57:30Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:57:30Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:57:29Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:57:30Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:57:29Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:57:30Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:57:29Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:57:30Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:57:29Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.2,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.2,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+          "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 72 reviews",
+          "checked_at": "2026-10-28T05:57:28Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 72,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 72,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/partyline-rentals",
+          "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 72 reviews",
+          "checked_at": "2026-10-28T05:57:28Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "hours_conflict",
+        "reason": "Listing hours and the website's office hours differ on almost every day (for example Monday 8-5 vs Closed; Sunday Closed vs 12-4).",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/partyline-rentals/contact",
+        "by": "model"
+      }
+    ]
+  }
+}

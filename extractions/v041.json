@@ -1,0 +1,655 @@
+{
+  "vendor_id": "v041",
+  "vendor_name": "Pecan Smoke Barbecue Co.",
+  "category": "caterer",
+  "slug": "pecan-smoke-barbecue-co",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0842362,
+    "duration_ms": 29240,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7797,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 5256,
+      "output_tokens_details": {
+        "thinking_tokens": 1512
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7797,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 5256,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7797,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7797
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "f832b08e-f433-4735-b13a-bf79003233a0",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:09Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "7157 Lockwood Bend Dr, Katy, TX 77450",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+        "quote": "7157 Lockwood Bend Dr, Katy, TX 77450",
+        "checked_at": "2026-10-28T05:53:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "7157 Lockwood Bend Dr, Katy, TX 77450",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/contact",
+        "quote": "7157 Lockwood Bend Dr",
+        "note": "Street on one line, 'Katy, TX 77450' on the next line of the page.",
+        "checked_at": "2026-10-28T05:53:12Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77450",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+        "quote": "Katy, TX 77450",
+        "checked_at": "2026-10-28T05:53:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "77450",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/contact",
+        "quote": "Katy, TX 77450",
+        "checked_at": "2026-10-28T05:53:12Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0153",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+        "quote": "(832) 555-0153",
+        "checked_at": "2026-10-28T05:53:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "832 555 0153",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/contact",
+        "quote": "Phone: 832 555 0153",
+        "checked_at": "2026-10-28T05:53:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "832 555 0153",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/",
+        "quote": "Call 832 555 0153 to get a quote.",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Bianca Valdez",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/about",
+        "quote": "Bianca Valdez founded Pecan Smoke Barbecue Co. in 2009. Bianca still runs it day to day",
+        "note": "Page says she founded the business and still runs it; it does not use the word 'owner'.",
+        "checked_at": "2026-10-28T05:53:12Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 350,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+        "quote": "350 guests",
+        "checked_at": "2026-10-28T05:53:09Z",
+        "quote_found": true
+      },
+      {
+        "value": 350,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/",
+        "quote": "We cater events of up to 350 guests.",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      },
+      {
+        "value": 350,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+        "quote": "Largest event: 350 guests.",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 35,
+        "unit": "per person",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+        "quote": "Dinner service: $35 per person.",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests. Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+        "quote": "Buffet service",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/",
+        "quote": "Vegetarian menu.",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+        "quote": "Vegetarian menu",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pecan-smoke-barbecue-co",
+        "quote": "They handled our vegetarian guests really well.",
+        "note": "Review by Jose W., Feb 25, 2026.",
+        "checked_at": "2026-10-28T05:53:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/",
+        "quote": "Nut-free kitchen. Allergy safe.",
+        "note": "Home page also says 'Nut-free meals prepared separately.' Contradicted by the packages page and a review.",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+        "quote": "We can't guarantee any dish is free of nuts.",
+        "note": "Same page lists 'Nut-free meals prepared separately' but says pecan pie is baked in the same kitchen every day.",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": false,
+        "cannot_guarantee": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pecan-smoke-barbecue-co",
+        "quote": "they said straight out they can't guarantee nut-free. Everything shares one kitchen with the pies.",
+        "note": "Review by Luis A., Aug 12, 2026, 3/5.",
+        "checked_at": "2026-10-28T05:53:10Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 176 reviews",
+        "checked_at": "2026-10-28T05:53:09Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 176,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 176 reviews",
+        "checked_at": "2026-10-28T05:53:09Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Monday-Friday 9:00 AM - 5:00 PM; Saturday 9:00 AM - 1:00 PM; Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+        "quote": "9:00 AM - 1:00 PM",
+        "note": "Saturday hours quoted; Monday-Friday are 9:00 AM - 5:00 PM, Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:53:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "Monday-Friday 9:00 AM to 5:00 PM; Saturday 9:00 AM to 1:00 PM; Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/contact",
+        "quote": "9:00 AM to 1:00 PM",
+        "note": "Saturday hours quoted; listed as 'Office hours'. Monday-Friday 9:00 AM to 5:00 PM, Sunday 'Closed'. Same as listing.",
+        "checked_at": "2026-10-28T05:53:12Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:53:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:53:11Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "dietary: nut_free",
+      "description": "The home page says 'Nut-free kitchen. Allergy safe.' and 'Nut-free meals prepared separately.' The packages page says 'We can't guarantee any dish is free of nuts' because pecan pie is baked in the same kitchen daily. A review dated Aug 12, 2026 says the caterer said it can't guarantee nut-free and that everything shares one kitchen with the pies.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+        "https://vendors-r1.lab.zappstudios.us/reviews/pecan-smoke-barbecue-co"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "dietary_conflict",
+      "reason": "Home page claims a nut-free, allergy-safe kitchen. The packages page and an Aug 12, 2026 review say nut-free can't be guaranteed because of shared kitchen with pecan pies.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+      "quote": "We can't guarantee any dish is free of nuts.",
+      "checked_at": "2026-10-28T05:53:11Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "dietary: vegan",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages; none mention vegan."
+    },
+    {
+      "field": "dietary: gluten_free",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages; none mention gluten-free."
+    },
+    {
+      "field": "feature: plated",
+      "checked": "Home, packages and other pages; only buffet service is stated."
+    },
+    {
+      "field": "feature: drop_off",
+      "checked": "Home, packages and other pages; drop-off is not mentioned."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:09Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77450",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77450",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+          "quote": "Katy, TX 77450",
+          "checked_at": "2026-10-28T05:53:09Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 25,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Bianca Valdez",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Bianca Valdez",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/about",
+          "quote": "Bianca Valdez founded Pecan Smoke Barbecue Co. in 2009. Bianca still runs it day to day",
+          "checked_at": "2026-10-28T05:53:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0153",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0153",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+          "quote": "(832) 555-0153",
+          "checked_at": "2026-10-28T05:53:09Z",
+          "quote_found": true
+        },
+        {
+          "value": "832 555 0153",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/contact",
+          "quote": "Phone: 832 555 0153",
+          "checked_at": "2026-10-28T05:53:12Z",
+          "quote_found": true
+        },
+        {
+          "value": "832 555 0153",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/",
+          "quote": "Call 832 555 0153 to get a quote.",
+          "checked_at": "2026-10-28T05:53:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "7157 Lockwood Bend Dr, Katy, TX 77450",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "7157 Lockwood Bend Dr, Katy, TX 77450",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+          "quote": "7157 Lockwood Bend Dr, Katy, TX 77450",
+          "checked_at": "2026-10-28T05:53:09Z",
+          "quote_found": true
+        },
+        {
+          "value": "7157 Lockwood Bend Dr, Katy, TX 77450",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/contact",
+          "quote": "7157 Lockwood Bend Dr",
+          "checked_at": "2026-10-28T05:53:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 350,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 350,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+          "quote": "350 guests",
+          "checked_at": "2026-10-28T05:53:09Z",
+          "quote_found": true
+        },
+        {
+          "value": 350,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/",
+          "quote": "We cater events of up to 350 guests.",
+          "checked_at": "2026-10-28T05:53:11Z",
+          "quote_found": true
+        },
+        {
+          "value": 350,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+          "quote": "Largest event: 350 guests.",
+          "checked_at": "2026-10-28T05:53:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 35,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 35,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+          "quote": "Dinner service: $35 per person.",
+          "checked_at": "2026-10-28T05:53:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "onsite_staff"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:53:11Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:53:11Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:53:11Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "vegetarian"
+      ],
+      "by_need": {
+        "nut_free": {
+          "offered": true,
+          "met": false,
+          "conflict": true,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/",
+              "quote": "Nut-free kitchen. Allergy safe.",
+              "checked_at": "2026-10-28T05:53:11Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Home page also says 'Nut-free meals prepared separately.' Contradicted by the packages page and a review."
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+              "quote": "We can't guarantee any dish is free of nuts.",
+              "checked_at": "2026-10-28T05:53:11Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": true,
+              "note": "Same page lists 'Nut-free meals prepared separately' but says pecan pie is baked in the same kitchen every day."
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pecan-smoke-barbecue-co",
+              "quote": "they said straight out they can't guarantee nut-free. Everything shares one kitchen with the pies.",
+              "checked_at": "2026-10-28T05:53:10Z",
+              "quote_found": true,
+              "offered": false,
+              "cannot_guarantee": true,
+              "note": "Review by Luis A., Aug 12, 2026, 3/5."
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:53:11Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:53:11Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pecan-smoke-barbecue-co",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:53:10Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review by Jose W., Feb 25, 2026."
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 176 reviews",
+          "checked_at": "2026-10-28T05:53:09Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 176,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 176,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pecan-smoke-barbecue-co",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 176 reviews",
+          "checked_at": "2026-10-28T05:53:09Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "dietary_conflict",
+        "reason": "Home page claims a nut-free, allergy-safe kitchen. The packages page and an Aug 12, 2026 review say nut-free can't be guaranteed because of shared kitchen with pecan pies.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pecan-smoke-barbecue-co/packages",
+        "by": "model"
+      }
+    ]
+  }
+}

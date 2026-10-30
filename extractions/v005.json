@@ -1,0 +1,571 @@
+{
+  "vendor_id": "v005",
+  "vendor_name": "Silo Hall",
+  "category": "venue",
+  "slug": "silo-hall",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0550182,
+    "duration_ms": 12526,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7290,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2537,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7290,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2537,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7290,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7290
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "c83ac7a9-041c-4681-a237-8ea3c927e92c",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:50:39Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "9646 Hawthorn Bend Rd, Spring, TX 77373",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+        "quote": "9646 Hawthorn Bend Rd, Spring, TX 77373",
+        "checked_at": "2026-10-28T05:50:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "9646 Hawthorn Bend Rd, Spring, TX 77373",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/contact",
+        "quote": "9646 Hawthorn Bend Rd\nSpring, TX 77373",
+        "checked_at": "2026-10-28T05:50:42Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77373",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+        "quote": "Spring, TX 77373",
+        "checked_at": "2026-10-28T05:50:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "77373",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/contact",
+        "quote": "Spring, TX 77373",
+        "checked_at": "2026-10-28T05:50:42Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0145",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+        "quote": "(281) 555-0145",
+        "checked_at": "2026-10-28T05:50:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "(281) 555-0145",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/contact",
+        "quote": "Phone: (281) 555-0145",
+        "checked_at": "2026-10-28T05:50:42Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Malcolm Marchetti",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/silohall",
+        "quote": "Owner Malcolm Marchetti.",
+        "checked_at": "2026-10-28T05:50:40Z",
+        "quote_found": true
+      },
+      {
+        "value": "Malcolm Marchetti",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/about",
+        "quote": "Malcolm Marchetti founded Silo Hall in 2008. Malcolm still runs it day to day",
+        "note": "Founder who runs it day to day; does not use the word owner, but consistent with the Facebook page.",
+        "checked_at": "2026-10-28T05:50:42Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 260,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+        "quote": "Max occupancy (fire marshal)\n\n260 guests",
+        "kind": "fire_marshal",
+        "checked_at": "2026-10-28T05:50:39Z",
+        "quote_found": true
+      },
+      {
+        "value": 260,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/",
+        "quote": "Hosts up to 260 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      },
+      {
+        "value": 260,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+        "quote": "Capacity: 260 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 3700,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+        "quote": "Current rates for 2026 and 2027 events. Event rental (up to 6 hours): $3,700",
+        "current": true,
+        "unit": "event rental, up to 6 hours",
+        "note": "Does not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:41Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 145 reviews",
+        "checked_at": "2026-10-28T05:50:39Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 145,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 145 reviews",
+        "checked_at": "2026-10-28T05:50:39Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM\n\nSunday\n\nClosed",
+        "checked_at": "2026-10-28T05:50:39Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM\n\nSunday\n\nClosed",
+        "note": "Office hours",
+        "checked_at": "2026-10-28T05:50:42Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Facebook, home, packages, about and contact pages; none states an area served."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:50:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77373",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77373",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+          "quote": "Spring, TX 77373",
+          "checked_at": "2026-10-28T05:50:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 22,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Malcolm Marchetti",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Malcolm Marchetti",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/silohall",
+          "quote": "Owner Malcolm Marchetti.",
+          "checked_at": "2026-10-28T05:50:40Z",
+          "quote_found": true
+        },
+        {
+          "value": "Malcolm Marchetti",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/about",
+          "quote": "Malcolm Marchetti founded Silo Hall in 2008. Malcolm still runs it day to day",
+          "checked_at": "2026-10-28T05:50:42Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0145",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0145",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+          "quote": "(281) 555-0145",
+          "checked_at": "2026-10-28T05:50:39Z",
+          "quote_found": true
+        },
+        {
+          "value": "(281) 555-0145",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/contact",
+          "quote": "Phone: (281) 555-0145",
+          "checked_at": "2026-10-28T05:50:42Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "9646 Hawthorn Bend Rd, Spring, TX 77373",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "9646 Hawthorn Bend Rd, Spring, TX 77373",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+          "quote": "9646 Hawthorn Bend Rd, Spring, TX 77373",
+          "checked_at": "2026-10-28T05:50:39Z",
+          "quote_found": true
+        },
+        {
+          "value": "9646 Hawthorn Bend Rd, Spring, TX 77373",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/contact",
+          "quote": "9646 Hawthorn Bend Rd\nSpring, TX 77373",
+          "checked_at": "2026-10-28T05:50:42Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 260,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+          "quote": "Max occupancy (fire marshal)\n\n260 guests",
+          "checked_at": "2026-10-28T05:50:39Z",
+          "quote_found": true
+        },
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/",
+          "quote": "Hosts up to 260 guests.",
+          "checked_at": "2026-10-28T05:50:41Z",
+          "quote_found": true
+        },
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+          "quote": "Capacity: 260 guests.",
+          "checked_at": "2026-10-28T05:50:41Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 3700,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 3700,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+          "quote": "Current rates for 2026 and 2027 events. Event rental (up to 6 hours): $3,700",
+          "checked_at": "2026-10-28T05:50:41Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "in_house_av",
+        "indoor",
+        "outdoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:50:41Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:50:41Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:50:41Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:50:41Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outdoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:50:41Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:50:41Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:50:41Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:50:41Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/silo-hall/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:50:41Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 145 reviews",
+          "checked_at": "2026-10-28T05:50:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 145,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 145,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/silo-hall",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 145 reviews",
+          "checked_at": "2026-10-28T05:50:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

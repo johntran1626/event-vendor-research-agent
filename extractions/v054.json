@@ -1,0 +1,526 @@
+{
+  "vendor_id": "v054",
+  "vendor_name": "Daybreak Party Rentals",
+  "category": "rental",
+  "slug": "daybreak-party-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.06884019999999999,
+    "duration_ms": 22038,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7523,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3826,
+      "output_tokens_details": {
+        "thinking_tokens": 1214
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7523,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3826,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7523,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7523
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "9f9b0f04-a95b-4142-b613-5e27efb01cd6",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:54:03Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "6550 Cinder Lake Dr, Stafford, TX 77477",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+        "quote": "6550 Cinder Lake Dr, Stafford, TX 77477",
+        "checked_at": "2026-10-28T05:54:03Z",
+        "quote_found": true
+      },
+      {
+        "value": "6550 Cinder Lake Dr, Stafford, TX 77477",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/contact",
+        "quote": "6550 Cinder Lake Dr",
+        "checked_at": "2026-10-28T05:54:06Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77477",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+        "quote": "Stafford, TX 77477",
+        "checked_at": "2026-10-28T05:54:03Z",
+        "quote_found": true
+      },
+      {
+        "value": "77477",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/contact",
+        "quote": "Stafford, TX 77477",
+        "checked_at": "2026-10-28T05:54:06Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0160",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+        "quote": "(281) 555-0160",
+        "checked_at": "2026-10-28T05:54:03Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0160",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/contact",
+        "quote": "Phone: 281.555.0160",
+        "checked_at": "2026-10-28T05:54:06Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0160",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+        "quote": "Call 281.555.0160 to get a quote.",
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Yusuf Carver",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/about",
+        "quote": "Yusuf Carver founded Daybreak Party Rentals in 2014.",
+        "note": "Page says Yusuf still runs it day to day; the word 'owner' is not used, so ownership is inferred from founder and operator.",
+        "checked_at": "2026-10-28T05:54:06Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 90,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+        "quote": "90 guests",
+        "kind": "seating",
+        "note": "Listed as 'Seats up to'.",
+        "checked_at": "2026-10-28T05:54:03Z",
+        "quote_found": true
+      },
+      {
+        "value": 90,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+        "quote": "We can seat up to 90 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      },
+      {
+        "value": 90,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/packages",
+        "quote": "Inventory: seating for up to 90 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 14,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $14",
+        "current": true,
+        "unit": "per guest",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/packages",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/packages",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+        "quote": "4.7",
+        "checked_at": "2026-10-28T05:54:03Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 218,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+        "quote": "218 reviews",
+        "checked_at": "2026-10-28T05:54:03Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+        "quote": "8:00 AM - 5:00 PM",
+        "note": "Same hours listed for Monday through Friday; Saturday '8:00 AM - 12:00 PM'; Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:54:03Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/contact",
+        "quote": "8:00 AM to 5:00 PM",
+        "note": "Office hours. Same hours Monday through Friday; Saturday '8:00 AM to 12:00 PM'; Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:54:06Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:54:03Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:54:05Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "features: linens, lighting, heaters, av",
+      "checked": "The specific 'What we rent' list (home and packages pages) names only tables, chairs and tents. Linens appear only in the tagline 'rents tables, chairs, linens and more' and the price label, which are not feature claims when a list exists. Reviews mention linens and lighting, but they are not vendor claims, so I did not use them."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:54:03Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77477",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77477",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+          "quote": "Stafford, TX 77477",
+          "checked_at": "2026-10-28T05:54:03Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 18,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Yusuf Carver",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Yusuf Carver",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/about",
+          "quote": "Yusuf Carver founded Daybreak Party Rentals in 2014.",
+          "checked_at": "2026-10-28T05:54:06Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0160",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0160",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+          "quote": "(281) 555-0160",
+          "checked_at": "2026-10-28T05:54:03Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0160",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/contact",
+          "quote": "Phone: 281.555.0160",
+          "checked_at": "2026-10-28T05:54:06Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0160",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+          "quote": "Call 281.555.0160 to get a quote.",
+          "checked_at": "2026-10-28T05:54:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "6550 Cinder Lake Dr, Stafford, TX 77477",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "6550 Cinder Lake Dr, Stafford, TX 77477",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+          "quote": "6550 Cinder Lake Dr, Stafford, TX 77477",
+          "checked_at": "2026-10-28T05:54:03Z",
+          "quote_found": true
+        },
+        {
+          "value": "6550 Cinder Lake Dr, Stafford, TX 77477",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/contact",
+          "quote": "6550 Cinder Lake Dr",
+          "checked_at": "2026-10-28T05:54:06Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 90,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 90,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+          "quote": "90 guests",
+          "checked_at": "2026-10-28T05:54:03Z",
+          "quote_found": true
+        },
+        {
+          "value": 90,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+          "quote": "We can seat up to 90 guests.",
+          "checked_at": "2026-10-28T05:54:05Z",
+          "quote_found": true
+        },
+        {
+          "value": 90,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/packages",
+          "quote": "Inventory: seating for up to 90 guests.",
+          "checked_at": "2026-10-28T05:54:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 14,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 14,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/packages",
+          "quote": "Full setup per guest (table, chair and linen): $14",
+          "checked_at": "2026-10-28T05:54:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "chairs",
+        "tables",
+        "tents"
+      ],
+      "by_feature": {
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:54:05Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:54:05Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:54:05Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:54:05Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tents": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:54:05Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/daybreak-party-rentals/packages",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:54:05Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+          "quote": "4.7",
+          "checked_at": "2026-10-28T05:54:03Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 218,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 218,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/daybreak-party-rentals",
+          "quote": "218 reviews",
+          "checked_at": "2026-10-28T05:54:03Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

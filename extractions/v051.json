@@ -1,0 +1,623 @@
+{
+  "vendor_id": "v051",
+  "vendor_name": "Crescent Moon Catering",
+  "category": "caterer",
+  "slug": "crescent-moon-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.061628199999999994,
+    "duration_ms": 15556,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7385,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3160,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7385,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3160,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7385,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7385
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "377c7c2e-539c-448c-9c8a-dbb1a4a57155",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:50Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "139 Harrow Gate Ln, Houston, TX 77036",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+        "quote": "139 Harrow Gate Ln, Houston, TX 77036",
+        "checked_at": "2026-10-28T05:53:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "139 Harrow Gate Ln, Houston, TX 77036",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/contact",
+        "quote": "139 Harrow Gate Ln\nHouston, TX 77036",
+        "checked_at": "2026-10-28T05:53:53Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77036",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+        "quote": "Houston, TX 77036",
+        "checked_at": "2026-10-28T05:53:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "77036",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/contact",
+        "quote": "Houston, TX 77036",
+        "checked_at": "2026-10-28T05:53:53Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0181",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+        "quote": "(713) 555-0181",
+        "checked_at": "2026-10-28T05:53:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "(713) 555-0181",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/contact",
+        "quote": "Phone: (713) 555-0181",
+        "checked_at": "2026-10-28T05:53:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "(713) 555-0181",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+        "quote": "Call (713) 555-0181 to get a quote.",
+        "checked_at": "2026-10-28T05:53:51Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Farah Ibarra",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/about",
+        "quote": "Farah Ibarra founded Crescent Moon Catering in 2009. Farah still runs it day to day",
+        "note": "Founder who still runs the business day to day; the page does not use the word 'owner'.",
+        "checked_at": "2026-10-28T05:53:52Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+        "quote": "Largest event served\n\n280 guests",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:53:50Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+        "quote": "Largest event: 280 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:53:52Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+        "quote": "We cater events of up to 280 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:53:51Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 102,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+        "quote": "Current rates for 2026 and 2027 events. Dinner service: $102 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Minimum 25 guests. Does not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:53:52Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "drop_off",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+        "quote": "Drop-off delivery",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:52Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:51Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/crescent-moon-catering",
+        "quote": "They handled our vegetarian guests really well.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "note": "Review by Tyrone W., Mar 23, 2026.",
+        "checked_at": "2026-10-28T05:53:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+        "quote": "Gluten-free menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:52Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+        "quote": "Gluten-free menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:51Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 145 reviews",
+        "checked_at": "2026-10-28T05:53:50Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 145,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 145 reviews",
+        "checked_at": "2026-10-28T05:53:50Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+        "quote": "Saturday\n\n9:00 AM - 1:00 PM\n\nSunday\n\nClosed",
+        "checked_at": "2026-10-28T05:53:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/contact",
+        "quote": "Saturday\n\n9:00 AM to 1:00 PM\n\nSunday\n\nClosed",
+        "note": "Listed as office hours.",
+        "checked_at": "2026-10-28T05:53:53Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Sharpstown, Bellaire, Meyerland and Stafford",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+        "quote": "Sharpstown, Bellaire, Meyerland and Stafford",
+        "checked_at": "2026-10-28T05:53:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "Anywhere in Greater Houston, from The Woodlands to Galveston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+        "quote": "We serve anywhere in Greater Houston, from The Woodlands to Galveston.",
+        "checked_at": "2026-10-28T05:53:51Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "service_area",
+      "description": "The listing says the service area is Sharpstown, Bellaire, Meyerland and Stafford. The vendor website says it serves anywhere in Greater Houston, from The Woodlands to Galveston.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+        "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "service_area_conflict",
+      "reason": "Listing gives a four-neighborhood service area; the website claims all of Greater Houston from The Woodlands to Galveston.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+      "quote": "We serve anywhere in Greater Houston, from The Woodlands to Galveston.",
+      "checked_at": "2026-10-28T05:53:51Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "nut_free dietary",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages: no mention of nut-free."
+    },
+    {
+      "field": "features: indoor, outdoor, in_house_av, outside_catering, parking_lot, dance_floor, plated, onsite_staff etc.",
+      "checked": "No page states these for this caterer; only buffet, drop-off and bar service are stated."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:50Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77036",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77036",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+          "quote": "Houston, TX 77036",
+          "checked_at": "2026-10-28T05:53:50Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 13,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Farah Ibarra",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Farah Ibarra",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/about",
+          "quote": "Farah Ibarra founded Crescent Moon Catering in 2009. Farah still runs it day to day",
+          "checked_at": "2026-10-28T05:53:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0181",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0181",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+          "quote": "(713) 555-0181",
+          "checked_at": "2026-10-28T05:53:50Z",
+          "quote_found": true
+        },
+        {
+          "value": "(713) 555-0181",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/contact",
+          "quote": "Phone: (713) 555-0181",
+          "checked_at": "2026-10-28T05:53:53Z",
+          "quote_found": true
+        },
+        {
+          "value": "(713) 555-0181",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+          "quote": "Call (713) 555-0181 to get a quote.",
+          "checked_at": "2026-10-28T05:53:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "139 Harrow Gate Ln, Houston, TX 77036",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "139 Harrow Gate Ln, Houston, TX 77036",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+          "quote": "139 Harrow Gate Ln, Houston, TX 77036",
+          "checked_at": "2026-10-28T05:53:50Z",
+          "quote_found": true
+        },
+        {
+          "value": "139 Harrow Gate Ln, Houston, TX 77036",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/contact",
+          "quote": "139 Harrow Gate Ln\nHouston, TX 77036",
+          "checked_at": "2026-10-28T05:53:53Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 280,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+          "quote": "Largest event served\n\n280 guests",
+          "checked_at": "2026-10-28T05:53:50Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+          "quote": "Largest event: 280 guests.",
+          "checked_at": "2026-10-28T05:53:52Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+          "quote": "We cater events of up to 280 guests.",
+          "checked_at": "2026-10-28T05:53:51Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 102,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 102,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+          "quote": "Current rates for 2026 and 2027 events. Dinner service: $102 per person.",
+          "checked_at": "2026-10-28T05:53:52Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "drop_off"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:53:52Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:53:52Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "drop_off": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "drop_off",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+              "quote": "Drop-off delivery",
+              "checked_at": "2026-10-28T05:53:52Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:53:52Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:53:51Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:53:52Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:53:51Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/crescent-moon-catering",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:53:50Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review by Tyrone W., Mar 23, 2026."
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 145 reviews",
+          "checked_at": "2026-10-28T05:53:50Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 145,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 145,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crescent-moon-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 145 reviews",
+          "checked_at": "2026-10-28T05:53:50Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "service_area_conflict",
+        "reason": "Listing gives a four-neighborhood service area; the website claims all of Greater Houston from The Woodlands to Galveston.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crescent-moon-catering/",
+        "by": "model"
+      }
+    ]
+  }
+}

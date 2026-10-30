@@ -1,0 +1,614 @@
+{
+  "vendor_id": "v003",
+  "vendor_name": "Bayside Tent Rentals",
+  "category": "rental",
+  "slug": "bayside-event-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0604782,
+    "duration_ms": 15601,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7585,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2965,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7585,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2965,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7585,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7585
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "0d2d5621-565b-4cc8-a425-5acf5c22f5a5",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:50:30Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2313 Cormorant Way, Seabrook, TX 77586",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "quote": "2313 Cormorant Way, Seabrook, TX 77586",
+        "checked_at": "2026-10-28T05:50:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "2313 Cormorant Way, Seabrook, TX 77586",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/contact",
+        "quote": "2313 Cormorant Way\nSeabrook, TX 77586",
+        "checked_at": "2026-10-28T05:50:33Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77586",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "quote": "Seabrook, TX 77586",
+        "checked_at": "2026-10-28T05:50:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "77586",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/contact",
+        "quote": "Seabrook, TX 77586",
+        "checked_at": "2026-10-28T05:50:33Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0198",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "quote": "(281) 555-0198",
+        "checked_at": "2026-10-28T05:50:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "281 555 0198",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/contact",
+        "quote": "Phone: 281 555 0198",
+        "checked_at": "2026-10-28T05:50:33Z",
+        "quote_found": true
+      },
+      {
+        "value": "281 555 0198",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+        "quote": "Call 281 555 0198 to get a quote.",
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Fletcher Ashford",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/about",
+        "quote": "Fletcher Ashford founded Bayside Event Rentals in 2006. Fletcher still runs it day to day",
+        "checked_at": "2026-10-28T05:50:33Z",
+        "quote_found": true
+      },
+      {
+        "value": "Fletcher Ashford",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/baysideeventrental",
+        "quote": "Owner Fletcher Ashford.",
+        "checked_at": "2026-10-28T05:50:31Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 450,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "quote": "450 guests",
+        "kind": "seating",
+        "note": "Listing: 'Seats up to'",
+        "checked_at": "2026-10-28T05:50:30Z",
+        "quote_found": true
+      },
+      {
+        "value": 450,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+        "quote": "We can seat up to 450 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      },
+      {
+        "value": 450,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+        "quote": "Inventory: seating for up to 450 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 26,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "per guest",
+        "note": "Quote of the price line: 'Full setup per guest (table, chair and linen): $26'. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+        "quote": "Table linens and napkins",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "heaters",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+        "quote": "Patio heaters",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+        "quote": "Table linens and napkins",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+        "quote": "Frame and pole tents",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 133 reviews",
+        "checked_at": "2026-10-28T05:50:30Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 133,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 133 reviews",
+        "checked_at": "2026-10-28T05:50:30Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "quote": "Saturday\n\n8:00 AM - 12:00 PM",
+        "note": "Listing gives Monday-Friday 8:00 AM - 5:00 PM, Saturday 8:00 AM - 12:00 PM, Sunday Closed",
+        "checked_at": "2026-10-28T05:50:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/contact",
+        "quote": "Saturday\n\n8:00 AM to 12:00 PM",
+        "note": "Office hours; Monday-Friday 8:00 AM to 5:00 PM, Sunday Closed",
+        "checked_at": "2026-10-28T05:50:33Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:50:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:50:32Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [
+    {
+      "flag": "lookalike_ambiguity",
+      "reason": "Our list says 'Bayside Tent Rentals' (Seabrook); the matched listing is 'Bayside Event Rentals' (Seabrook), and a near-identical 'Bayside Rentals & Tents' (Pasadena) exists in the sandbox. The name in our list does not exactly match the listing, so confirm which vendor is meant. Pages fetched here (Seabrook, 2313 Cormorant Way) match the area hint.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+      "quote": "Bayside Event Rentals",
+      "checked_at": "2026-10-28T05:50:30Z"
+    }
+  ],
+  "unknowns": [],
+  "match_notes": [
+    "listing name 'Bayside Event Rentals' differs from vendors.csv name 'Bayside Tent Rentals'",
+    "near-identical names: Bayside Rentals & Tents (Pasadena)"
+  ],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:50:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77586",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77586",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+          "quote": "Seabrook, TX 77586",
+          "checked_at": "2026-10-28T05:50:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 24,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Fletcher Ashford",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Fletcher Ashford",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/about",
+          "quote": "Fletcher Ashford founded Bayside Event Rentals in 2006. Fletcher still runs it day to day",
+          "checked_at": "2026-10-28T05:50:33Z",
+          "quote_found": true
+        },
+        {
+          "value": "Fletcher Ashford",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/baysideeventrental",
+          "quote": "Owner Fletcher Ashford.",
+          "checked_at": "2026-10-28T05:50:31Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0198",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0198",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+          "quote": "(281) 555-0198",
+          "checked_at": "2026-10-28T05:50:30Z",
+          "quote_found": true
+        },
+        {
+          "value": "281 555 0198",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/contact",
+          "quote": "Phone: 281 555 0198",
+          "checked_at": "2026-10-28T05:50:33Z",
+          "quote_found": true
+        },
+        {
+          "value": "281 555 0198",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+          "quote": "Call 281 555 0198 to get a quote.",
+          "checked_at": "2026-10-28T05:50:32Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "2313 Cormorant Way, Seabrook, TX 77586",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2313 Cormorant Way, Seabrook, TX 77586",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+          "quote": "2313 Cormorant Way, Seabrook, TX 77586",
+          "checked_at": "2026-10-28T05:50:30Z",
+          "quote_found": true
+        },
+        {
+          "value": "2313 Cormorant Way, Seabrook, TX 77586",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/contact",
+          "quote": "2313 Cormorant Way\nSeabrook, TX 77586",
+          "checked_at": "2026-10-28T05:50:33Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 450,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 450,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+          "quote": "450 guests",
+          "checked_at": "2026-10-28T05:50:30Z",
+          "quote_found": true
+        },
+        {
+          "value": 450,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+          "quote": "We can seat up to 450 guests.",
+          "checked_at": "2026-10-28T05:50:32Z",
+          "quote_found": true
+        },
+        {
+          "value": 450,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+          "quote": "Inventory: seating for up to 450 guests.",
+          "checked_at": "2026-10-28T05:50:32Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 26,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 26,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:50:32Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "chairs",
+        "heaters",
+        "linens",
+        "tables",
+        "tents"
+      ],
+      "by_feature": {
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:50:32Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:50:32Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "heaters": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "heaters",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+              "quote": "Patio heaters",
+              "checked_at": "2026-10-28T05:50:32Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:50:32Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:50:32Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:50:32Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:50:32Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tents": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:50:32Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tents",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/",
+              "quote": "Frame and pole tents",
+              "checked_at": "2026-10-28T05:50:32Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 133 reviews",
+          "checked_at": "2026-10-28T05:50:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 133,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 133,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 133 reviews",
+          "checked_at": "2026-10-28T05:50:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "lookalike_ambiguity",
+        "reason": "Our list says 'Bayside Tent Rentals' (Seabrook); the matched listing is 'Bayside Event Rentals' (Seabrook), and a near-identical 'Bayside Rentals & Tents' (Pasadena) exists in the sandbox. The name in our list does not exactly match the listing, so confirm which vendor is meant. Pages fetched here (Seabrook, 2313 Cormorant Way) match the area hint.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "by": "model"
+      }
+    ]
+  }
+}

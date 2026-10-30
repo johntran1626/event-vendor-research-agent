@@ -1,0 +1,748 @@
+{
+  "vendor_id": "v056",
+  "vendor_name": "Marquee Event Rentals",
+  "category": "rental",
+  "slug": "marquee-event-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0788082,
+    "duration_ms": 25779,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7790,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4716,
+      "output_tokens_details": {
+        "thinking_tokens": 1039
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7790,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4716,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7790,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7790
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "87f356ff-71e9-44ae-8a11-e6b18f4b9b8c",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+        "quote": "Status: Open",
+        "note": "Reviews through Oct 14, 2026 describe ongoing service; none say it closed.",
+        "checked_at": "2026-10-28T05:54:12Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2630 Harrow Gate Ln, Houston, TX 77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+        "quote": "2630 Harrow Gate Ln, Houston, TX 77057",
+        "checked_at": "2026-10-28T05:54:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "2630 Harrow Gate Ln, Houston, TX 77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/contact",
+        "quote": "2630 Harrow Gate Ln",
+        "note": "Next line of the page reads 'Houston, TX 77057'.",
+        "checked_at": "2026-10-28T05:54:15Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+        "quote": "2630 Harrow Gate Ln, Houston, TX 77057",
+        "checked_at": "2026-10-28T05:54:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "77057",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/contact",
+        "quote": "Houston, TX 77057",
+        "checked_at": "2026-10-28T05:54:15Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0104",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+        "quote": "(832) 555-0104",
+        "checked_at": "2026-10-28T05:54:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0104",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+        "quote": "Call 832-555-0104 to get a quote.",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0104",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/contact",
+        "quote": "Phone: 832-555-0104",
+        "checked_at": "2026-10-28T05:54:15Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Simone Achterberg",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+        "quote": "Owner Simone Achterberg.",
+        "checked_at": "2026-10-28T05:54:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "Simone Achterberg",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/about",
+        "quote": "Simone Achterberg founded Marquee Event Rentals in 2013. Simone still runs it day to day",
+        "note": "Founder who still runs the business; the page does not use the word 'owner'.",
+        "checked_at": "2026-10-28T05:54:15Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 260,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+        "quote": "260 guests",
+        "note": "Listing label: 'Seats up to'.",
+        "checked_at": "2026-10-28T05:54:12Z",
+        "quote_found": true
+      },
+      {
+        "value": 260,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+        "quote": "We can seat up to 260 guests.",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": 260,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+        "quote": "Inventory: seating for up to 260 guests.",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": 260,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+        "quote": "Seats up to 260.",
+        "checked_at": "2026-10-28T05:54:13Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 19,
+        "unit": "per guest, full setup (table, chair and linen)",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $19",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": 19,
+        "unit": "per guest, full setup",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+        "quote": "Full setup from $19 per guest.",
+        "note": "Worded as 'from'.",
+        "checked_at": "2026-10-28T05:54:13Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+        "quote": "Speakers, microphones and projectors",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+        "quote": "Speakers, microphones and projectors.",
+        "checked_at": "2026-10-28T05:54:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+        "quote": "Uplighting and string lights.",
+        "checked_at": "2026-10-28T05:54:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+        "quote": "Table linens and napkins.",
+        "checked_at": "2026-10-28T05:54:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+        "quote": "Banquet and cocktail tables.",
+        "checked_at": "2026-10-28T05:54:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+        "quote": "Folding and chiavari chairs.",
+        "checked_at": "2026-10-28T05:54:13Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 83 reviews",
+        "checked_at": "2026-10-28T05:54:12Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 83,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 83 reviews",
+        "checked_at": "2026-10-28T05:54:12Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+        "quote": "8:00 AM - 5:00 PM",
+        "note": "Same time listed under each of Monday to Friday; Saturday '8:00 AM - 12:00 PM'; Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:54:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/contact",
+        "quote": "8:00 AM to 5:00 PM",
+        "note": "Same time listed under each of Monday to Friday; Saturday '8:00 AM to 12:00 PM'; Sunday 'Closed'. Listed as office hours.",
+        "checked_at": "2026-10-28T05:54:15Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:54:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:54:14Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [
+    {
+      "flag": "js_only_site",
+      "reason": "Page is marked JS_ONLY: yes; content was decoded from the page script.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+      "checked_at": "2026-10-28T05:54:14Z"
+    },
+    {
+      "flag": "js_only_site",
+      "reason": "Page is marked JS_ONLY: yes; content was decoded from the page script.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+      "checked_at": "2026-10-28T05:54:14Z"
+    },
+    {
+      "flag": "js_only_site",
+      "reason": "Page is marked JS_ONLY: yes; content was decoded from the page script.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/about",
+      "checked_at": "2026-10-28T05:54:15Z"
+    },
+    {
+      "flag": "js_only_site",
+      "reason": "Page is marked JS_ONLY: yes; content was decoded from the page script.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/contact",
+      "checked_at": "2026-10-28T05:54:15Z"
+    }
+  ],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [
+    "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+    "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+    "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/about",
+    "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/contact"
+  ],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:54:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77057",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77057",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+          "quote": "2630 Harrow Gate Ln, Houston, TX 77057",
+          "checked_at": "2026-10-28T05:54:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 9,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Simone Achterberg",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Simone Achterberg",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+          "quote": "Owner Simone Achterberg.",
+          "checked_at": "2026-10-28T05:54:13Z",
+          "quote_found": true
+        },
+        {
+          "value": "Simone Achterberg",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/about",
+          "quote": "Simone Achterberg founded Marquee Event Rentals in 2013. Simone still runs it day to day",
+          "checked_at": "2026-10-28T05:54:15Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0104",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0104",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+          "quote": "(832) 555-0104",
+          "checked_at": "2026-10-28T05:54:12Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0104",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+          "quote": "Call 832-555-0104 to get a quote.",
+          "checked_at": "2026-10-28T05:54:14Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0104",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/contact",
+          "quote": "Phone: 832-555-0104",
+          "checked_at": "2026-10-28T05:54:15Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "2630 Harrow Gate Ln, Houston, TX 77057",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2630 Harrow Gate Ln, Houston, TX 77057",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+          "quote": "2630 Harrow Gate Ln, Houston, TX 77057",
+          "checked_at": "2026-10-28T05:54:12Z",
+          "quote_found": true
+        },
+        {
+          "value": "2630 Harrow Gate Ln, Houston, TX 77057",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/contact",
+          "quote": "2630 Harrow Gate Ln",
+          "checked_at": "2026-10-28T05:54:15Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 260,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+          "quote": "260 guests",
+          "checked_at": "2026-10-28T05:54:12Z",
+          "quote_found": true
+        },
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+          "quote": "We can seat up to 260 guests.",
+          "checked_at": "2026-10-28T05:54:14Z",
+          "quote_found": true
+        },
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+          "quote": "Inventory: seating for up to 260 guests.",
+          "checked_at": "2026-10-28T05:54:14Z",
+          "quote_found": true
+        },
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+          "quote": "Seats up to 260.",
+          "checked_at": "2026-10-28T05:54:13Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 19,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 19,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+          "quote": "Full setup per guest (table, chair and linen): $19",
+          "checked_at": "2026-10-28T05:54:14Z",
+          "quote_found": true
+        },
+        {
+          "value": 19,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+          "quote": "Full setup from $19 per guest.",
+          "checked_at": "2026-10-28T05:54:13Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "av",
+        "chairs",
+        "lighting",
+        "linens",
+        "tables"
+      ],
+      "by_feature": {
+        "av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+              "quote": "Speakers, microphones and projectors",
+              "checked_at": "2026-10-28T05:54:14Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+              "quote": "Speakers, microphones and projectors.",
+              "checked_at": "2026-10-28T05:54:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:54:14Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:54:14Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+              "quote": "Folding and chiavari chairs.",
+              "checked_at": "2026-10-28T05:54:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:54:14Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:54:14Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+              "quote": "Uplighting and string lights.",
+              "checked_at": "2026-10-28T05:54:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:54:14Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:54:14Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+              "quote": "Table linens and napkins.",
+              "checked_at": "2026-10-28T05:54:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:54:14Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:54:14Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/marqueeeventrental",
+              "quote": "Banquet and cocktail tables.",
+              "checked_at": "2026-10-28T05:54:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 83 reviews",
+          "checked_at": "2026-10-28T05:54:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 83,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 83,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/marquee-event-rentals",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 83 reviews",
+          "checked_at": "2026-10-28T05:54:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "js_only_site",
+        "reason": "Page is marked JS_ONLY: yes; content was decoded from the page script.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/marquee-event-rentals/",
+        "by": "model"
+      }
+    ]
+  }
+}

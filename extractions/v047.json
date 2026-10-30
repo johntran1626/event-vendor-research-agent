@@ -1,0 +1,517 @@
+{
+  "vendor_id": "v047",
+  "vendor_name": "Meadowlark Pavilion",
+  "category": "venue",
+  "slug": "meadowlark-pavilion",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0547482,
+    "duration_ms": 12597,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7450,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2446,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7450,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2446,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7450,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7450
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "9486928f-aa5f-409c-b06e-c27badcb38c8",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:36Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2047 Kingsbridge Trace, Katy, TX 77494",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+        "quote": "2047 Kingsbridge Trace, Katy, TX 77494",
+        "checked_at": "2026-10-28T05:53:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "2047 Kingsbridge Trace, Katy, TX 77494",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/contact",
+        "quote": "2047 Kingsbridge Trace\nKaty, TX 77494",
+        "checked_at": "2026-10-28T05:53:39Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77494",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+        "quote": "Katy, TX 77494",
+        "checked_at": "2026-10-28T05:53:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "77494",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/contact",
+        "quote": "Katy, TX 77494",
+        "checked_at": "2026-10-28T05:53:39Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0159",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+        "quote": "(281) 555-0159",
+        "checked_at": "2026-10-28T05:53:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "281 555 0159",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/contact",
+        "quote": "Phone: 281 555 0159",
+        "checked_at": "2026-10-28T05:53:39Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Vivian Broussard",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/about",
+        "quote": "Vivian Broussard founded Meadowlark Pavilion in 2007. Vivian still runs it day to day",
+        "note": "Founder who still runs the business day to day; no page explicitly says 'owner', but founder and day-to-day operator.",
+        "checked_at": "2026-10-28T05:53:38Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+        "quote": "Max occupancy (fire marshal)\n\n280 guests",
+        "kind": "fire_marshal",
+        "checked_at": "2026-10-28T05:53:36Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/",
+        "quote": "Hosts up to 280 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:53:37Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+        "quote": "Capacity: 280 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:53:38Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 13000,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+        "quote": "Current rates for 2026 and 2027 events.\n\nEvent rental (up to 6 hours): $13,000",
+        "current": true,
+        "unit": "event rental, up to 6 hours",
+        "note": "Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:53:38Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:37Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:37Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:37Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:38Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+        "quote": "No in-house AV. Bring your own or rent it.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:53:38Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.2,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+        "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 113 reviews",
+        "checked_at": "2026-10-28T05:53:36Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 113,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+        "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 113 reviews",
+        "checked_at": "2026-10-28T05:53:36Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM\n\nSunday\n\nClosed",
+        "checked_at": "2026-10-28T05:53:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM\n\nSunday\n\nClosed",
+        "note": "Listed as office hours.",
+        "checked_at": "2026-10-28T05:53:39Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages; none state an area served (home page only says events in Katy)."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77494",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77494",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+          "quote": "Katy, TX 77494",
+          "checked_at": "2026-10-28T05:53:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 29,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Vivian Broussard",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Vivian Broussard",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/about",
+          "quote": "Vivian Broussard founded Meadowlark Pavilion in 2007. Vivian still runs it day to day",
+          "checked_at": "2026-10-28T05:53:38Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0159",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0159",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+          "quote": "(281) 555-0159",
+          "checked_at": "2026-10-28T05:53:36Z",
+          "quote_found": true
+        },
+        {
+          "value": "281 555 0159",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/contact",
+          "quote": "Phone: 281 555 0159",
+          "checked_at": "2026-10-28T05:53:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "2047 Kingsbridge Trace, Katy, TX 77494",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2047 Kingsbridge Trace, Katy, TX 77494",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+          "quote": "2047 Kingsbridge Trace, Katy, TX 77494",
+          "checked_at": "2026-10-28T05:53:36Z",
+          "quote_found": true
+        },
+        {
+          "value": "2047 Kingsbridge Trace, Katy, TX 77494",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/contact",
+          "quote": "2047 Kingsbridge Trace\nKaty, TX 77494",
+          "checked_at": "2026-10-28T05:53:39Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 280,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+          "quote": "Max occupancy (fire marshal)\n\n280 guests",
+          "checked_at": "2026-10-28T05:53:36Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/",
+          "quote": "Hosts up to 280 guests.",
+          "checked_at": "2026-10-28T05:53:37Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+          "quote": "Capacity: 280 guests.",
+          "checked_at": "2026-10-28T05:53:38Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 13000,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 13000,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+          "quote": "Current rates for 2026 and 2027 events.\n\nEvent rental (up to 6 hours): $13,000",
+          "checked_at": "2026-10-28T05:53:38Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "indoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+              "quote": "No in-house AV. Bring your own or rent it.",
+              "checked_at": "2026-10-28T05:53:38Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:53:37Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:53:38Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:53:37Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:53:38Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:53:37Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/meadowlark-pavilion/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:53:38Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.2,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.2,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+          "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 113 reviews",
+          "checked_at": "2026-10-28T05:53:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 113,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 113,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/meadowlark-pavilion",
+          "quote": "4.2 \u2605\u2605\u2605\u2605\u2606 113 reviews",
+          "checked_at": "2026-10-28T05:53:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}
