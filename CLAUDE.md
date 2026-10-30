@@ -35,9 +35,9 @@ Also:
 - Build (run before every PR): `cd web && npm run build`
 - Lint: `cd web && npm run lint`
 - Extraction: `cat cache/<vendor>/*.txt | claude -p "$(cat prompts/extract.md)" --model sonnet --output-format json --tools "" --strict-mcp-config`
-- Pipeline, in order: `python3 agent/crawl.py` (first time only; never re-crawl without a reason), `python3 agent/availability.py`, `python3 agent/extract.py` (skips vendors already in `extractions/`), `python3 agent/recheck.py` (before the final run).
-- Rebuild Supabase and `results/final.json` from `main`: `python3 agent/store.py --rows scores=<file> --rows packages=<file>` (one run id; reads `extractions/`, the latest crawl and availability check; secret key from the root `.env.local`)
-- Eval harness: `<command> evals/public.jsonl data/briefs/`
+- Pipeline, in order: `python3 agent/crawl.py` (first time only; never re-crawl without a reason), `python3 agent/availability.py`, `python3 agent/extract.py` (skips vendors already in `extractions/`), `python3 agent/recheck.py` (before the final run), then `python3 agent/score.py` (reads every brief JSON in `data/briefs/`, writes `cache/scores.json` and `cache/packages.json`).
+- Rebuild Supabase and `results/final.json` from `main`: `python3 agent/store.py --rows scores=cache/scores.json --rows packages=cache/packages.json` (one run id; reads `extractions/`, the latest crawl and availability check; secret key from the root `.env.local`)
+- Eval harness: `python3 agent/evals.py evals/public.jsonl data/briefs/` (reads `results/final.json`, re-runs scoring for every brief in the folder, calls `/availability` for any date not stored; no Claude login)
 - Supabase CLI: `npx supabase <command>` (never `npm i -g supabase`)
 - Env vars (`web/.env.local`, git-ignored): `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`. The local pipeline also needs `SUPABASE_URL` and `SUPABASE_SECRET_KEY` in its own git-ignored `.env.local`.
 
