@@ -1,0 +1,560 @@
+{
+  "vendor_id": "v037",
+  "vendor_name": "Stagecraft Event Rentals",
+  "category": "rental",
+  "slug": "stagecraft-event-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0588162,
+    "duration_ms": 13597,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7877,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2682,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7877,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2682,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7877,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7877
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "7e5677b9-20d7-4ef1-8fc2-8ef4d10760d1",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:52:53Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "4107 Marshfield Dr, Houston, TX 77007",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+        "quote": "4107 Marshfield Dr, Houston, TX 77007",
+        "checked_at": "2026-10-28T05:52:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "4107 Marshfield Dr, Houston, TX 77007",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/contact",
+        "quote": "4107 Marshfield Dr",
+        "checked_at": "2026-10-28T05:52:56Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77007",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+        "quote": "4107 Marshfield Dr, Houston, TX 77007",
+        "checked_at": "2026-10-28T05:52:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "77007",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/contact",
+        "quote": "Houston, TX 77007",
+        "checked_at": "2026-10-28T05:52:56Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0186",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+        "quote": "(713) 555-0186",
+        "checked_at": "2026-10-28T05:52:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "713-555-0186",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/contact",
+        "quote": "Phone: 713-555-0186",
+        "checked_at": "2026-10-28T05:52:56Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Quentin Underwood",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/about",
+        "quote": "Quentin Underwood founded Stagecraft Event Rentals in 2014.",
+        "note": "Founder; the page says Quentin still runs it day to day. Ownership is implied by founding and running it, not stated outright.",
+        "checked_at": "2026-10-28T05:52:56Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 180,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+        "quote": "180 guests",
+        "kind": "seating",
+        "note": "Listing says 'Seats up to'.",
+        "checked_at": "2026-10-28T05:52:53Z",
+        "quote_found": true
+      },
+      {
+        "value": 180,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+        "quote": "We can seat up to 180 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      },
+      {
+        "value": 180,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+        "quote": "Inventory: seating for up to 180 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 15,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $15",
+        "current": true,
+        "unit": "per guest",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+        "quote": "Table linens and napkins",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+        "quote": "Uplighting and string lights",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      },
+      {
+        "value": "av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+        "quote": "Speakers, microphones and projectors",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+        "quote": "Table linens and napkins",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+        "quote": "Uplighting and string lights",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      },
+      {
+        "value": "av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+        "quote": "Speakers, microphones and projectors",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+        "quote": "Tables, chairs and more",
+        "offered": true,
+        "note": "Tagline only; no list item names tables.",
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+        "quote": "Tables, chairs and more",
+        "offered": true,
+        "note": "Tagline only; no list item names chairs.",
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 57 reviews",
+        "checked_at": "2026-10-28T05:52:53Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 57,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 57 reviews",
+        "checked_at": "2026-10-28T05:52:53Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+        "quote": "8:00 AM - 12:00 PM",
+        "note": "Monday to Friday each 8:00 AM - 5:00 PM; Saturday 8:00 AM - 12:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:52:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/contact",
+        "quote": "8:00 AM to 12:00 PM",
+        "note": "Monday to Friday each 8:00 AM to 5:00 PM; Saturday 8:00 AM to 12:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:52:56Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:52:53Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:52:55Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "features: indoor/outdoor, in_house_av, etc. beyond those listed",
+      "checked": "All six pages; no other feature claims."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:52:53Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77007",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77007",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+          "quote": "4107 Marshfield Dr, Houston, TX 77007",
+          "checked_at": "2026-10-28T05:52:53Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 3,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Quentin Underwood",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Quentin Underwood",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/about",
+          "quote": "Quentin Underwood founded Stagecraft Event Rentals in 2014.",
+          "checked_at": "2026-10-28T05:52:56Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0186",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0186",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+          "quote": "(713) 555-0186",
+          "checked_at": "2026-10-28T05:52:53Z",
+          "quote_found": true
+        },
+        {
+          "value": "713-555-0186",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/contact",
+          "quote": "Phone: 713-555-0186",
+          "checked_at": "2026-10-28T05:52:56Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "4107 Marshfield Dr, Houston, TX 77007",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "4107 Marshfield Dr, Houston, TX 77007",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+          "quote": "4107 Marshfield Dr, Houston, TX 77007",
+          "checked_at": "2026-10-28T05:52:53Z",
+          "quote_found": true
+        },
+        {
+          "value": "4107 Marshfield Dr, Houston, TX 77007",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/contact",
+          "quote": "4107 Marshfield Dr",
+          "checked_at": "2026-10-28T05:52:56Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 180,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 180,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+          "quote": "180 guests",
+          "checked_at": "2026-10-28T05:52:53Z",
+          "quote_found": true
+        },
+        {
+          "value": 180,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+          "quote": "We can seat up to 180 guests.",
+          "checked_at": "2026-10-28T05:52:55Z",
+          "quote_found": true
+        },
+        {
+          "value": 180,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+          "quote": "Inventory: seating for up to 180 guests.",
+          "checked_at": "2026-10-28T05:52:55Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 15,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 15,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+          "quote": "Full setup per guest (table, chair and linen): $15",
+          "checked_at": "2026-10-28T05:52:55Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "av",
+        "chairs",
+        "lighting",
+        "linens",
+        "tables"
+      ],
+      "by_feature": {
+        "av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+              "quote": "Speakers, microphones and projectors",
+              "checked_at": "2026-10-28T05:52:55Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+              "quote": "Speakers, microphones and projectors",
+              "checked_at": "2026-10-28T05:52:55Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+              "quote": "Tables, chairs and more",
+              "checked_at": "2026-10-28T05:52:55Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:52:55Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:52:55Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:52:55Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:52:55Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+              "quote": "Tables, chairs and more",
+              "checked_at": "2026-10-28T05:52:55Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 57 reviews",
+          "checked_at": "2026-10-28T05:52:53Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 57,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 57,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 57 reviews",
+          "checked_at": "2026-10-28T05:52:53Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

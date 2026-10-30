@@ -1,0 +1,525 @@
+{
+  "vendor_id": "v016",
+  "vendor_name": "Riverside Pantry Catering",
+  "category": "caterer",
+  "slug": "riverside-pantry-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.056178200000000005,
+    "duration_ms": 13683,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7450,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2589,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7450,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2589,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7450,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7450
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "180b021b-3488-46a0-b3b7-44fe3e05099d",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:51:20Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "4656 Cinder Lake Dr, Cypress, TX 77429",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+        "quote": "4656 Cinder Lake Dr, Cypress, TX 77429",
+        "checked_at": "2026-10-28T05:51:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "4656 Cinder Lake Dr, Cypress, TX 77429",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/contact",
+        "quote": "4656 Cinder Lake Dr",
+        "checked_at": "2026-10-28T05:51:23Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77429",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+        "quote": "Cypress, TX 77429",
+        "checked_at": "2026-10-28T05:51:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "77429",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/contact",
+        "quote": "Cypress, TX 77429",
+        "checked_at": "2026-10-28T05:51:23Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0171",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+        "quote": "(832) 555-0171",
+        "checked_at": "2026-10-28T05:51:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0171",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/contact",
+        "quote": "Phone: 832-555-0171",
+        "checked_at": "2026-10-28T05:51:23Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Farah Espinoza",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/about",
+        "quote": "Farah Espinoza founded Riverside Pantry Catering in 2009. Farah still runs it day to day",
+        "note": "Founder who still runs the business day to day; the page does not use the word 'owner' explicitly.",
+        "checked_at": "2026-10-28T05:51:23Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 130,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+        "quote": "130 guests",
+        "kind": "largest_event",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:51:20Z",
+        "quote_found": true
+      },
+      {
+        "value": 130,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/packages",
+        "quote": "Largest event: 130 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:51:22Z",
+        "quote_found": true
+      },
+      {
+        "value": 130,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/",
+        "quote": "We cater events of up to 130 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:51:22Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 29,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/packages",
+        "quote": "Dinner service: $29 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:51:22Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "plated",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/packages",
+        "quote": "Plated dinners",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:22Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:51:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:51:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/packages",
+        "quote": "Gluten-free menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:51:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/",
+        "quote": "Gluten-free menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:51:22Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.4,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+        "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 58 reviews",
+        "checked_at": "2026-10-28T05:51:20Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 58,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+        "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 58 reviews",
+        "checked_at": "2026-10-28T05:51:20Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+        "quote": "Saturday\n\n9:00 AM - 1:00 PM",
+        "note": "Monday to Friday each listed as 9:00 AM - 5:00 PM; Sunday listed as Closed.",
+        "checked_at": "2026-10-28T05:51:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/contact",
+        "quote": "Saturday\n\n9:00 AM to 1:00 PM",
+        "note": "Office hours. Monday to Friday each listed as 9:00 AM to 5:00 PM; Sunday listed as Closed.",
+        "checked_at": "2026-10-28T05:51:23Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:51:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:51:22Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "nut_free dietary",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages; none mention nut-free."
+    },
+    {
+      "field": "vegan dietary",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages; none mention vegan."
+    },
+    {
+      "field": "features other than plated (buffet, drop_off, bar_service, etc.)",
+      "checked": "Packages page lists only plated dinners as a service style; a review mentions a buffet but reviews are not feature claims."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:51:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77429",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77429",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+          "quote": "Cypress, TX 77429",
+          "checked_at": "2026-10-28T05:51:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 25,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Farah Espinoza",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Farah Espinoza",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/about",
+          "quote": "Farah Espinoza founded Riverside Pantry Catering in 2009. Farah still runs it day to day",
+          "checked_at": "2026-10-28T05:51:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0171",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0171",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+          "quote": "(832) 555-0171",
+          "checked_at": "2026-10-28T05:51:20Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0171",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/contact",
+          "quote": "Phone: 832-555-0171",
+          "checked_at": "2026-10-28T05:51:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "4656 Cinder Lake Dr, Cypress, TX 77429",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "4656 Cinder Lake Dr, Cypress, TX 77429",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+          "quote": "4656 Cinder Lake Dr, Cypress, TX 77429",
+          "checked_at": "2026-10-28T05:51:20Z",
+          "quote_found": true
+        },
+        {
+          "value": "4656 Cinder Lake Dr, Cypress, TX 77429",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/contact",
+          "quote": "4656 Cinder Lake Dr",
+          "checked_at": "2026-10-28T05:51:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 130,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 130,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+          "quote": "130 guests",
+          "checked_at": "2026-10-28T05:51:20Z",
+          "quote_found": true
+        },
+        {
+          "value": 130,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/packages",
+          "quote": "Largest event: 130 guests.",
+          "checked_at": "2026-10-28T05:51:22Z",
+          "quote_found": true
+        },
+        {
+          "value": 130,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/",
+          "quote": "We cater events of up to 130 guests.",
+          "checked_at": "2026-10-28T05:51:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 29,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 29,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/packages",
+          "quote": "Dinner service: $29 per person.",
+          "checked_at": "2026-10-28T05:51:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "plated"
+      ],
+      "by_feature": {
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:51:22Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:51:22Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:51:22Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:51:22Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/riverside-pantry-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:51:22Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.4,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.4,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+          "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 58 reviews",
+          "checked_at": "2026-10-28T05:51:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 58,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 58,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/riverside-pantry-catering",
+          "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 58 reviews",
+          "checked_at": "2026-10-28T05:51:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

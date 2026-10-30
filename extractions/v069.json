@@ -1,0 +1,599 @@
+{
+  "vendor_id": "v069",
+  "vendor_name": "Quarry Hall",
+  "category": "venue",
+  "slug": "quarry-hall",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0636382,
+    "duration_ms": 15518,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8165,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3049,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8165,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3049,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8165,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8165
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "55431a3d-2cd6-451d-bd9f-a6b337b2ed88",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:55:11Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "7265 Marshfield Dr, Houston, TX 77009",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+        "quote": "7265 Marshfield Dr, Houston, TX 77009",
+        "checked_at": "2026-10-28T05:55:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "7265 Marshfield Dr, Houston, TX 77009",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/contact",
+        "quote": "7265 Marshfield Dr\nHouston, TX 77009",
+        "checked_at": "2026-10-28T05:55:14Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77009",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+        "quote": "7265 Marshfield Dr, Houston, TX 77009",
+        "checked_at": "2026-10-28T05:55:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "77009",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/contact",
+        "quote": "Houston, TX 77009",
+        "checked_at": "2026-10-28T05:55:14Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0103",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+        "quote": "(713) 555-0103",
+        "checked_at": "2026-10-28T05:55:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0103",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/contact",
+        "quote": "Phone: 713.555.0103",
+        "checked_at": "2026-10-28T05:55:14Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Avery Underwood",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/about",
+        "quote": "Avery Underwood founded Quarry Hall in 2009. Avery still runs it day to day",
+        "checked_at": "2026-10-28T05:55:14Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 150,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+        "quote": "Max occupancy (fire marshal)\n\n150 guests",
+        "checked_at": "2026-10-28T05:55:11Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+        "quote": "Hosts up to 280 guests.",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+        "quote": "Capacity: 280 guests.",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      },
+      {
+        "value": 150,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/quarry-hall",
+        "quote": "they held our gala to 150 because of the fire marshal's limit",
+        "note": "Review by Kevin T., Aug 21, 2026; says the 280 on the website is a standing number.",
+        "checked_at": "2026-10-28T05:55:12Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 8200,
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+        "quote": "Current rates for 2026 and 2027 events.\n\nEvent rental (up to 6 hours): $8,200",
+        "note": "Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:55:13Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 133 reviews",
+        "checked_at": "2026-10-28T05:55:11Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 133,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 133 reviews",
+        "checked_at": "2026-10-28T05:55:11Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday through Friday each listed 10:00 AM - 6:00 PM; Sunday: Closed.",
+        "checked_at": "2026-10-28T05:55:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday through Friday each listed 10:00 AM to 6:00 PM; Sunday: Closed.",
+        "checked_at": "2026-10-28T05:55:14Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "capacity",
+      "description": "The listing gives a fire marshal maximum occupancy of 150 guests. The vendor's home page ('Hosts up to 280 guests') and packages page ('Capacity: 280 guests') give 280. A review (Kevin T., Aug 21, 2026) says the venue held an event to 150 because of the fire marshal's limit and calls 280 a standing number.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+        "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+        "https://vendors-r1.lab.zappstudios.us/reviews/quarry-hall"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "capacity_conflict",
+      "reason": "Listing says fire marshal max occupancy 150; the vendor's website says 280. A review confirms the venue enforces 150.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+      "quote": "Max occupancy (fire marshal)\n\n150 guests",
+      "checked_at": "2026-10-28T05:55:11Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram page, vendor home, packages, about and contact pages. None states an area served. The Instagram page says 'Event space in Near Northside, Houston', which describes location, not a service area."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:55:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77009",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77009",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+          "quote": "7265 Marshfield Dr, Houston, TX 77009",
+          "checked_at": "2026-10-28T05:55:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 4,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Avery Underwood",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Avery Underwood",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/about",
+          "quote": "Avery Underwood founded Quarry Hall in 2009. Avery still runs it day to day",
+          "checked_at": "2026-10-28T05:55:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0103",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0103",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+          "quote": "(713) 555-0103",
+          "checked_at": "2026-10-28T05:55:11Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0103",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/contact",
+          "quote": "Phone: 713.555.0103",
+          "checked_at": "2026-10-28T05:55:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "7265 Marshfield Dr, Houston, TX 77009",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "7265 Marshfield Dr, Houston, TX 77009",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+          "quote": "7265 Marshfield Dr, Houston, TX 77009",
+          "checked_at": "2026-10-28T05:55:11Z",
+          "quote_found": true
+        },
+        {
+          "value": "7265 Marshfield Dr, Houston, TX 77009",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/contact",
+          "quote": "7265 Marshfield Dr\nHouston, TX 77009",
+          "checked_at": "2026-10-28T05:55:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 150,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 150,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+          "quote": "Max occupancy (fire marshal)\n\n150 guests",
+          "checked_at": "2026-10-28T05:55:11Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+          "quote": "Hosts up to 280 guests.",
+          "checked_at": "2026-10-28T05:55:13Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+          "quote": "Capacity: 280 guests.",
+          "checked_at": "2026-10-28T05:55:13Z",
+          "quote_found": true
+        },
+        {
+          "value": 150,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/quarry-hall",
+          "quote": "they held our gala to 150 because of the fire marshal's limit",
+          "checked_at": "2026-10-28T05:55:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 8200,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 8200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+          "quote": "Current rates for 2026 and 2027 events.\n\nEvent rental (up to 6 hours): $8,200",
+          "checked_at": "2026-10-28T05:55:13Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "in_house_av",
+        "indoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:55:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:55:13Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:55:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:55:13Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:55:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:55:13Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:55:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:55:13Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/quarry-hall/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:55:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 133 reviews",
+          "checked_at": "2026-10-28T05:55:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 133,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 133,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 133 reviews",
+          "checked_at": "2026-10-28T05:55:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "capacity_conflict",
+        "reason": "Listing says fire marshal max occupancy 150; the vendor's website says 280. A review confirms the venue enforces 150.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/quarry-hall",
+        "by": "model"
+      }
+    ]
+  }
+}

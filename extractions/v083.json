@@ -1,0 +1,569 @@
+{
+  "vendor_id": "v083",
+  "vendor_name": "Gulf Coast Gumbo Co.",
+  "category": "caterer",
+  "slug": "gulf-coast-gumbo-co",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0673842,
+    "duration_ms": 18891,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8144,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3432,
+      "output_tokens_details": {
+        "thinking_tokens": 621
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8144,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3432,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8144,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8144
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "186dc42a-ddf2-40eb-899e-8dcc8c03bbb0",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:56:11Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "5991 Saltmarsh Way, Pearland, TX 77581",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+        "quote": "5991 Saltmarsh Way, Pearland, TX 77581",
+        "checked_at": "2026-10-28T05:56:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "5991 Saltmarsh Way, Pearland, TX 77581",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/contact",
+        "quote": "5991 Saltmarsh Way\nPearland, TX 77581",
+        "checked_at": "2026-10-28T05:56:14Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77581",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+        "quote": "5991 Saltmarsh Way, Pearland, TX 77581",
+        "checked_at": "2026-10-28T05:56:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "77581",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/contact",
+        "quote": "Pearland, TX 77581",
+        "checked_at": "2026-10-28T05:56:14Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0182",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+        "quote": "(281) 555-0182",
+        "checked_at": "2026-10-28T05:56:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "281 555 0182",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/contact",
+        "quote": "Phone: 281 555 0182",
+        "note": "Same number as the listing, written without punctuation.",
+        "checked_at": "2026-10-28T05:56:14Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Kwame Gutierrez",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/about",
+        "quote": "Kwame Gutierrez founded Gulf Coast Gumbo Co. in 2015. Kwame still runs it day to day",
+        "note": "Page says founder who still runs the business; the word 'owner' is not used.",
+        "checked_at": "2026-10-28T05:56:13Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 300,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+        "quote": "300 guests",
+        "kind": "largest_event",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:56:11Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+        "quote": "Largest event: 300 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:56:13Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/",
+        "quote": "We cater events of up to 300 guests.",
+        "kind": "largest_event",
+        "note": "Phrased as 'up to', but matches the largest-event figure on the other pages.",
+        "checked_at": "2026-10-28T05:56:12Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 33,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+        "quote": "Dinner service: $33 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests. Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:56:13Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+        "quote": "Servers and on-site event staff",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:13Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+        "quote": "Nut-free meals prepared separately",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/",
+        "quote": "Nut-free meals prepared separately.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:12Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 84 reviews",
+        "checked_at": "2026-10-28T05:56:11Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 84,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 84 reviews",
+        "checked_at": "2026-10-28T05:56:11Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+        "quote": "9:00 AM - 5:00 PM",
+        "note": "Listing gives the same weekday hours for Monday to Friday, Saturday 9:00 AM - 1:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:56:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/contact",
+        "quote": "9:00 AM to 5:00 PM",
+        "note": "Office hours on the contact page; Saturday 9:00 AM to 1:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:56:14Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:56:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:56:12Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "dietary: vegan",
+      "checked": "Listing, reviews, social, home, packages, about and contact pages: none mention vegan options."
+    },
+    {
+      "field": "dietary: gluten_free",
+      "checked": "Listing, reviews, social, home, packages, about and contact pages: none mention gluten-free options."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:56:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77581",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77581",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+          "quote": "5991 Saltmarsh Way, Pearland, TX 77581",
+          "checked_at": "2026-10-28T05:56:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 16,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Kwame Gutierrez",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Kwame Gutierrez",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/about",
+          "quote": "Kwame Gutierrez founded Gulf Coast Gumbo Co. in 2015. Kwame still runs it day to day",
+          "checked_at": "2026-10-28T05:56:13Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0182",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0182",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+          "quote": "(281) 555-0182",
+          "checked_at": "2026-10-28T05:56:11Z",
+          "quote_found": true
+        },
+        {
+          "value": "281 555 0182",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/contact",
+          "quote": "Phone: 281 555 0182",
+          "checked_at": "2026-10-28T05:56:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "5991 Saltmarsh Way, Pearland, TX 77581",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "5991 Saltmarsh Way, Pearland, TX 77581",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+          "quote": "5991 Saltmarsh Way, Pearland, TX 77581",
+          "checked_at": "2026-10-28T05:56:11Z",
+          "quote_found": true
+        },
+        {
+          "value": "5991 Saltmarsh Way, Pearland, TX 77581",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/contact",
+          "quote": "5991 Saltmarsh Way\nPearland, TX 77581",
+          "checked_at": "2026-10-28T05:56:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 300,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+          "quote": "300 guests",
+          "checked_at": "2026-10-28T05:56:11Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+          "quote": "Largest event: 300 guests.",
+          "checked_at": "2026-10-28T05:56:13Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/",
+          "quote": "We cater events of up to 300 guests.",
+          "checked_at": "2026-10-28T05:56:12Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 33,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 33,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+          "quote": "Dinner service: $33 per person.",
+          "checked_at": "2026-10-28T05:56:13Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "onsite_staff"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:56:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:56:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:56:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "nut_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:56:13Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:56:12Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:56:13Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:56:12Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 84 reviews",
+          "checked_at": "2026-10-28T05:56:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 84,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 84,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 84 reviews",
+          "checked_at": "2026-10-28T05:56:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

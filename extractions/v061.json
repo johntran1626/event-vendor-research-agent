@@ -1,0 +1,616 @@
+{
+  "vendor_id": "v061",
+  "vendor_name": "Peppervine Catering",
+  "category": "caterer",
+  "slug": "peppervine-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.07313220000000001,
+    "duration_ms": 23019,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7926,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4094,
+      "output_tokens_details": {
+        "thinking_tokens": 1225
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7926,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4094,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7926,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7926
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "0bcd422b-e53d-4ed3-8ff7-ceec6ec645bf",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:54:35Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "7271 Thornbury Ln, Bellaire, TX 77401",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+        "quote": "7271 Thornbury Ln, Bellaire, TX 77401",
+        "checked_at": "2026-10-28T05:54:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "7271 Thornbury Ln, Bellaire, TX 77401",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/contact",
+        "quote": "7271 Thornbury Ln",
+        "note": "Street line only in quote; the next line of the page reads 'Bellaire, TX 77401'.",
+        "checked_at": "2026-10-28T05:54:38Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77401",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+        "quote": "7271 Thornbury Ln, Bellaire, TX 77401",
+        "checked_at": "2026-10-28T05:54:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "77401",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/contact",
+        "quote": "Bellaire, TX 77401",
+        "checked_at": "2026-10-28T05:54:38Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0160",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+        "quote": "(713) 555-0160",
+        "checked_at": "2026-10-28T05:54:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0160",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+        "quote": "Call 713.555.0160 to get a quote.",
+        "checked_at": "2026-10-28T05:54:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0160",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/contact",
+        "quote": "Phone: 713.555.0160",
+        "checked_at": "2026-10-28T05:54:38Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Calvin Quintero",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/peppervinecatering",
+        "quote": "Owner Calvin Quintero.",
+        "checked_at": "2026-10-28T05:54:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "Calvin Quintero",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/about",
+        "quote": "Calvin Quintero founded Peppervine Catering in 2009.",
+        "note": "Founder; the page also says he still runs it day to day. The word 'owner' is not used on this page; the Facebook page names Calvin Quintero as owner.",
+        "checked_at": "2026-10-28T05:54:37Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 150,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+        "quote": "150 guests",
+        "kind": "largest_event",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:54:35Z",
+        "quote_found": true
+      },
+      {
+        "value": 150,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+        "quote": "Largest event: 150 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:54:37Z",
+        "quote_found": true
+      },
+      {
+        "value": 150,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+        "quote": "We cater events of up to 150 guests.",
+        "kind": "marketing",
+        "note": "'Up to' phrasing on the home page; same number as the largest-event claims.",
+        "checked_at": "2026-10-28T05:54:36Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 69,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+        "quote": "Dinner service: $69 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests. Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:54:37Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:37Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:37Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+        "quote": "Vegan menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+        "quote": "Nut-free meals prepared separately.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:37Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+        "quote": "Vegan menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:37Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+        "quote": "Nut-free meals prepared separately",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:37Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 72 reviews",
+        "checked_at": "2026-10-28T05:54:35Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 72,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 72 reviews",
+        "checked_at": "2026-10-28T05:54:35Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+        "quote": "9:00 AM - 1:00 PM",
+        "note": "Quote shows the Saturday hours; Monday to Friday are each listed as '9:00 AM - 5:00 PM' and Sunday as 'Closed'.",
+        "checked_at": "2026-10-28T05:54:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/contact",
+        "quote": "9:00 AM to 1:00 PM",
+        "note": "Quote shows the Saturday hours; Monday to Friday are each listed as '9:00 AM to 5:00 PM' and Sunday as 'Closed'. Listed as office hours.",
+        "checked_at": "2026-10-28T05:54:38Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:54:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:54:36Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "dietary gluten_free",
+      "checked": "Listing, reviews, Facebook, home, packages, about and contact pages: none mention gluten-free."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:54:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77401",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77401",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+          "quote": "7271 Thornbury Ln, Bellaire, TX 77401",
+          "checked_at": "2026-10-28T05:54:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 9,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Calvin Quintero",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Calvin Quintero",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/peppervinecatering",
+          "quote": "Owner Calvin Quintero.",
+          "checked_at": "2026-10-28T05:54:36Z",
+          "quote_found": true
+        },
+        {
+          "value": "Calvin Quintero",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/about",
+          "quote": "Calvin Quintero founded Peppervine Catering in 2009.",
+          "checked_at": "2026-10-28T05:54:37Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0160",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0160",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+          "quote": "(713) 555-0160",
+          "checked_at": "2026-10-28T05:54:35Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0160",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+          "quote": "Call 713.555.0160 to get a quote.",
+          "checked_at": "2026-10-28T05:54:36Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0160",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/contact",
+          "quote": "Phone: 713.555.0160",
+          "checked_at": "2026-10-28T05:54:38Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "7271 Thornbury Ln, Bellaire, TX 77401",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "7271 Thornbury Ln, Bellaire, TX 77401",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+          "quote": "7271 Thornbury Ln, Bellaire, TX 77401",
+          "checked_at": "2026-10-28T05:54:35Z",
+          "quote_found": true
+        },
+        {
+          "value": "7271 Thornbury Ln, Bellaire, TX 77401",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/contact",
+          "quote": "7271 Thornbury Ln",
+          "checked_at": "2026-10-28T05:54:38Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 150,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 150,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+          "quote": "150 guests",
+          "checked_at": "2026-10-28T05:54:35Z",
+          "quote_found": true
+        },
+        {
+          "value": 150,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+          "quote": "Largest event: 150 guests.",
+          "checked_at": "2026-10-28T05:54:37Z",
+          "quote_found": true
+        },
+        {
+          "value": 150,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+          "quote": "We cater events of up to 150 guests.",
+          "checked_at": "2026-10-28T05:54:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 69,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 69,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+          "quote": "Dinner service: $69 per person.",
+          "checked_at": "2026-10-28T05:54:37Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:54:37Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:54:37Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "nut_free",
+        "vegan",
+        "vegetarian"
+      ],
+      "by_need": {
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:54:36Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:54:37Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegan": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+              "quote": "Vegan menu.",
+              "checked_at": "2026-10-28T05:54:36Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+              "quote": "Vegan menu",
+              "checked_at": "2026-10-28T05:54:37Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:54:36Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/peppervine-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:54:37Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 72 reviews",
+          "checked_at": "2026-10-28T05:54:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 72,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 72,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/peppervine-catering",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 72 reviews",
+          "checked_at": "2026-10-28T05:54:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

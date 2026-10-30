@@ -1,0 +1,580 @@
+{
+  "vendor_id": "v085",
+  "vendor_name": "The Linen Closet Rentals",
+  "category": "rental",
+  "slug": "the-linen-closet-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.07194619999999999,
+    "duration_ms": 20309,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8342,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3809,
+      "output_tokens_details": {
+        "thinking_tokens": 961
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8342,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3809,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8342,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8342
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "a323e371-3fb8-434b-b23b-117fe7de90ef",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:56:20Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "1271 Larkhaven Ct, Houston, TX 77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+        "quote": "1271 Larkhaven Ct, Houston, TX 77008",
+        "checked_at": "2026-10-28T05:56:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "1271 Larkhaven Ct, Houston, TX 77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/contact",
+        "quote": "1271 Larkhaven Ct",
+        "checked_at": "2026-10-28T05:56:23Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+        "quote": "Houston, TX 77008",
+        "checked_at": "2026-10-28T05:56:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "77008",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/contact",
+        "quote": "Houston, TX 77008",
+        "checked_at": "2026-10-28T05:56:23Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0162",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+        "quote": "(832) 555-0162",
+        "checked_at": "2026-10-28T05:56:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0162",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+        "quote": "Call 832-555-0162 to get a quote.",
+        "checked_at": "2026-10-28T05:56:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0162",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/contact",
+        "quote": "Phone: 832-555-0162",
+        "checked_at": "2026-10-28T05:56:23Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Celeste Zamora",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelinenclosetrent",
+        "quote": "Owner Celeste Zamora.",
+        "checked_at": "2026-10-28T05:56:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "Celeste Zamora",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/about",
+        "quote": "Celeste Zamora founded The Linen Closet Rentals in 2016.",
+        "note": "About page names Celeste Zamora as founder who still runs the business day to day; it does not use the word owner. The Instagram bio states Owner Celeste Zamora.",
+        "checked_at": "2026-10-28T05:56:22Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 250,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+        "quote": "250 guests",
+        "note": "Listed as 'Seats up to'.",
+        "checked_at": "2026-10-28T05:56:20Z",
+        "quote_found": true
+      },
+      {
+        "value": 250,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+        "quote": "We can seat up to 250 guests.",
+        "checked_at": "2026-10-28T05:56:21Z",
+        "quote_found": true
+      },
+      {
+        "value": 250,
+        "kind": "seating",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+        "quote": "Inventory: seating for up to 250 guests.",
+        "checked_at": "2026-10-28T05:56:22Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 18,
+        "unit": "per guest",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $18",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:56:22Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:56:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+        "quote": "Folding and chiavari chairs",
+        "checked_at": "2026-10-28T05:56:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:56:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+        "quote": "Uplighting and string lights",
+        "checked_at": "2026-10-28T05:56:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "note": "From the 'What we rent' list.",
+        "checked_at": "2026-10-28T05:56:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+        "quote": "Folding and chiavari chairs",
+        "note": "From the 'What we rent' list.",
+        "checked_at": "2026-10-28T05:56:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+        "quote": "Table linens and napkins",
+        "note": "From the 'What we rent' list.",
+        "checked_at": "2026-10-28T05:56:22Z",
+        "quote_found": true
+      },
+      {
+        "value": "lighting",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+        "quote": "Uplighting and string lights",
+        "note": "From the 'What we rent' list.",
+        "checked_at": "2026-10-28T05:56:22Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 74 reviews",
+        "checked_at": "2026-10-28T05:56:20Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 74,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 74 reviews",
+        "checked_at": "2026-10-28T05:56:20Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 8:00 AM - 5:00 PM; Sat 8:00 AM - 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+        "quote": "8:00 AM - 5:00 PM",
+        "note": "Same 8:00 AM - 5:00 PM shown for each of Monday to Friday; Saturday 8:00 AM - 12:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:56:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 8:00 AM to 5:00 PM; Sat 8:00 AM to 12:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/contact",
+        "quote": "8:00 AM to 5:00 PM",
+        "note": "Office hours. Same 8:00 AM to 5:00 PM shown for each of Monday to Friday; Saturday 8:00 AM to 12:00 PM; Sunday Closed. Matches the listing.",
+        "checked_at": "2026-10-28T05:56:23Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:56:20Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:56:21Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [],
+  "match_notes": [
+    "near-identical names: Lumina Lighting & Linen (Houston)"
+  ],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:56:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77008",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+          "quote": "Houston, TX 77008",
+          "checked_at": "2026-10-28T05:56:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 5,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Celeste Zamora",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Celeste Zamora",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelinenclosetrent",
+          "quote": "Owner Celeste Zamora.",
+          "checked_at": "2026-10-28T05:56:21Z",
+          "quote_found": true
+        },
+        {
+          "value": "Celeste Zamora",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/about",
+          "quote": "Celeste Zamora founded The Linen Closet Rentals in 2016.",
+          "checked_at": "2026-10-28T05:56:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0162",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0162",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+          "quote": "(832) 555-0162",
+          "checked_at": "2026-10-28T05:56:20Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0162",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+          "quote": "Call 832-555-0162 to get a quote.",
+          "checked_at": "2026-10-28T05:56:21Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0162",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/contact",
+          "quote": "Phone: 832-555-0162",
+          "checked_at": "2026-10-28T05:56:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "1271 Larkhaven Ct, Houston, TX 77008",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "1271 Larkhaven Ct, Houston, TX 77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+          "quote": "1271 Larkhaven Ct, Houston, TX 77008",
+          "checked_at": "2026-10-28T05:56:20Z",
+          "quote_found": true
+        },
+        {
+          "value": "1271 Larkhaven Ct, Houston, TX 77008",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/contact",
+          "quote": "1271 Larkhaven Ct",
+          "checked_at": "2026-10-28T05:56:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 250,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 250,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+          "quote": "250 guests",
+          "checked_at": "2026-10-28T05:56:20Z",
+          "quote_found": true
+        },
+        {
+          "value": 250,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+          "quote": "We can seat up to 250 guests.",
+          "checked_at": "2026-10-28T05:56:21Z",
+          "quote_found": true
+        },
+        {
+          "value": 250,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+          "quote": "Inventory: seating for up to 250 guests.",
+          "checked_at": "2026-10-28T05:56:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 18,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 18,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+          "quote": "Full setup per guest (table, chair and linen): $18",
+          "checked_at": "2026-10-28T05:56:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "chairs",
+        "lighting",
+        "linens",
+        "tables"
+      ],
+      "by_feature": {
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:56:21Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:56:22Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "lighting": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:56:21Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "lighting",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+              "quote": "Uplighting and string lights",
+              "checked_at": "2026-10-28T05:56:22Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:56:21Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:56:22Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:56:21Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:56:22Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 74 reviews",
+          "checked_at": "2026-10-28T05:56:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 74,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 74,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 74 reviews",
+          "checked_at": "2026-10-28T05:56:20Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

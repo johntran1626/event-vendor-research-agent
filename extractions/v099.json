@@ -1,0 +1,574 @@
+{
+  "vendor_id": "v099",
+  "vendor_name": "The Grain Exchange",
+  "category": "venue",
+  "slug": "the-grain-exchange",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.061612200000000006,
+    "duration_ms": 14189,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8506,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2710,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8506,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2710,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8506,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8506
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "423d75e0-6e23-4d4d-b539-bd80a26d89a4",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:57:23Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "1875 Bluebell Ln, Houston, TX 77002",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+        "quote": "1875 Bluebell Ln, Houston, TX 77002",
+        "checked_at": "2026-10-28T05:57:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "1875 Bluebell Ln, Houston, TX 77002",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/contact",
+        "quote": "1875 Bluebell Ln\nHouston, TX 77002",
+        "checked_at": "2026-10-28T05:57:26Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77002",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+        "quote": "1875 Bluebell Ln, Houston, TX 77002",
+        "checked_at": "2026-10-28T05:57:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "77002",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/contact",
+        "quote": "Houston, TX 77002",
+        "checked_at": "2026-10-28T05:57:26Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0148",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+        "quote": "(713) 555-0148",
+        "checked_at": "2026-10-28T05:57:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "(713) 555-0148",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/contact",
+        "quote": "Phone: (713) 555-0148",
+        "checked_at": "2026-10-28T05:57:26Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Malcolm Sorensen",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thegrainexchange",
+        "quote": "Owner Malcolm Sorensen",
+        "checked_at": "2026-10-28T05:57:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "Malcolm Sorensen",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/about",
+        "quote": "Malcolm Sorensen founded The Grain Exchange in 2011. Malcolm still runs it day to day",
+        "note": "Founder and day-to-day operator; the page does not use the word owner.",
+        "checked_at": "2026-10-28T05:57:26Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 250,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+        "quote": "250 guests",
+        "note": "Listed under Max occupancy (fire marshal)",
+        "checked_at": "2026-10-28T05:57:23Z",
+        "quote_found": true
+      },
+      {
+        "value": 250,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/",
+        "quote": "Hosts up to 250 guests.",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      },
+      {
+        "value": 250,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+        "quote": "Capacity: 250 guests.",
+        "note": "Same number as the fire marshal occupancy on the listing.",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 9000,
+        "unit": "event rental (up to 6 hours)",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+        "quote": "Event rental (up to 6 hours): $9,000",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+        "quote": "Street parking and nearby paid lots only.",
+        "note": "No on-site lot stated.",
+        "checked_at": "2026-10-28T05:57:25Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 126 reviews",
+        "checked_at": "2026-10-28T05:57:23Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 126,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 126 reviews",
+        "checked_at": "2026-10-28T05:57:23Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday to Friday each 10:00 AM - 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:57:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday to Friday each 10:00 AM to 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:57:26Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, social, home, packages, about and contact pages: none states an area served (only 'Downtown, Houston' as location)."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:57:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77002",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77002",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+          "quote": "1875 Bluebell Ln, Houston, TX 77002",
+          "checked_at": "2026-10-28T05:57:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 1,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Malcolm Sorensen",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Malcolm Sorensen",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/thegrainexchange",
+          "quote": "Owner Malcolm Sorensen",
+          "checked_at": "2026-10-28T05:57:24Z",
+          "quote_found": true
+        },
+        {
+          "value": "Malcolm Sorensen",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/about",
+          "quote": "Malcolm Sorensen founded The Grain Exchange in 2011. Malcolm still runs it day to day",
+          "checked_at": "2026-10-28T05:57:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0148",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0148",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+          "quote": "(713) 555-0148",
+          "checked_at": "2026-10-28T05:57:23Z",
+          "quote_found": true
+        },
+        {
+          "value": "(713) 555-0148",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/contact",
+          "quote": "Phone: (713) 555-0148",
+          "checked_at": "2026-10-28T05:57:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "1875 Bluebell Ln, Houston, TX 77002",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "1875 Bluebell Ln, Houston, TX 77002",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+          "quote": "1875 Bluebell Ln, Houston, TX 77002",
+          "checked_at": "2026-10-28T05:57:23Z",
+          "quote_found": true
+        },
+        {
+          "value": "1875 Bluebell Ln, Houston, TX 77002",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/contact",
+          "quote": "1875 Bluebell Ln\nHouston, TX 77002",
+          "checked_at": "2026-10-28T05:57:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 250,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 250,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+          "quote": "250 guests",
+          "checked_at": "2026-10-28T05:57:23Z",
+          "quote_found": true
+        },
+        {
+          "value": 250,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/",
+          "quote": "Hosts up to 250 guests.",
+          "checked_at": "2026-10-28T05:57:25Z",
+          "quote_found": true
+        },
+        {
+          "value": 250,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+          "quote": "Capacity: 250 guests.",
+          "checked_at": "2026-10-28T05:57:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 9000,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 9000,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+          "quote": "Event rental (up to 6 hours): $9,000",
+          "checked_at": "2026-10-28T05:57:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "in_house_av",
+        "indoor",
+        "outside_catering"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:57:25Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:57:25Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:57:25Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:57:25Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:57:25Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:57:25Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:57:25Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:57:25Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-grain-exchange/packages",
+              "quote": "Street parking and nearby paid lots only.",
+              "checked_at": "2026-10-28T05:57:25Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 126 reviews",
+          "checked_at": "2026-10-28T05:57:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 126,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 126,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-grain-exchange",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 126 reviews",
+          "checked_at": "2026-10-28T05:57:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

@@ -1,0 +1,691 @@
+{
+  "vendor_id": "v022",
+  "vendor_name": "The Lumen Room",
+  "category": "venue",
+  "slug": "the-lumen-room",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0649162,
+    "duration_ms": 17073,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8022,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3234,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8022,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3234,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8022,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8022
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "6056edbc-dbef-463b-ad9e-65c4380badfb",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:51:46Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "143 Windmill Ridge Dr, Houston, TX 77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+        "quote": "143 Windmill Ridge Dr, Houston, TX 77003",
+        "checked_at": "2026-10-28T05:51:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "143 Windmill Ridge Dr, Houston, TX 77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/contact",
+        "quote": "143 Windmill Ridge Dr\nHouston, TX 77003",
+        "checked_at": "2026-10-28T05:51:49Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+        "quote": "Houston, TX 77003",
+        "checked_at": "2026-10-28T05:51:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "77003",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/contact",
+        "quote": "Houston, TX 77003",
+        "checked_at": "2026-10-28T05:51:49Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0122",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+        "quote": "(713) 555-0122",
+        "checked_at": "2026-10-28T05:51:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "(713) 555-0122",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/contact",
+        "quote": "Phone: (713) 555-0122",
+        "checked_at": "2026-10-28T05:51:49Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Odette Lambert",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+        "quote": "Owner Odette Lambert.",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "Odette Lambert",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/about",
+        "quote": "Odette Lambert founded The Lumen Room in 2016. Odette still runs it day to day",
+        "note": "Founder who still runs it day to day; consistent with the Instagram page naming her as owner.",
+        "checked_at": "2026-10-28T05:51:48Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 200,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+        "quote": "Max occupancy (fire marshal)\n\n200 guests",
+        "checked_at": "2026-10-28T05:51:46Z",
+        "quote_found": true
+      },
+      {
+        "value": 200,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+        "quote": "Up to 200 guests.",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": 200,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+        "quote": "Hosts up to 200 guests.",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": 200,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+        "quote": "Capacity: 200 guests.",
+        "checked_at": "2026-10-28T05:51:48Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 8600,
+        "current": true,
+        "unit": "event rental, up to 6 hours",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "note": "Event rental (up to 6 hours): $8,600. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:51:48Z",
+        "quote_found": true
+      },
+      {
+        "value": 8600,
+        "current": true,
+        "unit": "event rental, up to 6 hours",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+        "quote": "Event rental $8,600 (up to 6 hours).",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+        "quote": "Indoor, climate-controlled main hall.",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:51:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics.",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:51:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+        "quote": "Outside caterers welcome (licensed and insured).",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:51:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+        "quote": "Dance floor.",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:51:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:51:48Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+        "quote": "Street parking and nearby paid lots only.",
+        "note": "No on-site parking lot.",
+        "checked_at": "2026-10-28T05:51:48Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 86 reviews",
+        "checked_at": "2026-10-28T05:51:46Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 86,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 86 reviews",
+        "checked_at": "2026-10-28T05:51:46Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday through Friday each listed as 10:00 AM - 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:51:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday through Friday each listed as 10:00 AM to 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:51:49Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [
+    {
+      "flag": "js_only_site",
+      "reason": "The vendor's own site pages are marked JS_ONLY: yes; content was decoded from the page script.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+      "quote": "JS_ONLY: yes, this page needs JavaScript to show its content",
+      "checked_at": "2026-10-28T05:51:47Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, and the vendor site home, packages, about and contact pages; none state an area served (only 'EaDo, Houston' as location)."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: venue, not a caterer."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [
+    "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+    "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+    "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/about",
+    "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/contact"
+  ],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:51:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77003",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77003",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+          "quote": "Houston, TX 77003",
+          "checked_at": "2026-10-28T05:51:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 2,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Odette Lambert",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Odette Lambert",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+          "quote": "Owner Odette Lambert.",
+          "checked_at": "2026-10-28T05:51:47Z",
+          "quote_found": true
+        },
+        {
+          "value": "Odette Lambert",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/about",
+          "quote": "Odette Lambert founded The Lumen Room in 2016. Odette still runs it day to day",
+          "checked_at": "2026-10-28T05:51:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0122",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0122",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+          "quote": "(713) 555-0122",
+          "checked_at": "2026-10-28T05:51:46Z",
+          "quote_found": true
+        },
+        {
+          "value": "(713) 555-0122",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/contact",
+          "quote": "Phone: (713) 555-0122",
+          "checked_at": "2026-10-28T05:51:49Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "143 Windmill Ridge Dr, Houston, TX 77003",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "143 Windmill Ridge Dr, Houston, TX 77003",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+          "quote": "143 Windmill Ridge Dr, Houston, TX 77003",
+          "checked_at": "2026-10-28T05:51:46Z",
+          "quote_found": true
+        },
+        {
+          "value": "143 Windmill Ridge Dr, Houston, TX 77003",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/contact",
+          "quote": "143 Windmill Ridge Dr\nHouston, TX 77003",
+          "checked_at": "2026-10-28T05:51:49Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 200,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+          "quote": "Max occupancy (fire marshal)\n\n200 guests",
+          "checked_at": "2026-10-28T05:51:46Z",
+          "quote_found": true
+        },
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+          "quote": "Up to 200 guests.",
+          "checked_at": "2026-10-28T05:51:47Z",
+          "quote_found": true
+        },
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+          "quote": "Hosts up to 200 guests.",
+          "checked_at": "2026-10-28T05:51:47Z",
+          "quote_found": true
+        },
+        {
+          "value": 200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+          "quote": "Capacity: 200 guests.",
+          "checked_at": "2026-10-28T05:51:48Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 8600,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 8600,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:51:48Z",
+          "quote_found": true
+        },
+        {
+          "value": 8600,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+          "quote": "Event rental $8,600 (up to 6 hours).",
+          "checked_at": "2026-10-28T05:51:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "in_house_av",
+        "indoor",
+        "outside_catering"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+              "quote": "Dance floor.",
+              "checked_at": "2026-10-28T05:51:47Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:51:47Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:51:48Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics.",
+              "checked_at": "2026-10-28T05:51:47Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:51:47Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:51:48Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+              "quote": "Indoor, climate-controlled main hall.",
+              "checked_at": "2026-10-28T05:51:47Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:51:47Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:51:48Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+              "quote": "Outside caterers welcome (licensed and insured).",
+              "checked_at": "2026-10-28T05:51:47Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:51:47Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:51:48Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+              "quote": "Street parking and nearby paid lots only.",
+              "checked_at": "2026-10-28T05:51:48Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 86 reviews",
+          "checked_at": "2026-10-28T05:51:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 86,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 86,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 86 reviews",
+          "checked_at": "2026-10-28T05:51:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "js_only_site",
+        "reason": "The vendor's own site pages are marked JS_ONLY: yes; content was decoded from the page script.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/",
+        "by": "model"
+      }
+    ]
+  }
+}

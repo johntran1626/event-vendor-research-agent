@@ -1,0 +1,654 @@
+{
+  "vendor_id": "v068",
+  "vendor_name": "Kettle Black Catering",
+  "category": "caterer",
+  "slug": "kettle-black-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0763102,
+    "duration_ms": 25517,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8038,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4367,
+      "output_tokens_details": {
+        "thinking_tokens": 932
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8038,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4367,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8038,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8038
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "8f50bb0b-a0a6-411e-bc61-7dcd4dcbf361",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+        "quote": "Status: Open",
+        "note": "Listing says open; two recent reviews say closed.",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/kettle-black-catering",
+        "quote": "Kettle Black has closed.",
+        "note": "Review by Tiffany D., Oct 9, 2026: number disconnected, kitchen empty.",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/kettle-black-catering",
+        "quote": "Kettle Black shut down for good in August.",
+        "note": "Review by Amanda Y., Sep 2, 2026; secondhand (heard from their head chef).",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "4764 Dunmore Way, League City, TX 77573",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+        "quote": "4764 Dunmore Way, League City, TX 77573",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "4764 Dunmore Way, League City, TX 77573",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/contact",
+        "quote": "4764 Dunmore Way",
+        "note": "Second line reads 'League City, TX 77573'.",
+        "checked_at": "2026-10-28T05:55:10Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77573",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+        "quote": "4764 Dunmore Way, League City, TX 77573",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "77573",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/contact",
+        "quote": "League City, TX 77573",
+        "checked_at": "2026-10-28T05:55:10Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0174",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+        "quote": "(832) 555-0174",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0174",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/contact",
+        "quote": "Phone: (832) 555-0174",
+        "checked_at": "2026-10-28T05:55:10Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0174",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/",
+        "quote": "Call (832) 555-0174 to get a quote.",
+        "note": "A review (Oct 9, 2026) says the number is disconnected.",
+        "checked_at": "2026-10-28T05:55:08Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Yusuf Prescott",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/about",
+        "quote": "Yusuf Prescott founded Kettle Black Catering in 2014.",
+        "note": "Says Yusuf still runs it day to day.",
+        "checked_at": "2026-10-28T05:55:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "Yusuf Prescott",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/kettleblackcaterin",
+        "quote": "Owner Yusuf Prescott.",
+        "checked_at": "2026-10-28T05:55:08Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 320,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+        "quote": "320 guests",
+        "kind": "largest_event",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      },
+      {
+        "value": 320,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+        "quote": "Largest event: 320 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:55:09Z",
+        "quote_found": true
+      },
+      {
+        "value": 320,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/",
+        "quote": "We cater events of up to 320 guests.",
+        "kind": "marketing",
+        "note": "Same figure as largest event served.",
+        "checked_at": "2026-10-28T05:55:08Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 37,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+        "quote": "Dinner service: $37 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Under 'Current rates for 2026 and 2027 events.' Minimum 25 guests; excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:55:09Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:09Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:08Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+        "quote": "Nut-free meals prepared separately",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:09Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/",
+        "quote": "Nut-free meals prepared separately.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:55:08Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 158 reviews",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 158,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 158 reviews",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+        "quote": "9:00 AM - 1:00 PM",
+        "note": "Saturday hours quoted; Monday-Friday are 9:00 AM - 5:00 PM and Sunday is Closed, each listed per day.",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/contact",
+        "quote": "9:00 AM to 1:00 PM",
+        "note": "Saturday hours quoted; Monday-Friday are 9:00 AM to 5:00 PM and Sunday is Closed, each listed per day. Same hours as listing.",
+        "checked_at": "2026-10-28T05:55:10Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:55:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:55:08Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "status",
+      "description": "The listing page says 'Status: Open' and the vendor's own site is live (copyright 2025, current 2026-2027 rates), but two reviews say it closed: Oct 9, 2026 (number disconnected, kitchen empty) and Sep 2, 2026 (shut down for good in August, secondhand from the head chef). The Instagram last post was Jul 12, 2026.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+        "https://vendors-r1.lab.zappstudios.us/reviews/kettle-black-catering"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "closed",
+      "reason": "Two recent reviews (Oct 9, 2026 and Sep 2, 2026) say the caterer has closed for good, while the listing still says Open. Needs a check before shortlisting.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/kettle-black-catering",
+      "quote": "Kettle Black has closed.",
+      "checked_at": "2026-10-28T05:55:07Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "dietary vegan",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages: no mention of vegan."
+    },
+    {
+      "field": "dietary gluten_free",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages: no mention of gluten-free."
+    },
+    {
+      "field": "features plated",
+      "checked": "Home, packages and listing pages: only buffet service is stated."
+    },
+    {
+      "field": "features drop_off",
+      "checked": "Home, packages and listing pages: drop-off service is not mentioned."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "closed",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "closed",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/kettle-black-catering",
+          "quote": "Kettle Black has closed.",
+          "checked_at": "2026-10-28T05:55:07Z",
+          "quote_found": true
+        },
+        {
+          "value": "closed",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/kettle-black-catering",
+          "quote": "Kettle Black shut down for good in August.",
+          "checked_at": "2026-10-28T05:55:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "zip": {
+      "value": "77573",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77573",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+          "quote": "4764 Dunmore Way, League City, TX 77573",
+          "checked_at": "2026-10-28T05:55:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 25,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Yusuf Prescott",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Yusuf Prescott",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/about",
+          "quote": "Yusuf Prescott founded Kettle Black Catering in 2014.",
+          "checked_at": "2026-10-28T05:55:09Z",
+          "quote_found": true
+        },
+        {
+          "value": "Yusuf Prescott",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/kettleblackcaterin",
+          "quote": "Owner Yusuf Prescott.",
+          "checked_at": "2026-10-28T05:55:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0174",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0174",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+          "quote": "(832) 555-0174",
+          "checked_at": "2026-10-28T05:55:07Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0174",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/contact",
+          "quote": "Phone: (832) 555-0174",
+          "checked_at": "2026-10-28T05:55:10Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0174",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/",
+          "quote": "Call (832) 555-0174 to get a quote.",
+          "checked_at": "2026-10-28T05:55:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "4764 Dunmore Way, League City, TX 77573",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "4764 Dunmore Way, League City, TX 77573",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+          "quote": "4764 Dunmore Way, League City, TX 77573",
+          "checked_at": "2026-10-28T05:55:07Z",
+          "quote_found": true
+        },
+        {
+          "value": "4764 Dunmore Way, League City, TX 77573",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/contact",
+          "quote": "4764 Dunmore Way",
+          "checked_at": "2026-10-28T05:55:10Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 320,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 320,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+          "quote": "320 guests",
+          "checked_at": "2026-10-28T05:55:07Z",
+          "quote_found": true
+        },
+        {
+          "value": 320,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+          "quote": "Largest event: 320 guests.",
+          "checked_at": "2026-10-28T05:55:09Z",
+          "quote_found": true
+        },
+        {
+          "value": 320,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/",
+          "quote": "We cater events of up to 320 guests.",
+          "checked_at": "2026-10-28T05:55:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 37,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 37,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+          "quote": "Dinner service: $37 per person.",
+          "checked_at": "2026-10-28T05:55:09Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "onsite_staff"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:55:09Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:55:09Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:55:09Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "nut_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:55:09Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:55:08Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:55:09Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kettle-black-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:55:08Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 158 reviews",
+          "checked_at": "2026-10-28T05:55:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 158,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 158,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kettle-black-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 158 reviews",
+          "checked_at": "2026-10-28T05:55:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "closed",
+        "reason": "Two recent reviews (Oct 9, 2026 and Sep 2, 2026) say the caterer has closed for good, while the listing still says Open. Needs a check before shortlisting.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/kettle-black-catering",
+        "by": "model"
+      }
+    ]
+  }
+}

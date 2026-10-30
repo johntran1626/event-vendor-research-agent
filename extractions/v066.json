@@ -1,0 +1,601 @@
+{
+  "vendor_id": "v066",
+  "vendor_name": "Bramblewood Farm",
+  "category": "venue",
+  "slug": "bramblewood-farm",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.060158199999999995,
+    "duration_ms": 14043,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7920,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2799,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7920,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2799,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7920,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7920
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "01e653f1-80ca-49cf-8171-a142b51cde10",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:54:58Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "4510 Fallow Field Rd, Fulshear, TX 77441",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+        "quote": "4510 Fallow Field Rd, Fulshear, TX 77441",
+        "checked_at": "2026-10-28T05:54:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "4510 Fallow Field Rd, Fulshear, TX 77441",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/contact",
+        "quote": "4510 Fallow Field Rd",
+        "checked_at": "2026-10-28T05:55:01Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77441",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+        "quote": "Fulshear, TX 77441",
+        "checked_at": "2026-10-28T05:54:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "77441",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/contact",
+        "quote": "Fulshear, TX 77441",
+        "checked_at": "2026-10-28T05:55:01Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0181",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+        "quote": "(281) 555-0181",
+        "checked_at": "2026-10-28T05:54:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "281-555-0181",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/contact",
+        "quote": "Phone: 281-555-0181",
+        "checked_at": "2026-10-28T05:55:01Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Abel Holloway",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/about",
+        "quote": "Abel Holloway founded Bramblewood Farm in 2008. Abel still runs it day to day",
+        "note": "Founder who still runs the business day to day; no page uses the word 'owner' explicitly.",
+        "checked_at": "2026-10-28T05:55:00Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 500,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+        "quote": "500 guests",
+        "kind": "fire_marshal",
+        "note": "Listed as 'Max occupancy (fire marshal)'.",
+        "checked_at": "2026-10-28T05:54:58Z",
+        "quote_found": true
+      },
+      {
+        "value": 500,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+        "quote": "Hosts up to 500 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:54:59Z",
+        "quote_found": true
+      },
+      {
+        "value": 500,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+        "quote": "Capacity: 500 guests.",
+        "kind": "marketing",
+        "note": "Same figure as the fire marshal maximum on the listing.",
+        "checked_at": "2026-10-28T05:55:00Z",
+        "quote_found": true
+      },
+      {
+        "value": 150,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/bramblewood-farm",
+        "quote": "We hosted our team offsite here for about 150 guests",
+        "kind": "marketing",
+        "note": "Review dated Jun 23, 2025; describes one event, not a maximum.",
+        "checked_at": "2026-10-28T05:54:58Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 4400,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+        "quote": "Event rental (up to 6 hours): $4,400",
+        "current": true,
+        "unit": "event rental, up to 6 hours",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:55:00Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+        "quote": "Outdoor venue only. No indoor hall.",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+        "quote": "No indoor hall.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:55:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:55:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+        "quote": "No in-house AV.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:55:00Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 110 reviews",
+        "checked_at": "2026-10-28T05:54:58Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 110,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 110 reviews",
+        "checked_at": "2026-10-28T05:54:58Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+        "quote": "10:00 AM - 6:00 PM",
+        "note": "Listing gives Monday through Friday as 10:00 AM - 6:00 PM, Saturday 10:00 AM - 2:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:54:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/contact",
+        "quote": "10:00 AM to 6:00 PM",
+        "note": "Office hours: Monday through Friday 10:00 AM to 6:00 PM, Saturday 10:00 AM to 2:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:55:01Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages: none states an area served."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: Bramblewood Farm is a venue, not a caterer."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:54:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77441",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77441",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+          "quote": "Fulshear, TX 77441",
+          "checked_at": "2026-10-28T05:54:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 34,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Abel Holloway",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Abel Holloway",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/about",
+          "quote": "Abel Holloway founded Bramblewood Farm in 2008. Abel still runs it day to day",
+          "checked_at": "2026-10-28T05:55:00Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0181",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0181",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+          "quote": "(281) 555-0181",
+          "checked_at": "2026-10-28T05:54:58Z",
+          "quote_found": true
+        },
+        {
+          "value": "281-555-0181",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/contact",
+          "quote": "Phone: 281-555-0181",
+          "checked_at": "2026-10-28T05:55:01Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "4510 Fallow Field Rd, Fulshear, TX 77441",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "4510 Fallow Field Rd, Fulshear, TX 77441",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+          "quote": "4510 Fallow Field Rd, Fulshear, TX 77441",
+          "checked_at": "2026-10-28T05:54:58Z",
+          "quote_found": true
+        },
+        {
+          "value": "4510 Fallow Field Rd, Fulshear, TX 77441",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/contact",
+          "quote": "4510 Fallow Field Rd",
+          "checked_at": "2026-10-28T05:55:01Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 500,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 500,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+          "quote": "500 guests",
+          "checked_at": "2026-10-28T05:54:58Z",
+          "quote_found": true
+        },
+        {
+          "value": 500,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+          "quote": "Hosts up to 500 guests.",
+          "checked_at": "2026-10-28T05:54:59Z",
+          "quote_found": true
+        },
+        {
+          "value": 500,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+          "quote": "Capacity: 500 guests.",
+          "checked_at": "2026-10-28T05:55:00Z",
+          "quote_found": true
+        },
+        {
+          "value": 150,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/bramblewood-farm",
+          "quote": "We hosted our team offsite here for about 150 guests",
+          "checked_at": "2026-10-28T05:54:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 4400,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+          "quote": "Event rental (up to 6 hours): $4,400",
+          "checked_at": "2026-10-28T05:55:00Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "outdoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:54:59Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:55:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+              "quote": "No in-house AV.",
+              "checked_at": "2026-10-28T05:55:00Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+              "quote": "No indoor hall.",
+              "checked_at": "2026-10-28T05:55:00Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "outdoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:54:59Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+              "quote": "Outdoor venue only. No indoor hall.",
+              "checked_at": "2026-10-28T05:55:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:54:59Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:55:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:54:59Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:55:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 110 reviews",
+          "checked_at": "2026-10-28T05:54:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 110,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 110,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 110 reviews",
+          "checked_at": "2026-10-28T05:54:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

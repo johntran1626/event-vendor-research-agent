@@ -1,0 +1,572 @@
+{
+  "vendor_id": "v095",
+  "vendor_name": "Kilnworks Hall",
+  "category": "venue",
+  "slug": "kilnworks-hall",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0589302,
+    "duration_ms": 12832,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8093,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2607,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8093,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2607,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8093,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8093
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "2f63115e-572f-4ed8-b64d-0f10cc823217",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:57:05Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "5369 Dunmore Way, Houston, TX 77011",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+        "quote": "5369 Dunmore Way, Houston, TX 77011",
+        "checked_at": "2026-10-28T05:57:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "5369 Dunmore Way, Houston, TX 77011",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/contact",
+        "quote": "5369 Dunmore Way",
+        "checked_at": "2026-10-28T05:57:08Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77011",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+        "quote": "5369 Dunmore Way, Houston, TX 77011",
+        "checked_at": "2026-10-28T05:57:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "77011",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/contact",
+        "quote": "Houston, TX 77011",
+        "checked_at": "2026-10-28T05:57:08Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0105",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+        "quote": "(832) 555-0105",
+        "checked_at": "2026-10-28T05:57:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0105",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/contact",
+        "quote": "Phone: 832-555-0105",
+        "checked_at": "2026-10-28T05:57:08Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Malcolm Holloway",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/kilnworkshall",
+        "quote": "Owner Malcolm Holloway.",
+        "checked_at": "2026-10-28T05:57:06Z",
+        "quote_found": true
+      },
+      {
+        "value": "Malcolm Holloway",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/about",
+        "quote": "Malcolm Holloway founded Kilnworks Hall in 2009.",
+        "note": "Also says Malcolm still runs it day to day.",
+        "checked_at": "2026-10-28T05:57:08Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 140,
+        "kind": "fire_marshal",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+        "quote": "140 guests",
+        "note": "Listed under 'Max occupancy (fire marshal)'.",
+        "checked_at": "2026-10-28T05:57:05Z",
+        "quote_found": true
+      },
+      {
+        "value": 140,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/",
+        "quote": "Hosts up to 140 guests.",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      },
+      {
+        "value": 140,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+        "quote": "Capacity: 140 guests.",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 5900,
+        "current": true,
+        "unit": "event rental, up to 6 hours",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "note": "Event rental (up to 6 hours): $5,900. Does not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+        "quote": "Dance floor",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "offered": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+        "quote": "No in-house AV. Bring your own or rent it.",
+        "checked_at": "2026-10-28T05:57:07Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 64 reviews",
+        "checked_at": "2026-10-28T05:57:05Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 64,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 64 reviews",
+        "checked_at": "2026-10-28T05:57:05Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+        "quote": "Saturday 10:00 AM - 2:00 PM",
+        "note": "Monday through Friday each 10:00 AM - 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:57:05Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/contact",
+        "quote": "Saturday 10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday through Friday each 10:00 AM to 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:57:08Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages. None state an area served; only 'Second Ward, Houston' as location."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:57:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77011",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77011",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+          "quote": "5369 Dunmore Way, Houston, TX 77011",
+          "checked_at": "2026-10-28T05:57:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 4,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Malcolm Holloway",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Malcolm Holloway",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/kilnworkshall",
+          "quote": "Owner Malcolm Holloway.",
+          "checked_at": "2026-10-28T05:57:06Z",
+          "quote_found": true
+        },
+        {
+          "value": "Malcolm Holloway",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/about",
+          "quote": "Malcolm Holloway founded Kilnworks Hall in 2009.",
+          "checked_at": "2026-10-28T05:57:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0105",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0105",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+          "quote": "(832) 555-0105",
+          "checked_at": "2026-10-28T05:57:05Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0105",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/contact",
+          "quote": "Phone: 832-555-0105",
+          "checked_at": "2026-10-28T05:57:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "5369 Dunmore Way, Houston, TX 77011",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "5369 Dunmore Way, Houston, TX 77011",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+          "quote": "5369 Dunmore Way, Houston, TX 77011",
+          "checked_at": "2026-10-28T05:57:05Z",
+          "quote_found": true
+        },
+        {
+          "value": "5369 Dunmore Way, Houston, TX 77011",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/contact",
+          "quote": "5369 Dunmore Way",
+          "checked_at": "2026-10-28T05:57:08Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 140,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 140,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+          "quote": "140 guests",
+          "checked_at": "2026-10-28T05:57:05Z",
+          "quote_found": true
+        },
+        {
+          "value": 140,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/",
+          "quote": "Hosts up to 140 guests.",
+          "checked_at": "2026-10-28T05:57:07Z",
+          "quote_found": true
+        },
+        {
+          "value": 140,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+          "quote": "Capacity: 140 guests.",
+          "checked_at": "2026-10-28T05:57:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 5900,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 5900,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:57:07Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "indoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:57:07Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:57:07Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+              "quote": "No in-house AV. Bring your own or rent it.",
+              "checked_at": "2026-10-28T05:57:07Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:57:07Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:57:07Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:57:07Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:57:07Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:57:07Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/kilnworks-hall/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:57:07Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 64 reviews",
+          "checked_at": "2026-10-28T05:57:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 64,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 64,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/kilnworks-hall",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 64 reviews",
+          "checked_at": "2026-10-28T05:57:05Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

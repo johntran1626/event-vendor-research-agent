@@ -1,0 +1,625 @@
+{
+  "vendor_id": "v059",
+  "vendor_name": "Crawdad Kitchen",
+  "category": "caterer",
+  "slug": "crawdad-kitchen",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0613702,
+    "duration_ms": 14893,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8023,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2879,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8023,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2879,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8023,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8023
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "2279ab38-a1ff-4ccd-a91a-e89fdcdcf28b",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:54:26Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "9441 Brackenridge Rd, Seabrook, TX 77586",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+        "quote": "9441 Brackenridge Rd, Seabrook, TX 77586",
+        "checked_at": "2026-10-28T05:54:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "9441 Brackenridge Rd, Seabrook, TX 77586",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/contact",
+        "quote": "9441 Brackenridge Rd\nSeabrook, TX 77586",
+        "checked_at": "2026-10-28T05:54:29Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77586",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+        "quote": "Seabrook, TX 77586",
+        "checked_at": "2026-10-28T05:54:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "77586",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/contact",
+        "quote": "Seabrook, TX 77586",
+        "checked_at": "2026-10-28T05:54:29Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0158",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+        "quote": "(832) 555-0158",
+        "checked_at": "2026-10-28T05:54:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "832-555-0158",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/contact",
+        "quote": "Phone: 832-555-0158",
+        "checked_at": "2026-10-28T05:54:29Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Desmond Gutierrez",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/about",
+        "quote": "Desmond Gutierrez founded Crawdad Kitchen in 2020. Desmond still runs it day to day",
+        "note": "Founder who still runs the business day to day; page does not use the word 'owner' explicitly.",
+        "checked_at": "2026-10-28T05:54:28Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 450,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+        "quote": "450 guests",
+        "kind": "largest_event",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:54:26Z",
+        "quote_found": true
+      },
+      {
+        "value": 450,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/",
+        "quote": "We cater events of up to 450 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:54:27Z",
+        "quote_found": true
+      },
+      {
+        "value": 450,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+        "quote": "Largest event: 450 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:54:28Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 75,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+        "quote": "Dinner service: $75 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests; excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:54:28Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+        "quote": "Servers and on-site event staff",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:54:28Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/crawdad-kitchen",
+        "quote": "They handled our vegetarian guests really well.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "note": "Review dated Jan 26, 2025.",
+        "checked_at": "2026-10-28T05:54:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/",
+        "quote": "Gluten-free menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+        "quote": "Gluten-free menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:28Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/",
+        "quote": "Nut-free meals prepared separately.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+        "quote": "Nut-free meals prepared separately",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:54:28Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.4,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+        "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 8 reviews",
+        "checked_at": "2026-10-28T05:54:26Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+        "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 8 reviews",
+        "note": "The reviews page also says '8 reviews' in its header but lists 10 reviews; the listing total is used.",
+        "checked_at": "2026-10-28T05:54:26Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+        "quote": "Saturday\n\n9:00 AM - 1:00 PM",
+        "note": "Monday to Friday are each listed as 9:00 AM - 5:00 PM; Sunday is Closed.",
+        "checked_at": "2026-10-28T05:54:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/contact",
+        "quote": "Saturday\n\n9:00 AM to 1:00 PM",
+        "note": "Monday to Friday are each listed as 9:00 AM to 5:00 PM; Sunday is Closed. Labeled 'Office hours'.",
+        "checked_at": "2026-10-28T05:54:29Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:54:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:54:27Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:54:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77586",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77586",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+          "quote": "Seabrook, TX 77586",
+          "checked_at": "2026-10-28T05:54:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 24,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Desmond Gutierrez",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Desmond Gutierrez",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/about",
+          "quote": "Desmond Gutierrez founded Crawdad Kitchen in 2020. Desmond still runs it day to day",
+          "checked_at": "2026-10-28T05:54:28Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0158",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0158",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+          "quote": "(832) 555-0158",
+          "checked_at": "2026-10-28T05:54:26Z",
+          "quote_found": true
+        },
+        {
+          "value": "832-555-0158",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/contact",
+          "quote": "Phone: 832-555-0158",
+          "checked_at": "2026-10-28T05:54:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "9441 Brackenridge Rd, Seabrook, TX 77586",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "9441 Brackenridge Rd, Seabrook, TX 77586",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+          "quote": "9441 Brackenridge Rd, Seabrook, TX 77586",
+          "checked_at": "2026-10-28T05:54:26Z",
+          "quote_found": true
+        },
+        {
+          "value": "9441 Brackenridge Rd, Seabrook, TX 77586",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/contact",
+          "quote": "9441 Brackenridge Rd\nSeabrook, TX 77586",
+          "checked_at": "2026-10-28T05:54:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 450,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 450,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+          "quote": "450 guests",
+          "checked_at": "2026-10-28T05:54:26Z",
+          "quote_found": true
+        },
+        {
+          "value": 450,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/",
+          "quote": "We cater events of up to 450 guests.",
+          "checked_at": "2026-10-28T05:54:27Z",
+          "quote_found": true
+        },
+        {
+          "value": 450,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+          "quote": "Largest event: 450 guests.",
+          "checked_at": "2026-10-28T05:54:28Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 75,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 75,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+          "quote": "Dinner service: $75 per person.",
+          "checked_at": "2026-10-28T05:54:28Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "onsite_staff"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:54:28Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:54:28Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:54:28Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "nut_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:54:27Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:54:28Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:54:27Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:54:28Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:54:27Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/crawdad-kitchen/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:54:28Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/crawdad-kitchen",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:54:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review dated Jan 26, 2025."
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.4,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.4,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+          "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 8 reviews",
+          "checked_at": "2026-10-28T05:54:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/crawdad-kitchen",
+          "quote": "4.4 \u2605\u2605\u2605\u2605\u2606 8 reviews",
+          "checked_at": "2026-10-28T05:54:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

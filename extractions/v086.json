@@ -1,0 +1,784 @@
+{
+  "vendor_id": "v086",
+  "vendor_name": "Pimento Catering",
+  "category": "caterer",
+  "slug": "pimento-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.07045219999999999,
+    "duration_ms": 18928,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8086,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3762,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8086,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3762,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8086,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8086
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "63674dca-6384-4dc4-8ea1-5a5f5c44ac21",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:56:24Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "7141 Cinder Lake Dr, Houston, TX 77087",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "quote": "7141 Cinder Lake Dr, Houston, TX 77087",
+        "checked_at": "2026-10-28T05:56:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "7141 Cinder Lake Dr, Houston, TX 77087",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/contact",
+        "quote": "7141 Cinder Lake Dr\nHouston, TX 77087",
+        "checked_at": "2026-10-28T05:56:27Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77087",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "quote": "Houston, TX 77087",
+        "checked_at": "2026-10-28T05:56:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "77087",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/contact",
+        "quote": "Houston, TX 77087",
+        "checked_at": "2026-10-28T05:56:27Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0189",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "quote": "(832) 555-0189",
+        "checked_at": "2026-10-28T05:56:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0189",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/contact",
+        "quote": "Phone: (832) 555-0189",
+        "checked_at": "2026-10-28T05:56:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "(832) 555-0189",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+        "quote": "Call (832) 555-0189 to get a quote.",
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Bianca Ibarra",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/pimentocatering",
+        "quote": "Owner Bianca Ibarra.",
+        "checked_at": "2026-10-28T05:56:25Z",
+        "quote_found": true
+      },
+      {
+        "value": "Bianca Ibarra",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/about",
+        "quote": "Bianca Ibarra founded Pimento Catering in 2017.",
+        "note": "Founder who still runs it day to day; the Instagram page names her as owner.",
+        "checked_at": "2026-10-28T05:56:27Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 170,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "quote": "Largest event served",
+        "kind": "largest_event",
+        "note": "Listing gives '170 guests' under the 'Largest event served' label.",
+        "checked_at": "2026-10-28T05:56:24Z",
+        "quote_found": true
+      },
+      {
+        "value": 170,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "quote": "Largest event: 170 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": 170,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+        "quote": "We cater events of up to 170 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": 180,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pimento-catering",
+        "quote": "Bianca and the crew fed 180 people at our baby shower",
+        "kind": "largest_event",
+        "note": "Review dated Feb 17, 2026; exceeds the 170 the vendor states.",
+        "checked_at": "2026-10-28T05:56:25Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 66,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "quote": "Dinner service: $66 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Under 'Current rates for 2026 and 2027 events.' Minimum 25 guests. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "plated",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "quote": "Plated dinners",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "drop_off",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "quote": "Drop-off delivery",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "quote": "Vegan menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "quote": "Gluten-free menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "quote": "Nut-free meals prepared separately",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+        "quote": "Vegan menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+        "quote": "Gluten-free menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+        "quote": "Nut-free meals prepared separately.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pimento-catering",
+        "quote": "They handled our vegetarian guests really well.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "note": "Review dated Nov 12, 2025.",
+        "checked_at": "2026-10-28T05:56:25Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 221 reviews",
+        "checked_at": "2026-10-28T05:56:24Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 221,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 221 reviews",
+        "checked_at": "2026-10-28T05:56:24Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "quote": "9:00 AM - 5:00 PM",
+        "note": "Listing hours: Monday to Friday 9:00 AM - 5:00 PM, Saturday 9:00 AM - 1:00 PM, Sunday Closed.",
+        "checked_at": "2026-10-28T05:56:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon Closed; Tue-Fri 11:00 AM to 7:00 PM; Sat 10:00 AM to 5:00 PM; Sun 12:00 PM to 4:00 PM",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/contact",
+        "quote": "11:00 AM to 7:00 PM",
+        "note": "Website office hours: Monday Closed, Tuesday to Friday 11:00 AM to 7:00 PM, Saturday 10:00 AM to 5:00 PM, Sunday 12:00 PM to 4:00 PM.",
+        "checked_at": "2026-10-28T05:56:27Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:56:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:56:26Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "hours",
+      "description": "The listing gives Mon-Fri 9-5, Sat 9-1, Sun closed. The website contact page gives Mon closed, Tue-Fri 11-7, Sat 10-5, Sun 12-4.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/contact"
+      ]
+    },
+    {
+      "field": "capacity",
+      "description": "The listing and website say the largest event is 170 guests, but a Feb 17, 2026 review says the caterer fed 180 people at a baby shower.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+        "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+        "https://vendors-r1.lab.zappstudios.us/reviews/pimento-catering"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "hours_conflict",
+      "reason": "Listing and website contact page give different opening hours on every day.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/contact",
+      "quote": "11:00 AM to 7:00 PM",
+      "checked_at": "2026-10-28T05:56:27Z"
+    },
+    {
+      "flag": "capacity_conflict",
+      "reason": "A review says 180 guests were fed, above the stated largest event of 170.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pimento-catering",
+      "quote": "fed 180 people at our baby shower",
+      "checked_at": "2026-10-28T05:56:25Z"
+    }
+  ],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:56:24Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77087",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77087",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+          "quote": "Houston, TX 77087",
+          "checked_at": "2026-10-28T05:56:24Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 9,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Bianca Ibarra",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Bianca Ibarra",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/pimentocatering",
+          "quote": "Owner Bianca Ibarra.",
+          "checked_at": "2026-10-28T05:56:25Z",
+          "quote_found": true
+        },
+        {
+          "value": "Bianca Ibarra",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/about",
+          "quote": "Bianca Ibarra founded Pimento Catering in 2017.",
+          "checked_at": "2026-10-28T05:56:27Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0189",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0189",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+          "quote": "(832) 555-0189",
+          "checked_at": "2026-10-28T05:56:24Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0189",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/contact",
+          "quote": "Phone: (832) 555-0189",
+          "checked_at": "2026-10-28T05:56:27Z",
+          "quote_found": true
+        },
+        {
+          "value": "(832) 555-0189",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+          "quote": "Call (832) 555-0189 to get a quote.",
+          "checked_at": "2026-10-28T05:56:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "7141 Cinder Lake Dr, Houston, TX 77087",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "7141 Cinder Lake Dr, Houston, TX 77087",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+          "quote": "7141 Cinder Lake Dr, Houston, TX 77087",
+          "checked_at": "2026-10-28T05:56:24Z",
+          "quote_found": true
+        },
+        {
+          "value": "7141 Cinder Lake Dr, Houston, TX 77087",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/contact",
+          "quote": "7141 Cinder Lake Dr\nHouston, TX 77087",
+          "checked_at": "2026-10-28T05:56:27Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 170,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 170,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+          "quote": "Largest event served",
+          "checked_at": "2026-10-28T05:56:24Z",
+          "quote_found": true
+        },
+        {
+          "value": 170,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+          "quote": "Largest event: 170 guests.",
+          "checked_at": "2026-10-28T05:56:26Z",
+          "quote_found": true
+        },
+        {
+          "value": 170,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+          "quote": "We cater events of up to 170 guests.",
+          "checked_at": "2026-10-28T05:56:26Z",
+          "quote_found": true
+        },
+        {
+          "value": 180,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pimento-catering",
+          "quote": "Bianca and the crew fed 180 people at our baby shower",
+          "checked_at": "2026-10-28T05:56:25Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true,
+      "note": "lowest of the numbers sources give"
+    },
+    "price": {
+      "value": 66,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 66,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+          "quote": "Dinner service: $66 per person.",
+          "checked_at": "2026-10-28T05:56:26Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "drop_off",
+        "plated"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "drop_off": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "drop_off",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+              "quote": "Drop-off delivery",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "nut_free",
+        "vegan",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegan": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+              "quote": "Vegan menu",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+              "quote": "Vegan menu.",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:56:26Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pimento-catering",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:56:25Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review dated Nov 12, 2025."
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 221 reviews",
+          "checked_at": "2026-10-28T05:56:24Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 221,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 221,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/pimento-catering",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 221 reviews",
+          "checked_at": "2026-10-28T05:56:24Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "capacity_conflict",
+        "reason": "A review says 180 guests were fed, above the stated largest event of 170.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/pimento-catering",
+        "by": "model"
+      },
+      {
+        "flag": "hours_conflict",
+        "reason": "Listing and website contact page give different opening hours on every day.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/pimento-catering/contact",
+        "by": "model"
+      }
+    ]
+  }
+}

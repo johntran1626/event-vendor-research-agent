@@ -1,0 +1,633 @@
+{
+  "vendor_id": "v093",
+  "vendor_name": "Halcyon House",
+  "category": "venue",
+  "slug": "halcyon-house",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0739782,
+    "duration_ms": 24403,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8120,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4101,
+      "output_tokens_details": {
+        "thinking_tokens": 821
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8120,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4101,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8120,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8120
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "270bee0a-5749-479c-85d8-fd23e0ce10cb",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+        "quote": "Status: Open",
+        "note": "Reviews page and Instagram show no closure; latest review Jul 20, 2026, last post Sep 22, 2026.",
+        "checked_at": "2026-10-28T05:56:56Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "5830 Windmill Ridge Dr, Houston, TX 77098",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+        "quote": "5830 Windmill Ridge Dr, Houston, TX 77098",
+        "checked_at": "2026-10-28T05:56:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "5830 Windmill Ridge Dr, Houston, TX 77098",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/contact",
+        "quote": "5830 Windmill Ridge Dr",
+        "note": "City/state/zip on the next line: Houston, TX 77098.",
+        "checked_at": "2026-10-28T05:56:59Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77098",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+        "quote": "Houston, TX 77098",
+        "checked_at": "2026-10-28T05:56:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "77098",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/contact",
+        "quote": "Houston, TX 77098",
+        "checked_at": "2026-10-28T05:56:59Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0134",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+        "quote": "(713) 555-0134",
+        "checked_at": "2026-10-28T05:56:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "713 555 0134",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/contact",
+        "quote": "Phone: 713 555 0134",
+        "checked_at": "2026-10-28T05:56:59Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Celeste Espinoza",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/about",
+        "quote": "Celeste Espinoza founded Halcyon House in 2017. Celeste still runs it day to day",
+        "note": "Founder who still runs the business; no page uses the word 'owner', so ownership is inferred from founder and runs it.",
+        "checked_at": "2026-10-28T05:56:59Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 220,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+        "quote": "Max occupancy (fire marshal)",
+        "kind": "fire_marshal",
+        "note": "Listing reads 'Max occupancy (fire marshal)' followed by '220 guests'.",
+        "checked_at": "2026-10-28T05:56:56Z",
+        "quote_found": true
+      },
+      {
+        "value": 220,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+        "quote": "Hosts up to 220 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": 220,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+        "quote": "Capacity: 220 guests.",
+        "kind": "marketing",
+        "note": "Source does not say it is the fire marshal limit.",
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 11200,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "note": "Rate line: 'Event rental (up to 6 hours): $11,200'. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": 7400,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+        "quote": "2025 Gala Season Packages",
+        "current": false,
+        "unit": "venue rental, Saturday evening, from",
+        "note": "Text: 'Saturday evening, venue rental from $7,400.' Labeled 2025.",
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+        "quote": "Street parking and nearby paid lots only.",
+        "offered": false,
+        "note": "No own parking lot.",
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+        "quote": "Includes tables, chairs and six hours in the hall.",
+        "offered": true,
+        "note": "Part of the 2025 package.",
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+        "quote": "Includes tables, chairs and six hours in the hall.",
+        "offered": true,
+        "note": "Part of the 2025 package.",
+        "checked_at": "2026-10-28T05:56:58Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 117 reviews",
+        "checked_at": "2026-10-28T05:56:56Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 117,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 117 reviews",
+        "checked_at": "2026-10-28T05:56:56Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+        "quote": "10:00 AM - 2:00 PM",
+        "note": "Saturday line; Mon-Fri each '10:00 AM - 6:00 PM', Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:56:56Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/contact",
+        "quote": "10:00 AM to 2:00 PM",
+        "note": "Saturday line under 'Office hours'; Mon-Fri each '10:00 AM to 6:00 PM', Sunday 'Closed'.",
+        "checked_at": "2026-10-28T05:56:59Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "price",
+      "description": "The home page shows a 2025 Gala Season venue rental 'from $7,400' (Saturday evening, six hours, tables and chairs). The packages page shows current 2026 and 2027 event rental of $11,200 (up to 6 hours).",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "stale_pricing",
+      "reason": "Home page still publishes the 2025 Gala Season price ($7,400) while the packages page gives current 2026/2027 rate $11,200.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+      "quote": "2025 Gala Season Packages",
+      "checked_at": "2026-10-28T05:56:58Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages. Only the venue location (Upper Kirby, Houston) is given, not an area served."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: venue, not a caterer."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:56:56Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77098",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77098",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+          "quote": "Houston, TX 77098",
+          "checked_at": "2026-10-28T05:56:56Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 5,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Celeste Espinoza",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Celeste Espinoza",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/about",
+          "quote": "Celeste Espinoza founded Halcyon House in 2017. Celeste still runs it day to day",
+          "checked_at": "2026-10-28T05:56:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0134",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0134",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+          "quote": "(713) 555-0134",
+          "checked_at": "2026-10-28T05:56:56Z",
+          "quote_found": true
+        },
+        {
+          "value": "713 555 0134",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/contact",
+          "quote": "Phone: 713 555 0134",
+          "checked_at": "2026-10-28T05:56:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "5830 Windmill Ridge Dr, Houston, TX 77098",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "5830 Windmill Ridge Dr, Houston, TX 77098",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+          "quote": "5830 Windmill Ridge Dr, Houston, TX 77098",
+          "checked_at": "2026-10-28T05:56:56Z",
+          "quote_found": true
+        },
+        {
+          "value": "5830 Windmill Ridge Dr, Houston, TX 77098",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/contact",
+          "quote": "5830 Windmill Ridge Dr",
+          "checked_at": "2026-10-28T05:56:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 220,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 220,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+          "quote": "Max occupancy (fire marshal)",
+          "checked_at": "2026-10-28T05:56:56Z",
+          "quote_found": true
+        },
+        {
+          "value": 220,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+          "quote": "Hosts up to 220 guests.",
+          "checked_at": "2026-10-28T05:56:58Z",
+          "quote_found": true
+        },
+        {
+          "value": 220,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+          "quote": "Capacity: 220 guests.",
+          "checked_at": "2026-10-28T05:56:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 11200,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 11200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:56:58Z",
+          "quote_found": true
+        },
+        {
+          "value": 7400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+          "quote": "2025 Gala Season Packages",
+          "checked_at": "2026-10-28T05:56:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": [
+        {
+          "value": 7400,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+          "quote": "2025 Gala Season Packages",
+          "checked_at": "2026-10-28T05:56:58Z",
+          "quote_found": true
+        }
+      ]
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "in_house_av",
+        "indoor",
+        "outside_catering"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:56:58Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:56:58Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:56:58Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:56:58Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:56:58Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:56:58Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:56:58Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:56:58Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/packages",
+              "quote": "Street parking and nearby paid lots only.",
+              "checked_at": "2026-10-28T05:56:58Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 117 reviews",
+          "checked_at": "2026-10-28T05:56:56Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 117,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 117,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/halcyon-house",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 117 reviews",
+          "checked_at": "2026-10-28T05:56:56Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "stale_pricing",
+        "reason": "Home page still publishes the 2025 Gala Season price ($7,400) while the packages page gives current 2026/2027 rate $11,200.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/halcyon-house/",
+        "by": "model"
+      }
+    ]
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "vendor_id": "v091",
+  "vendor_name": "Green Chile Catering",
+  "category": "caterer",
+  "slug": "green-chile-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0581502,
+    "duration_ms": 12983,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8153,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2505,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8153,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2505,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8153,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8153
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "758ca152-e47e-4330-8169-e422c0b12df5",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:56:47Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "5132 Sandstone Ridge Rd, Stafford, TX 77477",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+        "quote": "5132 Sandstone Ridge Rd, Stafford, TX 77477",
+        "checked_at": "2026-10-28T05:56:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "5132 Sandstone Ridge Rd, Stafford, TX 77477",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/contact",
+        "quote": "5132 Sandstone Ridge Rd",
+        "checked_at": "2026-10-28T05:56:50Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77477",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+        "quote": "Stafford, TX 77477",
+        "checked_at": "2026-10-28T05:56:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "77477",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/contact",
+        "quote": "Stafford, TX 77477",
+        "checked_at": "2026-10-28T05:56:50Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0123",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+        "quote": "(281) 555-0123",
+        "checked_at": "2026-10-28T05:56:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0123",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/contact",
+        "quote": "Phone: 281.555.0123",
+        "checked_at": "2026-10-28T05:56:50Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0123",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/",
+        "quote": "Call 281.555.0123 to get a quote.",
+        "checked_at": "2026-10-28T05:56:49Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Delia Fairbanks",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/about",
+        "quote": "Delia Fairbanks founded Green Chile Catering in 2014. Delia still runs it day to day",
+        "note": "Founder who still runs the business day to day; treated as owner.",
+        "checked_at": "2026-10-28T05:56:50Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 410,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+        "quote": "410 guests",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:56:47Z",
+        "quote_found": true
+      },
+      {
+        "value": 410,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/packages",
+        "quote": "Largest event: 410 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:56:49Z",
+        "quote_found": true
+      },
+      {
+        "value": 410,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/",
+        "quote": "We cater events of up to 410 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:56:49Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 82,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/packages",
+        "quote": "Dinner service: $82 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Page says \"Current rates for 2026 and 2027 events.\" Minimum 25 guests; excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:56:49Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:49Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "offered": true,
+        "checked_at": "2026-10-28T05:56:49Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:49Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:56:49Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 98 reviews",
+        "checked_at": "2026-10-28T05:56:47Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 98,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 98 reviews",
+        "checked_at": "2026-10-28T05:56:47Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+        "quote": "9:00 AM - 5:00 PM",
+        "note": "Monday to Friday 9:00 AM - 5:00 PM; Saturday quote \"9:00 AM - 1:00 PM\"; Sunday \"Closed\".",
+        "checked_at": "2026-10-28T05:56:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/contact",
+        "quote": "9:00 AM to 5:00 PM",
+        "note": "Office hours. Monday to Friday 9:00 AM to 5:00 PM; Saturday quote \"9:00 AM to 1:00 PM\"; Sunday \"Closed\".",
+        "checked_at": "2026-10-28T05:56:50Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:56:47Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:56:49Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "dietary vegan",
+      "checked": "Listing, reviews, social, home, packages, about and contact pages: no mention of vegan."
+    },
+    {
+      "field": "dietary gluten_free",
+      "checked": "All seven pages: no mention of gluten-free."
+    },
+    {
+      "field": "dietary nut_free",
+      "checked": "All seven pages: no mention of nut-free or nut allergies."
+    },
+    {
+      "field": "features other than buffet and onsite_staff",
+      "checked": "Packages and home pages list no plated, drop_off or bar_service claims."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:56:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77477",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77477",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+          "quote": "Stafford, TX 77477",
+          "checked_at": "2026-10-28T05:56:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 18,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Delia Fairbanks",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Delia Fairbanks",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/about",
+          "quote": "Delia Fairbanks founded Green Chile Catering in 2014. Delia still runs it day to day",
+          "checked_at": "2026-10-28T05:56:50Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0123",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0123",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+          "quote": "(281) 555-0123",
+          "checked_at": "2026-10-28T05:56:47Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0123",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/contact",
+          "quote": "Phone: 281.555.0123",
+          "checked_at": "2026-10-28T05:56:50Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0123",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/",
+          "quote": "Call 281.555.0123 to get a quote.",
+          "checked_at": "2026-10-28T05:56:49Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "5132 Sandstone Ridge Rd, Stafford, TX 77477",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "5132 Sandstone Ridge Rd, Stafford, TX 77477",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+          "quote": "5132 Sandstone Ridge Rd, Stafford, TX 77477",
+          "checked_at": "2026-10-28T05:56:47Z",
+          "quote_found": true
+        },
+        {
+          "value": "5132 Sandstone Ridge Rd, Stafford, TX 77477",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/contact",
+          "quote": "5132 Sandstone Ridge Rd",
+          "checked_at": "2026-10-28T05:56:50Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 410,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 410,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+          "quote": "410 guests",
+          "checked_at": "2026-10-28T05:56:47Z",
+          "quote_found": true
+        },
+        {
+          "value": 410,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/packages",
+          "quote": "Largest event: 410 guests.",
+          "checked_at": "2026-10-28T05:56:49Z",
+          "quote_found": true
+        },
+        {
+          "value": 410,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/",
+          "quote": "We cater events of up to 410 guests.",
+          "checked_at": "2026-10-28T05:56:49Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 82,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 82,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/packages",
+          "quote": "Dinner service: $82 per person.",
+          "checked_at": "2026-10-28T05:56:49Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "buffet",
+        "onsite_staff"
+      ],
+      "by_feature": {
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:56:49Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:56:49Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "vegetarian"
+      ],
+      "by_need": {
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:56:49Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/green-chile-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:56:49Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 98 reviews",
+          "checked_at": "2026-10-28T05:56:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 98,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 98,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/green-chile-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 98 reviews",
+          "checked_at": "2026-10-28T05:56:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

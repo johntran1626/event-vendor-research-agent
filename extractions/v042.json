@@ -1,0 +1,686 @@
+{
+  "vendor_id": "v042",
+  "vendor_name": "Okra and Honey Catering Kitchen",
+  "category": "caterer",
+  "slug": "okra-and-honey-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0784282,
+    "duration_ms": 25614,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7985,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4600,
+      "output_tokens_details": {
+        "thinking_tokens": 1273
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7985,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4600,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7985,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7985
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "a649f4da-6dab-4bf2-949f-bd4faee3462a",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:14Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "9404 Saltmarsh Way, Houston, TX 77004",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "quote": "9404 Saltmarsh Way, Houston, TX 77004",
+        "checked_at": "2026-10-28T05:53:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "9404 Saltmarsh Way, Houston, TX 77004",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/contact",
+        "quote": "9404 Saltmarsh Way",
+        "note": "Street line only; the next line of the page reads 'Houston, TX 77004'.",
+        "checked_at": "2026-10-28T05:53:17Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77004",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "quote": "Houston, TX 77004",
+        "checked_at": "2026-10-28T05:53:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "77004",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/contact",
+        "quote": "Houston, TX 77004",
+        "checked_at": "2026-10-28T05:53:17Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0125",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "quote": "(713) 555-0125",
+        "checked_at": "2026-10-28T05:53:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0125",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+        "quote": "Call 713.555.0125 to get a quote.",
+        "checked_at": "2026-10-28T05:53:15Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0125",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/contact",
+        "quote": "Phone: 713.555.0125",
+        "checked_at": "2026-10-28T05:53:17Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Calvin Fairbanks",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/about",
+        "quote": "Calvin Fairbanks founded Okra & Honey Catering in 2020.",
+        "note": "The page says Calvin founded the business and 'still runs it day to day'. It does not use the word 'owner'.",
+        "checked_at": "2026-10-28T05:53:16Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 260,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "quote": "260 guests",
+        "kind": "largest_event",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:53:14Z",
+        "quote_found": true
+      },
+      {
+        "value": 260,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+        "quote": "We cater events of up to 260 guests.",
+        "kind": "largest_event",
+        "note": "Worded as 'up to', but the number matches the largest event served on the listing and packages page.",
+        "checked_at": "2026-10-28T05:53:15Z",
+        "quote_found": true
+      },
+      {
+        "value": 260,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Largest event: 260 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:53:16Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 83,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Dinner service: $83 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests. Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:53:16Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "plated",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Plated dinners",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:16Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:15Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+        "quote": "Vegan menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:15Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+        "quote": "Gluten-free menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:15Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Vegan menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Gluten-free menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:16Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/okra-and-honey-catering",
+        "quote": "They handled our vegetarian guests really well.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "note": "Review by Rosa M., Jun 1, 2025. Positive; supports the vegetarian claim.",
+        "checked_at": "2026-10-28T05:53:14Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 162 reviews",
+        "checked_at": "2026-10-28T05:53:14Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 162,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 162 reviews",
+        "checked_at": "2026-10-28T05:53:14Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "quote": "9:00 AM - 5:00 PM",
+        "note": "Quote is the Monday-Friday hours. Page lists Saturday 9:00 AM - 1:00 PM and Sunday Closed.",
+        "checked_at": "2026-10-28T05:53:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/contact",
+        "quote": "9:00 AM to 5:00 PM",
+        "note": "Quote is the Monday-Friday office hours. Page lists Saturday 9:00 AM to 1:00 PM and Sunday Closed. Same hours as the listing, written differently.",
+        "checked_at": "2026-10-28T05:53:17Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:53:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:53:15Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [
+    {
+      "flag": "lookalike_ambiguity",
+      "reason": "The VENDOR block lists a near-identical business, Okra & Honey Kitchen Catering (Beaumont), at /listing/okra-and-honey-kitchen-catering. All pages fetched here belong to Okra & Honey Catering (Houston), Third Ward, zip 77004. Our list name 'Okra and Honey Catering Kitchen' is close to both, so it matters which one is meant.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+      "quote": "Okra & Honey Catering",
+      "checked_at": "2026-10-28T05:53:14Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "dietary nut_free",
+      "checked": "Listing, reviews, Facebook page, home, packages, about and contact pages. None mention nut-free or nut allergy handling."
+    }
+  ],
+  "match_notes": [
+    "listing name 'Okra & Honey Catering' differs from vendors.csv name 'Okra and Honey Catering Kitchen'",
+    "near-identical names: Okra & Honey Kitchen Catering (Beaumont)"
+  ],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77004",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77004",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+          "quote": "Houston, TX 77004",
+          "checked_at": "2026-10-28T05:53:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 3,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Calvin Fairbanks",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Calvin Fairbanks",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/about",
+          "quote": "Calvin Fairbanks founded Okra & Honey Catering in 2020.",
+          "checked_at": "2026-10-28T05:53:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0125",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0125",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+          "quote": "(713) 555-0125",
+          "checked_at": "2026-10-28T05:53:14Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0125",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+          "quote": "Call 713.555.0125 to get a quote.",
+          "checked_at": "2026-10-28T05:53:15Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0125",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/contact",
+          "quote": "Phone: 713.555.0125",
+          "checked_at": "2026-10-28T05:53:17Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "9404 Saltmarsh Way, Houston, TX 77004",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "9404 Saltmarsh Way, Houston, TX 77004",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+          "quote": "9404 Saltmarsh Way, Houston, TX 77004",
+          "checked_at": "2026-10-28T05:53:14Z",
+          "quote_found": true
+        },
+        {
+          "value": "9404 Saltmarsh Way, Houston, TX 77004",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/contact",
+          "quote": "9404 Saltmarsh Way",
+          "checked_at": "2026-10-28T05:53:17Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 260,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+          "quote": "260 guests",
+          "checked_at": "2026-10-28T05:53:14Z",
+          "quote_found": true
+        },
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+          "quote": "We cater events of up to 260 guests.",
+          "checked_at": "2026-10-28T05:53:15Z",
+          "quote_found": true
+        },
+        {
+          "value": 260,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+          "quote": "Largest event: 260 guests.",
+          "checked_at": "2026-10-28T05:53:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 83,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 83,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+          "quote": "Dinner service: $83 per person.",
+          "checked_at": "2026-10-28T05:53:16Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "onsite_staff",
+        "plated"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:53:16Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:53:16Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:53:16Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:53:16Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "vegan",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:53:15Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:53:16Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegan": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+              "quote": "Vegan menu.",
+              "checked_at": "2026-10-28T05:53:15Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+              "quote": "Vegan menu",
+              "checked_at": "2026-10-28T05:53:16Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:53:15Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:53:16Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/okra-and-honey-catering",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:53:14Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review by Rosa M., Jun 1, 2025. Positive; supports the vegetarian claim."
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 162 reviews",
+          "checked_at": "2026-10-28T05:53:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 162,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 162,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+          "quote": "4.8 \u2605\u2605\u2605\u2605\u2605 162 reviews",
+          "checked_at": "2026-10-28T05:53:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "lookalike_ambiguity",
+        "reason": "The VENDOR block lists a near-identical business, Okra & Honey Kitchen Catering (Beaumont), at /listing/okra-and-honey-kitchen-catering. All pages fetched here belong to Okra & Honey Catering (Houston), Third Ward, zip 77004. Our list name 'Okra and Honey Catering Kitchen' is close to both, so it matters which one is meant.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "by": "model"
+      }
+    ]
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "vendor_id": "v014",
+  "vendor_name": "Fernhill Pavilion",
+  "category": "venue",
+  "slug": "fernhill-pavilion",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.059298199999999995,
+    "duration_ms": 14567,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7515,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2875,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7515,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2875,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7515,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7515
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "95623f92-b092-49b4-85c0-69c7f40075e7",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:51:11Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "2797 Saltmarsh Way, The Woodlands, TX 77381",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+        "quote": "2797 Saltmarsh Way, The Woodlands, TX 77381",
+        "checked_at": "2026-10-28T05:51:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "2797 Saltmarsh Way, The Woodlands, TX 77381",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/contact",
+        "quote": "2797 Saltmarsh Way\nThe Woodlands, TX 77381",
+        "checked_at": "2026-10-28T05:51:14Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77381",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+        "quote": "The Woodlands, TX 77381",
+        "checked_at": "2026-10-28T05:51:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "77381",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/contact",
+        "quote": "The Woodlands, TX 77381",
+        "checked_at": "2026-10-28T05:51:14Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0140",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+        "quote": "(281) 555-0140",
+        "checked_at": "2026-10-28T05:51:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0140",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/contact",
+        "quote": "Phone: 281.555.0140",
+        "checked_at": "2026-10-28T05:51:14Z",
+        "quote_found": true
+      },
+      {
+        "value": "281.555.0140",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+        "quote": "Call 281.555.0140 to schedule a tour.",
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Calvin Yancey",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/fernhillpavilion",
+        "quote": "Owner Calvin Yancey.",
+        "checked_at": "2026-10-28T05:51:12Z",
+        "quote_found": true
+      },
+      {
+        "value": "Calvin Yancey",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/about",
+        "quote": "Calvin Yancey founded Fernhill Pavilion in 2007. Calvin still runs it day to day",
+        "note": "Founder who still runs the business day to day.",
+        "checked_at": "2026-10-28T05:51:14Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 390,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+        "quote": "390 guests",
+        "kind": "fire_marshal",
+        "note": "Listed as Max occupancy (fire marshal).",
+        "checked_at": "2026-10-28T05:51:11Z",
+        "quote_found": true
+      },
+      {
+        "value": 390,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+        "quote": "Hosts up to 390 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      },
+      {
+        "value": 390,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+        "quote": "Capacity: 390 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 12200,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "unit": "event rental (up to 6 hours)",
+        "note": "Quote line: \"Event rental (up to 6 hours): $12,200\". Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "outdoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+        "quote": "Outdoor lawn and covered patio",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+        "quote": "Catering is exclusive to our in-house kitchen. No outside caterers.",
+        "offered": false,
+        "checked_at": "2026-10-28T05:51:13Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 3.9,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+        "quote": "3.9 \u2605\u2605\u2605\u2605\u2606 27 reviews",
+        "checked_at": "2026-10-28T05:51:11Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 27,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+        "quote": "3.9 \u2605\u2605\u2605\u2605\u2606 27 reviews",
+        "checked_at": "2026-10-28T05:51:11Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday through Friday each listed 10:00 AM - 6:00 PM; Sunday listed as Closed.",
+        "checked_at": "2026-10-28T05:51:11Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday through Friday each listed 10:00 AM to 6:00 PM; Sunday listed as Closed.",
+        "checked_at": "2026-10-28T05:51:14Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages. None state an area served; The Woodlands appears only as the venue location."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: venue, not a caterer."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:51:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77381",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77381",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+          "quote": "The Woodlands, TX 77381",
+          "checked_at": "2026-10-28T05:51:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 30,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Calvin Yancey",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Calvin Yancey",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/fernhillpavilion",
+          "quote": "Owner Calvin Yancey.",
+          "checked_at": "2026-10-28T05:51:12Z",
+          "quote_found": true
+        },
+        {
+          "value": "Calvin Yancey",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/about",
+          "quote": "Calvin Yancey founded Fernhill Pavilion in 2007. Calvin still runs it day to day",
+          "checked_at": "2026-10-28T05:51:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0140",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0140",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+          "quote": "(281) 555-0140",
+          "checked_at": "2026-10-28T05:51:11Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0140",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/contact",
+          "quote": "Phone: 281.555.0140",
+          "checked_at": "2026-10-28T05:51:14Z",
+          "quote_found": true
+        },
+        {
+          "value": "281.555.0140",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+          "quote": "Call 281.555.0140 to schedule a tour.",
+          "checked_at": "2026-10-28T05:51:13Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "2797 Saltmarsh Way, The Woodlands, TX 77381",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "2797 Saltmarsh Way, The Woodlands, TX 77381",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+          "quote": "2797 Saltmarsh Way, The Woodlands, TX 77381",
+          "checked_at": "2026-10-28T05:51:11Z",
+          "quote_found": true
+        },
+        {
+          "value": "2797 Saltmarsh Way, The Woodlands, TX 77381",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/contact",
+          "quote": "2797 Saltmarsh Way\nThe Woodlands, TX 77381",
+          "checked_at": "2026-10-28T05:51:14Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 390,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 390,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+          "quote": "390 guests",
+          "checked_at": "2026-10-28T05:51:11Z",
+          "quote_found": true
+        },
+        {
+          "value": 390,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+          "quote": "Hosts up to 390 guests.",
+          "checked_at": "2026-10-28T05:51:13Z",
+          "quote_found": true
+        },
+        {
+          "value": 390,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+          "quote": "Capacity: 390 guests.",
+          "checked_at": "2026-10-28T05:51:13Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 12200,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 12200,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:51:13Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "in_house_av",
+        "indoor",
+        "outdoor",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:51:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:51:13Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:51:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:51:13Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:51:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outdoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:51:13Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outdoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+              "quote": "Outdoor lawn and covered patio",
+              "checked_at": "2026-10-28T05:51:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+              "quote": "Catering is exclusive to our in-house kitchen. No outside caterers.",
+              "checked_at": "2026-10-28T05:51:13Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:51:13Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/fernhill-pavilion/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:51:13Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 3.9,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 3.9,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+          "quote": "3.9 \u2605\u2605\u2605\u2605\u2606 27 reviews",
+          "checked_at": "2026-10-28T05:51:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 27,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 27,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/fernhill-pavilion",
+          "quote": "3.9 \u2605\u2605\u2605\u2605\u2606 27 reviews",
+          "checked_at": "2026-10-28T05:51:11Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

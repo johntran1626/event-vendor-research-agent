@@ -1,0 +1,669 @@
+{
+  "vendor_id": "v030",
+  "vendor_name": "Hearthside Provisions",
+  "category": "caterer",
+  "slug": "hearthside-provisions",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0758962,
+    "duration_ms": 25639,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7577,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4510,
+      "output_tokens_details": {
+        "thinking_tokens": 1059
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7577,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4510,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7577,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7577
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "84e6a9a6-9264-446a-b55f-3e843ed2f9bd",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+        "quote": "Status: Open",
+        "note": "Listing checked 2026-10-28T05:52:21Z. No source says the vendor has closed.",
+        "checked_at": "2026-10-28T05:52:21Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "1010 Kingsbridge Trace, Kingwood, TX 77345",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+        "quote": "1010 Kingsbridge Trace, Kingwood, TX 77345",
+        "checked_at": "2026-10-28T05:52:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "1010 Kingsbridge Trace, Kingwood, TX 77345",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/contact",
+        "quote": "1010 Kingsbridge Trace",
+        "checked_at": "2026-10-28T05:52:24Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77345",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+        "quote": "Kingwood, TX 77345",
+        "checked_at": "2026-10-28T05:52:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "77345",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/contact",
+        "quote": "Kingwood, TX 77345",
+        "checked_at": "2026-10-28T05:52:24Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(281) 555-0184",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+        "quote": "(281) 555-0184",
+        "checked_at": "2026-10-28T05:52:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "281-555-0184",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/contact",
+        "quote": "Phone: 281-555-0184",
+        "checked_at": "2026-10-28T05:52:24Z",
+        "quote_found": true
+      },
+      {
+        "value": "281-555-0184",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+        "quote": "Call 281-555-0184 to get a quote.",
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Zora Sorensen",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/about",
+        "quote": "Zora Sorensen founded Hearthside Provisions in 2015. Zora still runs it day to day",
+        "note": "The page says Zora Sorensen founded the business and still runs it. It does not use the word owner.",
+        "checked_at": "2026-10-28T05:52:24Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 70,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+        "quote": "70 guests",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:52:21Z",
+        "quote_found": true
+      },
+      {
+        "value": 70,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+        "quote": "Largest event: 70 guests.",
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      },
+      {
+        "value": 70,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+        "quote": "We cater events of up to 70 guests.",
+        "note": "Home page wording is 'up to 70 guests'. It matches the largest event served on the other pages.",
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      },
+      {
+        "value": 90,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/hearthside-provisions",
+        "quote": "Zora and the crew fed 90 people at our quinceanera",
+        "note": "Review by Megan P., Jun 18, 2025. It reports an event larger than the 70 the vendor publishes.",
+        "checked_at": "2026-10-28T05:52:22Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 89,
+        "unit": "per person (dinner service)",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "current": true,
+        "note": "The page also says 'Dinner service: $89 per person. Minimum 25 guests.' Prices do not include tax or gratuity.",
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "plated",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+        "quote": "Plated dinners",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+        "quote": "Servers and on-site event staff",
+        "offered": true,
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+        "quote": "Vegan menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+        "quote": "Gluten-free menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+        "quote": "Vegan menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+        "quote": "Gluten-free menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/hearthside-provisions",
+        "quote": "They handled our vegetarian guests really well.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "note": "Review by Alicia B., Sep 9, 2025.",
+        "checked_at": "2026-10-28T05:52:22Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.9,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+        "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 78 reviews",
+        "checked_at": "2026-10-28T05:52:21Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 78,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+        "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 78 reviews",
+        "checked_at": "2026-10-28T05:52:21Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+        "quote": "9:00 AM - 5:00 PM",
+        "note": "The quote is the Monday-Friday time. Saturday reads '9:00 AM - 1:00 PM' and Sunday reads 'Closed'. Each day is on its own line.",
+        "checked_at": "2026-10-28T05:52:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/contact",
+        "quote": "9:00 AM to 5:00 PM",
+        "note": "The quote is the Monday-Friday time. Saturday reads '9:00 AM to 1:00 PM' and Sunday reads 'Closed'. They are listed as office hours.",
+        "checked_at": "2026-10-28T05:52:24Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:52:21Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:52:23Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "capacity",
+      "description": "The listing, the home page and the packages page all give 70 guests as the largest event. A review from Megan P. (Jun 18, 2025) says the caterer fed 90 people at a quinceanera.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+        "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+        "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+        "https://vendors-r1.lab.zappstudios.us/reviews/hearthside-provisions"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "capacity_conflict",
+      "reason": "The vendor publishes 70 guests as its largest event, but a review says it fed 90 people.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/hearthside-provisions",
+      "quote": "Zora and the crew fed 90 people at our quinceanera",
+      "checked_at": "2026-10-28T05:52:22Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "dietary nut_free",
+      "checked": "Looked at the listing, the home page, the packages page and the reviews. None mentions a nut-free option or a nut allergy."
+    },
+    {
+      "field": "features other than plated and onsite_staff",
+      "checked": "Looked at the packages page and the home page. Only plated dinners and servers/on-site staff are listed as service styles."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:52:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77345",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77345",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+          "quote": "Kingwood, TX 77345",
+          "checked_at": "2026-10-28T05:52:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 25,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Zora Sorensen",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Zora Sorensen",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/about",
+          "quote": "Zora Sorensen founded Hearthside Provisions in 2015. Zora still runs it day to day",
+          "checked_at": "2026-10-28T05:52:24Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(281) 555-0184",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(281) 555-0184",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+          "quote": "(281) 555-0184",
+          "checked_at": "2026-10-28T05:52:21Z",
+          "quote_found": true
+        },
+        {
+          "value": "281-555-0184",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/contact",
+          "quote": "Phone: 281-555-0184",
+          "checked_at": "2026-10-28T05:52:24Z",
+          "quote_found": true
+        },
+        {
+          "value": "281-555-0184",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+          "quote": "Call 281-555-0184 to get a quote.",
+          "checked_at": "2026-10-28T05:52:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "1010 Kingsbridge Trace, Kingwood, TX 77345",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "1010 Kingsbridge Trace, Kingwood, TX 77345",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+          "quote": "1010 Kingsbridge Trace, Kingwood, TX 77345",
+          "checked_at": "2026-10-28T05:52:21Z",
+          "quote_found": true
+        },
+        {
+          "value": "1010 Kingsbridge Trace, Kingwood, TX 77345",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/contact",
+          "quote": "1010 Kingsbridge Trace",
+          "checked_at": "2026-10-28T05:52:24Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 70,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 70,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+          "quote": "70 guests",
+          "checked_at": "2026-10-28T05:52:21Z",
+          "quote_found": true
+        },
+        {
+          "value": 70,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+          "quote": "Largest event: 70 guests.",
+          "checked_at": "2026-10-28T05:52:23Z",
+          "quote_found": true
+        },
+        {
+          "value": 70,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+          "quote": "We cater events of up to 70 guests.",
+          "checked_at": "2026-10-28T05:52:23Z",
+          "quote_found": true
+        },
+        {
+          "value": 90,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/hearthside-provisions",
+          "quote": "Zora and the crew fed 90 people at our quinceanera",
+          "checked_at": "2026-10-28T05:52:22Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true,
+      "note": "lowest of the numbers sources give"
+    },
+    "price": {
+      "value": 89,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 89,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+          "quote": "Current rates for 2026 and 2027 events.",
+          "checked_at": "2026-10-28T05:52:23Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "onsite_staff",
+        "plated"
+      ],
+      "by_feature": {
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:52:23Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:52:23Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "vegan",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:52:23Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:52:23Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegan": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+              "quote": "Vegan menu",
+              "checked_at": "2026-10-28T05:52:23Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+              "quote": "Vegan menu.",
+              "checked_at": "2026-10-28T05:52:23Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:52:23Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/hearthside-provisions/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:52:23Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/hearthside-provisions",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:52:22Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review by Alicia B., Sep 9, 2025."
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.9,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.9,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+          "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 78 reviews",
+          "checked_at": "2026-10-28T05:52:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 78,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 78,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/hearthside-provisions",
+          "quote": "4.9 \u2605\u2605\u2605\u2605\u2605 78 reviews",
+          "checked_at": "2026-10-28T05:52:21Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "capacity_conflict",
+        "reason": "The vendor publishes 70 guests as its largest event, but a review says it fed 90 people.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/hearthside-provisions",
+        "by": "model"
+      }
+    ]
+  }
+}

@@ -1,0 +1,671 @@
+{
+  "vendor_id": "v004",
+  "vendor_name": "Bay Leaf Catering",
+  "category": "caterer",
+  "slug": "bay-leaf-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.06745419999999999,
+    "duration_ms": 18363,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7769,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3589,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7769,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3589,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7769,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7769
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "a23d5732-d65e-42e1-8b8d-616adbaad66b",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "6478 Rushwood Trail, Houston, TX 77007",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+        "quote": "6478 Rushwood Trail, Houston, TX 77007",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "6478 Rushwood Trail, Houston, TX 77007",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/contact",
+        "quote": "6478 Rushwood Trail\nHouston, TX 77007",
+        "checked_at": "2026-10-28T05:50:38Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77007",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+        "quote": "6478 Rushwood Trail, Houston, TX 77007",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "77007",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/contact",
+        "quote": "Houston, TX 77007",
+        "checked_at": "2026-10-28T05:50:38Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0156",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+        "quote": "(832) 555-0156",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "832.555.0156",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/contact",
+        "quote": "Phone: 832.555.0156",
+        "checked_at": "2026-10-28T05:50:38Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Priscilla Thibodeaux",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/bayleafcatering",
+        "quote": "Owner Priscilla Thibodeaux.",
+        "checked_at": "2026-10-28T05:50:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "Priscilla Thibodeaux",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/about",
+        "quote": "Priscilla Thibodeaux founded Bay Leaf Catering in 2020.",
+        "note": "Founder who still runs it day to day; not explicitly labeled 'owner' on this page.",
+        "checked_at": "2026-10-28T05:50:37Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 240,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+        "quote": "240 guests",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      },
+      {
+        "value": 240,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+        "quote": "Largest event: 240 guests.",
+        "checked_at": "2026-10-28T05:50:37Z",
+        "quote_found": true
+      },
+      {
+        "value": 240,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/",
+        "quote": "We cater events of up to 240 guests.",
+        "note": "Same figure as largest event served.",
+        "checked_at": "2026-10-28T05:50:36Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 79,
+        "unit": "per person",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+        "quote": "Dinner service: $79 per person.",
+        "note": "Minimum 25 guests. Current rates for 2026 and 2027 events. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:50:37Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "plated",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+        "quote": "Plated dinners",
+        "checked_at": "2026-10-28T05:50:37Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:50:37Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "checked_at": "2026-10-28T05:50:37Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+        "quote": "Vegetarian menu",
+        "checked_at": "2026-10-28T05:50:37Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/",
+        "quote": "Vegetarian menu.",
+        "checked_at": "2026-10-28T05:50:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/bay-leaf-catering",
+        "quote": "They handled our vegetarian guests really well.",
+        "note": "Review by Sam B., Oct 3, 2026.",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+        "quote": "we can't guarantee any dish is gluten-free right now",
+        "note": "Packages page also lists 'Gluten-free menu' but says certification is under renewal.",
+        "checked_at": "2026-10-28T05:50:37Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/",
+        "quote": "Certified gluten-free menus. Every gluten-free plate comes off our dedicated prep line.",
+        "note": "Contradicted by the packages page and reviews.",
+        "checked_at": "2026-10-28T05:50:36Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/bay-leaf-catering",
+        "quote": "they told us the certification lapsed this summer and they can't promise gluten-free anymore",
+        "note": "Review by Luis M., Sep 3, 2026.",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/bay-leaf-catering",
+        "quote": "they can't guarantee gluten-free since they lost the dedicated prep line",
+        "note": "Review by Luis R., Jun 19, 2026.",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 131 reviews",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 131,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 131 reviews",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+        "quote": "Saturday\n\n9:00 AM - 1:00 PM",
+        "note": "Monday through Friday each listed 9:00 AM - 5:00 PM; Sunday: Closed.",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/contact",
+        "quote": "Saturday\n\n9:00 AM to 1:00 PM",
+        "note": "Office hours. Monday through Friday each listed 9:00 AM to 5:00 PM; Sunday: Closed.",
+        "checked_at": "2026-10-28T05:50:38Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:50:35Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:50:36Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "dietary: gluten_free",
+      "description": "The home page says menus are certified gluten-free and every plate comes off a dedicated prep line. The packages page says certification is under renewal, plates are made in the main kitchen, and no dish can be guaranteed gluten-free. Reviews dated Jun 19, 2026 and Sep 3, 2026 say the caterer told clients it can't guarantee gluten-free.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+        "https://vendors-r1.lab.zappstudios.us/reviews/bay-leaf-catering"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "dietary_conflict",
+      "reason": "Home page claims certified gluten-free with a dedicated prep line; packages page and two reviews say gluten-free can't be guaranteed.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+      "quote": "we can't guarantee any dish is gluten-free right now",
+      "checked_at": "2026-10-28T05:50:37Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "features: dance_floor/buffet/drop_off",
+      "checked": "Listing, home, packages, about, contact, reviews and social pages. Only plated, onsite_staff and bar_service are stated by the vendor. Review mentions of a buffet are not vendor claims."
+    },
+    {
+      "field": "dietary: vegan",
+      "checked": "All pages; no mention of vegan."
+    },
+    {
+      "field": "dietary: nut_free",
+      "checked": "All pages; no mention of nut-free."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:50:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77007",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77007",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+          "quote": "6478 Rushwood Trail, Houston, TX 77007",
+          "checked_at": "2026-10-28T05:50:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 3,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Priscilla Thibodeaux",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Priscilla Thibodeaux",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/bayleafcatering",
+          "quote": "Owner Priscilla Thibodeaux.",
+          "checked_at": "2026-10-28T05:50:36Z",
+          "quote_found": true
+        },
+        {
+          "value": "Priscilla Thibodeaux",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/about",
+          "quote": "Priscilla Thibodeaux founded Bay Leaf Catering in 2020.",
+          "checked_at": "2026-10-28T05:50:37Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0156",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0156",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+          "quote": "(832) 555-0156",
+          "checked_at": "2026-10-28T05:50:35Z",
+          "quote_found": true
+        },
+        {
+          "value": "832.555.0156",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/contact",
+          "quote": "Phone: 832.555.0156",
+          "checked_at": "2026-10-28T05:50:38Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "6478 Rushwood Trail, Houston, TX 77007",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "6478 Rushwood Trail, Houston, TX 77007",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+          "quote": "6478 Rushwood Trail, Houston, TX 77007",
+          "checked_at": "2026-10-28T05:50:35Z",
+          "quote_found": true
+        },
+        {
+          "value": "6478 Rushwood Trail, Houston, TX 77007",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/contact",
+          "quote": "6478 Rushwood Trail\nHouston, TX 77007",
+          "checked_at": "2026-10-28T05:50:38Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 240,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 240,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+          "quote": "240 guests",
+          "checked_at": "2026-10-28T05:50:35Z",
+          "quote_found": true
+        },
+        {
+          "value": 240,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+          "quote": "Largest event: 240 guests.",
+          "checked_at": "2026-10-28T05:50:37Z",
+          "quote_found": true
+        },
+        {
+          "value": 240,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/",
+          "quote": "We cater events of up to 240 guests.",
+          "checked_at": "2026-10-28T05:50:36Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 79,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 79,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+          "quote": "Dinner service: $79 per person.",
+          "checked_at": "2026-10-28T05:50:37Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "onsite_staff",
+        "plated"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:50:37Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:50:37Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:50:37Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": false,
+          "conflict": true,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+              "quote": "we can't guarantee any dish is gluten-free right now",
+              "checked_at": "2026-10-28T05:50:37Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": true,
+              "note": "Packages page also lists 'Gluten-free menu' but says certification is under renewal."
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/",
+              "quote": "Certified gluten-free menus. Every gluten-free plate comes off our dedicated prep line.",
+              "checked_at": "2026-10-28T05:50:36Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Contradicted by the packages page and reviews."
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/bay-leaf-catering",
+              "quote": "they told us the certification lapsed this summer and they can't promise gluten-free anymore",
+              "checked_at": "2026-10-28T05:50:35Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": true,
+              "note": "Review by Luis M., Sep 3, 2026."
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/bay-leaf-catering",
+              "quote": "they can't guarantee gluten-free since they lost the dedicated prep line",
+              "checked_at": "2026-10-28T05:50:35Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": true,
+              "note": "Review by Luis R., Jun 19, 2026."
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:50:37Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:50:36Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/bay-leaf-catering",
+              "quote": "They handled our vegetarian guests really well.",
+              "checked_at": "2026-10-28T05:50:35Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "Review by Sam B., Oct 3, 2026."
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 131 reviews",
+          "checked_at": "2026-10-28T05:50:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 131,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 131,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bay-leaf-catering",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 131 reviews",
+          "checked_at": "2026-10-28T05:50:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "dietary_conflict",
+        "reason": "Home page claims certified gluten-free with a dedicated prep line; packages page and two reviews say gluten-free can't be guaranteed.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bay-leaf-catering/packages",
+        "by": "model"
+      }
+    ]
+  }
+}

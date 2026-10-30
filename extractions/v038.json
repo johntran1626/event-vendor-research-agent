@@ -1,0 +1,682 @@
+{
+  "vendor_id": "v038",
+  "vendor_name": "Cornbread Social Catering",
+  "category": "caterer",
+  "slug": "cornbread-social-catering",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.07896019999999998,
+    "duration_ms": 26685,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7878,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4696,
+      "output_tokens_details": {
+        "thinking_tokens": 1515
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7878,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4696,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7878,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7878
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "852fa476-aed3-4470-8b7e-89f4b3d799e0",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:52:58Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "5300 Saltmarsh Way, Rosenberg, TX 77471",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+        "quote": "5300 Saltmarsh Way, Rosenberg, TX 77471",
+        "checked_at": "2026-10-28T05:52:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "5300 Saltmarsh Way, Rosenberg, TX 77471",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/contact",
+        "quote": "5300 Saltmarsh Way",
+        "note": "Street line only; city/state/zip are on the next line of the page (Rosenberg, TX 77471).",
+        "checked_at": "2026-10-28T05:53:01Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77471",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+        "quote": "77471",
+        "checked_at": "2026-10-28T05:52:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "77471",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/contact",
+        "quote": "77471",
+        "checked_at": "2026-10-28T05:53:01Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0133",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+        "quote": "(832) 555-0133",
+        "checked_at": "2026-10-28T05:52:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "832.555.0133",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+        "quote": "832.555.0133",
+        "checked_at": "2026-10-28T05:52:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "832.555.0133",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/contact",
+        "quote": "Phone: 832.555.0133",
+        "checked_at": "2026-10-28T05:53:01Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Emmett Broussard",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/cornbreadsocialcat",
+        "quote": "Owner Emmett Broussard",
+        "note": "Full name given on the Instagram profile.",
+        "checked_at": "2026-10-28T05:52:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "Emmett Broussard",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/about",
+        "quote": "Emmett Broussard founded Cornbread Social Catering in 2015.",
+        "note": "Says founder who still runs it day to day; the word 'owner' is not used on this page.",
+        "checked_at": "2026-10-28T05:53:00Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 300,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+        "quote": "300 guests",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:52:58Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "kind": "largest_event",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+        "quote": "Largest event: 300 guests.",
+        "checked_at": "2026-10-28T05:53:00Z",
+        "quote_found": true
+      },
+      {
+        "value": 300,
+        "kind": "marketing",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+        "quote": "We cater events of up to 300 guests.",
+        "note": "Phrased as 'up to', so recorded as marketing; matches the largest-event figure.",
+        "checked_at": "2026-10-28T05:52:59Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 72,
+        "unit": "per person",
+        "current": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+        "quote": "Dinner service: $72 per person.",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Minimum 25 guests; excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:53:00Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+        "quote": "Buffet service",
+        "checked_at": "2026-10-28T05:53:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "plated",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+        "quote": "Plated dinners",
+        "checked_at": "2026-10-28T05:53:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "onsite_staff",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:53:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "offered": true,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "checked_at": "2026-10-28T05:53:00Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+        "quote": "Vegetarian menu.",
+        "checked_at": "2026-10-28T05:52:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+        "quote": "Vegetarian menu",
+        "checked_at": "2026-10-28T05:53:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+        "quote": "Gluten-free menu.",
+        "checked_at": "2026-10-28T05:52:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "gluten_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+        "quote": "Gluten-free menu",
+        "checked_at": "2026-10-28T05:53:00Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+        "quote": "Nut-free meals prepared separately.",
+        "note": "No statement that nut-free cannot be guaranteed; no review reports a wrong meal.",
+        "checked_at": "2026-10-28T05:52:59Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "offered": true,
+        "cannot_guarantee": false,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+        "quote": "Nut-free meals prepared separately",
+        "checked_at": "2026-10-28T05:53:00Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.8,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+        "quote": "4.8",
+        "checked_at": "2026-10-28T05:52:58Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 152,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+        "quote": "152 reviews",
+        "checked_at": "2026-10-28T05:52:58Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+        "quote": "9:00 AM - 1:00 PM",
+        "note": "Quote is the Saturday hours; weekdays read '9:00 AM - 5:00 PM' and Sunday 'Closed' on the page.",
+        "checked_at": "2026-10-28T05:52:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/contact",
+        "quote": "9:00 AM to 1:00 PM",
+        "note": "Quote is the Saturday hours; weekdays read '9:00 AM to 5:00 PM' and Sunday 'Closed'. Labeled 'Office hours'.",
+        "checked_at": "2026-10-28T05:53:01Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Texas",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+        "quote": "Texas",
+        "checked_at": "2026-10-28T05:52:58Z",
+        "quote_found": true
+      },
+      {
+        "value": "Texas; Sugar Land, Richmond and all of Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+        "quote": "Serving Sugar Land, Richmond and all of Houston.",
+        "note": "Same page also says 'We serve Texas.' The two statements are compatible, so no conflict is recorded.",
+        "checked_at": "2026-10-28T05:52:59Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [
+    {
+      "field": "dietary.vegan",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages: no page mentions vegan."
+    },
+    {
+      "field": "features.drop_off",
+      "checked": "All seven pages: no mention of drop-off service."
+    },
+    {
+      "field": "features.outside_catering",
+      "checked": "All seven pages: not applicable/not stated for a caterer."
+    }
+  ],
+  "match_notes": [
+    "listing city 'Rosenberg' is not in area_hint 'Houston area'"
+  ],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:52:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77471",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77471",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+          "quote": "77471",
+          "checked_at": "2026-10-28T05:52:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": false,
+      "unknown": false,
+      "miles": null,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Emmett Broussard",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Emmett Broussard",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/cornbreadsocialcat",
+          "quote": "Owner Emmett Broussard",
+          "checked_at": "2026-10-28T05:52:59Z",
+          "quote_found": true
+        },
+        {
+          "value": "Emmett Broussard",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/about",
+          "quote": "Emmett Broussard founded Cornbread Social Catering in 2015.",
+          "checked_at": "2026-10-28T05:53:00Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0133",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0133",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+          "quote": "(832) 555-0133",
+          "checked_at": "2026-10-28T05:52:58Z",
+          "quote_found": true
+        },
+        {
+          "value": "832.555.0133",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+          "quote": "832.555.0133",
+          "checked_at": "2026-10-28T05:52:59Z",
+          "quote_found": true
+        },
+        {
+          "value": "832.555.0133",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/contact",
+          "quote": "Phone: 832.555.0133",
+          "checked_at": "2026-10-28T05:53:01Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "5300 Saltmarsh Way, Rosenberg, TX 77471",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "5300 Saltmarsh Way, Rosenberg, TX 77471",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+          "quote": "5300 Saltmarsh Way, Rosenberg, TX 77471",
+          "checked_at": "2026-10-28T05:52:58Z",
+          "quote_found": true
+        },
+        {
+          "value": "5300 Saltmarsh Way, Rosenberg, TX 77471",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/contact",
+          "quote": "5300 Saltmarsh Way",
+          "checked_at": "2026-10-28T05:53:01Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 300,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+          "quote": "300 guests",
+          "checked_at": "2026-10-28T05:52:58Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+          "quote": "Largest event: 300 guests.",
+          "checked_at": "2026-10-28T05:53:00Z",
+          "quote_found": true
+        },
+        {
+          "value": 300,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+          "quote": "We cater events of up to 300 guests.",
+          "checked_at": "2026-10-28T05:52:59Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 72,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 72,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+          "quote": "Dinner service: $72 per person.",
+          "checked_at": "2026-10-28T05:53:00Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "onsite_staff",
+        "plated"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:53:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:53:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "onsite_staff": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "onsite_staff",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+              "quote": "Servers and on-site event staff",
+              "checked_at": "2026-10-28T05:53:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:53:00Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "gluten_free",
+        "nut_free",
+        "vegetarian"
+      ],
+      "by_need": {
+        "gluten_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+              "quote": "Gluten-free menu.",
+              "checked_at": "2026-10-28T05:52:59Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "gluten_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+              "quote": "Gluten-free menu",
+              "checked_at": "2026-10-28T05:53:00Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:52:59Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "No statement that nut-free cannot be guaranteed; no review reports a wrong meal."
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:53:00Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:52:59Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/cornbread-social-catering/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:53:00Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.8,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.8,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+          "quote": "4.8",
+          "checked_at": "2026-10-28T05:52:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 152,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 152,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+          "quote": "152 reviews",
+          "checked_at": "2026-10-28T05:52:58Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "out_of_metro",
+        "reason": "zip 77471 is not on the metro list",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/cornbread-social-catering",
+        "by": "code"
+      }
+    ]
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "vendor_id": "v039",
+  "vendor_name": "Galaxy Party Rentals",
+  "category": "rental",
+  "slug": "galaxy-party-rentals",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.04487820000000001,
+    "duration_ms": 10063,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 6805,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 1717,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 6805,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1717,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 6805,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 6805
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "444e1cd9-118f-4ea7-9e3a-95cae2f65932",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:53:02Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "4497 Wicklow Park Dr, Deer Park, TX 77536",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+        "quote": "4497 Wicklow Park Dr, Deer Park, TX 77536",
+        "checked_at": "2026-10-28T05:53:02Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77536",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+        "quote": "4497 Wicklow Park Dr, Deer Park, TX 77536",
+        "checked_at": "2026-10-28T05:53:02Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(832) 555-0186",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+        "quote": "(832) 555-0186",
+        "checked_at": "2026-10-28T05:53:02Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Wendell Gutierrez",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+        "quote": "Owner Wendell Gutierrez.",
+        "checked_at": "2026-10-28T05:53:03Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+        "quote": "280 guests",
+        "kind": "seating",
+        "note": "Listing: 'Seats up to 280 guests'",
+        "checked_at": "2026-10-28T05:53:02Z",
+        "quote_found": true
+      },
+      {
+        "value": 280,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+        "quote": "Seats up to 280 guests.",
+        "kind": "seating",
+        "checked_at": "2026-10-28T05:53:03Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 29,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+        "quote": "Full setup $29 per guest.",
+        "current": true,
+        "unit": "per guest",
+        "checked_at": "2026-10-28T05:53:03Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+        "quote": "Banquet and cocktail tables",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:03Z",
+        "quote_found": true
+      },
+      {
+        "value": "chairs",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+        "quote": "Folding and chiavari chairs",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:03Z",
+        "quote_found": true
+      },
+      {
+        "value": "linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+        "quote": "Table linens and napkins",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:03Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:03Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 10 reviews",
+        "checked_at": "2026-10-28T05:53:02Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 10,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 10 reviews",
+        "checked_at": "2026-10-28T05:53:02Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Monday 8:00 AM - 5:00 PM; Tuesday 8:00 AM - 5:00 PM; Wednesday 8:00 AM - 5:00 PM; Thursday 8:00 AM - 5:00 PM; Friday 8:00 AM - 5:00 PM; Saturday 8:00 AM - 12:00 PM; Sunday Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+        "quote": "8:00 AM - 5:00 PM",
+        "note": "Mon-Fri 8:00 AM - 5:00 PM; Saturday 8:00 AM - 12:00 PM; Sunday Closed as listed day by day",
+        "checked_at": "2026-10-28T05:53:02Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:53:02Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [],
+  "flags": [],
+  "unknowns": [],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:02Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77536",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77536",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+          "quote": "4497 Wicklow Park Dr, Deer Park, TX 77536",
+          "checked_at": "2026-10-28T05:53:02Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 18,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Wendell Gutierrez",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Wendell Gutierrez",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+          "quote": "Owner Wendell Gutierrez.",
+          "checked_at": "2026-10-28T05:53:03Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(832) 555-0186",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(832) 555-0186",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+          "quote": "(832) 555-0186",
+          "checked_at": "2026-10-28T05:53:02Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "4497 Wicklow Park Dr, Deer Park, TX 77536",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "4497 Wicklow Park Dr, Deer Park, TX 77536",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+          "quote": "4497 Wicklow Park Dr, Deer Park, TX 77536",
+          "checked_at": "2026-10-28T05:53:02Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 280,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+          "quote": "280 guests",
+          "checked_at": "2026-10-28T05:53:02Z",
+          "quote_found": true
+        },
+        {
+          "value": 280,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+          "quote": "Seats up to 280 guests.",
+          "checked_at": "2026-10-28T05:53:03Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 29,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 29,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+          "quote": "Full setup $29 per guest.",
+          "checked_at": "2026-10-28T05:53:03Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "chairs",
+        "dance_floor",
+        "linens",
+        "tables"
+      ],
+      "by_feature": {
+        "chairs": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "chairs",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+              "quote": "Folding and chiavari chairs",
+              "checked_at": "2026-10-28T05:53:03Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:53:03Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "linens": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "linens",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+              "quote": "Table linens and napkins",
+              "checked_at": "2026-10-28T05:53:03Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "tables": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "tables",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/social/galaxypartyrentals",
+              "quote": "Banquet and cocktail tables",
+              "checked_at": "2026-10-28T05:53:03Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 10 reviews",
+          "checked_at": "2026-10-28T05:53:02Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 10,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 10,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/galaxy-party-rentals",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 10 reviews",
+          "checked_at": "2026-10-28T05:53:02Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": []
+  }
+}

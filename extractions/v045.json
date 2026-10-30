@@ -1,0 +1,674 @@
+{
+  "vendor_id": "v045",
+  "vendor_name": "Nopal Kitchen",
+  "category": "caterer",
+  "slug": "nopal-kitchen",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0791462,
+    "duration_ms": 26519,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7842,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 4729,
+      "output_tokens_details": {
+        "thinking_tokens": 1290
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7842,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 4729,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7842,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7842
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "23d12f6c-0c36-4116-ac07-d9292f974623",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+        "quote": "Status: Open",
+        "note": "No source says it has closed.",
+        "checked_at": "2026-10-28T05:53:27Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "481 Marshfield Dr, Houston, TX 77009",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+        "quote": "481 Marshfield Dr, Houston, TX 77009",
+        "checked_at": "2026-10-28T05:53:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "481 Marshfield Dr, Houston, TX 77009",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/contact",
+        "quote": "481 Marshfield Dr",
+        "note": "The page shows the street on one line and 'Houston, TX 77009' on the next.",
+        "checked_at": "2026-10-28T05:53:30Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77009",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+        "quote": "481 Marshfield Dr, Houston, TX 77009",
+        "checked_at": "2026-10-28T05:53:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "77009",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/contact",
+        "quote": "Houston, TX 77009",
+        "checked_at": "2026-10-28T05:53:30Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0114",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+        "quote": "(713) 555-0114",
+        "checked_at": "2026-10-28T05:53:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "713-555-0114",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/contact",
+        "quote": "Phone: 713-555-0114",
+        "checked_at": "2026-10-28T05:53:30Z",
+        "quote_found": true
+      },
+      {
+        "value": "713-555-0114",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+        "quote": "Call 713-555-0114 to get a quote.",
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Delia Broussard",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/about",
+        "quote": "Delia Broussard founded Nopal Kitchen in 2018.",
+        "note": "Page says she founded it and 'still runs it day to day'. It does not use the word 'owner', so ownership is inferred from founder and operator.",
+        "checked_at": "2026-10-28T05:53:30Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 160,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+        "quote": "160 guests",
+        "kind": "largest_event",
+        "note": "Listed under 'Largest event served'.",
+        "checked_at": "2026-10-28T05:53:27Z",
+        "quote_found": true
+      },
+      {
+        "value": 160,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+        "quote": "Largest event: 160 guests.",
+        "kind": "largest_event",
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      },
+      {
+        "value": 160,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+        "quote": "We cater events of up to 160 guests.",
+        "kind": "largest_event",
+        "note": "Phrased as a limit; matches the largest event figure on the other pages.",
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      },
+      {
+        "value": 190,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/nopal-kitchen",
+        "quote": "Delia and the crew fed 190 people at our rehearsal dinner and everything was hot and on time.",
+        "kind": "largest_event",
+        "note": "Review by David P., Mar 9, 2025. A customer claim, not the vendor's own figure.",
+        "checked_at": "2026-10-28T05:53:28Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 66,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+        "quote": "Dinner service: $66 per person.",
+        "current": true,
+        "unit": "per person",
+        "note": "Page header: 'Current rates for 2026 and 2027 events.' Minimum 25 guests. Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "buffet",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+        "quote": "Buffet service",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "plated",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+        "quote": "Plated dinners",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "bar_service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+        "quote": "Bartending and bar service (TABC certified)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+        "quote": "Vegetarian menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegetarian",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+        "quote": "Vegetarian menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+        "quote": "Vegan menu",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "vegan",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+        "quote": "Vegan menu.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+        "quote": "Nut-free meals prepared separately",
+        "offered": true,
+        "cannot_guarantee": false,
+        "note": "No page says nut-free cannot be guaranteed; no review reports a nut reaction.",
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      },
+      {
+        "value": "nut_free",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+        "quote": "Nut-free meals prepared separately.",
+        "offered": true,
+        "cannot_guarantee": false,
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      }
+    ],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 95 reviews",
+        "checked_at": "2026-10-28T05:53:27Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 95,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 95 reviews",
+        "checked_at": "2026-10-28T05:53:27Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 9:00 AM - 5:00 PM; Sat 9:00 AM - 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+        "quote": "9:00 AM - 5:00 PM",
+        "note": "The quote is the Monday-Friday line. Saturday reads '9:00 AM - 1:00 PM' and Sunday reads 'Closed'.",
+        "checked_at": "2026-10-28T05:53:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 9:00 AM to 5:00 PM; Sat 9:00 AM to 1:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/contact",
+        "quote": "9:00 AM to 5:00 PM",
+        "note": "Listed as 'Office hours'. The quote is the Monday-Friday line. Saturday reads '9:00 AM to 1:00 PM' and Sunday reads 'Closed'.",
+        "checked_at": "2026-10-28T05:53:30Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+        "quote": "Greater Houston",
+        "checked_at": "2026-10-28T05:53:27Z",
+        "quote_found": true
+      },
+      {
+        "value": "Greater Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+        "quote": "We serve Greater Houston.",
+        "checked_at": "2026-10-28T05:53:29Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "capacity",
+      "description": "The listing and the vendor's own site and packages page give 160 guests as the largest event. A review from Mar 9, 2025 says the caterer fed 190 people at a rehearsal dinner.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+        "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+        "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+        "https://vendors-r1.lab.zappstudios.us/reviews/nopal-kitchen"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "capacity_conflict",
+      "reason": "The vendor's pages say the largest event is 160 guests. A review (Mar 9, 2025) says they fed 190 people.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/nopal-kitchen",
+      "quote": "Delia and the crew fed 190 people at our rehearsal dinner and everything was hot and on time.",
+      "checked_at": "2026-10-28T05:53:28Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "dietary.gluten_free",
+      "checked": "Listing, reviews, Instagram, home, packages, about and contact pages. None mention gluten-free."
+    },
+    {
+      "field": "features.drop_off",
+      "checked": "Home and packages pages list buffet, plated and bar service only. Drop-off is not mentioned."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:53:27Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77009",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77009",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+          "quote": "481 Marshfield Dr, Houston, TX 77009",
+          "checked_at": "2026-10-28T05:53:27Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 4,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Delia Broussard",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Delia Broussard",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/about",
+          "quote": "Delia Broussard founded Nopal Kitchen in 2018.",
+          "checked_at": "2026-10-28T05:53:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0114",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0114",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+          "quote": "(713) 555-0114",
+          "checked_at": "2026-10-28T05:53:27Z",
+          "quote_found": true
+        },
+        {
+          "value": "713-555-0114",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/contact",
+          "quote": "Phone: 713-555-0114",
+          "checked_at": "2026-10-28T05:53:30Z",
+          "quote_found": true
+        },
+        {
+          "value": "713-555-0114",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+          "quote": "Call 713-555-0114 to get a quote.",
+          "checked_at": "2026-10-28T05:53:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "481 Marshfield Dr, Houston, TX 77009",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "481 Marshfield Dr, Houston, TX 77009",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+          "quote": "481 Marshfield Dr, Houston, TX 77009",
+          "checked_at": "2026-10-28T05:53:27Z",
+          "quote_found": true
+        },
+        {
+          "value": "481 Marshfield Dr, Houston, TX 77009",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/contact",
+          "quote": "481 Marshfield Dr",
+          "checked_at": "2026-10-28T05:53:30Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 160,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 160,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+          "quote": "160 guests",
+          "checked_at": "2026-10-28T05:53:27Z",
+          "quote_found": true
+        },
+        {
+          "value": 160,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+          "quote": "Largest event: 160 guests.",
+          "checked_at": "2026-10-28T05:53:29Z",
+          "quote_found": true
+        },
+        {
+          "value": 160,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+          "quote": "We cater events of up to 160 guests.",
+          "checked_at": "2026-10-28T05:53:29Z",
+          "quote_found": true
+        },
+        {
+          "value": 190,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/nopal-kitchen",
+          "quote": "Delia and the crew fed 190 people at our rehearsal dinner and everything was hot and on time.",
+          "checked_at": "2026-10-28T05:53:28Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true,
+      "note": "lowest of the numbers sources give"
+    },
+    "price": {
+      "value": 66,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 66,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+          "quote": "Dinner service: $66 per person.",
+          "checked_at": "2026-10-28T05:53:29Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "bar_service",
+        "buffet",
+        "plated"
+      ],
+      "by_feature": {
+        "bar_service": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "bar_service",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+              "quote": "Bartending and bar service (TABC certified)",
+              "checked_at": "2026-10-28T05:53:29Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "buffet": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "buffet",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+              "quote": "Buffet service",
+              "checked_at": "2026-10-28T05:53:29Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "plated": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "plated",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+              "quote": "Plated dinners",
+              "checked_at": "2026-10-28T05:53:29Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "dietary": {
+      "value": [
+        "nut_free",
+        "vegan",
+        "vegetarian"
+      ],
+      "by_need": {
+        "nut_free": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+              "quote": "Nut-free meals prepared separately",
+              "checked_at": "2026-10-28T05:53:29Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": "No page says nut-free cannot be guaranteed; no review reports a nut reaction."
+            },
+            {
+              "value": "nut_free",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+              "quote": "Nut-free meals prepared separately.",
+              "checked_at": "2026-10-28T05:53:29Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegan": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+              "quote": "Vegan menu",
+              "checked_at": "2026-10-28T05:53:29Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegan",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+              "quote": "Vegan menu.",
+              "checked_at": "2026-10-28T05:53:29Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        },
+        "vegetarian": {
+          "offered": true,
+          "met": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/packages",
+              "quote": "Vegetarian menu",
+              "checked_at": "2026-10-28T05:53:29Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            },
+            {
+              "value": "vegetarian",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/nopal-kitchen/",
+              "quote": "Vegetarian menu.",
+              "checked_at": "2026-10-28T05:53:29Z",
+              "quote_found": true,
+              "offered": true,
+              "cannot_guarantee": false,
+              "note": null
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 95 reviews",
+          "checked_at": "2026-10-28T05:53:27Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 95,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 95,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/nopal-kitchen",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 95 reviews",
+          "checked_at": "2026-10-28T05:53:27Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "capacity_conflict",
+        "reason": "The vendor's pages say the largest event is 160 guests. A review (Mar 9, 2025) says they fed 190 people.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/nopal-kitchen",
+        "by": "model"
+      }
+    ]
+  }
+}

@@ -1,0 +1,603 @@
+{
+  "vendor_id": "v006",
+  "vendor_name": "The Oriel",
+  "category": "venue",
+  "slug": "the-oriel",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0597002,
+    "duration_ms": 15344,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 7318,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 2994,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 7318,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 2994,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 7318,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 7318
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "cbcdcb91-a6b6-4969-abf3-c8ca240e271c",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:50:44Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "8034 Marshfield Dr, Houston, TX 77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+        "quote": "8034 Marshfield Dr, Houston, TX 77019",
+        "checked_at": "2026-10-28T05:50:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "8034 Marshfield Dr, Houston, TX 77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/contact",
+        "quote": "8034 Marshfield Dr\nHouston, TX 77019",
+        "checked_at": "2026-10-28T05:50:47Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+        "quote": "Houston, TX 77019",
+        "checked_at": "2026-10-28T05:50:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "77019",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/contact",
+        "quote": "Houston, TX 77019",
+        "checked_at": "2026-10-28T05:50:47Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0188",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+        "quote": "(713) 555-0188",
+        "checked_at": "2026-10-28T05:50:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "713.555.0188",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/contact",
+        "quote": "Phone: 713.555.0188",
+        "checked_at": "2026-10-28T05:50:47Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [
+      {
+        "value": "Bianca Underwood",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/about",
+        "quote": "Bianca Underwood founded The Oriel in 2013. Bianca still runs it day to day",
+        "note": "Founder who still runs the business day to day; the page does not use the word 'owner'.",
+        "checked_at": "2026-10-28T05:50:47Z",
+        "quote_found": true
+      }
+    ],
+    "capacity": [
+      {
+        "value": 160,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+        "quote": "Max occupancy (fire marshal)\n\n160 guests",
+        "kind": "fire_marshal",
+        "checked_at": "2026-10-28T05:50:44Z",
+        "quote_found": true
+      },
+      {
+        "value": 240,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+        "quote": "Hosts up to 240 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:50:45Z",
+        "quote_found": true
+      },
+      {
+        "value": 240,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+        "quote": "Capacity: 240 guests.",
+        "kind": "marketing",
+        "note": "Packages page also says '240 guests for a standing reception.'",
+        "checked_at": "2026-10-28T05:50:46Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 9100,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+        "quote": "Event rental (up to 6 hours): $9,100",
+        "current": true,
+        "unit": "per event (up to 6 hours)",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:50:46Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "dance_floor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+        "quote": "Dance floor",
+        "offered": true,
+        "checked_at": "2026-10-28T05:50:46Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+        "quote": "Street parking and nearby paid lots only.",
+        "offered": false,
+        "note": "No own parking lot; street and nearby paid lots only.",
+        "checked_at": "2026-10-28T05:50:46Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.6,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 91 reviews",
+        "checked_at": "2026-10-28T05:50:44Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 91,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+        "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 91 reviews",
+        "checked_at": "2026-10-28T05:50:44Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday to Friday each 10:00 AM - 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:50:44Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday to Friday each 10:00 AM to 6:00 PM; Sunday Closed.",
+        "checked_at": "2026-10-28T05:50:47Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": [
+      {
+        "value": "River Oaks, Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+        "quote": "The Oriel hosts parties, dinners and receptions in River Oaks, Houston.",
+        "checked_at": "2026-10-28T05:50:45Z",
+        "quote_found": true
+      },
+      {
+        "value": "River Oaks, Houston",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/theoriel",
+        "quote": "Event space in River Oaks, Houston.",
+        "checked_at": "2026-10-28T05:50:45Z",
+        "quote_found": true
+      }
+    ]
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "capacity",
+      "description": "The listing gives a fire marshal maximum occupancy of 160 guests, but the vendor's website home page and packages page say 240 guests (the packages page says 240 for a standing reception).",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+        "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "capacity_conflict",
+      "reason": "Listing says fire marshal max occupancy is 160; website says it hosts up to 240 guests.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+      "quote": "Max occupancy (fire marshal)\n\n160 guests",
+      "checked_at": "2026-10-28T05:50:44Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "status (closure in reviews)",
+      "checked": "Listing, reviews, Instagram, website pages: only the listing states a status (Open); no review says it closed."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable; venue category."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:50:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77019",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77019",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+          "quote": "Houston, TX 77019",
+          "checked_at": "2026-10-28T05:50:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 4,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": "Bianca Underwood",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "Bianca Underwood",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/about",
+          "quote": "Bianca Underwood founded The Oriel in 2013. Bianca still runs it day to day",
+          "checked_at": "2026-10-28T05:50:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0188",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0188",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+          "quote": "(713) 555-0188",
+          "checked_at": "2026-10-28T05:50:44Z",
+          "quote_found": true
+        },
+        {
+          "value": "713.555.0188",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/contact",
+          "quote": "Phone: 713.555.0188",
+          "checked_at": "2026-10-28T05:50:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": true
+    },
+    "address": {
+      "value": "8034 Marshfield Dr, Houston, TX 77019",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "8034 Marshfield Dr, Houston, TX 77019",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+          "quote": "8034 Marshfield Dr, Houston, TX 77019",
+          "checked_at": "2026-10-28T05:50:44Z",
+          "quote_found": true
+        },
+        {
+          "value": "8034 Marshfield Dr, Houston, TX 77019",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/contact",
+          "quote": "8034 Marshfield Dr\nHouston, TX 77019",
+          "checked_at": "2026-10-28T05:50:47Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 160,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 160,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+          "quote": "Max occupancy (fire marshal)\n\n160 guests",
+          "checked_at": "2026-10-28T05:50:44Z",
+          "quote_found": true
+        },
+        {
+          "value": 240,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+          "quote": "Hosts up to 240 guests.",
+          "checked_at": "2026-10-28T05:50:45Z",
+          "quote_found": true
+        },
+        {
+          "value": 240,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+          "quote": "Capacity: 240 guests.",
+          "checked_at": "2026-10-28T05:50:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 9100,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 9100,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+          "quote": "Event rental (up to 6 hours): $9,100",
+          "checked_at": "2026-10-28T05:50:46Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "dance_floor",
+        "in_house_av",
+        "indoor",
+        "outside_catering"
+      ],
+      "by_feature": {
+        "dance_floor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:50:45Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "dance_floor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+              "quote": "Dance floor",
+              "checked_at": "2026-10-28T05:50:46Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:50:45Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:50:46Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:50:45Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:50:46Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:50:45Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:50:46Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": false,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-oriel/packages",
+              "quote": "Street parking and nearby paid lots only.",
+              "checked_at": "2026-10-28T05:50:46Z",
+              "quote_found": true,
+              "offered": false
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.6,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.6,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 91 reviews",
+          "checked_at": "2026-10-28T05:50:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 91,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 91,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+          "quote": "4.6 \u2605\u2605\u2605\u2605\u2605 91 reviews",
+          "checked_at": "2026-10-28T05:50:44Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "capacity_conflict",
+        "reason": "Listing says fire marshal max occupancy is 160; website says it hosts up to 240 guests.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-oriel",
+        "by": "model"
+      }
+    ]
+  }
+}

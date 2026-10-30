@@ -1,0 +1,582 @@
+{
+  "vendor_id": "v101",
+  "vendor_name": "The Ledger Room",
+  "category": "venue",
+  "slug": "the-ledger-room",
+  "crawl_id": "20261028T055020Z",
+  "model": "sonnet",
+  "llm": {
+    "total_cost_usd": 0.0649722,
+    "duration_ms": 16484,
+    "num_turns": 2,
+    "usage": {
+      "input_tokens": 2,
+      "cache_creation_input_tokens": 8381,
+      "cache_read_input_tokens": 4842,
+      "output_tokens": 3096,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 8381,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "global",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 3096,
+          "cache_read_input_tokens": 4842,
+          "cache_creation_input_tokens": 8381,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 8381
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard",
+      "fallback_credit": null
+    },
+    "session_id": "4a7c7e52-1c4a-4c91-8d40-5ff608ab3ac2",
+    "models": [
+      "claude-sonnet-5-5"
+    ]
+  },
+  "claims": {
+    "status": [
+      {
+        "value": "open",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+        "quote": "Status: Open",
+        "checked_at": "2026-10-28T05:57:32Z",
+        "quote_found": true
+      }
+    ],
+    "address": [
+      {
+        "value": "4601 Hawthorn Bend Rd, Houston, TX 77010",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+        "quote": "4601 Hawthorn Bend Rd, Houston, TX 77010",
+        "checked_at": "2026-10-28T05:57:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "4601 Hawthorn Bend Rd, Houston, TX 77010",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/contact",
+        "quote": "4601 Hawthorn Bend Rd\nHouston, TX 77010",
+        "checked_at": "2026-10-28T05:57:35Z",
+        "quote_found": true
+      }
+    ],
+    "zip": [
+      {
+        "value": "77010",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+        "quote": "Houston, TX 77010",
+        "checked_at": "2026-10-28T05:57:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "77010",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/contact",
+        "quote": "Houston, TX 77010",
+        "checked_at": "2026-10-28T05:57:35Z",
+        "quote_found": true
+      }
+    ],
+    "phone": [
+      {
+        "value": "(713) 555-0124",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+        "quote": "(713) 555-0124",
+        "checked_at": "2026-10-28T05:57:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "(713) 555-0124",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/contact",
+        "quote": "Phone: (713) 555-0124",
+        "checked_at": "2026-10-28T05:57:35Z",
+        "quote_found": true
+      }
+    ],
+    "owner": [],
+    "capacity": [
+      {
+        "value": 180,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+        "quote": "180 guests",
+        "kind": "fire_marshal",
+        "note": "Listed as 'Max occupancy (fire marshal)'.",
+        "checked_at": "2026-10-28T05:57:32Z",
+        "quote_found": true
+      },
+      {
+        "value": 180,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+        "quote": "Hosts up to 180 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      },
+      {
+        "value": 180,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+        "quote": "Capacity: 180 guests.",
+        "kind": "marketing",
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      },
+      {
+        "value": 190,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/the-ledger-room",
+        "quote": "We hosted our rehearsal dinner here for about 190 guests and it was perfect.",
+        "kind": "largest_event",
+        "note": "Review by Rosa P., Aug 22, 2025; a reviewer's anecdote that exceeds the 180 fire marshal max. Recorded as reported, not as a venue claim.",
+        "checked_at": "2026-10-28T05:57:33Z",
+        "quote_found": true
+      }
+    ],
+    "price": [
+      {
+        "value": 6800,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+        "quote": "Event rental (up to 6 hours): $6,800",
+        "current": true,
+        "unit": "per event (up to 6 hours)",
+        "note": "Page says 'Current rates for 2026 and 2027 events.' Excludes tax and gratuity.",
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      }
+    ],
+    "features": [
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      },
+      {
+        "value": "indoor",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+        "quote": "Indoor, climate-controlled main hall",
+        "offered": true,
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      },
+      {
+        "value": "in_house_av",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "offered": true,
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      },
+      {
+        "value": "outside_catering",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+        "quote": "Outside caterers welcome (licensed and insured)",
+        "offered": true,
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      },
+      {
+        "value": "parking_lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+        "quote": "Free on-site parking lot",
+        "offered": true,
+        "checked_at": "2026-10-28T05:57:34Z",
+        "quote_found": true
+      }
+    ],
+    "dietary": [],
+    "rating": [
+      {
+        "value": 4.7,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 99 reviews",
+        "checked_at": "2026-10-28T05:57:32Z",
+        "quote_found": true
+      }
+    ],
+    "review_count": [
+      {
+        "value": 99,
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+        "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 99 reviews",
+        "checked_at": "2026-10-28T05:57:32Z",
+        "quote_found": true
+      }
+    ],
+    "hours": [
+      {
+        "value": "Mon-Fri 10:00 AM - 6:00 PM; Sat 10:00 AM - 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+        "quote": "Saturday\n\n10:00 AM - 2:00 PM",
+        "note": "Monday through Friday each listed as 10:00 AM - 6:00 PM; Sunday listed as Closed.",
+        "checked_at": "2026-10-28T05:57:32Z",
+        "quote_found": true
+      },
+      {
+        "value": "Mon-Fri 10:00 AM to 6:00 PM; Sat 10:00 AM to 2:00 PM; Sun Closed",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/contact",
+        "quote": "Saturday\n\n10:00 AM to 2:00 PM",
+        "note": "Office hours. Monday through Friday each listed as 10:00 AM to 6:00 PM; Sunday listed as Closed.",
+        "checked_at": "2026-10-28T05:57:35Z",
+        "quote_found": true
+      }
+    ],
+    "service_area": []
+  },
+  "dropped_claims": [],
+  "conflicts": [
+    {
+      "field": "capacity",
+      "description": "Listing (fire marshal), website home and packages page say 180 guests. A review (Rosa P., Aug 22, 2025) says a rehearsal dinner of about 190 guests was hosted, which is above the stated 180 maximum.",
+      "source_urls": [
+        "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+        "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+        "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+        "https://vendors-r1.lab.zappstudios.us/reviews/the-ledger-room"
+      ]
+    }
+  ],
+  "flags": [
+    {
+      "flag": "owner_unknown",
+      "reason": "No page names the owner. Rocio is named only as events manager, with no last name.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+      "quote": "Ask for Rocio, our events manager.",
+      "checked_at": "2026-10-28T05:57:34Z"
+    },
+    {
+      "flag": "capacity_conflict",
+      "reason": "A review reports about 190 guests, above the 180 fire marshal maximum on the listing and website.",
+      "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/the-ledger-room",
+      "quote": "We hosted our rehearsal dinner here for about 190 guests and it was perfect.",
+      "checked_at": "2026-10-28T05:57:33Z"
+    }
+  ],
+  "unknowns": [
+    {
+      "field": "owner",
+      "checked": "Listing, reviews, Instagram, website home, packages, about and contact pages. Only Rocio, events manager (first name only), is named; no owner."
+    },
+    {
+      "field": "service_area",
+      "checked": "Listing, reviews, Instagram, website home, packages, about and contact pages. None states a service area; pages only say events are hosted in Downtown, Houston, which is the venue's location."
+    },
+    {
+      "field": "dietary",
+      "checked": "Not applicable: venue, not a caterer."
+    }
+  ],
+  "match_notes": [],
+  "js_only_pages": [],
+  "resolved": {
+    "status": {
+      "value": "open",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "open",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+          "quote": "Status: Open",
+          "checked_at": "2026-10-28T05:57:32Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "zip": {
+      "value": "77010",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "77010",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+          "quote": "Houston, TX 77010",
+          "checked_at": "2026-10-28T05:57:32Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "in_metro": {
+      "value": true,
+      "unknown": false,
+      "miles": 1,
+      "rule": "zip checked against the table in docs/RUBRIC.md"
+    },
+    "owner": {
+      "value": null,
+      "unknown": true,
+      "sources": [],
+      "conflict": false
+    },
+    "phone": {
+      "value": "(713) 555-0124",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "(713) 555-0124",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+          "quote": "(713) 555-0124",
+          "checked_at": "2026-10-28T05:57:32Z",
+          "quote_found": true
+        },
+        {
+          "value": "(713) 555-0124",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/contact",
+          "quote": "Phone: (713) 555-0124",
+          "checked_at": "2026-10-28T05:57:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "address": {
+      "value": "4601 Hawthorn Bend Rd, Houston, TX 77010",
+      "unknown": false,
+      "sources": [
+        {
+          "value": "4601 Hawthorn Bend Rd, Houston, TX 77010",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+          "quote": "4601 Hawthorn Bend Rd, Houston, TX 77010",
+          "checked_at": "2026-10-28T05:57:32Z",
+          "quote_found": true
+        },
+        {
+          "value": "4601 Hawthorn Bend Rd, Houston, TX 77010",
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/contact",
+          "quote": "4601 Hawthorn Bend Rd\nHouston, TX 77010",
+          "checked_at": "2026-10-28T05:57:35Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "capacity": {
+      "value": 180,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 180,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+          "quote": "180 guests",
+          "checked_at": "2026-10-28T05:57:32Z",
+          "quote_found": true
+        },
+        {
+          "value": 180,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+          "quote": "Hosts up to 180 guests.",
+          "checked_at": "2026-10-28T05:57:34Z",
+          "quote_found": true
+        },
+        {
+          "value": 180,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+          "quote": "Capacity: 180 guests.",
+          "checked_at": "2026-10-28T05:57:34Z",
+          "quote_found": true
+        },
+        {
+          "value": 190,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/the-ledger-room",
+          "quote": "We hosted our rehearsal dinner here for about 190 guests and it was perfect.",
+          "checked_at": "2026-10-28T05:57:33Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "price": {
+      "value": 6800,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 6800,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+          "quote": "Event rental (up to 6 hours): $6,800",
+          "checked_at": "2026-10-28T05:57:34Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false,
+      "stale_prices": []
+    },
+    "features": {
+      "value": [
+        "in_house_av",
+        "indoor",
+        "outside_catering",
+        "parking_lot"
+      ],
+      "by_feature": {
+        "in_house_av": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:57:34Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "in_house_av",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+              "quote": "In-house AV: projector, screen, sound system and wireless mics",
+              "checked_at": "2026-10-28T05:57:34Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "indoor": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:57:34Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "indoor",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+              "quote": "Indoor, climate-controlled main hall",
+              "checked_at": "2026-10-28T05:57:34Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "outside_catering": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:57:34Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "outside_catering",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+              "quote": "Outside caterers welcome (licensed and insured)",
+              "checked_at": "2026-10-28T05:57:34Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        },
+        "parking_lot": {
+          "offered": true,
+          "conflict": false,
+          "sources": [
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:57:34Z",
+              "quote_found": true,
+              "offered": true
+            },
+            {
+              "value": "parking_lot",
+              "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/packages",
+              "quote": "Free on-site parking lot",
+              "checked_at": "2026-10-28T05:57:34Z",
+              "quote_found": true,
+              "offered": true
+            }
+          ]
+        }
+      }
+    },
+    "rating": {
+      "value": 4.7,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 4.7,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 99 reviews",
+          "checked_at": "2026-10-28T05:57:32Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "review_count": {
+      "value": 99,
+      "unknown": false,
+      "sources": [
+        {
+          "value": 99,
+          "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ledger-room",
+          "quote": "4.7 \u2605\u2605\u2605\u2605\u2605 99 reviews",
+          "checked_at": "2026-10-28T05:57:32Z",
+          "quote_found": true
+        }
+      ],
+      "conflict": false
+    },
+    "flags": [
+      {
+        "flag": "capacity_conflict",
+        "reason": "A review reports about 190 guests, above the 180 fire marshal maximum on the listing and website.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/reviews/the-ledger-room",
+        "by": "model"
+      },
+      {
+        "flag": "owner_unknown",
+        "reason": "No page names the owner. Rocio is named only as events manager, with no last name.",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ledger-room/",
+        "by": "model"
+      }
+    ]
+  }
+}
