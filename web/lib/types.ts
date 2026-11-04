@@ -106,3 +106,54 @@ export type PackageRow = {
     fits: boolean | null;
   } | null;
 };
+
+export type Citation = {
+  field?: string;
+  text?: string;
+  source_url?: string | null;
+  quote: string | null;
+  checked_at?: string;
+  thread_id?: string;
+};
+
+export type Draft = {
+  draft_id: number;
+  brief_id: string;
+  vendor_id: string;
+  kind: "inquiry" | "follow_up";
+  addressed_to: string | null;
+  subject: string;
+  body: string;
+  citations: Citation[];
+  answers_thread_id: string | null;
+};
+
+export type Thread = {
+  thread_id: string;
+  brief_id: string;
+  vendor_id: string;
+  in_reply_to: string | null;
+  event_date: string;
+  guests: number;
+  subject: string;
+  body: string;
+  sent_at: string;
+};
+
+export type Reply = {
+  thread_id: string;
+  received_at: string;
+  from_name: string | null;
+  from_email: string | null;
+  subject: string | null;
+  body: string;
+  kind: "quote" | "hold" | "counter_date" | "decline" | "question" | "other" | null;
+  quote_price: number | null;
+  hold_until: string | null;
+  counter_dates: string[];
+  question: string | null;
+  plain_summary: string | null;
+  has_instructions: boolean;
+  instructions_note: string | null;
+  read_by_model: string | null;
+};

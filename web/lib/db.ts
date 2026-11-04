@@ -1,5 +1,5 @@
 import { cacheLife } from "next/cache";
-import type { Availability, Fact, Flag, PackageRow, Run, Score, Vendor } from "./types";
+import type { Availability, Draft, Fact, Flag, PackageRow, Reply, Run, Score, Thread, Vendor } from "./types";
 
 // The app only reads, with the publishable key, and RLS lets it do nothing else.
 const BASE = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -81,4 +81,23 @@ export async function getFactsFor(runId: string, vendorIds: string, fields: stri
   cacheLife("minutes");
   const only = fields === "all" ? "" : `&field=in.(${fields})`;
   return rest<Fact>(`facts?select=*&run_id=eq.${enc(runId)}&vendor_id=in.(${vendorIds})${only}`);
+}
+
+export async function getDrafts(runId: string, briefId: string): Promise<Result<Draft[]>> {
+  "use cache";
+  cacheLife("minutes");
+  return rest<Draft>(`drafts?select=*&run_id=eq.${enc(runId)}&brief_id=eq.${enc(briefId)}&order=draft_id`);
+}
+
+export async function getThreads(briefId: string): Promise<Result<Thread[]>> {
+  "use cache";
+  cacheLife("minutes");
+  return rest<Thread>(`threads?select=*&brief_id=eq.${enc(briefId)}&order=sent_at`);
+}
+
+// Replies are few (one per thread), so read them all and join to threads in code.
+export async function getReplies(): Promise<Result<Reply[]>> {
+  "use cache";
+  cacheLife("minutes");
+  return rest<Reply>("replies?select=*&order=received_at");
 }

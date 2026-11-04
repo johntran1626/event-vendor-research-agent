@@ -1,9 +1,9 @@
 import {
-  getAvailability, getFactsFor, getFlags, getPackages, getRuns, getScores, getVendorAvailability,
-  getVendorScores, getVendors,
+  getAvailability, getDrafts, getFactsFor, getFlags, getPackages, getReplies, getRuns, getScores, getThreads,
+  getVendorAvailability, getVendorScores, getVendors,
 } from "./db";
 import { BRIEF_FACT_FIELDS, buildBriefModel, vendorIdsToShow, type BriefModel } from "./brief-model";
-import type { Availability, Brief, Fact, Flag, Run, Score, Vendor } from "./types";
+import type { Availability, Brief, Draft, Fact, Flag, Reply, Run, Score, Thread, Vendor } from "./types";
 
 export type Loaded<T> =
   | { status: "ok"; data: T }
@@ -26,9 +26,10 @@ export async function loadBrief(briefId: string): Promise<Loaded<BriefModel>> {
   const found = run.briefs.find((b) => b.brief_id === briefId);
   if (!found) return { status: "missing" };
 
-  const [scores, vendors, flags, availability, packages] = await Promise.all([
+  const [scores, vendors, flags, availability, packages, threads, replies] = await Promise.all([
     getScores(run.run_id, briefId), getVendors(), getFlags(run.run_id),
     getAvailability(run.run_id, found.date), getPackages(run.run_id, briefId),
+    getThreads(briefId), getReplies(),
   ]);
   if (!scores.ok || !vendors.ok || !flags.ok || !availability.ok || !packages.ok) return { status: "error" };
   if (scores.data.length === 0) return { status: "missing" };
@@ -42,6 +43,7 @@ export async function loadBrief(briefId: string): Promise<Loaded<BriefModel>> {
   return ok(buildBriefModel({
     run, brief, scores: scores.data, vendors: vendors.data, flags: flags.data,
     availability: availability.data, facts: facts.data, packages: packages.data,
+    threads: threads.ok ? threads.data : [], replies: replies.ok ? replies.data : [],
   }));
 }
 
@@ -53,6 +55,10 @@ export type VendorDetail = {
   facts: Fact[];
   flags: Flag[];
   availability: Availability[];
+  /** What we sent this vendor for this brief, and what came back. */
+  drafts: Draft[];
+  threads: Thread[];
+  replies: Reply[];
 };
 
 export async function loadVendor(briefId: string, vendorId: string): Promise<Loaded<VendorDetail>> {
@@ -62,15 +68,21 @@ export async function loadVendor(briefId: string, vendorId: string): Promise<Loa
   const brief = run.briefs.find((b) => b.brief_id === briefId);
   if (!brief) return { status: "missing" };
 
-  const [vendors, scores, facts, flags, availability] = await Promise.all([
+  const [vendors, scores, facts, flags, availability, drafts, threads, replies] = await Promise.all([
     getVendors(), getVendorScores(run.run_id, vendorId), getFactsFor(run.run_id, vendorId, "all"),
     getFlags(run.run_id), getVendorAvailability(run.run_id, vendorId),
+    getDrafts(run.run_id, briefId), getThreads(briefId), getReplies(),
   ]);
   if (!vendors.ok || !scores.ok || !facts.ok || !flags.ok || !availability.ok) return { status: "error" };
+  const myThreads = threads.ok ? threads.data.filter((t) => t.vendor_id === vendorId) : [];
+  const myIds = new Set(myThreads.map((t) => t.thread_id));
   const vendor = vendors.data.find((v) => v.vendor_id === vendorId);
   if (!vendor) return { status: "missing" };
   return ok({
     run, brief, vendor, scores: scores.data, facts: facts.data,
     flags: flags.data.filter((f) => f.vendor_id === vendorId), availability: availability.data,
+    drafts: drafts.ok ? drafts.data.filter((d) => d.vendor_id === vendorId) : [],
+    threads: myThreads,
+    replies: replies.ok ? replies.data.filter((r) => myIds.has(r.thread_id)) : [],
   });
 }

@@ -1,4 +1,4 @@
-import type { Availability, Brief, Category, Fact, Label } from "./types";
+import type { Availability, Brief, Category, Fact, Label, Reply } from "./types";
 
 const usd = new Intl.NumberFormat("en-US", {
   style: "currency",
@@ -201,3 +201,13 @@ export function sourceName(url: string | null): string {
   if (path.startsWith("/social/")) return "Social media page";
   return "Source page";
 }
+
+export const REPLY_LABEL: Record<NonNullable<Reply["kind"]>, string> = {
+  quote: "Sent a quote",
+  hold: "Offered to hold the date",
+  counter_date: "Offered other dates",
+  decline: "Declined",
+  question: "Asked us a question",
+  other: "Replied",
+};
+export const replyLabel = (k: Reply["kind"]) => (k ? REPLY_LABEL[k] : "Replied");

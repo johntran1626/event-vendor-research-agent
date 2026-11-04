@@ -1,6 +1,6 @@
 import {
   CATEGORIES, type Availability, type Brief, type Category, type Fact, type Flag,
-  type PackageRow, type Run, type Score, type Vendor,
+  type PackageRow, type Reply, type Run, type Score, type Thread, type Vendor,
 } from "./types";
 import {
   CATEGORY_NAMES, FLAG_ADVICE, FLAGS_THAT_MATTER, flagText, money, plainDate, priceUnit, sourceName, underscoreFree,
@@ -13,6 +13,8 @@ export type Card = {
   avail: Availability | undefined;
   priceText: string | null;
   why: string;
+  /** What the vendor wrote back to our inquiry for this brief, if it has. */
+  reply: Reply | undefined;
 };
 
 export type Insight = { text: string; sources: { label: string; url: string }[] };
@@ -40,6 +42,8 @@ export type BriefModel = {
   brief: Brief;
   sections: CategoryView[];
   pkg: PackageView | null;
+  /** The best package once quoted prices replace published ones. Only present when it differs. */
+  afterReplies: PackageView | null;
   insights: Insight[];
 };
 
@@ -52,6 +56,8 @@ export type Inputs = {
   availability: Availability[];
   facts: Fact[];
   packages: PackageRow[];
+  threads?: Thread[];
+  replies?: Reply[];
 };
 
 /** The fact the rubric used for a field, else the first one stored. */
@@ -125,6 +131,16 @@ export function buildBriefModel(x: Inputs): BriefModel {
 
   const spec = (cat: Category) => brief[cat];
 
+  // The reply to our first inquiry to this vendor for this brief.
+  const threadByVendor = new Map(
+    (x.threads ?? []).filter((t) => t.brief_id === brief.brief_id && !t.in_reply_to).map((t) => [t.vendor_id, t]),
+  );
+  const replyByThread = new Map((x.replies ?? []).map((r) => [r.thread_id, r]));
+  const replyFor = (vendorId: string): Reply | undefined => {
+    const thread = threadByVendor.get(vendorId);
+    return thread ? replyByThread.get(thread.thread_id) : undefined;
+  };
+
   const card = (s: Score): Card | null => {
     const vendor = vendorById.get(s.vendor_id);
     if (!vendor) return null;
@@ -134,6 +150,7 @@ export function buildBriefModel(x: Inputs): BriefModel {
       score: s, vendor,
       flags: flags.filter((f) => f.vendor_id === s.vendor_id),
       avail: availBy.get(s.vendor_id),
+      reply: replyFor(s.vendor_id),
       priceText,
       why: whyLine(s, price, facts, availBy.get(s.vendor_id), spec(s.category)?.max_price),
     };
@@ -154,7 +171,8 @@ export function buildBriefModel(x: Inputs): BriefModel {
   });
 
   const pkg = buildPackage(packages.find((p) => p.kind === "rubric"), vendorById);
-  return { run, brief, sections, pkg, insights: buildInsights(x, sections, pkg, vendorById, availBy) };
+  const afterReplies = buildPackage(packages.find((p) => p.kind === "after_replies"), vendorById);
+  return { run, brief, sections, pkg, afterReplies, insights: buildInsights(x, sections, pkg, vendorById, availBy) };
 }
 
 function whyLine(
