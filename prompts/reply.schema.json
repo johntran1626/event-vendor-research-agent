@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "plain_summary", "evidence_quote", "quote_amount", "quote_basis", "quote_quote",
+               "hold_until", "hold_quote", "counter_dates", "question", "has_instructions", "instructions_quote"],
+  "properties": {
+    "kind": {"type": "string", "enum": ["quote", "hold", "counter_date", "decline", "question", "other"]},
+    "plain_summary": {"type": "string"},
+    "evidence_quote": {"type": "string"},
+    "quote_amount": {"type": ["number", "null"]},
+    "quote_basis": {"type": ["string", "null"], "enum": ["total_for_date", "per_person", "per_guest", "event_fee", null]},
+    "quote_quote": {"type": ["string", "null"]},
+    "hold_until": {"type": ["string", "null"]},
+    "hold_quote": {"type": ["string", "null"]},
+    "counter_dates": {"type": "array", "items": {"type": "string"}},
+    "question": {"type": ["string", "null"]},
+    "has_instructions": {"type": "boolean"},
+    "instructions_quote": {"type": ["string", "null"]}
+  }
+}

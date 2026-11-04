@@ -40,9 +40,16 @@ def load_briefs(folder):
 
 
 def latest_slugs():
-    """vendor_id -> slug, from the newest full crawl."""
-    crawl_id = (CACHE / "LATEST_CRAWL").read_text().strip()
-    manifest = json.loads((CACHE / "crawls" / crawl_id / "manifest.json").read_text(encoding="utf-8"))
+    """vendor_id -> slug, from the newest full crawl.
+
+    Without a local cache/ (a fresh clone), the committed crawls/<crawl_id>.json has the same slugs.
+    """
+    if (CACHE / "LATEST_CRAWL").exists():
+        crawl_id = (CACHE / "LATEST_CRAWL").read_text().strip()
+        manifest = json.loads((CACHE / "crawls" / crawl_id / "manifest.json").read_text(encoding="utf-8"))
+    else:
+        newest = sorted((ROOT / "crawls").glob("*.json"))[-1]
+        crawl_id, manifest = newest.stem, json.loads(newest.read_text(encoding="utf-8"))
     return crawl_id, {v["vendor_id"]: v["slug"] for v in manifest["vendors"]}
 
 

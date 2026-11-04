@@ -62,9 +62,14 @@ def category_key(cat):
     return {"venue": "venue", "caterer": "caterer", "rental": "rental"}[cat]
 
 
-def score_vendor(v, brief, availability):
-    """Step 1 and 2 of the rubric for one vendor and one brief."""
+def score_vendor(v, brief, availability, quotes=None, excluded=None):
+    """Step 1 and 2 of the rubric for one vendor and one brief.
+
+    `quotes` and `excluded` are only used for the package after replies: a quoted unit price in place of
+    the published one, and vendors whose reply says they can't take the date or group.
+    """
     r, cat = v["resolved"], v["category"]
+    key = (brief["brief_id"], v["vendor_id"])
     spec = brief[category_key(cat)]
     avail = availability.get((v["vendor_id"], brief["date"]), "unknown")
     reasons = []
@@ -84,7 +89,11 @@ def score_vendor(v, brief, availability):
         if missing:
             reasons.append("can't meet dietary needs: " + ", ".join(sorted(missing)))
 
+    if excluded and key in excluded:
+        reasons.append(excluded[key])
     price, rating, count = val(r, "price"), val(r, "rating"), val(r, "review_count")
+    if quotes and key in quotes:
+        price = quotes[key]
     miles = r["in_metro"].get("miles")
     have = set(r["features"]["value"])
     missing_feats = [f for f in spec["required"] if f not in have]
@@ -194,12 +203,12 @@ def best_package(by_cat, brief):
             "why": why, "winners": winners_info}
 
 
-def run(briefs, vendors, availability):
+def run(briefs, vendors, availability, quotes=None, excluded=None):
     score_rows, package_rows, summary = [], [], {}
     for brief in briefs:
         by_cat = {c: [] for c in CATEGORIES}
         for v in vendors.values():
-            by_cat[v["category"]].append(score_vendor(v, brief, availability))
+            by_cat[v["category"]].append(score_vendor(v, brief, availability, quotes, excluded))
         for c in CATEGORIES:
             label_category(by_cat[c], brief)
             for s in by_cat[c]:
@@ -215,12 +224,81 @@ def run(briefs, vendors, availability):
     return score_rows, package_rows, summary
 
 
+def apply_replies(reply_rows, threads, briefs, vendors):
+    """(quotes, excluded) from the replies, keyed (brief_id, vendor_id).
+
+    A quoted total becomes a unit price in the published price's unit (venue: the fee; caterer: per
+    person; rental: per guest). A decline, or a date that is booked with other dates offered, leaves
+    the vendor out. A question, a hold or anything else changes nothing here.
+    """
+    by_thread = {t["thread_id"]: t for t in threads}
+    by_id = {b["brief_id"]: b for b in briefs}
+    quotes, excluded = {}, {}
+    for r in reply_rows:
+        t = by_thread.get(r["thread_id"])
+        if not t or t["brief_id"] not in by_id or t["vendor_id"] not in vendors:
+            continue
+        key, cat = (t["brief_id"], t["vendor_id"]), vendors[t["vendor_id"]]["category"]
+        if r["kind"] in ("decline", "counter_date"):
+            excluded[key] = "its reply says it can't take our date or group"
+        elif r.get("quote_price") is not None:
+            total, guests = float(r["quote_price"]), by_id[t["brief_id"]]["guests"]
+            quotes[key] = total if cat == "venue" else total / guests
+    return quotes, excluded
+
+
+def _money(n):
+    return f"${n:,.0f}" if float(n).is_integer() else f"${n:,.2f}"
+
+
+def after_replies_rows(briefs, vendors, availability, rubric_packages, reply_rows, threads):
+    """A package row of kind after_replies for each brief where the replies change the best package."""
+    quotes, excluded = apply_replies(reply_rows, threads, briefs, vendors)
+    if not quotes and not excluded:
+        return []
+    _, packages, _ = run(briefs, vendors, availability, quotes, excluded)
+    by_brief = {p["brief_id"]: p for p in rubric_packages}
+    names = {vid: v["name"] for vid, v in vendors.items()}
+    unit = {"venue": "event fee", "caterer": "per person", "rental": "per guest"}
+    out = []
+    for p in packages:
+        base = by_brief[p["brief_id"]]
+        ids = lambda x: [x["venue_id"], x["caterer_id"], x["rental_id"]]  # noqa: E731
+        if p["fits"] == base["fits"] and ids(p) == ids(base) and p["total_cost"] == base["total_cost"]:
+            continue
+        said = []
+        for (bid, vid), quoted in sorted(quotes.items()):
+            published = vendors[vid]["resolved"]["price"].get("value")
+            if bid == p["brief_id"] and published is not None and abs(quoted - published) > 0.005:
+                cat = vendors[vid]["category"]
+                said.append(f"{names[vid]} quoted {_money(quoted)} {unit[cat]} for the date (published {_money(published)})")
+        for (bid, vid), why in sorted(excluded.items()):
+            if bid == p["brief_id"]:
+                said.append(f"{names[vid]} is left out: {why}")
+        if not p["fits"]:
+            result = f"With those prices, nothing fits the {_money(p['total_budget'])} budget."
+        elif ids(p) != ids(base):
+            was = " + ".join(names[i] for i in ids(base) if i) if base["fits"] else "no package"
+            now = " + ".join(names[i] for i in ids(p))
+            result = (f"The best package changes from {was} ({_money(base['total_cost'])}) to {now} "
+                      f"({_money(p['total_cost'])}, {_money(p['budget_left'])} left).")
+        else:
+            result = (f"Same vendors, but the total moves from {_money(base['total_cost'])} to "
+                      f"{_money(p['total_cost'])} ({_money(p['budget_left'])} left).")
+        why = ("Using what vendors said in their replies: " + "; ".join(said) + ". " if said else "") + result
+        out.append({**p, "kind": "after_replies", "why": why})
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--briefs", default=str(ROOT / "data" / "briefs"))
     ap.add_argument("--extractions", default=str(ROOT / "extractions"))
     ap.add_argument("--availability", help="an availability check file (default: the latest in cache/)")
     ap.add_argument("--out-dir", default=str(CACHE))
+    ap.add_argument("--replies", default=str(ROOT / "inbox" / "replies_read.json"),
+                    help="replies read by agent/replies.py; adds the package after replies when they change it")
+    ap.add_argument("--threads", default=str(ROOT / "inbox" / "threads.json"))
     args = ap.parse_args()
 
     briefs, vendors = load_briefs(args.briefs), load_resolved(args.extractions)
@@ -228,6 +306,10 @@ def main():
     if not availability:
         print("warning: no availability check found; every date counts as unknown")
     scores, packages, summary = run(briefs, vendors, availability)
+    if Path(args.replies).exists() and Path(args.threads).exists():
+        reply_rows = json.loads(Path(args.replies).read_text(encoding="utf-8"))
+        threads = json.loads(Path(args.threads).read_text(encoding="utf-8"))
+        packages += after_replies_rows(briefs, vendors, availability, packages, reply_rows, threads)
 
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
@@ -244,6 +326,8 @@ def main():
             print(f"  {c:8} {counts}  shortlist: {', '.join(s['name'] for s in sorted(top, key=lambda s: s['rank']))}")
         p = next(p for p in packages if p["brief_id"] == brief["brief_id"])
         print(f"  package  fits={p['fits']} total={p['total_cost']} left={p['budget_left']}  {p['why']}")
+        for a in (x for x in packages if x["brief_id"] == brief["brief_id"] and x["kind"] == "after_replies"):
+            print(f"  after replies  fits={a['fits']} total={a['total_cost']} left={a['budget_left']}  {a['why']}")
 
 
 if __name__ == "__main__":

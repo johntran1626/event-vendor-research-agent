@@ -17,6 +17,7 @@ that isn't in the folder are skipped, and a brief with no labels is only scored.
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -72,6 +73,64 @@ def same(field, got, want):
     if field in ("features", "dietary"):
         return got is not None and sorted(got) == sorted(want)
     return got == want
+
+NUMBER = re.compile(r"\$?\d[\d,]*(?:\.\d+)?")
+
+
+def numbers(text):
+    """The numbers in a text, with commas, dollar signs and leading zeros removed ("06" is 6)."""
+    out = set()
+    for m in NUMBER.finditer(text or ""):
+        n = m.group(0).replace(",", "").lstrip("$").rstrip(".")
+        out.add(str(int(n)) if n.isdigit() else n)
+    return out
+
+
+def check_drafts(tables, briefs):
+    """Fabrication check: every specific in every stored draft must trace to a stored fact with a source.
+
+    An inquiry passes when it cites at least 2 specifics, each citation matches a stored fact (same
+    vendor, source URL and quote), every number in the body is in a citation or in the brief, and the
+    name it is addressed to is the stored owner. A follow-up passes when each citation quotes the
+    reply it answers. One that doesn't is a failure.
+    """
+    drafts = tables.get("drafts", [])
+    if not drafts:
+        print("\nFabrication check on inquiry drafts: no drafts stored yet (not run)")
+        return
+    facts = {(f["vendor_id"], f["source_url"], f["quote"]) for f in tables.get("facts", [])}
+    owners = {(f["vendor_id"], (f["value"] or {}).get("value")) for f in tables.get("facts", [])
+              if f["field"] == "owner" and f["used"] and not f["is_unknown"]}
+    replies = {r["thread_id"]: r for r in tables.get("replies", [])}
+    brief_numbers = {b["brief_id"]: numbers(json.dumps(b)) | numbers(b["date"].replace("-", " ")) for b in briefs}
+    failures = []
+    for d in drafts:
+        problems = []
+        cites = d.get("citations") or []
+        if d["kind"] == "inquiry":
+            if len(cites) < 2:
+                problems.append(f"cites {len(cites)} specifics, needs 2 or more")
+            for c in cites:
+                if (d["vendor_id"], c.get("source_url"), c.get("quote")) not in facts:
+                    problems.append(f"citation not in the stored facts: {c.get('text')}")
+            allowed = numbers(" ".join(c.get("text", "") for c in cites)) | brief_numbers.get(d["brief_id"], set())
+            for n in sorted(numbers(d["body"]) - allowed):
+                problems.append(f"number {n} in the body traces to no citation or brief")
+            if d.get("addressed_to") and (d["vendor_id"], d["addressed_to"]) not in owners:
+                problems.append(f"addressed to {d['addressed_to']}, who is not the stored owner")
+        else:
+            reply = replies.get(d.get("answers_thread_id"))
+            if not reply:
+                problems.append("follow-up answers no stored reply")
+            for c in cites:
+                if reply and c.get("quote") not in reply["body"]:
+                    problems.append(f"quote is not in the reply: {c.get('quote')}")
+        if problems:
+            failures.append((d, problems))
+    print(f"\nFabrication check on inquiry drafts: {len(drafts) - len(failures)}/{len(drafts)} pass")
+    for d, problems in failures:
+        for p in problems:
+            print(f"  FAIL {d['brief_id']} {d['vendor_id']} {d['kind']}: {p}")
 
 
 def main():
@@ -142,12 +201,11 @@ def main():
         print(f"  {brief['brief_id']:16} " + (f"{ok}/{n}  ({ok / n:.0%})" if n else "no labels for this brief (scored only)"))
 
     # fabrication check
-    drafts = []
+    tables = {}
     if Path(args.results).exists():
         data = json.loads(Path(args.results).read_text(encoding="utf-8"))
-        drafts = (data.get("tables") or data).get("drafts", [])
-    print("\nFabrication check on inquiry drafts: " +
-          (f"{len(drafts)} drafts stored, check not implemented yet" if drafts else "no drafts stored yet (not run)"))
+        tables = data.get("tables", data)
+    check_drafts(tables, briefs)
 
     # best packages
     print("\nBest package per brief")

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { loadVendor, type VendorDetail } from "@/lib/load";
 import {
   CATEGORY_NAMES, FIELD_ORDER, LABEL_INFO, POINT_RULES, availText, briefTitle, centralTime, factValue,
-  fieldName, flagText, plainDate, sourceName, titleFromId, underscoreFree,
+  fieldName, flagText, money, plainDate, replyLabel, sourceName, titleFromId, underscoreFree,
 } from "@/lib/plain";
 import type { Fact } from "@/lib/types";
 import { PageLoading, StateMessage } from "../../../../_components/StateMessage";
@@ -69,6 +69,7 @@ async function Vendor({ params }: { params: PageProps<"/briefs/[briefId]/vendors
       )}
 
       <Flags d={d} />
+      <Messages d={d} />
       <Calendar d={d} />
       <Facts facts={d.facts} />
       <OtherEvents d={d} currentBrief={briefId} />
@@ -94,6 +95,80 @@ function Flags({ d }: { d: VendorDetail }) {
           </li>
         ))}
       </ul>
+    </section>
+  );
+}
+
+function Messages({ d }: { d: VendorDetail }) {
+  const inquiry = d.drafts.find((x) => x.kind === "inquiry");
+  const followUps = d.drafts.filter((x) => x.kind === "follow_up");
+  const thread = d.threads.find((t) => !t.in_reply_to);
+  const reply = thread ? d.replies.find((r) => r.thread_id === thread.thread_id) : undefined;
+  if (!inquiry && !reply) return null;
+  return (
+    <section className="mt-8">
+      <h2 className="text-xl font-semibold">What we sent, and what they said</h2>
+      {inquiry && (
+        <div className="mt-2 rounded-lg border border-black/15 p-3 text-sm dark:border-white/20">
+          <p className="text-xs font-semibold uppercase tracking-wide opacity-70">
+            Our inquiry{thread ? ` · sent ${centralTime(thread.sent_at)}` : " · not sent yet"}
+          </p>
+          <p className="mt-1 font-medium">{inquiry.subject}</p>
+          <p className="mt-2 whitespace-pre-wrap">{thread?.body ?? inquiry.body}</p>
+          <h3 className="mt-3 text-xs font-semibold uppercase tracking-wide opacity-70">What it is based on</h3>
+          <ul className="mt-1 space-y-1">
+            {inquiry.citations.map((c, i) => (
+              <li key={i}>
+                {c.text}
+                {c.source_url && (
+                  <>
+                    {" · "}
+                    <a href={c.source_url} target="_blank" rel="noreferrer" className="underline underline-offset-2">
+                      {sourceName(c.source_url)}
+                    </a>
+                    {c.checked_at ? `, checked ${centralTime(c.checked_at)}` : ""}
+                  </>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+      {reply && (
+        <div className="mt-3 rounded-lg border border-black/15 p-3 text-sm dark:border-white/20">
+          <p className="text-xs font-semibold uppercase tracking-wide opacity-70">
+            {replyLabel(reply.kind)} · {centralTime(reply.received_at)}
+          </p>
+          {reply.has_instructions && (
+            <p className="mt-2 rounded bg-amber-200 px-2 py-1 font-medium text-amber-950 dark:bg-amber-800 dark:text-amber-50">
+              This reply tried to give us instructions. We ignored them. The full text is below.
+            </p>
+          )}
+          {reply.plain_summary && <p className="mt-2 font-medium">{reply.plain_summary}</p>}
+          {reply.quote_price !== null && <p className="mt-1">Quoted {money(reply.quote_price)} in total.</p>}
+          {reply.hold_until && <p className="mt-1">Hold ends {plainDate(reply.hold_until)}.</p>}
+          {reply.counter_dates.length > 0 && <p className="mt-1">Offered: {reply.counter_dates.map(plainDate).join("; ")}.</p>}
+          {reply.question && <p className="mt-1">They asked: “{reply.question}”</p>}
+          <details className="mt-2">
+            <summary className="cursor-pointer text-xs">Their full reply</summary>
+            <blockquote className="mt-1 whitespace-pre-wrap border-l-2 border-black/20 pl-3 text-xs opacity-80 dark:border-white/30">
+              {reply.body}
+            </blockquote>
+          </details>
+        </div>
+      )}
+      {followUps.map((f) => (
+        <div key={f.draft_id} className="mt-3 rounded-lg border border-dashed border-black/30 p-3 text-sm dark:border-white/30">
+          <p className="text-xs font-semibold uppercase tracking-wide opacity-70">Follow-up draft, not sent</p>
+          <p className="mt-1 font-medium">{f.subject}</p>
+          <p className="mt-2 whitespace-pre-wrap">{f.body}</p>
+          {f.citations.length > 0 && (
+            <p className="mt-2 text-xs opacity-80">
+              Answers their words: {f.citations.map((c) => `“${c.quote}”`).join(" ")}
+            </p>
+          )}
+        </div>
+      ))}
     </section>
   );
 }

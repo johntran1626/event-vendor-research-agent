@@ -1,0 +1,704 @@
+[
+  {
+    "brief_id": "crawfish-boil",
+    "vendor_id": "v003",
+    "kind": "inquiry",
+    "addressed_to": "Fletcher Ashford",
+    "subject": "Crawfish boil on Saturday, April 24, 2027: 260 guests",
+    "body": "Hello Fletcher Ashford,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a crawfish boil on Saturday, April 24, 2027 for 260 guests.\n\nOn your pages we saw seating for up to 450 guests, a full setup price of $26 per guest, tents and tables, which is why we're reaching out to you.\n\nCould you tell us whether you have availability on Saturday, April 24, 2027, and what the full setup would cost in total for 260 guests?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "seating for up to 450 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bayside-event-rentals",
+        "quote": "450 guests",
+        "checked_at": "2026-10-28T05:50:30Z"
+      },
+      {
+        "field": "price",
+        "text": "a full setup price of $26 per guest",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "checked_at": "2026-10-28T05:50:32Z"
+      },
+      {
+        "field": "features",
+        "text": "offers tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+        "quote": "Frame and pole tents",
+        "checked_at": "2026-10-28T05:50:32Z"
+      },
+      {
+        "field": "features",
+        "text": "offers tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bayside-event-rentals/packages",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:50:32Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "crawfish-boil",
+    "vendor_id": "v009",
+    "kind": "inquiry",
+    "addressed_to": "Ravi Castellanos",
+    "subject": "Crawfish boil on Saturday, April 24, 2027: 260 guests",
+    "body": "Hello Ravi Castellanos,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a crawfish boil on Saturday, April 24, 2027 for 260 guests.\n\nOn your pages we saw the ability to serve events of up to 400 guests, a dinner price of $38 per person, buffet service and on-site staff, which is why we're reaching out to you.\n\nCould you tell us whether you can cater 260 guests on Saturday, April 24, 2027, what the full dinner would cost in total, and how you handle vegetarian and nut-free meals?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "the ability to serve events of up to 400 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/red-bean-catering-co",
+        "quote": "400 guests",
+        "checked_at": "2026-10-28T05:50:53Z"
+      },
+      {
+        "field": "price",
+        "text": "a dinner price of $38 per person",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/red-bean-catering-co/packages",
+        "quote": "Dinner service: $38 per person.",
+        "checked_at": "2026-10-28T05:50:55Z"
+      },
+      {
+        "field": "features",
+        "text": "offers buffet service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/redbeancateringco",
+        "quote": "Buffet service from $38 per person.",
+        "checked_at": "2026-10-28T05:50:54Z"
+      },
+      {
+        "field": "features",
+        "text": "offers on-site staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/redbeancateringco",
+        "quote": "Servers and on-site event staff.",
+        "checked_at": "2026-10-28T05:50:54Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "crawfish-boil",
+    "vendor_id": "v011",
+    "kind": "inquiry",
+    "addressed_to": "Farah Jessup",
+    "subject": "Crawfish boil on Saturday, April 24, 2027: 260 guests",
+    "body": "Hello Farah Jessup,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a crawfish boil on Saturday, April 24, 2027 for 260 guests.\n\nOn your pages we saw the ability to serve events of up to 500 guests, a dinner price of $36 per person, buffet service and on-site staff, which is why we're reaching out to you.\n\nCould you tell us whether you can cater 260 guests on Saturday, April 24, 2027, what the full dinner would cost in total, and how you handle vegetarian and nut-free meals?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "the ability to serve events of up to 500 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/sugar-creek-bbq-catering",
+        "quote": "500 guests",
+        "checked_at": "2026-10-28T05:50:58Z"
+      },
+      {
+        "field": "price",
+        "text": "a dinner price of $36 per person",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/sugar-creek-bbq-catering/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "checked_at": "2026-10-28T05:51:00Z"
+      },
+      {
+        "field": "features",
+        "text": "offers buffet service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/sugar-creek-bbq-catering/packages",
+        "quote": "Buffet service",
+        "checked_at": "2026-10-28T05:51:00Z"
+      },
+      {
+        "field": "features",
+        "text": "offers on-site staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/sugar-creek-bbq-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:51:00Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "crawfish-boil",
+    "vendor_id": "v031",
+    "kind": "inquiry",
+    "addressed_to": "Harriet Valdez",
+    "subject": "Crawfish boil on Saturday, April 24, 2027: 260 guests",
+    "body": "Hello Harriet Valdez,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a crawfish boil on Saturday, April 24, 2027 for 260 guests.\n\nOn your pages we saw a fire-marshal capacity of 320 guests, an event rental fee of $5,600, outdoor space and an on-site parking lot, which is why we're reaching out to you.\n\nCould you tell us whether Saturday, April 24, 2027 is open at your venue, what the total would be for 260 guests, and whether you could hold the date for a few days while we decide?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "a fire-marshal capacity of 320 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/two-creeks-pavilion",
+        "quote": "Max occupancy (fire marshal)\n\n320 guests",
+        "checked_at": "2026-10-28T05:52:26Z"
+      },
+      {
+        "field": "price",
+        "text": "an event rental fee of $5,600",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-creeks-pavilion/packages",
+        "quote": "Event rental (up to 6 hours): $5,600",
+        "checked_at": "2026-10-28T05:52:28Z"
+      },
+      {
+        "field": "features",
+        "text": "offers outdoor space",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-creeks-pavilion/",
+        "quote": "Outdoor lawn and covered patio",
+        "checked_at": "2026-10-28T05:52:27Z"
+      },
+      {
+        "field": "features",
+        "text": "offers an on-site parking lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/two-creeks-pavilion/",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:52:27Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "crawfish-boil",
+    "vendor_id": "v060",
+    "kind": "inquiry",
+    "addressed_to": "Wendell Carver",
+    "subject": "Crawfish boil on Saturday, April 24, 2027: 260 guests",
+    "body": "Hello Wendell Carver,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a crawfish boil on Saturday, April 24, 2027 for 260 guests.\n\nOn your pages we saw seating for up to 380 guests, a full setup price of $23 per guest, tents and tables, which is why we're reaching out to you.\n\nCould you tell us whether you have availability on Saturday, April 24, 2027, and what the full setup would cost in total for 260 guests?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "seating for up to 380 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/summit-tent-and-event",
+        "quote": "380 guests",
+        "checked_at": "2026-10-28T05:54:30Z"
+      },
+      {
+        "field": "price",
+        "text": "a full setup price of $23 per guest",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/summit-tent-and-event/packages",
+        "quote": "Full setup per guest (table, chair and linen): $23",
+        "checked_at": "2026-10-28T05:54:32Z"
+      },
+      {
+        "field": "features",
+        "text": "offers tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/summit-tent-and-event/packages",
+        "quote": "Frame and pole tents",
+        "checked_at": "2026-10-28T05:54:32Z"
+      },
+      {
+        "field": "features",
+        "text": "offers tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/summit-tent-and-event/packages",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:54:32Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "crawfish-boil",
+    "vendor_id": "v062",
+    "kind": "inquiry",
+    "addressed_to": "Stellan Sorensen",
+    "subject": "Crawfish boil on Saturday, April 24, 2027: 260 guests",
+    "body": "Hello Stellan Sorensen,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a crawfish boil on Saturday, April 24, 2027 for 260 guests.\n\nOn your pages we saw a fire-marshal capacity of 350 guests, an event rental fee of $4,900, outdoor space and an on-site parking lot, which is why we're reaching out to you.\n\nCould you tell us whether Saturday, April 24, 2027 is open at your venue, what the total would be for 260 guests, and whether you could hold the date for a few days while we decide?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "a fire-marshal capacity of 350 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/saddlehorn-ranch",
+        "quote": "350 guests",
+        "checked_at": "2026-10-28T05:54:39Z"
+      },
+      {
+        "field": "price",
+        "text": "an event rental fee of $4,900",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/packages",
+        "quote": "Event rental (up to 6 hours): $4,900",
+        "checked_at": "2026-10-28T05:54:41Z"
+      },
+      {
+        "field": "features",
+        "text": "offers outdoor space",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+        "quote": "Outdoor lawn and covered patio",
+        "checked_at": "2026-10-28T05:54:41Z"
+      },
+      {
+        "field": "features",
+        "text": "offers an on-site parking lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/saddlehorn-ranch/",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:54:41Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "crawfish-boil",
+    "vendor_id": "v066",
+    "kind": "inquiry",
+    "addressed_to": "Abel Holloway",
+    "subject": "Crawfish boil on Saturday, April 24, 2027: 260 guests",
+    "body": "Hello Abel Holloway,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a crawfish boil on Saturday, April 24, 2027 for 260 guests.\n\nOn your pages we saw a fire-marshal capacity of 500 guests, an event rental fee of $4,400, outdoor space and an on-site parking lot, which is why we're reaching out to you.\n\nCould you tell us whether Saturday, April 24, 2027 is open at your venue, what the total would be for 260 guests, and whether you could hold the date for a few days while we decide?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "a fire-marshal capacity of 500 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bramblewood-farm",
+        "quote": "500 guests",
+        "checked_at": "2026-10-28T05:54:58Z"
+      },
+      {
+        "field": "price",
+        "text": "an event rental fee of $4,400",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/packages",
+        "quote": "Event rental (up to 6 hours): $4,400",
+        "checked_at": "2026-10-28T05:55:00Z"
+      },
+      {
+        "field": "features",
+        "text": "offers outdoor space",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+        "quote": "Outdoor lawn and covered patio",
+        "checked_at": "2026-10-28T05:54:59Z"
+      },
+      {
+        "field": "features",
+        "text": "offers an on-site parking lot",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bramblewood-farm/",
+        "quote": "Free on-site parking lot",
+        "checked_at": "2026-10-28T05:54:59Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "crawfish-boil",
+    "vendor_id": "v083",
+    "kind": "inquiry",
+    "addressed_to": "Kwame Gutierrez",
+    "subject": "Crawfish boil on Saturday, April 24, 2027: 260 guests",
+    "body": "Hello Kwame Gutierrez,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a crawfish boil on Saturday, April 24, 2027 for 260 guests.\n\nOn your pages we saw the ability to serve events of up to 300 guests, a dinner price of $33 per person, buffet service and on-site staff, which is why we're reaching out to you.\n\nCould you tell us whether you can cater 260 guests on Saturday, April 24, 2027, what the full dinner would cost in total, and how you handle vegetarian and nut-free meals?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "the ability to serve events of up to 300 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/gulf-coast-gumbo-co",
+        "quote": "300 guests",
+        "checked_at": "2026-10-28T05:56:11Z"
+      },
+      {
+        "field": "price",
+        "text": "a dinner price of $33 per person",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+        "quote": "Dinner service: $33 per person.",
+        "checked_at": "2026-10-28T05:56:13Z"
+      },
+      {
+        "field": "features",
+        "text": "offers buffet service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+        "quote": "Buffet service",
+        "checked_at": "2026-10-28T05:56:13Z"
+      },
+      {
+        "field": "features",
+        "text": "offers on-site staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/gulf-coast-gumbo-co/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:56:13Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "crawfish-boil",
+    "vendor_id": "v097",
+    "kind": "inquiry",
+    "addressed_to": "Orlando Valdez",
+    "subject": "Crawfish boil on Saturday, April 24, 2027: 260 guests",
+    "body": "Hello Orlando Valdez,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a crawfish boil on Saturday, April 24, 2027 for 260 guests.\n\nOn your pages we saw seating for up to 600 guests, a full setup price of $25 per guest, tents and tables, which is why we're reaching out to you.\n\nCould you tell us whether you have availability on Saturday, April 24, 2027, and what the full setup would cost in total for 260 guests?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "seating for up to 600 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/big-tent-brothers",
+        "quote": "Seats up to",
+        "checked_at": "2026-10-28T05:57:14Z"
+      },
+      {
+        "field": "price",
+        "text": "a full setup price of $25 per guest",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/big-tent-brothers/packages",
+        "quote": "Full setup per guest (table, chair and linen): $25",
+        "checked_at": "2026-10-28T05:57:16Z"
+      },
+      {
+        "field": "features",
+        "text": "offers tents",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/big-tent-brothers/packages",
+        "quote": "Frame and pole tents",
+        "checked_at": "2026-10-28T05:57:16Z"
+      },
+      {
+        "field": "features",
+        "text": "offers tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/big-tent-brothers/packages",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:57:16Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "spring-gala",
+    "vendor_id": "v022",
+    "kind": "inquiry",
+    "addressed_to": "Odette Lambert",
+    "subject": "Spring gala on Saturday, March 6, 2027: 180 guests",
+    "body": "Hello Odette Lambert,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw a fire-marshal capacity of 200 guests, an event rental fee of $8,600, an indoor hall and in-house AV, which is why we're reaching out to you.\n\nCould you tell us whether Saturday, March 6, 2027 is open at your venue, what the total would be for 180 guests, and whether you could hold the date for a few days while we decide?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "a fire-marshal capacity of 200 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-lumen-room",
+        "quote": "Max occupancy (fire marshal)\n\n200 guests",
+        "checked_at": "2026-10-28T05:51:46Z"
+      },
+      {
+        "field": "price",
+        "text": "an event rental fee of $8,600",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-lumen-room/packages",
+        "quote": "Current rates for 2026 and 2027 events.",
+        "checked_at": "2026-10-28T05:51:48Z"
+      },
+      {
+        "field": "features",
+        "text": "offers an indoor hall",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+        "quote": "Indoor, climate-controlled main hall.",
+        "checked_at": "2026-10-28T05:51:47Z"
+      },
+      {
+        "field": "features",
+        "text": "offers in-house AV",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/social/thelumenroom",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics.",
+        "checked_at": "2026-10-28T05:51:47Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "spring-gala",
+    "vendor_id": "v033",
+    "kind": "inquiry",
+    "addressed_to": "Jolene Ibarra",
+    "subject": "Spring gala on Saturday, March 6, 2027: 180 guests",
+    "body": "Hello Jolene Ibarra,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw a fire-marshal capacity of 240 guests, an event rental fee of $9,300, an indoor hall and in-house AV, which is why we're reaching out to you.\n\nCould you tell us whether Saturday, March 6, 2027 is open at your venue, what the total would be for 180 guests, and whether you could hold the date for a few days while we decide?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "a fire-marshal capacity of 240 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/ironleaf-hall",
+        "quote": "240 guests",
+        "checked_at": "2026-10-28T05:52:35Z"
+      },
+      {
+        "field": "price",
+        "text": "an event rental fee of $9,300",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/ironleaf-hall/packages",
+        "quote": "Event rental (up to 6 hours): $9,300",
+        "checked_at": "2026-10-28T05:52:37Z"
+      },
+      {
+        "field": "features",
+        "text": "offers an indoor hall",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/ironleaf-hall/",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:52:36Z"
+      },
+      {
+        "field": "features",
+        "text": "offers in-house AV",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/ironleaf-hall/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:52:36Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "spring-gala",
+    "vendor_id": "v037",
+    "kind": "inquiry",
+    "addressed_to": "Quentin Underwood",
+    "subject": "Spring gala on Saturday, March 6, 2027: 180 guests",
+    "body": "Hello Quentin Underwood,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw seating for up to 180 guests, a full setup price of $15 per guest, tables and linens, which is why we're reaching out to you.\n\nCould you tell us whether you have availability on Saturday, March 6, 2027, and what the full setup would cost in total for 180 guests?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "seating for up to 180 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/stagecraft-event-rentals",
+        "quote": "180 guests",
+        "checked_at": "2026-10-28T05:52:53Z"
+      },
+      {
+        "field": "price",
+        "text": "a full setup price of $15 per guest",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $15",
+        "checked_at": "2026-10-28T05:52:55Z"
+      },
+      {
+        "field": "features",
+        "text": "offers tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/",
+        "quote": "Tables, chairs and more",
+        "checked_at": "2026-10-28T05:52:55Z"
+      },
+      {
+        "field": "features",
+        "text": "offers linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/stagecraft-event-rentals/packages",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:52:55Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "spring-gala",
+    "vendor_id": "v042",
+    "kind": "inquiry",
+    "addressed_to": "Calvin Fairbanks",
+    "subject": "Spring gala on Saturday, March 6, 2027: 180 guests",
+    "body": "Hello Calvin Fairbanks,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw the ability to serve events of up to 260 guests, a dinner price of $83 per person, plated service and on-site staff, which is why we're reaching out to you.\n\nCould you tell us whether you can cater 180 guests on Saturday, March 6, 2027, what the full dinner would cost in total, and how you handle vegetarian and gluten-free meals?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "the ability to serve events of up to 260 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/okra-and-honey-catering",
+        "quote": "260 guests",
+        "checked_at": "2026-10-28T05:53:14Z"
+      },
+      {
+        "field": "price",
+        "text": "a dinner price of $83 per person",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Dinner service: $83 per person.",
+        "checked_at": "2026-10-28T05:53:16Z"
+      },
+      {
+        "field": "features",
+        "text": "offers plated service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Plated dinners",
+        "checked_at": "2026-10-28T05:53:16Z"
+      },
+      {
+        "field": "features",
+        "text": "offers on-site staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/okra-and-honey-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:53:16Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "spring-gala",
+    "vendor_id": "v043",
+    "kind": "inquiry",
+    "addressed_to": "Yusuf Nwosu",
+    "subject": "Spring gala on Saturday, March 6, 2027: 180 guests",
+    "body": "Hello Yusuf Nwosu,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw seating for up to 300 guests, a full setup price of $22 per guest, tables and linens, which is why we're reaching out to you.\n\nCould you tell us whether you have availability on Saturday, March 6, 2027, and what the full setup would cost in total for 180 guests?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "seating for up to 300 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lumina-lighting-and-linen",
+        "quote": "300 guests",
+        "checked_at": "2026-10-28T05:53:18Z"
+      },
+      {
+        "field": "price",
+        "text": "a full setup price of $22 per guest",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/packages",
+        "quote": "Full setup per guest (table, chair and linen): $22",
+        "checked_at": "2026-10-28T05:53:20Z"
+      },
+      {
+        "field": "features",
+        "text": "offers tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:53:20Z"
+      },
+      {
+        "field": "features",
+        "text": "offers linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lumina-lighting-and-linen/",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:53:20Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "spring-gala",
+    "vendor_id": "v072",
+    "kind": "inquiry",
+    "addressed_to": "Stellan Zamora",
+    "subject": "Spring gala on Saturday, March 6, 2027: 180 guests",
+    "body": "Hello Stellan Zamora,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw the ability to serve events of up to 220 guests, a dinner price of $77 per person, plated service and on-site staff, which is why we're reaching out to you.\n\nCould you tell us whether you can cater 180 guests on Saturday, March 6, 2027, what the full dinner would cost in total, and how you handle vegetarian and gluten-free meals?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "the ability to serve events of up to 220 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
+        "quote": "220 guests",
+        "checked_at": "2026-10-28T05:55:25Z"
+      },
+      {
+        "field": "price",
+        "text": "a dinner price of $77 per person",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "quote": "Dinner service: $77 per person.",
+        "checked_at": "2026-10-28T05:55:26Z"
+      },
+      {
+        "field": "features",
+        "text": "offers plated service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "quote": "Plated dinners",
+        "checked_at": "2026-10-28T05:55:26Z"
+      },
+      {
+        "field": "features",
+        "text": "offers on-site staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:55:26Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "spring-gala",
+    "vendor_id": "v085",
+    "kind": "inquiry",
+    "addressed_to": "Celeste Zamora",
+    "subject": "Spring gala on Saturday, March 6, 2027: 180 guests",
+    "body": "Hello Celeste Zamora,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw seating for up to 250 guests, a full setup price of $18 per guest, tables and linens, which is why we're reaching out to you.\n\nCould you tell us whether you have availability on Saturday, March 6, 2027, and what the full setup would cost in total for 180 guests?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "seating for up to 250 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-linen-closet-rentals",
+        "quote": "250 guests",
+        "checked_at": "2026-10-28T05:56:20Z"
+      },
+      {
+        "field": "price",
+        "text": "a full setup price of $18 per guest",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/packages",
+        "quote": "Full setup per guest (table, chair and linen): $18",
+        "checked_at": "2026-10-28T05:56:22Z"
+      },
+      {
+        "field": "features",
+        "text": "offers tables",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+        "quote": "Banquet and cocktail tables",
+        "checked_at": "2026-10-28T05:56:21Z"
+      },
+      {
+        "field": "features",
+        "text": "offers linens",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-linen-closet-rentals/",
+        "quote": "Table linens and napkins",
+        "checked_at": "2026-10-28T05:56:21Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "spring-gala",
+    "vendor_id": "v089",
+    "kind": "inquiry",
+    "addressed_to": null,
+    "subject": "Spring gala on Saturday, March 6, 2027: 180 guests",
+    "body": "Hello,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw the ability to serve events of up to 200 guests, a dinner price of $71 per person, plated service and on-site staff, which is why we're reaching out to you.\n\nCould you tell us whether you can cater 180 guests on Saturday, March 6, 2027, what the full dinner would cost in total, and how you handle vegetarian and gluten-free meals?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "the ability to serve events of up to 200 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/lantana-kitchen",
+        "quote": "200 guests",
+        "checked_at": "2026-10-28T05:56:38Z"
+      },
+      {
+        "field": "price",
+        "text": "a dinner price of $71 per person",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lantana-kitchen/packages",
+        "quote": "Dinner service: $71 per person.",
+        "checked_at": "2026-10-28T05:56:40Z"
+      },
+      {
+        "field": "features",
+        "text": "offers plated service",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lantana-kitchen/packages",
+        "quote": "Plated dinners",
+        "checked_at": "2026-10-28T05:56:40Z"
+      },
+      {
+        "field": "features",
+        "text": "offers on-site staff",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/lantana-kitchen/packages",
+        "quote": "Servers and on-site event staff",
+        "checked_at": "2026-10-28T05:56:40Z"
+      }
+    ],
+    "answers_thread_id": null
+  },
+  {
+    "brief_id": "spring-gala",
+    "vendor_id": "v096",
+    "kind": "inquiry",
+    "addressed_to": "Zora Calloway",
+    "subject": "Spring gala on Saturday, March 6, 2027: 180 guests",
+    "body": "Hello Zora Calloway,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw a fire-marshal capacity of 190 guests, an event rental fee of $7,900, an indoor hall and in-house AV, which is why we're reaching out to you.\n\nCould you tell us whether Saturday, March 6, 2027 is open at your venue, what the total would be for 180 guests, and whether you could hold the date for a few days while we decide?\n\nThank you,\nCattail & Rye Events",
+    "citations": [
+      {
+        "field": "capacity",
+        "text": "a fire-marshal capacity of 190 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/the-ashgrove-at-avondale",
+        "quote": "190 guests",
+        "checked_at": "2026-10-28T05:57:10Z"
+      },
+      {
+        "field": "price",
+        "text": "an event rental fee of $7,900",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/packages",
+        "quote": "Event rental (up to 6 hours): $7,900",
+        "checked_at": "2026-10-28T05:57:12Z"
+      },
+      {
+        "field": "features",
+        "text": "offers an indoor hall",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+        "quote": "Indoor, climate-controlled main hall",
+        "checked_at": "2026-10-28T05:57:11Z"
+      },
+      {
+        "field": "features",
+        "text": "offers in-house AV",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/the-ashgrove-at-avondale/",
+        "quote": "In-house AV: projector, screen, sound system and wireless mics",
+        "checked_at": "2026-10-28T05:57:11Z"
+      }
+    ],
+    "answers_thread_id": null
+  }
+]

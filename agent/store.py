@@ -20,6 +20,7 @@ Where the rows come from:
 Usage:
   python3 agent/store.py                                  export, and upsert if .env.local has the keys
   python3 agent/store.py --rows scores=cache/scores.json --rows packages=cache/packages.json
+                    (--rows can repeat for one table, e.g. drafts=inbox/drafts.json drafts=inbox/followups.json)
   python3 agent/store.py --no-db                          export only
 """
 
@@ -198,11 +199,12 @@ def build(run_id, extra):
         tables["availability"].append({"run_id": run_id, "vendor_id": r["vendor_id"], "date": r["date"],
                                        "status": r["status"], "url": r["url"],
                                        "checked_at": r["checked_at"], "note": r["note"]})
-    for table, path in extra.items():
-        rows = json.loads(Path(path).read_text(encoding="utf-8"))
-        if table in ("scores", "packages", "drafts"):
-            rows = [{**r, "run_id": run_id} for r in rows]
-        tables[table] += rows
+    for table, paths in extra.items():
+        for path in paths:  # a table can have several files, e.g. drafts: inquiries and follow-ups
+            rows = json.loads(Path(path).read_text(encoding="utf-8"))
+            if table in ("scores", "packages", "drafts"):
+                rows = [{**r, "run_id": run_id} for r in rows]
+            tables[table] += rows
     tables["runs"][0]["finished_at"] = sandbox.now_utc()
     return tables
 
@@ -269,7 +271,7 @@ def main():
         table, path = item.split("=", 1)
         if table not in ("scores", "packages", "drafts", "threads", "replies"):
             sys.exit(f"--rows: unknown table {table}")
-        extra[table] = path
+        extra.setdefault(table, []).append(path)
 
     run_id = args.run_id or "run-" + sandbox.now_utc().replace(":", "").replace("-", "")
     tables = build(run_id, extra)
