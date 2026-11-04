@@ -21,3 +21,4 @@ Save as `logs/hours.md`. One file for the group, one section per person.
 | Date | Hours | What I did | Issue / PR |
 |---|---|---|---|
 | | | | |
+| 2026-11-04 | 0.5 | Replaced the boilerplate in web/README.md and added a root .env.example (drafted with Claude, reviewed against the code), opened PRs #39 and #40 | #1 #2, PRs #39 #40 |
