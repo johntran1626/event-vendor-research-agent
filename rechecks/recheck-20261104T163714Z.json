@@ -1,0 +1,582 @@
+{
+ "recheck_id": "recheck-20261104T163714Z",
+ "started_at": "2026-11-04T16:37:14Z",
+ "first_crawl": "20261028T055020Z",
+ "latest_crawl": "20261028T055020Z",
+ "latest_availability_check": "20261030T202532Z",
+ "dates": [
+  "2027-03-06",
+  "2027-04-24"
+ ],
+ "vendors": [
+  {
+   "vendor_id": "v003",
+   "vendor_name": "Bayside Tent Rentals",
+   "slug": "bayside-event-rentals",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=bayside-event-rentals&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:18Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=bayside-event-rentals&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:19Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v009",
+   "vendor_name": "Red Bean Catering Co.",
+   "slug": "red-bean-catering-co",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=red-bean-catering-co&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:23Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=red-bean-catering-co&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:24Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v011",
+   "vendor_name": "Sugar Creek BBQ Catering",
+   "slug": "sugar-creek-bbq-catering",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "booked",
+     "calendar_status": "booked",
+     "note": "Already booked on this date.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=sugar-creek-bbq-catering&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:28Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=sugar-creek-bbq-catering&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:28Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v022",
+   "vendor_name": "The Lumen Room",
+   "slug": "the-lumen-room",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=the-lumen-room&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:32Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "booked",
+     "calendar_status": "booked",
+     "note": "Already booked on this date.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=the-lumen-room&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:33Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v031",
+   "vendor_name": "Two Creeks Pavilion",
+   "slug": "two-creeks-pavilion",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=two-creeks-pavilion&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:37Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=two-creeks-pavilion&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:37Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v033",
+   "vendor_name": "Ironleaf Hall",
+   "slug": "ironleaf-hall",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=ironleaf-hall&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:41Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=ironleaf-hall&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:42Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v037",
+   "vendor_name": "Stagecraft Event Rentals",
+   "slug": "stagecraft-event-rentals",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=stagecraft-event-rentals&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:46Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=stagecraft-event-rentals&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:46Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v042",
+   "vendor_name": "Okra and Honey Catering Kitchen",
+   "slug": "okra-and-honey-catering",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=okra-and-honey-catering&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:50Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=okra-and-honey-catering&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:51Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v043",
+   "vendor_name": "Lumina Lighting & Linen",
+   "slug": "lumina-lighting-and-linen",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=lumina-lighting-and-linen&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:55Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=lumina-lighting-and-linen&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:55Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v060",
+   "vendor_name": "Summit Tent & Event",
+   "slug": "summit-tent-and-event",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=summit-tent-and-event&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:37:59Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=summit-tent-and-event&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:00Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v062",
+   "vendor_name": "Saddlehorn Ranch",
+   "slug": "saddlehorn-ranch",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "hold",
+     "calendar_status": "hold",
+     "note": "Tentative hold for another client. The vendor may release it. Ask the vendor.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=saddlehorn-ranch&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:04Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=saddlehorn-ranch&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:04Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v066",
+   "vendor_name": "Bramblewood Farm",
+   "slug": "bramblewood-farm",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "hold",
+     "calendar_status": "hold",
+     "note": "Tentative hold for another client. The vendor may release it. Ask the vendor.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=bramblewood-farm&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:08Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=bramblewood-farm&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:09Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v072",
+   "vendor_name": "Bluebird Table Catering",
+   "slug": "bluebird-table-catering",
+   "pages_fetched": 6,
+   "page_changes": [
+    {
+     "url": "https://vendors-r1.lab.zappstudios.us/reviews/bluebird-table-catering",
+     "compared_with": "first crawl 20261028T055020Z",
+     "old_fetched_at": "2026-10-28T05:55:25Z",
+     "old_status": 200,
+     "new_fetched_at": "2026-11-04T16:38:10Z",
+     "new_status": 200,
+     "kind": "changed",
+     "diff": [
+      "--- before",
+      "+++ after",
+      "@@ -12,3 +12,7 @@",
+      " ",
+      "-Showing the 7 most recent of 118 reviews, newest first.",
+      "+Showing the 8 most recent of 118 reviews, newest first.",
+      "+",
+      "+Tyrone K. Oct 31, 2026 \u2605\u2605\u2605\u2606\u2606 3/5",
+      "+",
+      "+Called to confirm our spring menu and they said they stopped doing gluten-free this week. The food is still great, but we need gluten-free.",
+      " "
+     ]
+    },
+    {
+     "url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/",
+     "compared_with": "first crawl 20261028T055020Z",
+     "old_fetched_at": "2026-10-28T05:55:26Z",
+     "old_status": 200,
+     "new_fetched_at": "2026-11-04T16:38:10Z",
+     "new_status": 200,
+     "kind": "changed",
+     "diff": [
+      "--- before",
+      "+++ after",
+      "@@ -18,3 +18,3 @@",
+      " ",
+      "-Vegetarian menu. Gluten-free menu.",
+      "+Vegetarian menu.",
+      " "
+     ]
+    },
+    {
+     "url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+     "compared_with": "first crawl 20261028T055020Z",
+     "old_fetched_at": "2026-10-28T05:55:26Z",
+     "old_status": 200,
+     "new_fetched_at": "2026-11-04T16:38:11Z",
+     "new_status": 200,
+     "kind": "changed",
+     "diff": [
+      "--- before",
+      "+++ after",
+      "@@ -24,4 +24,2 @@",
+      " ",
+      "-Gluten-free menu",
+      "-",
+      " Service styles",
+      "@@ -34,2 +32,4 @@",
+      " ",
+      "+Menu update, October 31, 2026: we no longer offer gluten-free menus. Our new kitchen shares flour and fryers with the bakery next door, so we can't keep gluten-free meals separate.",
+      "+",
+      " Prices do not include tax or gratuity."
+     ]
+    }
+   ],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=bluebird-table-catering&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:12Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=bluebird-table-catering&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:13Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v083",
+   "vendor_name": "Gulf Coast Gumbo Co.",
+   "slug": "gulf-coast-gumbo-co",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=gulf-coast-gumbo-co&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:17Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=gulf-coast-gumbo-co&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:17Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v085",
+   "vendor_name": "The Linen Closet Rentals",
+   "slug": "the-linen-closet-rentals",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=the-linen-closet-rentals&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:21Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=the-linen-closet-rentals&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:22Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v089",
+   "vendor_name": "Lantana Kitchen",
+   "slug": "lantana-kitchen",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=lantana-kitchen&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:26Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=lantana-kitchen&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:26Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v096",
+   "vendor_name": "Ash Grove at Avondale",
+   "slug": "the-ashgrove-at-avondale",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=the-ashgrove-at-avondale&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:31Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=the-ashgrove-at-avondale&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:31Z"
+    }
+   ],
+   "calendar_changes": []
+  },
+  {
+   "vendor_id": "v097",
+   "vendor_name": "Big Tent Brothers",
+   "slug": "big-tent-brothers",
+   "pages_fetched": 7,
+   "page_changes": [],
+   "calendar": [
+    {
+     "date": "2027-03-06",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=big-tent-brothers&date=2027-03-06",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:35Z"
+    },
+    {
+     "date": "2027-04-24",
+     "status": "available",
+     "calendar_status": "available",
+     "note": "Open on this date as of the last calendar sync. Confirm with the vendor before you commit.",
+     "url": "https://vendors-r1.lab.zappstudios.us/availability?vendor=big-tent-brothers&date=2027-04-24",
+     "http_status": 200,
+     "checked_at": "2026-11-04T16:38:36Z"
+    }
+   ],
+   "calendar_changes": []
+  }
+ ],
+ "finished_at": "2026-11-04T16:38:36Z"
+}
