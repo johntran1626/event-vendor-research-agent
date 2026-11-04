@@ -25,50 +25,74 @@ const enc = encodeURIComponent;
 // Results only change when a new run is stored, so a short cache is plenty.
 export async function getRuns(): Promise<Result<Run[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<Run>("runs?select=*&order=started_at.desc");
+  const result = await rest<Run>("runs?select=*&order=started_at.desc");
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 export async function getScores(runId: string, briefId: string): Promise<Result<Score[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<Score>(`scores?select=*&run_id=eq.${enc(runId)}&brief_id=eq.${enc(briefId)}`);
+  const result = await rest<Score>(`scores?select=*&run_id=eq.${enc(runId)}&brief_id=eq.${enc(briefId)}`);
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 export async function getVendorScores(runId: string, vendorId: string): Promise<Result<Score[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<Score>(`scores?select=*&run_id=eq.${enc(runId)}&vendor_id=eq.${enc(vendorId)}`);
+  const result = await rest<Score>(`scores?select=*&run_id=eq.${enc(runId)}&vendor_id=eq.${enc(vendorId)}`);
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 export async function getPackages(runId: string, briefId: string): Promise<Result<PackageRow[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<PackageRow>(`packages?select=*&run_id=eq.${enc(runId)}&brief_id=eq.${enc(briefId)}`);
+  const result = await rest<PackageRow>(`packages?select=*&run_id=eq.${enc(runId)}&brief_id=eq.${enc(briefId)}`);
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 export async function getVendors(): Promise<Result<Vendor[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<Vendor>("vendors?select=*&order=vendor_id");
+  const result = await rest<Vendor>("vendors?select=*&order=vendor_id");
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 export async function getFlags(runId: string): Promise<Result<Flag[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<Flag>(`flags?select=*&run_id=eq.${enc(runId)}`);
+  const result = await rest<Flag>(`flags?select=*&run_id=eq.${enc(runId)}`);
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 export async function getAvailability(runId: string, date: string): Promise<Result<Availability[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<Availability>(`availability?select=*&run_id=eq.${enc(runId)}&date=eq.${enc(date)}`);
+  const result = await rest<Availability>(`availability?select=*&run_id=eq.${enc(runId)}&date=eq.${enc(date)}`);
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 export async function getVendorAvailability(runId: string, vendorId: string): Promise<Result<Availability[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<Availability>(`availability?select=*&run_id=eq.${enc(runId)}&vendor_id=eq.${enc(vendorId)}&order=date`);
+  const result = await rest<Availability>(`availability?select=*&run_id=eq.${enc(runId)}&vendor_id=eq.${enc(vendorId)}&order=date`);
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 /**
@@ -78,26 +102,38 @@ export async function getVendorAvailability(runId: string, vendorId: string): Pr
  */
 export async function getFactsFor(runId: string, vendorIds: string, fields: string): Promise<Result<Fact[]>> {
   "use cache";
-  cacheLife("minutes");
   const only = fields === "all" ? "" : `&field=in.(${fields})`;
-  return rest<Fact>(`facts?select=*&run_id=eq.${enc(runId)}&vendor_id=in.(${vendorIds})${only}`);
+  const result = await rest<Fact>(`facts?select=*&run_id=eq.${enc(runId)}&vendor_id=in.(${vendorIds})${only}`);
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 export async function getDrafts(runId: string, briefId: string): Promise<Result<Draft[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<Draft>(`drafts?select=*&run_id=eq.${enc(runId)}&brief_id=eq.${enc(briefId)}&order=draft_id`);
+  const result = await rest<Draft>(`drafts?select=*&run_id=eq.${enc(runId)}&brief_id=eq.${enc(briefId)}&order=draft_id`);
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 export async function getThreads(briefId: string): Promise<Result<Thread[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<Thread>(`threads?select=*&brief_id=eq.${enc(briefId)}&order=sent_at`);
+  const result = await rest<Thread>(`threads?select=*&brief_id=eq.${enc(briefId)}&order=sent_at`);
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
 
 // Replies are few (one per thread), so read them all and join to threads in code.
 export async function getReplies(): Promise<Result<Reply[]>> {
   "use cache";
-  cacheLife("minutes");
-  return rest<Reply>("replies?select=*&order=received_at");
+  const result = await rest<Reply>("replies?select=*&order=received_at");
+  // A failed read is only remembered for seconds, so one early failure can't stick for the cache lifetime.
+  if (result.ok) cacheLife("minutes");
+  else cacheLife("seconds");
+  return result;
 }
