@@ -547,39 +547,39 @@
   },
   {
     "brief_id": "spring-gala",
-    "vendor_id": "v072",
+    "vendor_id": "v084",
     "kind": "inquiry",
-    "addressed_to": "Stellan Zamora",
+    "addressed_to": "Esperanza Underwood",
     "subject": "Spring gala on Saturday, March 6, 2027: 180 guests",
-    "body": "Hello Stellan Zamora,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw the ability to serve events of up to 220 guests, a dinner price of $77 per person, plated service and on-site staff, which is why we're reaching out to you.\n\nCould you tell us whether you can cater 180 guests on Saturday, March 6, 2027, what the full dinner would cost in total, and how you handle vegetarian and gluten-free meals?\n\nThank you,\nCattail & Rye Events",
+    "body": "Hello Esperanza Underwood,\n\nI'm writing for Cattail & Rye Events, a Houston event planner. We're planning a spring gala on Saturday, March 6, 2027 for 180 guests.\n\nOn your pages we saw the ability to serve events of up to 250 guests, a dinner price of $66 per person, plated service and on-site staff, which is why we're reaching out to you.\n\nCould you tell us whether you can cater 180 guests on Saturday, March 6, 2027, what the full dinner would cost in total, and how you handle vegetarian and gluten-free meals?\n\nThank you,\nCattail & Rye Events",
     "citations": [
       {
         "field": "capacity",
-        "text": "the ability to serve events of up to 220 guests",
-        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/bluebird-table-catering",
-        "quote": "220 guests",
-        "checked_at": "2026-10-28T05:55:25Z"
+        "text": "the ability to serve events of up to 250 guests",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/listing/rosemary-lane-catering",
+        "quote": "250 guests",
+        "checked_at": "2026-10-28T05:56:15Z"
       },
       {
         "field": "price",
-        "text": "a dinner price of $77 per person",
-        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
-        "quote": "Dinner service: $77 per person.",
-        "checked_at": "2026-10-28T05:55:26Z"
+        "text": "a dinner price of $66 per person",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/rosemary-lane-catering/packages",
+        "quote": "Dinner service: $66 per person.",
+        "checked_at": "2026-10-28T05:56:17Z"
       },
       {
         "field": "features",
         "text": "offers plated service",
-        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/rosemary-lane-catering/packages",
         "quote": "Plated dinners",
-        "checked_at": "2026-10-28T05:55:26Z"
+        "checked_at": "2026-10-28T05:56:17Z"
       },
       {
         "field": "features",
         "text": "offers on-site staff",
-        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/bluebird-table-catering/packages",
+        "source_url": "https://vendors-r1.lab.zappstudios.us/vendor/rosemary-lane-catering/packages",
         "quote": "Servers and on-site event staff",
-        "checked_at": "2026-10-28T05:55:26Z"
+        "checked_at": "2026-10-28T05:56:17Z"
       }
     ],
     "answers_thread_id": null
