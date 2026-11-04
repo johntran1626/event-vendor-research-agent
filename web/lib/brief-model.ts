@@ -172,7 +172,7 @@ export function buildBriefModel(x: Inputs): BriefModel {
 
   const pkg = buildPackage(packages.find((p) => p.kind === "rubric"), vendorById);
   const afterReplies = buildPackage(packages.find((p) => p.kind === "after_replies"), vendorById);
-  return { run, brief, sections, pkg, afterReplies, insights: buildInsights(x, sections, pkg, vendorById, availBy) };
+  return { run, brief, sections, pkg, afterReplies, insights: buildInsights(x, sections, pkg, afterReplies, vendorById, availBy) };
 }
 
 function whyLine(
@@ -228,7 +228,7 @@ function buildPackage(row: PackageRow | undefined, vendorById: Map<string, Vendo
 }
 
 function buildInsights(
-  x: Inputs, sections: CategoryView[], pkg: PackageView | null,
+  x: Inputs, sections: CategoryView[], pkg: PackageView | null, afterReplies: PackageView | null,
   vendorById: Map<string, Vendor>, availBy: Map<string, Availability>,
 ): Insight[] {
   const { brief, facts } = x;
@@ -254,6 +254,11 @@ function buildInsights(
       text: `No venue, caterer and rental company together fit the ${money(pkg.row.total_budget)} budget.`,
       sources: [],
     });
+  }
+
+  // What the vendors' own replies do to the package. They come from the inbox, not a vendor page.
+  if (afterReplies) {
+    out.push({ text: `After the vendors replied: ${afterReplies.row.why}`, sources: [] });
   }
 
   // Strong on paper, ruled out: the vendors most likely to be called by mistake.

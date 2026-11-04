@@ -42,7 +42,7 @@ export function titleFromId(id: string): string {
 
 export const briefTitle = (b: Brief) => b.event || titleFromId(b.brief_id);
 
-export const underscoreFree = (s: string) => s.replace(/_/g, " ");
+export const underscoreFree = (s: string) => s.replace(/(gluten|nut)_free/g, "$1-free").replace(/_/g, " ");
 
 export const FLAG_TEXT: Record<string, string> = {
   closed: "Closed for good",

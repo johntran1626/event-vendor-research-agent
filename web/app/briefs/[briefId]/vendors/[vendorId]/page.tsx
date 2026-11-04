@@ -141,8 +141,7 @@ function Messages({ d }: { d: VendorDetail }) {
           </p>
           {reply.has_instructions && (
             <p className="mt-2 rounded bg-amber-200 px-2 py-1 font-medium text-amber-950 dark:bg-amber-800 dark:text-amber-50">
-              This reply tried to give us instructions
-              {reply.instructions_note ? `: “${reply.instructions_note}”` : ""}. We ignored them.
+              This reply tried to give us instructions. We ignored them. The full text is below.
             </p>
           )}
           {reply.plain_summary && <p className="mt-2 font-medium">{reply.plain_summary}</p>}

@@ -172,7 +172,10 @@ def row_for(reply, v, raw, model):
             "read_by_model": model if isinstance(model, str) or model is None else ", ".join(model)}
 
 
-def follow_up(row, thread, brief, orig):
+HOLD_SOON_DAYS = 14
+
+
+def follow_up(row, thread, brief, orig, raw=None):
     """A follow-up draft for a reply that needs one, citing the words of that reply. None if it needs none."""
     when = plain_date(thread["event_date"])
     name = orig.get("addressed_to") if orig else None
@@ -183,7 +186,7 @@ def follow_up(row, thread, brief, orig):
     quote = None
     if row["kind"] == "question" and row["question"]:
         quote = row["question"]
-        needs = [w.replace("_", " ") for w in (spec.get("dietary") or [])]
+        needs = [w.replace("_", "-") for w in (spec.get("dietary") or [])]
         details = f"For our event we have {thread['guests']} guests on {when}" + \
             (f", and we need {', '.join(needs)} meals" if needs else "") + "."
         text = (f"Thank you for your reply about {about}. You asked: \"{quote}\"\n\n{details} Anything else we "
@@ -193,7 +196,10 @@ def follow_up(row, thread, brief, orig):
         dates = [plain_date(d) for d in row["counter_dates"]]
         text = (f"Thank you for letting us know about {when}, and for offering {', '.join(dates)}. We will take "
                 f"those dates to our client and come back to you.")
-    elif row["kind"] == "hold" and row["hold_until"]:
+    elif row["hold_until"] and (date.fromisoformat(row["hold_until"])
+                                - datetime.fromisoformat(row["received_at"].replace("Z", "+00:00")).date()
+                                ).days <= HOLD_SOON_DAYS:
+        quote = find_span(row["body"], (raw or {}).get("hold_quote") or "")
         text = (f"Thank you for offering to hold {when} until {plain_date(row['hold_until'])}. We will confirm "
                 f"with our client before then.")
     else:
@@ -206,7 +212,11 @@ def main():
     ap.add_argument("--briefs", default=str(ROOT / "data" / "briefs"))
     ap.add_argument("--redo", action="store_true")
     ap.add_argument("--raw", help="model outputs {thread_id: output}, instead of calling claude (tests only)")
+    ap.add_argument("--inbox", help="read and write this folder instead of inbox/ (tests only)")
     args = ap.parse_args()
+    if args.inbox:
+        global INBOX
+        INBOX = Path(args.inbox)
 
     briefs = {b["brief_id"]: b for b in score.load_briefs(args.briefs)}
     vendors = score.load_resolved(str(ROOT / "extractions"))
@@ -243,7 +253,7 @@ def main():
                      and d["kind"] == "inquiry"), None)
         if orig:
             orig = {**orig, "_category": vendors[t["vendor_id"]]["category"]}
-        f = follow_up(row, t, briefs[t["brief_id"]], orig)
+        f = follow_up(row, t, briefs[t["brief_id"]], orig, log[row["thread_id"]]["raw"])
         if not f:
             continue
         cites = []

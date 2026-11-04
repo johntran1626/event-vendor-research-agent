@@ -247,6 +247,10 @@ def apply_replies(reply_rows, threads, briefs, vendors):
     return quotes, excluded
 
 
+def _money(n):
+    return f"${n:,.0f}" if float(n).is_integer() else f"${n:,.2f}"
+
+
 def after_replies_rows(briefs, vendors, availability, rubric_packages, reply_rows, threads):
     """A package row of kind after_replies for each brief where the replies change the best package."""
     quotes, excluded = apply_replies(reply_rows, threads, briefs, vendors)
@@ -255,22 +259,34 @@ def after_replies_rows(briefs, vendors, availability, rubric_packages, reply_row
     _, packages, _ = run(briefs, vendors, availability, quotes, excluded)
     by_brief = {p["brief_id"]: p for p in rubric_packages}
     names = {vid: v["name"] for vid, v in vendors.items()}
+    unit = {"venue": "event fee", "caterer": "per person", "rental": "per guest"}
     out = []
     for p in packages:
         base = by_brief[p["brief_id"]]
-        ids = lambda x: (x["venue_id"], x["caterer_id"], x["rental_id"])  # noqa: E731
+        ids = lambda x: [x["venue_id"], x["caterer_id"], x["rental_id"]]  # noqa: E731
         if p["fits"] == base["fits"] and ids(p) == ids(base) and p["total_cost"] == base["total_cost"]:
             continue
         said = []
-        for (bid, vid), unit in sorted(quotes.items()):
-            if bid == p["brief_id"]:
-                said.append(f"{names[vid]} quoted a different price than it publishes")
+        for (bid, vid), quoted in sorted(quotes.items()):
+            published = vendors[vid]["resolved"]["price"].get("value")
+            if bid == p["brief_id"] and published is not None and abs(quoted - published) > 0.005:
+                cat = vendors[vid]["category"]
+                said.append(f"{names[vid]} quoted {_money(quoted)} {unit[cat]} for the date (published {_money(published)})")
         for (bid, vid), why in sorted(excluded.items()):
             if bid == p["brief_id"]:
                 said.append(f"{names[vid]} is left out: {why}")
-        p = {**p, "kind": "after_replies",
-             "why": ("Using what vendors said in their replies: " + "; ".join(said) + ". " + p["why"]) if said else p["why"]}
-        out.append(p)
+        if not p["fits"]:
+            result = f"With those prices, nothing fits the {_money(p['total_budget'])} budget."
+        elif ids(p) != ids(base):
+            was = " + ".join(names[i] for i in ids(base) if i) if base["fits"] else "no package"
+            now = " + ".join(names[i] for i in ids(p))
+            result = (f"The best package changes from {was} ({_money(base['total_cost'])}) to {now} "
+                      f"({_money(p['total_cost'])}, {_money(p['budget_left'])} left).")
+        else:
+            result = (f"Same vendors, but the total moves from {_money(base['total_cost'])} to "
+                      f"{_money(p['total_cost'])} ({_money(p['budget_left'])} left).")
+        why = ("Using what vendors said in their replies: " + "; ".join(said) + ". " if said else "") + result
+        out.append({**p, "kind": "after_replies", "why": why})
     return out
 
 
