@@ -15,6 +15,7 @@ Save as `logs/hours.md`. One file for the group, one section per person.
 |---|---|---|---|
 | 2026-10-28 | 2 | Crawled all 99 vendors, checked availability, extracted facts for all 99 with claude -p (24/24 eval vendors match), wrote the re-check and store scripts, set up Supabase with the schema and a first run, opened PRs | #1 #2 #3 #4 #5 #6 #8 #9 #14, PRs #20-#28 |
 | 2026-10-30 | 2 | Merged the stacked PRs, ran the full run and stored it, connected Vercel, reviewed the app and eval work | #8 #9 #15 #16 #17, PRs #30-#34 |
+| 2026-11-04 | 6 | Re-checked the shortlisted vendors and caught the Bluebird change, re-extracted it, sent the last inquiry, read the 18 replies, ran the final store and checks, fixed the Vercel variables, merged the final PRs | #8 #9 #13 #14, PRs #36-#41 |
 
 ## Chris (ChrisB2024)
 
