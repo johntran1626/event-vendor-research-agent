@@ -97,14 +97,14 @@ async function Brief({ params }: { params: PageProps<"/briefs/[briefId]">["param
 function Read({ insights }: { insights: Insight[] }) {
   if (insights.length === 0) return null;
   return (
-    <section aria-labelledby="read" className="mt-6 rounded-lg border border-black/15 p-4 dark:border-white/20">
+    <section aria-labelledby="read" className="mt-6 rounded-xl border border-line bg-surface shadow-sm p-4">
       <h2 id="read" className="text-lg font-semibold">The read</h2>
-      <ul className="mt-2 space-y-3 text-sm">
+      <ul className="mt-2 divide-y divide-line text-sm [&>li]:py-3 [&>li:first-child]:pt-1">
         {insights.map((i, n) => (
           <li key={n}>
             <p>{i.text}</p>
             {i.sources.length > 0 && (
-              <p className="mt-0.5 text-xs opacity-80">
+              <p className="mt-0.5 text-xs text-muted">
                 Sources:{" "}
                 {i.sources.map((s, k) => (
                   <span key={s.url + k}>
@@ -124,15 +124,15 @@ function Read({ insights }: { insights: Insight[] }) {
 function PackageBlock({ title, pkg, briefId, budget }: { title: string; pkg: PackageView; briefId: string; budget: number }) {
   const r = pkg.row;
   return (
-    <div className="rounded-lg border border-black/15 p-4 dark:border-white/20">
+    <div className="rounded-xl border border-line bg-surface shadow-sm p-4">
       <h3 className="font-semibold">{title}</h3>
       {r.fits ? (
         <>
-          <ul className="mt-2 divide-y divide-black/10 dark:divide-white/10">
+          <ul className="mt-2 divide-y divide-line">
             {pkg.picks.map((p) => (
               <li key={p.category} className="flex flex-wrap items-baseline justify-between gap-2 py-2">
                 <span>
-                  <span className="block text-xs uppercase tracking-wide opacity-70">{CATEGORY_NAMES[p.category].one}</span>
+                  <span className="block text-xs uppercase tracking-wide text-muted">{CATEGORY_NAMES[p.category].one}</span>
                   <Link href={`/briefs/${briefId}/vendors/${p.vendorId}`} className="font-semibold underline underline-offset-2">
                     {p.name}
                   </Link>

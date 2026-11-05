@@ -9,7 +9,7 @@ export default function StatusPage() {
   return (
     <main>
       <h1 className="text-2xl font-semibold">Status</h1>
-      <Suspense fallback={<p className="mt-4 text-sm opacity-70">Checking…</p>}>
+      <Suspense fallback={<p className="mt-4 text-sm text-muted">Checking…</p>}>
         <Checks />
       </Suspense>
     </main>
@@ -53,7 +53,7 @@ async function Checks() {
     <dl className="mt-4 grid gap-x-6 gap-y-2 text-sm sm:grid-cols-[max-content_1fr]">
       {rows.map(([k, v]) => (
         <div key={k} className="contents">
-          <dt className="opacity-70">{k}</dt>
+          <dt className="text-muted">{k}</dt>
           <dd className="font-medium">{v}</dd>
         </div>
       ))}

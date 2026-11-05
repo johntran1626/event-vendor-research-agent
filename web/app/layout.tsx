@@ -25,17 +25,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <header className="border-b border-black/10 dark:border-white/15">
-          <nav className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 py-3">
-            <Link href="/" className="font-semibold">
-              Cattail &amp; Rye vendor picks
+        <header className="border-b border-line bg-surface/90 backdrop-blur">
+          <nav className="mx-auto flex w-full max-w-5xl items-center justify-between gap-4 px-4 py-3.5">
+            <Link href="/" className="font-semibold tracking-tight">
+              Cattail &amp; Rye <span className="font-normal text-muted">vendor picks</span>
             </Link>
-            <Link href="/runs" className="text-sm underline underline-offset-2">
+            <Link href="/runs" className="text-sm text-muted underline underline-offset-4 hover:text-foreground">
               How this was checked
             </Link>
           </nav>
         </header>
-        <div className="mx-auto w-full max-w-5xl flex-1 px-4 py-6">{children}</div>
+        <div className="mx-auto w-full max-w-5xl flex-1 px-4 py-8">{children}</div>
       </body>
     </html>
   );

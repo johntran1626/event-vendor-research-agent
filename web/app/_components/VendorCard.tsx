@@ -6,13 +6,13 @@ export function VendorCard({ card, briefId }: { card: Card; briefId: string }) {
   const info = LABEL_INFO[card.score.label];
   const out = card.score.disqualified_reasons.length > 0;
   return (
-    <li className={`rounded-lg border p-3 ${info.card}`}>
+    <li className={`rounded-xl border p-4 shadow-sm ${info.card}`}>
       <div className="flex items-start justify-between gap-3">
         <div className="flex min-w-0 items-start gap-2">
           {card.score.rank !== null && (
             <span
               aria-label={`Rank ${card.score.rank}`}
-              className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-black/80 text-xs font-bold text-white dark:bg-white dark:text-black"
+              className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-slate-700 text-xs font-bold text-white"
             >
               {card.score.rank}
             </span>
@@ -24,17 +24,17 @@ export function VendorCard({ card, briefId }: { card: Card; briefId: string }) {
             {card.vendor.vendor_name}
           </Link>
         </div>
-        <span className={`shrink-0 rounded px-2 py-0.5 text-xs font-bold ${info.badge}`}>{info.word}</span>
+        <span className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-semibold ${info.badge}`}>{info.word}</span>
       </div>
       <p className="mt-2 text-sm">{card.why}</p>
       {!out && card.priceText && <p className="mt-1 text-sm font-medium">{card.priceText}</p>}
       {card.avail && (
-        <p className="mt-1 text-xs opacity-80">
+        <p className="mt-1 text-xs text-muted">
           {availText(card.avail.status)} · checked {centralTime(card.avail.checked_at)}
         </p>
       )}
       {card.reply && (
-        <div className="mt-2 rounded border border-black/15 bg-white/60 p-2 text-sm dark:border-white/20 dark:bg-black/20">
+        <div className="mt-2 rounded-lg border border-line bg-stone-50 p-3 text-sm">
           <p className="text-xs font-semibold uppercase tracking-wide">
             {replyLabel(card.reply.kind)} · {centralTime(card.reply.received_at)}
           </p>
@@ -49,7 +49,7 @@ export function VendorCard({ card, briefId }: { card: Card; briefId: string }) {
             <p className="mt-0.5">Offered: {card.reply.counter_dates.map(plainDate).join("; ")}.</p>
           )}
           {card.reply.has_instructions && (
-            <p className="mt-1 rounded bg-amber-200 px-1.5 py-0.5 text-xs font-medium text-amber-950 dark:bg-amber-800 dark:text-amber-50">
+            <p className="mt-1 rounded-md bg-amber-50 px-2 py-1 text-xs font-medium text-amber-900 ring-1 ring-amber-200">
               This reply tried to give us instructions. We ignored them.
             </p>
           )}
@@ -61,7 +61,7 @@ export function VendorCard({ card, briefId }: { card: Card; briefId: string }) {
             <li
               key={f.flag}
               title={f.reason}
-              className="rounded-full border border-amber-700/50 bg-amber-100 px-2 py-0.5 text-xs text-amber-950 dark:border-amber-400/50 dark:bg-amber-900/40 dark:text-amber-100"
+              className="rounded-full border border-amber-200 bg-amber-50 px-2.5 py-0.5 text-xs text-amber-900"
             >
               {flagText(f.flag)}
             </li>

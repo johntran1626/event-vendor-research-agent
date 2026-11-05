@@ -30,10 +30,10 @@ async function Events() {
           <li key={b.brief_id}>
             <Link
               href={`/briefs/${b.brief_id}`}
-              className="block rounded-lg border border-black/15 p-4 hover:bg-black/5 dark:border-white/20 dark:hover:bg-white/10"
+              className="block rounded-xl border border-line bg-surface p-5 shadow-sm transition-shadow hover:shadow-md"
             >
               <span className="text-lg font-semibold">{briefTitle(b)}</span>
-              {b.client && <span className="block text-sm opacity-80">{b.client}</span>}
+              {b.client && <span className="block text-sm text-muted">{b.client}</span>}
               <span className="mt-2 block text-sm">
                 {plainDate(b.date)}
                 {b.guests ? ` · ${b.guests} guests` : ""}
@@ -46,7 +46,7 @@ async function Events() {
           </li>
         ))}
       </ul>
-      <p className="mt-6 text-sm opacity-70">Results as of {centralTime(run.started_at)}.</p>
+      <p className="mt-6 text-sm text-muted">Results as of {centralTime(run.started_at)}.</p>
     </>
   );
 }
