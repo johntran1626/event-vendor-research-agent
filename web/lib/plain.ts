@@ -79,23 +79,23 @@ export const FLAGS_THAT_MATTER = new Set([
 export const LABEL_INFO: Record<Label, { word: string; badge: string; card: string }> = {
   shortlist: {
     word: "Call",
-    badge: "bg-emerald-600 text-white",
-    card: "border-emerald-500/60 bg-emerald-50 dark:bg-emerald-950/40",
+    badge: "bg-emerald-100 text-emerald-800 ring-1 ring-emerald-200",
+    card: "border-line border-l-4 border-l-emerald-500 bg-surface",
   },
   maybe: {
     word: "Maybe",
-    badge: "bg-amber-500 text-black",
-    card: "border-amber-500/60 bg-amber-50 dark:bg-amber-950/30",
+    badge: "bg-amber-100 text-amber-800 ring-1 ring-amber-200",
+    card: "border-line border-l-4 border-l-amber-400 bg-surface",
   },
   reject: {
     word: "Skip",
-    badge: "bg-rose-600 text-white",
-    card: "border-rose-500/50 bg-rose-50 dark:bg-rose-950/30",
+    badge: "bg-rose-100 text-rose-800 ring-1 ring-rose-200",
+    card: "border-line border-l-4 border-l-rose-400 bg-surface",
   },
   disqualified: {
     word: "Skip",
-    badge: "bg-rose-600 text-white",
-    card: "border-rose-500/50 bg-rose-50 dark:bg-rose-950/30",
+    badge: "bg-rose-100 text-rose-800 ring-1 ring-rose-200",
+    card: "border-line border-l-4 border-l-rose-400 bg-surface",
   },
 };
 

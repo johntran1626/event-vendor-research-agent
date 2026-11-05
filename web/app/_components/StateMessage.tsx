@@ -8,7 +8,7 @@ const TEXT = {
 
 export function StateMessage({ status }: { status: keyof typeof TEXT }) {
   return (
-    <div className="rounded-lg border border-black/15 p-4 dark:border-white/20">
+    <div className="rounded-xl border border-line bg-surface shadow-sm p-4">
       <p>{TEXT[status]}</p>
       <p className="mt-2 text-sm">
         <Link href="/" className="underline underline-offset-2">Back to all events</Link>
@@ -18,5 +18,5 @@ export function StateMessage({ status }: { status: keyof typeof TEXT }) {
 }
 
 export function PageLoading({ what }: { what: string }) {
-  return <p className="py-10 text-sm opacity-70">Loading {what}…</p>;
+  return <p className="py-10 text-sm text-muted">Loading {what}…</p>;
 }

@@ -39,9 +39,9 @@ async function Vendor({ params }: { params: PageProps<"/briefs/[briefId]/vendors
       </p>
 
       {here && info && (
-        <section className={`mt-4 rounded-lg border p-4 ${info.card}`}>
+        <section className={`mt-4 rounded-xl border p-5 shadow-sm ${info.card}`}>
           <div className="flex flex-wrap items-center gap-3">
-            <span className={`rounded px-2 py-0.5 text-sm font-bold ${info.badge}`}>{info.word}</span>
+            <span className={`rounded-full px-3 py-0.5 text-sm font-semibold ${info.badge}`}>{info.word}</span>
             <span className="font-medium">
               {here.score !== null ? `${here.score} of 100 points` : "Ruled out, so no score"}
               {here.rank !== null ? ` · ranked ${here.rank} among ${CATEGORY_NAMES[d.vendor.category].many.toLowerCase()}` : ""}
@@ -57,14 +57,14 @@ async function Vendor({ params }: { params: PageProps<"/briefs/[briefId]/vendors
             {POINT_RULES.map((rule) => {
               const earned = here.points?.[rule.key] ?? 0;
               return (
-                <li key={rule.key} className="flex justify-between gap-3 border-t border-black/10 py-1 dark:border-white/10">
+                <li key={rule.key} className="flex justify-between gap-3 border-t border-line py-1">
                   <span>{rule.text}</span>
                   <span className="shrink-0 font-medium">{earned} of {rule.max}</span>
                 </li>
               );
             })}
           </ul>
-          <p className="mt-2 text-xs opacity-80">Shortlist is the top 3 with 70 or more. Maybe is 50 or more. Anything below 50 is a skip.</p>
+          <p className="mt-2 text-xs text-muted">Shortlist is the top 3 with 70 or more. Maybe is 50 or more. Anything below 50 is a skip.</p>
         </section>
       )}
 
@@ -84,7 +84,7 @@ function Flags({ d }: { d: VendorDetail }) {
       <h2 className="text-xl font-semibold">Things to know</h2>
       <ul className="mt-2 space-y-2">
         {d.flags.map((f) => (
-          <li key={f.flag} className="rounded-lg border border-amber-700/40 bg-amber-50 p-3 text-sm dark:border-amber-400/40 dark:bg-amber-950/30">
+          <li key={f.flag} className="rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm">
             <p className="font-semibold">{flagText(f.flag)}</p>
             <p className="mt-0.5">{f.reason}</p>
             {f.source_url && (
@@ -109,13 +109,13 @@ function Messages({ d }: { d: VendorDetail }) {
     <section className="mt-8">
       <h2 className="text-xl font-semibold">What we sent, and what they said</h2>
       {inquiry && (
-        <div className="mt-2 rounded-lg border border-black/15 p-3 text-sm dark:border-white/20">
-          <p className="text-xs font-semibold uppercase tracking-wide opacity-70">
+        <div className="mt-2 rounded-xl border border-line bg-surface shadow-sm p-3 text-sm">
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted">
             Our inquiry{thread ? ` · sent ${centralTime(thread.sent_at)}` : " · not sent yet"}
           </p>
           <p className="mt-1 font-medium">{inquiry.subject}</p>
           <p className="mt-2 whitespace-pre-wrap">{thread?.body ?? inquiry.body}</p>
-          <h3 className="mt-3 text-xs font-semibold uppercase tracking-wide opacity-70">What it is based on</h3>
+          <h3 className="mt-3 text-xs font-semibold uppercase tracking-wide text-muted">What it is based on</h3>
           <ul className="mt-1 space-y-1">
             {inquiry.citations.map((c, i) => (
               <li key={i}>
@@ -135,12 +135,12 @@ function Messages({ d }: { d: VendorDetail }) {
         </div>
       )}
       {reply && (
-        <div className="mt-3 rounded-lg border border-black/15 p-3 text-sm dark:border-white/20">
-          <p className="text-xs font-semibold uppercase tracking-wide opacity-70">
+        <div className="mt-3 rounded-xl border border-line bg-surface shadow-sm p-3 text-sm">
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted">
             {replyLabel(reply.kind)} · {centralTime(reply.received_at)}
           </p>
           {reply.has_instructions && (
-            <p className="mt-2 rounded bg-amber-200 px-2 py-1 font-medium text-amber-950 dark:bg-amber-800 dark:text-amber-50">
+            <p className="mt-2 rounded-md bg-amber-50 px-2 py-1 font-medium text-amber-900 ring-1 ring-amber-200">
               This reply tried to give us instructions. We ignored them. The full text is below.
             </p>
           )}
@@ -151,19 +151,19 @@ function Messages({ d }: { d: VendorDetail }) {
           {reply.question && <p className="mt-1">They asked: “{reply.question}”</p>}
           <details className="mt-2">
             <summary className="cursor-pointer text-xs">Their full reply</summary>
-            <blockquote className="mt-1 whitespace-pre-wrap border-l-2 border-black/20 pl-3 text-xs opacity-80 dark:border-white/30">
+            <blockquote className="mt-1 whitespace-pre-wrap border-l-2 border-line pl-3 text-xs text-muted">
               {reply.body}
             </blockquote>
           </details>
         </div>
       )}
       {followUps.map((f) => (
-        <div key={f.draft_id} className="mt-3 rounded-lg border border-dashed border-black/30 p-3 text-sm dark:border-white/30">
-          <p className="text-xs font-semibold uppercase tracking-wide opacity-70">Follow-up draft, not sent</p>
+        <div key={f.draft_id} className="mt-3 rounded-xl border border-dashed border-slate-300 bg-surface p-3 text-sm">
+          <p className="text-xs font-semibold uppercase tracking-wide text-muted">Follow-up draft, not sent</p>
           <p className="mt-1 font-medium">{f.subject}</p>
           <p className="mt-2 whitespace-pre-wrap">{f.body}</p>
           {f.citations.length > 0 && (
-            <p className="mt-2 text-xs opacity-80">
+            <p className="mt-2 text-xs text-muted">
               Answers their words: {f.citations.map((c) => `“${c.quote}”`).join(" ")}
             </p>
           )}
@@ -178,15 +178,15 @@ function Calendar({ d }: { d: VendorDetail }) {
   return (
     <section className="mt-8">
       <h2 className="text-xl font-semibold">Calendar</h2>
-      <ul className="mt-2 divide-y divide-black/10 text-sm dark:divide-white/10">
+      <ul className="mt-2 divide-y divide-line text-sm">
         {d.availability.map((a) => (
           <li key={a.date} className="py-2">
             <p className="font-medium">
               {plainDate(a.date)}: {availText(a.status)}
               {d.brief.date === a.date ? " (this event)" : ""}
             </p>
-            {a.note && <p className="opacity-80">{a.note}</p>}
-            <p className="text-xs opacity-80">
+            {a.note && <p className="text-muted">{a.note}</p>}
+            <p className="text-xs text-muted">
               Checked {centralTime(a.checked_at)}
               {a.url && (<> · <a href={a.url} target="_blank" rel="noreferrer" className="underline underline-offset-2">Calendar</a></>)}
             </p>
@@ -221,7 +221,7 @@ function Facts({ facts }: { facts: Fact[] }) {
                 {conflict && <Pill tone="amber">Sources disagree</Pill>}
                 {rows.every((r) => r.is_unknown) && <Pill tone="gray">Unknown</Pill>}
               </h3>
-              <ul className="mt-1 divide-y divide-black/10 text-sm dark:divide-white/10">
+              <ul className="mt-1 divide-y divide-line text-sm">
                 {rows.map((f, i) => (
                   <li key={i} className="py-2">
                     <p className="flex flex-wrap items-center gap-2">
@@ -230,12 +230,12 @@ function Facts({ facts }: { facts: Fact[] }) {
                       {f.is_unknown && <Pill tone="gray">Unknown</Pill>}
                     </p>
                     {f.quote && (
-                      <blockquote className="mt-1 border-l-2 border-black/20 pl-3 text-xs opacity-80 dark:border-white/30">
+                      <blockquote className="mt-1 border-l-2 border-line pl-3 text-xs text-muted">
                         “{f.quote}”
                       </blockquote>
                     )}
-                    {f.note && <p className="mt-1 text-xs opacity-80">{f.note}</p>}
-                    <p className="mt-1 text-xs opacity-80">
+                    {f.note && <p className="mt-1 text-xs text-muted">{f.note}</p>}
+                    <p className="mt-1 text-xs text-muted">
                       {f.source_url ? (
                         <a href={f.source_url} target="_blank" rel="noreferrer" className="underline underline-offset-2">{sourceName(f.source_url)}</a>
                       ) : "No source page"}
@@ -275,9 +275,9 @@ function OtherEvents({ d, currentBrief }: { d: VendorDetail; currentBrief: strin
 
 function Pill({ tone, children }: { tone: "amber" | "green" | "gray"; children: React.ReactNode }) {
   const cls = {
-    amber: "bg-amber-200 text-amber-950 dark:bg-amber-800 dark:text-amber-50",
-    green: "bg-emerald-200 text-emerald-950 dark:bg-emerald-800 dark:text-emerald-50",
-    gray: "bg-neutral-200 text-neutral-900 dark:bg-neutral-700 dark:text-neutral-50",
+    amber: "bg-amber-100 text-amber-900",
+    green: "bg-emerald-100 text-emerald-900",
+    gray: "bg-stone-200 text-stone-800",
   }[tone];
-  return <span className={`rounded px-1.5 py-0.5 text-xs font-medium ${cls}`}>{children}</span>;
+  return <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${cls}`}>{children}</span>;
 }
